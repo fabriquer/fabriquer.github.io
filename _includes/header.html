@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/style/base.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/style/pygments.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/style/print.css" media="print" />
+
+		<title>{{ page.title }}</title>
+	</head>
+
+	<body>
+		<header>
+			<div class="inner">
+				<h1>{{ site.title }}</h1>
+				<h2>{{ site.subtitle }}</h2>
+				<a href="{{ page.repo }}" class="button"><small>View project on</small>GitHub</a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="/#content">Home</a></li>
+					<!--
+					<li>
+						<a href="/compare#content">Compare</a>
+						<ul>
+							<li><a href="/compare/cmake#content">CMake</a></li>
+							<li><a href="/compare/gyp#content">Gyp</a></li>
+						</ul>
+					</li>
+					-->
+				</ul>
+			</nav>
+		</header>
+
+		<div id="content-wrapper">
+			<div class="inner clearfix">
+				<section id="main-content">
+					<a name="content" class="anchor" href="#content"></a>
+					{% if page.title != site.title %}
+					<h1>{{ page.title }}</h1>
+					{% endif %}
