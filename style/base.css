@@ -1,3 +1,22 @@
+---
+nice_blue_rgb: "46, 123, 207"
+blue_background: "#2e7bcf"
+body_background: "#fafafa"
+code_background: "#fff"
+code_colour: "#222"
+greyish: "rgba(220, 220, 220, 0.5)"
+white_rgb: "255, 255, 255"
+
+text_colour: "#666"
+header_colour: "#9ddcff"
+top_header_colour: "#fff"
+link_colour: "#2879d0"
+link_hover_colour: "#2268b2"
+
+body_font: "'Gill Sans', Helvetica, Arial, serif"
+code_font: 'Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace'
+header_font: "'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif"
+---
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
 	 License: none (public domain)
@@ -59,10 +78,10 @@ body
 {
 	font-size: 16px;
 	line-height: 1.5;
-	background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
-	font-family: 'Gill Sans', Helvetica, Arial, serif;
+	background: {{ page.body_background }} url(../images/body-bg.jpg) 0 0 repeat;
+	font-family: {{ page.body_font }};
 	font-weight: 300;
-	color: #666;
+	color: {{ page.text_colour }};
 }
 
 em
@@ -72,11 +91,12 @@ em
 
 a
 {
-	color: #2879d0;
+	color: {{ page.link_colour }};
 }
+
 a:hover
 {
-	color: #2268b2;
+	color: {{ page.link_hover_colour }};
 }
 
 header
@@ -84,8 +104,8 @@ header
 	position: relative;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-	background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+	font-family: {{ page.header_font }};
+	background: {{ page.blue_background }} url(../images/header-bg.jpg) 0 0 repeat-x;
 	border-bottom: solid 1px #275da1;
 }
 
@@ -93,7 +113,7 @@ header h1
 {
 	letter-spacing: -1px;
 	font-size: 72px;
-	color: #fff;
+	color: {{ page.top_header_colour}};
 	line-height: 1;
 	margin-bottom: 0.2em;
 	width: 540px;
@@ -102,7 +122,7 @@ header h1
 header h2
 {
 	font-size: 26px;
-	color: #9ddcff;
+	color: {{ page.header_colour }};
 	font-weight: normal;
 	line-height: 1.3;
 	width: 540px;
@@ -111,7 +131,7 @@ header h2
 
 header nav
 {
-	background: rgba(255, 255, 255, 0.25);
+	background: rgba({{ page.white_rgb }}, 0.25);
 	color: white;
 
 	position: absolute;
@@ -168,15 +188,15 @@ nav ul li:hover > ul
 
 nav ul li a
 {
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba({{ page.white_rgb }}, 0.75);
 	display: block;
 	padding: .25em .5em .25em .5em;
 }
 
 nav ul ul
 {
-	background: rgba(255, 255, 255, 0.9);
-	border: 1px solid rgba(46, 123, 207, .5);
+	background: rgba({{ page.white_rgb }}, 0.9);
+	border: 1px solid rgba({{ page.nice_blue_rgb }}, .5);
 	margin: 0;
 }
 
@@ -195,8 +215,8 @@ nav ul ul li a
 
 nav a:hover
 {
-	background: #2e7bcf;
-	color: white;
+	background: {{ page.body_background }};
+	opacity: 0.9;
 }
 
 .inner
@@ -255,7 +275,7 @@ a.button
 	color: #fff;
 	padding-left: 68px;
 	padding-top: 22px;
-	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: {{ page.header_font }};
 }
 a.button small
 {
@@ -264,7 +284,7 @@ a.button small
 }
 a.button#github
 {
-	background-color: rgba(46, 123, 207, 1);
+	background-color: rgba({{ page.nice_blue_rgb }}, 1);
 	background-image: url(../images/github-button.png);
 
 	border-radius: 10px;
@@ -289,31 +309,31 @@ aside a.button:not(#github)
 
 code, pre
 {
-	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-	color: #222;
+	font-family: {{ page.code_font }};
+	color: {{ page.code_colour }};
 	margin-bottom: 30px;
 	font-size: 13px;
 }
 
 code
 {
-	background-color: #f2f8fc;
-	border: solid 1px #dbe7f3;
+	background-color: {{ page.code_background }};
+	border: solid 1px {{ page.greyish }};
 	padding: 0 3px;
 }
 
 pre
 {
 	padding: 20px;
-	background: #fff;
+	background: {{ page.code_background }};
 	text-shadow: none;
 	overflow: auto;
-	border: solid 1px #f2f2f2;
+	border: solid 1px {{ page.greyish }};
 }
 pre code
 {
-	color: #2879d0;
-	background-color: #fff;
+	color: {{ page.link_colour }};
+	background-color: {{ page.code_background }};
 	border: none;
 	padding: 0;
 }
@@ -365,7 +385,7 @@ form
 
 #main-content h1
 {
-	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: {{ page.header_font }};
 	font-size: 2.8em;
 	letter-spacing: -1px;
 	color: #474747;
@@ -375,14 +395,14 @@ form
 #main-content h1:before
 {
 	content: "/";
-	color: #9ddcff;
+	color: {{ page.header_font }};
 	padding-right: 0.3em;
 	margin-left: -0.9em;
 }
 
 #main-content h2
 {
-	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: {{ page.header_font }};
 	font-size: 22px;
 	font-weight: bold;
 	margin-bottom: 8px;
@@ -391,14 +411,14 @@ form
 #main-content h2:before
 {
 	content: "//";
-	color: #9ddcff;
+	color: {{ page.header_font }};
 	padding-right: 0.3em;
 	margin-left: -1.5em;
 }
 
 #main-content h3
 {
-	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: {{ page.header_font }};
 	font-size: 18px;
 	font-weight: bold;
 	margin-top: 24px;
@@ -409,14 +429,14 @@ form
 #main-content h3:before
 {
 	content: "///";
-	color: #9ddcff;
+	color: {{ page.header_font }};
 	padding-right: 0.3em;
 	margin-left: -2em;
 }
 
 #main-content h4
 {
-	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: {{ page.header_font }};
 	font-size: 15px;
 	font-weight: bold;
 	color: #474747;
@@ -425,35 +445,35 @@ form
 h4:before
 {
 	content: "////";
-	color: #9ddcff;
+	color: {{ page.header_font }};
 	padding-right: 0.3em;
 	margin-left: -2.8em;
 }
 
 #main-content h5
 {
-	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: {{ page.header_font }};
 	font-size: 14px;
 	color: #474747;
 }
 h5:before
 {
 	content: "/////";
-	color: #9ddcff;
+	color: {{ page.header_font }};
 	padding-right: 0.3em;
 	margin-left: -3.2em;
 }
 
 #main-content h6
 {
-	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: {{ page.header_font }};
 	font-size: .8em;
 	color: #474747;
 }
 h6:before
 {
 	content: "//////";
-	color: #9ddcff;
+	color: {{ page.header_font }};
 	padding-right: 0.3em;
 	margin-left: -3.7em;
 }
@@ -501,7 +521,9 @@ dl dd
 
 footer
 {
-	background: transparent url('/images/hr.png') 0 0 no-repeat;
+	background-color: {{ page.code_background }};
+	background-image: transparent url('/images/hr.png') 0 0 no-repeat;
+	border-top: 1px solid {{ page.greyish }};
 	margin-top: 40px;
 	padding: 1em;
 	font-size: 13px;
@@ -510,7 +532,7 @@ footer
 
 footer a
 {
-	color: #666;
+	color: {{ page.text_colour }};
 }
 footer a:hover
 {
@@ -612,8 +634,8 @@ footer a:hover
 		text-align: center;
 		font-size: 13px;
 		line-height: 1;
-		background-color: #9ddcff;
-		color: #2879d0;
+		background-color: {{ page.header_font }};
+		color: {{ page.link_colour }};
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 		border-radius: 5px;
