@@ -262,21 +262,29 @@ a.button small
 	display: block;
 	font-size: 11px;
 }
-header a.button
+a.button#github
 {
-	position: absolute;
-	right: 0;
-	top: 0;
-	background: transparent url(../images/github-button.png) 0 0 no-repeat;
+	background-color: rgba(46, 123, 207, 1);
+	background-image: url(../images/github-button.png);
+
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+
+	box-shadow: 2px 2px 8px #888888;
 }
+
 aside a.button
 {
 	width: 138px;
 	padding-left: 64px;
 	display: block;
-	background: transparent url(../images/download-button.png) 0 0 no-repeat;
 	margin-bottom: 20px;
 	font-size: 21px;
+}
+
+aside a.button:not(#github)
+{
+	background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
 
 code, pre
