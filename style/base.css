@@ -8,9 +8,11 @@ code_colour: "#222"
 greyish: "rgba(220, 220, 220, 0.5)"
 white_rgb: "255, 255, 255"
 
+title_colour: "#fff"
+subtitle_colour: "#9ddcff"
+header_colour: "#474747"
+header_prefix_colour: "#2e7bcf"
 text_colour: "#666"
-header_colour: "#9ddcff"
-top_header_colour: "#fff"
 link_colour: "#2879d0"
 link_hover_colour: "#2268b2"
 
@@ -114,7 +116,7 @@ header h1
 {
 	letter-spacing: -1px;
 	font-size: 72px;
-	color: {{ page.top_header_colour}};
+	color: {{ page.title_colour}};
 	line-height: 1;
 	margin-bottom: 0.2em;
 	width: 540px;
@@ -123,7 +125,7 @@ header h1
 header h2
 {
 	font-size: 26px;
-	color: {{ page.header_colour }};
+	color: {{ page.subtitle_colour }};
 	font-weight: normal;
 	line-height: 1.3;
 	width: 540px;
@@ -395,14 +397,14 @@ form
 	font-family: {{ page.header_font }};
 	font-size: 2.8em;
 	letter-spacing: -1px;
-	color: #474747;
+	color: {{ page.header_colour }};
 	margin-left: .15em;
 }
 
 #main-content h1:before
 {
 	content: "/";
-	color: {{ page.header_font }};
+	color: {{ page.header_prefix_colour }};
 	padding-right: 0.3em;
 	margin-left: -0.9em;
 }
@@ -413,12 +415,12 @@ form
 	font-size: 22px;
 	font-weight: bold;
 	margin-bottom: 8px;
-	color: #474747;
+	color: {{ page.header_colour }};
 }
 #main-content h2:before
 {
 	content: "//";
-	color: {{ page.header_font }};
+	color: {{ page.header_prefix_colour }};
 	padding-right: 0.3em;
 	margin-left: -1.5em;
 }
@@ -430,13 +432,13 @@ form
 	font-weight: bold;
 	margin-top: 24px;
 	margin-bottom: 8px;
-	color: #474747;
+	color: {{ page.header_colour }};
 }
 
 #main-content h3:before
 {
 	content: "///";
-	color: {{ page.header_font }};
+	color: {{ page.header_prefix_colour }};
 	padding-right: 0.3em;
 	margin-left: -2em;
 }
@@ -446,13 +448,13 @@ form
 	font-family: {{ page.header_font }};
 	font-size: 15px;
 	font-weight: bold;
-	color: #474747;
+	color: {{ page.header_colour }};
 }
 
 h4:before
 {
 	content: "////";
-	color: {{ page.header_font }};
+	color: {{ page.header_prefix_colour }};
 	padding-right: 0.3em;
 	margin-left: -2.8em;
 }
@@ -461,12 +463,12 @@ h4:before
 {
 	font-family: {{ page.header_font }};
 	font-size: 14px;
-	color: #474747;
+	color: {{ page.header_colour }};
 }
 h5:before
 {
 	content: "/////";
-	color: {{ page.header_font }};
+	color: {{ page.header_prefix_colour }};
 	padding-right: 0.3em;
 	margin-left: -3.2em;
 }
@@ -475,12 +477,12 @@ h5:before
 {
 	font-family: {{ page.header_font }};
 	font-size: .8em;
-	color: #474747;
+	color: {{ page.header_colour }};
 }
 h6:before
 {
 	content: "//////";
-	color: {{ page.header_font }};
+	color: {{ page.header_prefix_colour }};
 	padding-right: 0.3em;
 	margin-left: -3.7em;
 }
