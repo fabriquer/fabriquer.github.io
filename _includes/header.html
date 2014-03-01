@@ -20,7 +20,14 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="/#content">Home</a></li>
+					<li>{% include link url='/' label='Home' %}</li>
+					<li>
+						{% include link url='/dev' label='Development' %}
+						<ul>
+							<li>{% include link url='/dev/api' label='API docs' %}</li>
+							<li>{% include link url='/dev/style' label='Style guide' %}</li>
+						</ul>
+					</li>
 					<!--
 					<li>
 						<a href="/compare#content">Compare</a>

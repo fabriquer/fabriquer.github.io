@@ -1,0 +1,131 @@
+---
+title: Fabriquer style guide
+---
+{% capture content %}
+This is a style guide for Fabriquer contributors.
+Following it should help us keep the quality of code high.
+In order of importance, we value:
+
+1. *correctness*: use constructs that prevent or expose logical errors
+1. *readability*: code will be read by humans as often as compilers
+1. *consistency*: code that deviates from the style should look "funny"
+1. *aesthetics*: it would be nice if the code wasn't ugly
+
+
+Critical
+--------
+Everything in this list exposes insidious and difficult-to-debug errors.
+Changes to these requirements should only be made for a very, very good reason
+(not "it conflicts with my personal aesthetic sense").
+
+1. Avoid raw pointers.
+    * C++11 provides `unique_ptr`, `shared_ptr` and `weak_ptr`: use them!
+    * Only use raw pointers when absolutely necessary
+      (e.g. interfacing with lex/yacc).
+1. Compile with `-Weverything`.
+
+    * Aside from the whitelisted warnings below, Fabriquer should
+      always build with all warnings.
+      With Clang, `-Wall` gives a lot of warnings but
+      `-Weverything` actually produces *all* the warnings.
+    * Some of these warnings seem silly (who cares if a constructor
+      takes a parameter with the same name as a member variable!?), but
+      warnings are there for a reason.  Fabriquer should have *very* clean code.
+    * We do whitelist a few warnings:
+
+        * `-Wno-c++89-compat[-pedantic]`
+            : We make agressive use of C++11 and don't care at
+              all about C++98 compatibility.
+        * `-Wno-global-constructors`, `-Wno-exit-time-destructors`
+            : Just for now.
+        * `-Wpadded`
+            : Hmmm... why?
+1. Use `override` for virtual method overrides.
+    * When overriding a method, declare what you're doing explicitly.
+    * The compiler will tell you if you're mistaken (e.g. the superclass
+      declaration changes).
+
+
+Important
+---------
+Items in this category can prevent or expose bugs, but are less important
+and more open to argument than [Critical](#critical) guidelines.
+
+1. Avoid C-style casts.
+    * C++-style casts express your intent more clearly.
+    * Use `static_cast` and `dynamic_cast` as needed.
+    * Use `const_cast` with caution.
+    * Avoid `reinterpret_cast`.
+
+1. Use whitespace to suggest logical relationships.
+
+    * Unlike some style guides we could mention (ahem), Fabriquer does not
+      prioritise fitting inside 80x25 terminal windows over readability.
+    * Put a blank line between tightly-coupled lines and less-coupled ones:
+
+            while (...)
+            {
+                unique_ptr<Foo> foo(GetMeAFoo());
+                unique_ptr<Bar> bar(foo->CreateBar());
+
+                foo.DoStuff();
+                bar.DoStuff();
+
+                foo.CompareStuff(bar);
+                if (not foo.allDone())
+                    foo.doStuff();
+            }
+
+    * Align related/grouped operations:
+
+            socket.host.name = DefaultHostName();
+            socket.host.port = 12345;
+            socket.flags     = NeverReconnect;
+
+1. Prefer keyword operators (`and`, `or`) over symbolic ones (`&&`, `||`).
+
+    * Simple typos can cause confusion between logical and bitwise operations.
+    * Prefer operators with a large Hamming distance between them.
+
+1. Distinguish parentheses related to functions from other uses.
+    * `foo(x)` is a function call. `while (x)` is not.
+
+
+Preferences
+-----------
+In open-source style wars, some points really aren't that important
+(e.g. tabs vs spaces).
+It is important to be consistent, however, so please abide by the following
+choices that have already been encoded in our codebase.
+Some of these choices will seem familiar if you know the
+[Qt style guide](http://qt-project.org/wiki/Qt_Coding_Style), but others
+are fairly arbitrary.
+Any of these choices could be reversed if there's a good reason to, but the
+more code is disrupted, the bigger the reason would need to be.
+
+1. Name simple accessors simply.
+    * `Foo::parent()`, not `Foo::getParent()`
+1. Use `auto` to eliminate redundant type declarations
+   but not to obfuscate variable types.
+    * Don't write `SomeType *x = dynamic_cast<SomeType>(y)`.
+    * Also don't write `auto *x = y.NoHintAsToWhatKindOfThingIsReturned()`.
+    * Do write `for (auto& i : clearlyAVectorOfFooObjects)`
+1. Use `CamelCaseNames`.
+
+    * Type names and constants (including enum values)
+      start with a capital letter.
+    * Variable names start with a lower-case letter.
+    * Method names can go either way:
+        * Lower-case: accessors and other simple methods (e.g. `Foo::done()`).
+        * Upper-case: methods that do "real work" (e.g. `Foo::CreateChild()`).
+1. Give member variables an underscore suffix.
+
+    * The most sensible name for a member variable is probably also the
+      best name for its accessors, so give the variable an underscore
+      (and this will also help with `-Wshadow`).
+1. Use tabs _and_ spaces.
+    * Use one tab per indent level.
+    * Use spaces for within-indent-level alignment.
+
+{% endcapture %}
+{% include markdown-page.html %}
