@@ -1,1 +1,1 @@
-<a href="{{ site.url }}{{ include.url }}#content">{{include.label}}</a>
+<a href="{{ site.url }}{{ include.url }}">{{include.label}}</a>
