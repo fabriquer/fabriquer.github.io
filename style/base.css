@@ -319,7 +319,6 @@ aside a.button:not(#github)
 code, pre
 {
 	font-family: {{ page.code_font }};
-	color: {{ page.code_colour }};
 	margin-bottom: 30px;
 	font-size: 13px;
 }
@@ -341,7 +340,6 @@ pre
 }
 pre code
 {
-	color: {{ page.link_colour }};
 	background-color: {{ page.code_background }};
 	border: none;
 	padding: 0;
