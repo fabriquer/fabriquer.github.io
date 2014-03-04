@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/style/base.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/style/pygments.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/style/print.css" media="print" />
+
+		<title>Fabriquer style guide</title>
+	</head>
+
+	<body>
+		<header>
+			<div class="inner">
+				<h1>Fabriquer</h1>
+				<h2>A build language for complex systems</h2>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a>
+</li>
+					<li>
+						<a href="/dev">Development</a>
+
+						<ul>
+							<li><a href="/dev/api">API docs</a>
+</li>
+							<li><a href="/dev/style">Style guide</a>
+</li>
+						</ul>
+					</li>
+					<!--
+					<li>
+						<a href="/compare">Compare</a>
+
+						<ul>
+							<li><a href="/compare/cmake">CMake</a>
+</li>
+							<li><a href="/compare/gyp">Gyp</a>
+</li>
+						</ul>
+					</li>
+					-->
+				</ul>
+			</nav>
+		</header>
+
+		<div id="content-wrapper">
+			<div class="inner clearfix">
+				<section id="main-content">
+					<a name="content" class="anchor" href="#content"></a>
+					
+					<h1>Fabriquer style guide</h1>
+					
+
+<p>This is a style guide for Fabriquer contributors. Following it should help us keep the quality of code high. In order of importance, we value:</p>
+
+<ul>
+<li><em>correctness</em>: use constructs that prevent or expose logical errors</li>
+
+<li><em>readability</em>: code will be read by humans as often as compilers</li>
+
+<li><em>consistency</em>: code that deviates from the style should look “funny”</li>
+
+<li><em>aesthetics</em>: it would be nice if the code wasn’t ugly</li>
+</ul>
+
+<h2 id="critical">Critical</h2>
+
+<p>Everything in this list exposes insidious and difficult-to-debug errors. Changes to these requirements should only be made for a very, very good reason (not “it conflicts with my personal aesthetic sense”).</p>
+
+<ul>
+<li>
+<p>Avoid raw pointers.</p>
+
+<ul>
+<li>C++11 provides <code>unique_ptr</code>, <code>shared_ptr</code> and <code>weak_ptr</code>: use them!</li>
+
+<li>Only use raw pointers when absolutely necessary (e.g. interfacing with lex/yacc).</li>
+</ul>
+</li>
+
+<li>
+<p>Compile with <code>-Weverything</code>.</p>
+
+<ul>
+<li>
+<p>Aside from the whitelisted warnings below, Fabriquer should always build with all warnings. With Clang, <code>-Wall</code> gives a lot of warnings but <code>-Weverything</code> actually produces <em>all</em> the warnings.</p>
+</li>
+
+<li>
+<p>Some of these warnings seem silly (who cares if a constructor takes a parameter with the same name as a member variable!?), but warnings are there for a reason. Fabriquer should have <em>very</em> clean code.</p>
+</li>
+
+<li>
+<p>However, please <em>do not</em> enable <code>-Werror</code> in the repository: it is very annoying for WIP code, so please rely on contributors’ self-discipline instead.</p>
+</li>
+
+<li>
+<p>We do whitelist a few warnings:</p>
+
+<ul>
+<li>
+<dl>
+<dt><code>-Wno-c++89-compat[-pedantic]</code></dt>
+
+<dd>We make agressive use of C++11 and don’t care at all about C++98 compatibility.</dd>
+</dl>
+</li>
+
+<li>
+<dl>
+<dt><code>-Wpadded</code></dt>
+
+<dd>We aren’t attempting to preserve an ABI. At least not yet</dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Use <code>const</code> liberally.</p>
+
+<ul>
+<li>Immutability makes parallelism and bug-spotting easier.</li>
+
+<li>If something can be const, it probably should be.</li>
+</ul>
+</li>
+
+<li>
+<p>Use <code>override</code> for virtual method overrides.</p>
+
+<ul>
+<li>When overriding a method, declare what you’re doing explicitly.</li>
+
+<li>The compiler will tell you if you’re mistaken (e.g. the superclass declaration changes).</li>
+</ul>
+</li>
+</ul>
+
+<h2 id="important">Important</h2>
+
+<p>Items in this category can prevent or expose bugs, but are less important and more open to argument than <a href="#critical">Critical</a> guidelines.</p>
+
+<ul>
+<li>
+<p>Avoid C-style casts.</p>
+
+<ul>
+<li>C++-style casts express your intent more clearly.</li>
+
+<li>Use <code>static_cast</code> and <code>dynamic_cast</code> as needed.</li>
+
+<li>Use <code>const_cast</code> with caution.</li>
+
+<li>Avoid <code>reinterpret_cast</code>.</li>
+</ul>
+</li>
+
+<li>
+<p>Use whitespace to suggest logical relationships.</p>
+
+<ul>
+<li>
+<p>Unlike some style guides we could mention (ahem), Fabriquer does not prioritise fitting inside 80x25 terminal windows over readability.</p>
+</li>
+
+<li>
+<p>Put a blank line between tightly-coupled lines and less-coupled ones:</p>
+
+<pre><code>  while (...)
+  {
+      unique_ptr&lt;Foo&gt; foo(GetMeAFoo());
+      unique_ptr&lt;Bar&gt; bar(foo-&gt;CreateBar());
+
+      foo.DoStuff();
+      bar.DoStuff();
+
+      foo.CompareStuff(bar);
+      if (not foo.allDone())
+          foo.doStuff();
+  }</code></pre>
+</li>
+
+<li>
+<p>Align related/grouped operations:</p>
+
+<pre><code>  socket.host.name = DefaultHostName();
+  socket.host.port = 12345;
+  socket.flags     = NeverReconnect;</code></pre>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Prefer keyword operators (<code>and</code>, <code>or</code>) over symbolic ones (<code>&amp;&amp;</code>, <code>||</code>).</p>
+
+<ul>
+<li>Simple typos can cause confusion between logical and bitwise operations.</li>
+
+<li>Prefer operators with a large Hamming distance between them.</li>
+</ul>
+</li>
+
+<li>
+<p>Distinguish parentheses related to functions from other uses.</p>
+
+<ul>
+<li><code>foo(x)</code> is a function call. <code>while (x)</code> is not.</li>
+</ul>
+</li>
+</ul>
+
+<h2 id="preferences">Preferences</h2>
+
+<p>In open-source style wars, some points really aren’t that important (e.g. tabs vs spaces). It is important to be consistent, however, so please abide by the following choices that have already been encoded in our codebase. Some of these choices will seem familiar if you know the <a href="http://qt-project.org/wiki/Qt_Coding_Style">Qt style guide</a>, but others are fairly arbitrary. Any of these choices could be reversed if there’s a good reason to, but the more code is disrupted, the bigger the reason would need to be.</p>
+
+<ul>
+<li>Name simple accessors simply.
+<ul>
+<li><code>Foo::parent()</code>, not <code>Foo::getParent()</code></li>
+
+<li>Do use accessors: they provide freedom of implementation down the road.</li>
+</ul>
+</li>
+
+<li>Use <code>auto</code> to eliminate redundant type declarations but not to obfuscate variable types:</li>
+</ul>
+<div class='highlight'><pre><code class='c++'><span class='c1'>// Redundant type declaration: should use auto.</span>
+<span class='n'>SomeType</span><span class='o'>&amp;</span> <span class='n'>x</span> <span class='o'>=</span> <span class='k'>dynamic_cast</span><span class='o'>&lt;</span><span class='n'>SomeType</span><span class='o'>&gt;</span><span class='p'>(</span><span class='n'>y</span><span class='p'>);</span>
+
+<span class='c1'>// Not enough type information.</span>
+<span class='k'>auto</span><span class='o'>&amp;</span> <span class='n'>z</span> <span class='o'>=</span> <span class='n'>y</span><span class='p'>.</span><span class='n'>NoHintAsToWhatKindOfThingIsReturned</span><span class='p'>();</span>
+
+<span class='c1'>// Stupidly-long declaration: should use auto.</span>
+<span class='n'>map</span><span class='o'>&lt;</span><span class='n'>string</span><span class='p'>,</span><span class='n'>vector</span><span class='o'>&lt;</span><span class='n'>pair</span><span class='o'>&lt;</span><span class='kt'>int</span><span class='p'>,</span><span class='kt'>bool</span><span class='o'>&gt;&gt;&gt;::</span><span class='n'>iterator</span> <span class='n'>i</span> <span class='o'>=</span> <span class='n'>fileDescriptors</span><span class='p'>.</span><span class='n'>find</span><span class='p'>(</span><span class='n'>fileName</span><span class='p'>);</span>
+</code></pre></div>
+<ul>
+<li>
+<p>Use <code>CamelCaseNames</code>.</p>
+
+<ul>
+<li>Type names and constants (including enum values) start with a capital letter.</li>
+
+<li>Variable names start with a lower-case letter.</li>
+
+<li>Method names can go either way:
+<ul>
+<li>Lower-case: accessors and other simple methods (e.g. <code>Foo::done()</code>).</li>
+
+<li>Upper-case: methods that do “real work” (e.g. <code>Foo::CreateChild()</code>).</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+<p>Give member variables an underscore suffix.</p>
+
+<ul>
+<li>The most sensible name for a member variable is probably also the best name for its accessors, so give the variable an underscore (and this will also help with <code>-Wshadow</code>).</li>
+</ul>
+</li>
+
+<li>
+<p>Use tabs <em>and</em> spaces.</p>
+
+<ul>
+<li>Use one tab per indent level.</li>
+
+<li>Use spaces for within-indent-level alignment.</li>
+</ul>
+</li>
+</ul>
+				</section>
+
+				<aside id="sidebar">
+					<a href="https://github.com/fabriquer/fabriquer" class="button" id="github">
+						<small>View project on</small>GitHub
+					</a>
+					<a href="https://github.com/fabriquer/fabriquer/zipball/master" class="button">
+						<small>Download</small>
+						.zip file
+					</a>
+					<a href="https://github.com/fabriquer/fabriquer/tarball/master" class="button">
+						<small>Download</small>
+						.tar.gz file
+					</a>
+
+
+				</aside>
+			</div>
+		</div>
+
+		<footer>
+			<a href="https://github.com/fabriquer/fabriquer">Fabriquer</a> is maintained by
+			<a href="https://github.com/trombonehero">trombonehero</a>.
+			<br/>
+			This page was generated by
+			<a href="https://pages.github.com">GitHub Pages</a> using the
+			Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+		</footer>
+	</body>
+</html>
+
+
