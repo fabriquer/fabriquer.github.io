@@ -56,6 +56,24 @@
           <Path>annotated.html</Path>
           <Subnodes>
            <Node>
+            <Name>fablexer</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>lexer</Name>
+              <Path></Path>
+              <Subnodes>
+               <Node>
+                <Name>FabLexer</Name>
+                <Path>classfablexer_1_1lexer_1_1_fab_lexer.html</Path>
+                <Subnodes>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>fabrique</Name>
             <Path></Path>
             <Subnodes>
@@ -80,7 +98,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_action.html</Path>
-                  <Anchor>a8a769a94f3b258b4ccc1f3b749707cbc</Anchor>
+                  <Anchor>acfe6b9e62a6317f98d1d2aaf0aa0ac63</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -116,7 +134,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_argument.html</Path>
-                  <Anchor>aa1e5b5119a62aafbcd2eceecfa24af50</Anchor>
+                  <Anchor>a74292b07b50192ed13b66e9be6c9bb45</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -195,7 +213,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_binary_operation.html</Path>
-                  <Anchor>ade92f2bf2f54b228867dad3aecbe6a1a</Anchor>
+                  <Anchor>acf6b5530507172f94469135ec19c8443</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -211,7 +229,7 @@
                  <Node>
                   <Name>Call</Name>
                   <Path>classfabrique_1_1ast_1_1_call.html</Path>
-                  <Anchor>a28db2946ee0691b40da7a52c1931126c</Anchor>
+                  <Anchor>a2cc131ff7194e0700ff9189338df9a8e</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -236,7 +254,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_call.html</Path>
-                  <Anchor>ab5ccebce2bbcb8be940b9cddad91e52e</Anchor>
+                  <Anchor>a9f2e54fe0ac4151ed0462474ba33b69b</Anchor>
                  </Node>
                  <Node>
                   <Name>target</Name>
@@ -303,7 +321,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_compound_expression.html</Path>
-                  <Anchor>a319be3902864ff5f0c73fdb1a2bfda41</Anchor>
+                  <Anchor>a56c5d4b8b87921cefee976e41697094b</Anchor>
                  </Node>
                  <Node>
                   <Name>result</Name>
@@ -319,7 +337,7 @@
                  <Node>
                   <Name>Conditional</Name>
                   <Path>classfabrique_1_1ast_1_1_conditional.html</Path>
-                  <Anchor>a751c2c3b83ddeb67740b4237656b7f9d</Anchor>
+                  <Anchor>a6d2f4e84a7f2326724e9ba1c947cd793</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -339,7 +357,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_conditional.html</Path>
-                  <Anchor>ab3e538fa90ff66bfff162a139fea07c7</Anchor>
+                  <Anchor>a6371057f414fbf5e09f66d13b359f3f5</Anchor>
                  </Node>
                  <Node>
                   <Name>thenClause</Name>
@@ -355,7 +373,7 @@
                  <Node>
                   <Name>~Expression</Name>
                   <Path>classfabrique_1_1ast_1_1_expression.html</Path>
-                  <Anchor>a404cff3e15436f1ee87eab93d447e152</Anchor>
+                  <Anchor>a07cb91792bbbf1d934dfe0f28f4ea283</Anchor>
                  </Node>
                  <Node>
                   <Name>Expression</Name>
@@ -376,7 +394,7 @@
                  <Node>
                   <Name>FileList</Name>
                   <Path>classfabrique_1_1ast_1_1_file_list.html</Path>
-                  <Anchor>aa1c3b571afba3a56cf5cfd8d21a0b673</Anchor>
+                  <Anchor>af0353a9092196b264962e5b67af837b4</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -401,7 +419,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_file_list.html</Path>
-                  <Anchor>adb9236814e206bc6a183a7d2f9cd7838</Anchor>
+                  <Anchor>a8cb3fdb76c00ce62aebbc28fcdb7d38f</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -427,7 +445,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_filename.html</Path>
-                  <Anchor>a75b17fece99659796b98d081d48038f6</Anchor>
+                  <Anchor>aabf57499798ca68f5e1cc0e4bf35768a</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -458,7 +476,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>aac6fe98f7ea2bb5577816213095b2a44</Anchor>
+                  <Anchor>a7df9b4810c9a659473864cfbecc09c39</Anchor>
                  </Node>
                  <Node>
                   <Name>targetSequence</Name>
@@ -489,7 +507,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_function.html</Path>
-                  <Anchor>a6922c07129eb5debde5fade8b5715aa8</Anchor>
+                  <Anchor>a19d011823e9fad4165a5bfb325076df9</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -500,7 +518,7 @@
                  <Node>
                   <Name>Identifier</Name>
                   <Path>classfabrique_1_1ast_1_1_identifier.html</Path>
-                  <Anchor>a4c8bb0cd9aa493a6ff127c0c6c463e15</Anchor>
+                  <Anchor>a83719d9d00cb74d47b0107a3b99ec10d</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -530,7 +548,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_identifier.html</Path>
-                  <Anchor>a173d7a79f3c00949584187bc91d281c4</Anchor>
+                  <Anchor>a142531d21be32c8ee93cda56e9553986</Anchor>
                  </Node>
                  <Node>
                   <Name>type</Name>
@@ -571,7 +589,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_list.html</Path>
-                  <Anchor>ae6b4f9bf7736b08bba0e8ade4fa71a88</Anchor>
+                  <Anchor>ae265be0faa533845d9e2df65bcfa22b8</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -613,7 +631,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_bool_literal.html</Path>
-                  <Anchor>ab22e6a156b4e9361f846702d94c890c6</Anchor>
+                  <Anchor>a2ff30a00af05e865e448149e3d0ece00</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -639,7 +657,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_int_literal.html</Path>
-                  <Anchor>af5a69e2dc48efccd9ef6eafa4072345c</Anchor>
+                  <Anchor>a14f8bda584d237a5d60078fa869361e8</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -665,7 +683,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_string_literal.html</Path>
-                  <Anchor>af929c8616d75b49598a53f1c5d64e5c8</Anchor>
+                  <Anchor>a3b22479f03aff2db3c79411f586c0963</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -681,7 +699,7 @@
                  <Node>
                   <Name>~Node</Name>
                   <Path>classfabrique_1_1ast_1_1_node.html</Path>
-                  <Anchor>abb4dcbc7c6588f763ec698e1edd03d77</Anchor>
+                  <Anchor>a50baf842d668142bf9bc19267947bdbb</Anchor>
                  </Node>
                  <Node>
                   <Name>Node</Name>
@@ -717,7 +735,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_parameter.html</Path>
-                  <Anchor>aeac5222d42f366401d0929c9727968e2</Anchor>
+                  <Anchor>a363d618ad36b5e4665d7aef99587c243</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -744,6 +762,11 @@
                   <Name>Scope</Name>
                   <Path>classfabrique_1_1ast_1_1_scope.html</Path>
                   <Anchor>afe674fd5ca8fa7565d4841746e65a588</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Scope</Name>
+                  <Path>classfabrique_1_1ast_1_1_scope.html</Path>
+                  <Anchor>af65c405cd3ed6ab3e468fa5b1905bdb2</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -809,7 +832,7 @@
                  <Node>
                   <Name>SymbolReference</Name>
                   <Path>classfabrique_1_1ast_1_1_symbol_reference.html</Path>
-                  <Anchor>aab6ffdae1452e3609691439caa86e8fa</Anchor>
+                  <Anchor>aae0c757c5013ac32db2a3c13b06eaa00</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -822,14 +845,14 @@
                   <Anchor>abf6fb0d33b2db1860a67e3a1b6f52f0b</Anchor>
                  </Node>
                  <Node>
-                  <Name>getName</Name>
+                  <Name>name</Name>
                   <Path>classfabrique_1_1ast_1_1_symbol_reference.html</Path>
-                  <Anchor>a11e2a685ae22eae7954720a5eaa32fa8</Anchor>
+                  <Anchor>af6404246a547fef932261ed3f77694c1</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_symbol_reference.html</Path>
-                  <Anchor>a4798736ba0267326539ce3fa04a50c7a</Anchor>
+                  <Anchor>a9697accd0de730ae82577f6cc3446896</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -872,7 +895,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_unary_operation.html</Path>
-                  <Anchor>ae72974100a8aa07527c75bb838227603</Anchor>
+                  <Anchor>a749499aa6afd22314f69e0cca0512448</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -891,25 +914,32 @@
                   <Anchor>a880d3ce018df2f3caf80807020de9646</Anchor>
                  </Node>
                  <Node>
-                  <Name>getName</Name>
+                  <Name>name</Name>
                   <Path>classfabrique_1_1ast_1_1_value.html</Path>
-                  <Anchor>a776d92154cbe8a3179abd0ad3624e864</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>getValue</Name>
-                  <Path>classfabrique_1_1ast_1_1_value.html</Path>
-                  <Anchor>ab9ae238d1d4f731f73d86349a1442995</Anchor>
+                  <Anchor>ae872e419fab723dedbd9bcc3d96d65ed</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_value.html</Path>
-                  <Anchor>a6817b7c8d1b55a715e757c76af7cdd19</Anchor>
+                  <Anchor>a0a16db04aab6e1f3234ab8879721ccac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>value</Name>
+                  <Path>classfabrique_1_1ast_1_1_value.html</Path>
+                  <Anchor>abcf21db31496214f2c4941e1bb2954b0</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
                <Node>
                 <Name>Visitor</Name>
                 <Path>classfabrique_1_1ast_1_1_visitor.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>~Visitor</Name>
+                  <Path>classfabrique_1_1ast_1_1_visitor.html</Path>
+                  <Anchor>acecea09bacbd591ad06e2d1719a4162c</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>Parser</Name>
@@ -933,7 +963,7 @@
                  <Node>
                   <Name>CompoundExpr</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ae90b7156a644118aafe4244c9b3db6a1</Anchor>
+                  <Anchor>af85259311802109bbc296ef41246a612</Anchor>
                  </Node>
                  <Node>
                   <Name>CreateCall</Name>
@@ -1062,6 +1092,11 @@
                 <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>~Visitable</Name>
+                  <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
+                  <Anchor>a68f2a5d432edfeb1aa9282c041faf61c</Anchor>
+                 </Node>
+                 <Node>
                   <Name>Accept</Name>
                   <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
                   <Anchor>a9c0cf7d423a51aa1ea85848f401fc52d</Anchor>
@@ -1078,6 +1113,11 @@
                 <Name>Backend</Name>
                 <Path>classfabrique_1_1backend_1_1_backend.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>~Backend</Name>
+                  <Path>classfabrique_1_1backend_1_1_backend.html</Path>
+                  <Anchor>a8d0a58668ffd381c772481987da8ce97</Anchor>
+                 </Node>
                  <Node>
                   <Name>DefaultFilename</Name>
                   <Path>classfabrique_1_1backend_1_1_backend.html</Path>
@@ -1142,6 +1182,11 @@
                 <Name>NullBackend</Name>
                 <Path>classfabrique_1_1backend_1_1_null_backend.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>~NullBackend</Name>
+                  <Path>classfabrique_1_1backend_1_1_null_backend.html</Path>
+                  <Anchor>afedf5a8ca9494323e596f5c7d13f9dd9</Anchor>
+                 </Node>
                  <Node>
                   <Name>DefaultFilename</Name>
                   <Path>classfabrique_1_1backend_1_1_null_backend.html</Path>
@@ -1212,12 +1257,53 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_build.html</Path>
-                  <Anchor>a15c616b7dce94791b5a4548a7a582ab8</Anchor>
+                  <Anchor>a9b5770968e57ee613a0eb4ceb061fa86</Anchor>
                  </Node>
                  <Node>
                   <Name>sideEffectOutputs</Name>
                   <Path>classfabrique_1_1dag_1_1_build.html</Path>
                   <Anchor>a23a70d482d747ba1c172c156604929a0</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DAGBuilder</Name>
+                <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>DAGBuilder</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a287e513702d46aba37a25dfae36d7f30</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~DAGBuilder</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a0308bbd51b6c356e78ad9378cb1a2755</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>builds_</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>ab48e9825f5b239a1a2a64f061bd66ddb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>files_</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a10480135f002d088d31bf674a6d53251</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rules_</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a80a8571eab98e64e463a7bbda95391b6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>targets_</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a2c3740db37eb42da00d50f0cbfc84d21</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>variables_</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a02d466fe5f68da22cb22cbcb6808dad5</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1238,7 +1324,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
-                  <Anchor>a8e91431eb075f84c6dcbebf6c97c16aa</Anchor>
+                  <Anchor>a2695a3f17195e4c14cbc7669bad7470d</Anchor>
                  </Node>
                  <Node>
                   <Name>rules</Name>
@@ -1279,7 +1365,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_file.html</Path>
-                  <Anchor>a8bf9b9bfb2f00e8f3d6bd53aa331389a</Anchor>
+                  <Anchor>a4cc58c49e192dd551775bb6672007793</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -1335,7 +1421,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_list.html</Path>
-                  <Anchor>ae6b4f9bf7736b08bba0e8ade4fa71a88</Anchor>
+                  <Anchor>ae265be0faa533845d9e2df65bcfa22b8</Anchor>
                  </Node>
                  <Node>
                   <Name>ScalarAdd</Name>
@@ -1356,12 +1442,12 @@
                  <Node>
                   <Name>Primitive</Name>
                   <Path>classfabrique_1_1dag_1_1_primitive.html</Path>
-                  <Anchor>a5b58d87090604799645a00c50b885b1f</Anchor>
+                  <Anchor>ad9518aa7b1e04bacdb7a802f35531585</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_primitive.html</Path>
-                  <Anchor>a8923d243bbec58b6b4e36266f07680a2</Anchor>
+                  <Anchor>a9f1062b055a7cc4552cee38d2e4481f4</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -1374,9 +1460,9 @@
                   <Anchor>a714f1836be4b09378c664896ed377159</Anchor>
                  </Node>
                  <Node>
-                  <Name>val</Name>
+                  <Name>value_</Name>
                   <Path>classfabrique_1_1dag_1_1_primitive.html</Path>
-                  <Anchor>a40f2f1f97452a1e65710d7ece936f4ab</Anchor>
+                  <Anchor>ac881f98bc1638ad2509c829036845ecb</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1387,7 +1473,7 @@
                  <Node>
                   <Name>Boolean</Name>
                   <Path>classfabrique_1_1dag_1_1_boolean.html</Path>
-                  <Anchor>a2e49e8282bfc72b02e1005ce11f2f002</Anchor>
+                  <Anchor>a5fd2c833b670a4afecc1b500b7eaf14e</Anchor>
                  </Node>
                  <Node>
                   <Name>And</Name>
@@ -1397,7 +1483,7 @@
                  <Node>
                   <Name>Negate</Name>
                   <Path>classfabrique_1_1dag_1_1_boolean.html</Path>
-                  <Anchor>a17f983fa6871e2b961dc340f61d58491</Anchor>
+                  <Anchor>a01c904bcfbf9d3154968f9425dcfccfc</Anchor>
                  </Node>
                  <Node>
                   <Name>Or</Name>
@@ -1423,7 +1509,7 @@
                  <Node>
                   <Name>Integer</Name>
                   <Path>classfabrique_1_1dag_1_1_integer.html</Path>
-                  <Anchor>a40e0c8b672239c5b42ff7530498c9030</Anchor>
+                  <Anchor>ae26e50289077dce7601faf31a0a4d1a7</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -1444,7 +1530,7 @@
                  <Node>
                   <Name>String</Name>
                   <Path>classfabrique_1_1dag_1_1_string.html</Path>
-                  <Anchor>afd9f7726aeeaaad5eef7b5d9edbfef0c</Anchor>
+                  <Anchor>aeae49c5b500e42bb9a5e331cba1c7172</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -1454,7 +1540,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_string.html</Path>
-                  <Anchor>a81ffcf3edf60715ed7b5eff480584046</Anchor>
+                  <Anchor>ab3e26fc60891cf46cc13613e5d70d74e</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -1495,7 +1581,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_rule.html</Path>
-                  <Anchor>a59189756549d37935897e0f660a144ff</Anchor>
+                  <Anchor>a7dec961dab4f2a220d1db43bd6a8e6f8</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -1541,7 +1627,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_target.html</Path>
-                  <Anchor>aa1ca4112c846db9f1ddc555f5fb50a04</Anchor>
+                  <Anchor>a893236bf2c0b80c82ead197a72cfd363</Anchor>
                  </Node>
                  <Node>
                   <Name>ScalarAdd</Name>
@@ -1563,6 +1649,11 @@
                   <Name>UndefinedValueException</Name>
                   <Path>classfabrique_1_1dag_1_1_undefined_value_exception.html</Path>
                   <Anchor>a6284197a490938707d1920465e4193d0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~UndefinedValueException</Name>
+                  <Path>classfabrique_1_1dag_1_1_undefined_value_exception.html</Path>
+                  <Anchor>a65d04f44481c9d08020fe3219eedd3c7</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1588,7 +1679,7 @@
                  <Node>
                   <Name>canScalarAdd</Name>
                   <Path>classfabrique_1_1dag_1_1_value.html</Path>
-                  <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
+                  <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
                  </Node>
                  <Node>
                   <Name>Negate</Name>
@@ -1665,6 +1756,11 @@
                 <Anchor>aeb0969e2fc02a33882db8ad67a885d37</Anchor>
                </Node>
                <Node>
+                <Name>~Lexer</Name>
+                <Path>classfabrique_1_1_lexer.html</Path>
+                <Anchor>ad26a84af23d8d303723e36e83fc4e556</Anchor>
+               </Node>
+               <Node>
                 <Name>CurrentTokenRange</Name>
                 <Path>classfabrique_1_1_lexer.html</Path>
                 <Anchor>aa60770e36ce6d21ec5eb516b97627b4e</Anchor>
@@ -1718,7 +1814,7 @@
                <Node>
                 <Name>PrettyPrint</Name>
                 <Path>classfabrique_1_1_token.html</Path>
-                <Anchor>a5325e8146dfcb06d58a04c7a3b960b82</Anchor>
+                <Anchor>aad19c1d015182a6714c5b014438e1609</Anchor>
                </Node>
                <Node>
                 <Name>str</Name>
@@ -1860,6 +1956,11 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>~Bytestream</Name>
+                <Path>classfabrique_1_1_bytestream.html</Path>
+                <Anchor>a2cd1d19b6612e068b82eed1b202d763d</Anchor>
+               </Node>
+               <Node>
                 <Name>Bytestream</Name>
                 <Path>classfabrique_1_1_bytestream.html</Path>
                 <Anchor>a7893ea2d200027a2bb367a37833a79c1</Anchor>
@@ -1882,6 +1983,11 @@
                <Node>
                 <Name>operator&lt;&lt;</Name>
                 <Path>classfabrique_1_1_bytestream.html</Path>
+                <Anchor>abcebfc21628fa25a476b83fbab3144fc</Anchor>
+               </Node>
+               <Node>
+                <Name>operator&lt;&lt;</Name>
+                <Path>classfabrique_1_1_bytestream.html</Path>
                 <Anchor>ac08a56a69d68c238f03361e1a063939d</Anchor>
                </Node>
                <Node>
@@ -1890,9 +1996,9 @@
                 <Anchor>a2ef3ddb19e85059aef93b332656c002a</Anchor>
                </Node>
                <Node>
-                <Name>out</Name>
+                <Name>out_</Name>
                 <Path>classfabrique_1_1_bytestream.html</Path>
-                <Anchor>ae0c20ac6d56c1005fd07d1e4658385c4</Anchor>
+                <Anchor>a892b830a4568d244ef18bde96978cf10</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1913,7 +2019,7 @@
                <Node>
                 <Name>PrettyPrint</Name>
                 <Path>classfabrique_1_1_error_report.html</Path>
-                <Anchor>a4c94a23a196aea4e28ea6fa0b1067a06</Anchor>
+                <Anchor>a06595cfa0bbb69651cd1622802364120</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1925,6 +2031,11 @@
                 <Name>AssertionFailure</Name>
                 <Path>classfabrique_1_1_assertion_failure.html</Path>
                 <Anchor>a794ed2376623494e89e9ad49667841a1</Anchor>
+               </Node>
+               <Node>
+                <Name>~AssertionFailure</Name>
+                <Path>classfabrique_1_1_assertion_failure.html</Path>
+                <Anchor>aafde76b2f199d128598536b357f7de4e</Anchor>
                </Node>
                <Node>
                 <Name>condition</Name>
@@ -1953,6 +2064,11 @@
                 <Anchor>a3f1406c8caa4217596f84c4d82d140e2</Anchor>
                </Node>
                <Node>
+                <Name>~DuplicateException</Name>
+                <Path>classfabrique_1_1_duplicate_exception.html</Path>
+                <Anchor>a5437bfc2967c91ddf83309b6c5482d41</Anchor>
+               </Node>
+               <Node>
                 <Name>what</Name>
                 <Path>classfabrique_1_1_duplicate_exception.html</Path>
                 <Anchor>ae95a1dc371630a25c3ec723a75a1d9aa</Anchor>
@@ -1963,6 +2079,11 @@
               <Name>SourceCodeException</Name>
               <Path>classfabrique_1_1_source_code_exception.html</Path>
               <Subnodes>
+               <Node>
+                <Name>~SourceCodeException</Name>
+                <Path>classfabrique_1_1_source_code_exception.html</Path>
+                <Anchor>a20a9a3bcfbbef706806401345fac5b30</Anchor>
+               </Node>
                <Node>
                 <Name>SourceCodeException</Name>
                 <Path>classfabrique_1_1_source_code_exception.html</Path>
@@ -1976,7 +2097,7 @@
                <Node>
                 <Name>PrettyPrint</Name>
                 <Path>classfabrique_1_1_source_code_exception.html</Path>
-                <Anchor>abefbc7196ee10f838061dcb3926de950</Anchor>
+                <Anchor>aba85f7c69a393e4f4f4ac7c9ae56460b</Anchor>
                </Node>
                <Node>
                 <Name>what</Name>
@@ -1994,6 +2115,11 @@
                 <Path>classfabrique_1_1_syntax_error.html</Path>
                 <Anchor>a0f050d93f4306a167bb3e113cca3a2e2</Anchor>
                </Node>
+               <Node>
+                <Name>~SyntaxError</Name>
+                <Path>classfabrique_1_1_syntax_error.html</Path>
+                <Anchor>a74ec8da0f58263a36f74c2c6be636545</Anchor>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -2004,6 +2130,11 @@
                 <Name>SemanticException</Name>
                 <Path>classfabrique_1_1_semantic_exception.html</Path>
                 <Anchor>a28647dedab6575069401cc19f95b333e</Anchor>
+               </Node>
+               <Node>
+                <Name>~SemanticException</Name>
+                <Path>classfabrique_1_1_semantic_exception.html</Path>
+                <Anchor>a3a9b338a1387e02c2bd7951a2d1ff165</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2028,9 +2159,14 @@
               <Path>classfabrique_1_1_printable.html</Path>
               <Subnodes>
                <Node>
+                <Name>~Printable</Name>
+                <Path>classfabrique_1_1_printable.html</Path>
+                <Anchor>a3eb4e71e9db5185a870a43f29895595f</Anchor>
+               </Node>
+               <Node>
                 <Name>PrettyPrint</Name>
                 <Path>classfabrique_1_1_printable.html</Path>
-                <Anchor>a468ea0af04900af37c331cb804213877</Anchor>
+                <Anchor>a7b148c5f200de45f3ad33a37a090997f</Anchor>
                </Node>
                <Node>
                 <Name>str</Name>
@@ -2046,7 +2182,7 @@
                <Node>
                 <Name>SourceLocation</Name>
                 <Path>classfabrique_1_1_source_location.html</Path>
-                <Anchor>af3282bb7485d49a096b552a6960619ae</Anchor>
+                <Anchor>a0ee1f7f843489b78b7317e79ecd3ff71</Anchor>
                </Node>
                <Node>
                 <Name>operator bool</Name>
@@ -2066,12 +2202,12 @@
                <Node>
                 <Name>PrettyPrint</Name>
                 <Path>classfabrique_1_1_source_location.html</Path>
-                <Anchor>a5b2769d9d8f9e70cbc86a6360e7ed7cb</Anchor>
+                <Anchor>a21f67087961a3f37c7535c79ed42d184</Anchor>
                </Node>
                <Node>
                 <Name>column</Name>
                 <Path>classfabrique_1_1_source_location.html</Path>
-                <Anchor>a44b2f4391743b16e53ae1bf78efd2e3f</Anchor>
+                <Anchor>a0285c057e8d803a335ff011f10409b2d</Anchor>
                </Node>
                <Node>
                 <Name>filename</Name>
@@ -2081,7 +2217,7 @@
                <Node>
                 <Name>line</Name>
                 <Path>classfabrique_1_1_source_location.html</Path>
-                <Anchor>a70f0d4d0c93057da0a3a5f3d7912b9b4</Anchor>
+                <Anchor>a958b99305ee57397e55e83dab5369d1d</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2122,7 +2258,7 @@
                <Node>
                 <Name>PrettyPrint</Name>
                 <Path>classfabrique_1_1_source_range.html</Path>
-                <Anchor>a8ba38397ec7a2075fad32bcc1029c44e</Anchor>
+                <Anchor>a7f320c900b25deb447617141663e9e60</Anchor>
                </Node>
                <Node>
                 <Name>begin</Name>
@@ -2153,13 +2289,24 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Uncopyable</Name>
+              <Path>classfabrique_1_1_uncopyable.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Uncopyable</Name>
+                <Path>classfabrique_1_1_uncopyable.html</Path>
+                <Anchor>aae806d46db16b2d83c175786ca846d87</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>FunctionType</Name>
               <Path>classfabrique_1_1_function_type.html</Path>
               <Subnodes>
                <Node>
                 <Name>name</Name>
                 <Path>classfabrique_1_1_function_type.html</Path>
-                <Anchor>ad79b923ee2225b62780ccb14c01b678a</Anchor>
+                <Anchor>a3e4c9393525957aa7933e130211c57fa</Anchor>
                </Node>
                <Node>
                 <Name>parameterTypes</Name>
@@ -2169,7 +2316,7 @@
                <Node>
                 <Name>PrettyPrint</Name>
                 <Path>classfabrique_1_1_function_type.html</Path>
-                <Anchor>ab18f1a2206012fdff4f006dcd952345e</Anchor>
+                <Anchor>a91812c2168c9e0368287f75df247b6fe</Anchor>
                </Node>
                <Node>
                 <Name>returnType</Name>
@@ -2230,7 +2377,7 @@
                <Node>
                 <Name>name</Name>
                 <Path>classfabrique_1_1_type.html</Path>
-                <Anchor>a8e3afae5481e6ba1a859c153db01bddb</Anchor>
+                <Anchor>a4eb81020ce1b794859486747947633a2</Anchor>
                </Node>
                <Node>
                 <Name>operator!=</Name>
@@ -2260,12 +2407,12 @@
                <Node>
                 <Name>PrettyPrint</Name>
                 <Path>classfabrique_1_1_type.html</Path>
-                <Anchor>a52b9615fd1cbda31ead95152c65ae09f</Anchor>
+                <Anchor>ac698d6ec7deaf1c676dbca4ca78ade1e</Anchor>
                </Node>
                <Node>
                 <Name>typeParamCount</Name>
                 <Path>classfabrique_1_1_type.html</Path>
-                <Anchor>a69c917d579ee73ad63c4be0c9b5908e7</Anchor>
+                <Anchor>ae4b255749390058a1d17b27bce664ae1</Anchor>
                </Node>
                <Node>
                 <Name>typeParameters</Name>
@@ -2286,7 +2433,12 @@
                <Node>
                 <Name>Typed</Name>
                 <Path>classfabrique_1_1_typed.html</Path>
-                <Anchor>a9573ff7eed1f45b1ac44fb4d03b03b47</Anchor>
+                <Anchor>a70eb6215f910198fbdc2db371b0e1cd8</Anchor>
+               </Node>
+               <Node>
+                <Name>~Typed</Name>
+                <Path>classfabrique_1_1_typed.html</Path>
+                <Anchor>a671d6f8565384c99c8aabd0e22920493</Anchor>
                </Node>
                <Node>
                 <Name>type</Name>
@@ -2303,6 +2455,11 @@
                 <Name>TypeError</Name>
                 <Path>classfabrique_1_1_type_error.html</Path>
                 <Anchor>a23322d5f27bda1945e33a8dcd65ff380</Anchor>
+               </Node>
+               <Node>
+                <Name>~TypeError</Name>
+                <Path>classfabrique_1_1_type_error.html</Path>
+                <Anchor>a1133602045627eb936197a575a6088f5</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2324,6 +2481,11 @@
                 <Name>WrongTypeException</Name>
                 <Path>classfabrique_1_1_wrong_type_exception.html</Path>
                 <Anchor>adf3b763806f2bc8f14ddcf4f57d8e583</Anchor>
+               </Node>
+               <Node>
+                <Name>~WrongTypeException</Name>
+                <Path>classfabrique_1_1_wrong_type_exception.html</Path>
+                <Anchor>af63e09a8c23a8f81db0e2f901b189f87</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2903,401 +3065,33 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>ANSIStream</Name>
-            <Path>class_a_n_s_i_stream.html</Path>
+            <Name>DebugState</Name>
+            <Path>class_debug_state.html</Path>
             <Subnodes>
              <Node>
-              <Name>Colour</Name>
-              <Path>class_a_n_s_i_stream.html</Path>
-              <Anchor>a7d158ac8a071666b96cd437d2d7059e5</Anchor>
-              <Subnodes>
-               <Node>
-                <Name>Black</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>a7d158ac8a071666b96cd437d2d7059e5ab6d97529feaa6a0e65704f6aee1368eb</Anchor>
-               </Node>
-               <Node>
-                <Name>Red</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>a7d158ac8a071666b96cd437d2d7059e5a46821f0ea471000cd56fba932e569ff5</Anchor>
-               </Node>
-               <Node>
-                <Name>Green</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>a7d158ac8a071666b96cd437d2d7059e5a78287966c8e3dff347703185ed762dcf</Anchor>
-               </Node>
-               <Node>
-                <Name>Yellow</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>a7d158ac8a071666b96cd437d2d7059e5aa18e19b15696831d685a66d35ca292bb</Anchor>
-               </Node>
-               <Node>
-                <Name>Blue</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>a7d158ac8a071666b96cd437d2d7059e5ab544220c3d2ffb7fdca628da220c1d60</Anchor>
-               </Node>
-               <Node>
-                <Name>Magenta</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>a7d158ac8a071666b96cd437d2d7059e5ae99538d7a1297c4cfc2347bb2a51b543</Anchor>
-               </Node>
-               <Node>
-                <Name>Cyan</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>a7d158ac8a071666b96cd437d2d7059e5a5ad12cefb159478409bb4fdbe196bed5</Anchor>
-               </Node>
-               <Node>
-                <Name>White</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>a7d158ac8a071666b96cd437d2d7059e5a1994bfc21f362bc6aef5a2ffca908c2e</Anchor>
-               </Node>
-               <Node>
-                <Name>EndOfColours</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>a7d158ac8a071666b96cd437d2d7059e5acce7ab27e58f8b223948982d05cce5d9</Anchor>
-               </Node>
-              </Subnodes>
+              <Name>get</Name>
+              <Path>class_debug_state.html</Path>
+              <Anchor>ac98f315816161fa327b93d0e26b7f94e</Anchor>
              </Node>
              <Node>
-              <Name>Modifier</Name>
-              <Path>class_a_n_s_i_stream.html</Path>
-              <Anchor>ad9ecbbad6a7c31e8d52973343614a87e</Anchor>
-              <Subnodes>
-               <Node>
-                <Name>ResetAll</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>ad9ecbbad6a7c31e8d52973343614a87ea3381b6efe27f6a2048b99b8b04ad61f9</Anchor>
-               </Node>
-               <Node>
-                <Name>Normal</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>ad9ecbbad6a7c31e8d52973343614a87ea4737abd79d94b41feab0eda5324909cd</Anchor>
-               </Node>
-               <Node>
-                <Name>Bold</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>ad9ecbbad6a7c31e8d52973343614a87ea1a4ea8fa13e72b13add0b768a14427cc</Anchor>
-               </Node>
-               <Node>
-                <Name>Faint</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>ad9ecbbad6a7c31e8d52973343614a87eae105901984ca97d8f60aed7cb61e5567</Anchor>
-               </Node>
-               <Node>
-                <Name>Italic</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>ad9ecbbad6a7c31e8d52973343614a87eaf7d356c2d9ddb0d7ca27a10c64ee52d2</Anchor>
-               </Node>
-               <Node>
-                <Name>Underline</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>ad9ecbbad6a7c31e8d52973343614a87ea7f8564ea26a09a5aef081336b22fda36</Anchor>
-               </Node>
-               <Node>
-                <Name>EndOfModifiers</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
-                <Anchor>ad9ecbbad6a7c31e8d52973343614a87eaa407b08e8ef33816df65b010ed41d803</Anchor>
-               </Node>
-              </Subnodes>
+              <Name>match</Name>
+              <Path>class_debug_state.html</Path>
+              <Anchor>a2b0a2cdd84beae8db2882089b76615da</Anchor>
              </Node>
              <Node>
-              <Name>ANSIStream</Name>
-              <Path>class_a_n_s_i_stream.html</Path>
-              <Anchor>a3bd747e71b957111ea6433ef2f3aa11f</Anchor>
+              <Name>null</Name>
+              <Path>class_debug_state.html</Path>
+              <Anchor>af793ae49386e9744f2932a9070bf360d</Anchor>
              </Node>
              <Node>
-              <Name>operator&lt;&lt;</Name>
-              <Path>class_a_n_s_i_stream.html</Path>
-              <Anchor>af6ba5aa47fc81adf1e6fee51445d0422</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>DAGBuilder</Name>
-            <Path>class_d_a_g_builder.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>DAGBuilder</Name>
-              <Path>class_d_a_g_builder.html</Path>
-              <Anchor>a5428b6db9cca019361eec72f66f61cf1</Anchor>
+              <Name>out</Name>
+              <Path>class_debug_state.html</Path>
+              <Anchor>a870c18ca0e653c45ef90a7f3ba2105ad</Anchor>
              </Node>
              <Node>
-              <Name>~DAGBuilder</Name>
-              <Path>class_d_a_g_builder.html</Path>
-              <Anchor>a3094126f6e677a0c0bda68a28737241f</Anchor>
-             </Node>
-             <Node>
-              <Name>builds_</Name>
-              <Path>class_d_a_g_builder.html</Path>
-              <Anchor>a6f13a796f73c07f1ff97275c9d13ade9</Anchor>
-             </Node>
-             <Node>
-              <Name>files_</Name>
-              <Path>class_d_a_g_builder.html</Path>
-              <Anchor>a7be935e499abcdca68196c849b4e0397</Anchor>
-             </Node>
-             <Node>
-              <Name>rules_</Name>
-              <Path>class_d_a_g_builder.html</Path>
-              <Anchor>a00a3c960d89a355a50ce477d8077d13f</Anchor>
-             </Node>
-             <Node>
-              <Name>targets_</Name>
-              <Path>class_d_a_g_builder.html</Path>
-              <Anchor>a52173b54de5676053ed7c24f16894804</Anchor>
-             </Node>
-             <Node>
-              <Name>variables_</Name>
-              <Path>class_d_a_g_builder.html</Path>
-              <Anchor>aa94a80828d449699158bff28d1a5bb9a</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>ImmutableDAG</Name>
-            <Path>class_immutable_d_a_g.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>ImmutableDAG</Name>
-              <Path>class_immutable_d_a_g.html</Path>
-              <Anchor>a791188d7f19db34f33839927ec4ad6b0</Anchor>
-             </Node>
-             <Node>
-              <Name>builds</Name>
-              <Path>class_immutable_d_a_g.html</Path>
-              <Anchor>a8e7507aa402b96bd06f2b6a8fcf28ea3</Anchor>
-             </Node>
-             <Node>
-              <Name>files</Name>
-              <Path>class_immutable_d_a_g.html</Path>
-              <Anchor>a40dcf60c3851338c27ceb68b117a1999</Anchor>
-             </Node>
-             <Node>
-              <Name>rules</Name>
-              <Path>class_immutable_d_a_g.html</Path>
-              <Anchor>a7dca05fc1f1fb157d234db7c381bb355</Anchor>
-             </Node>
-             <Node>
-              <Name>targets</Name>
-              <Path>class_immutable_d_a_g.html</Path>
-              <Anchor>a8d69fb3bbb2fd59b0d1dda70a7819ef6</Anchor>
-             </Node>
-             <Node>
-              <Name>variables</Name>
-              <Path>class_immutable_d_a_g.html</Path>
-              <Anchor>a403aed8584cbfb81c1c4ead6a8af39a3</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>NullStream</Name>
-            <Path>class_null_stream.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>NullStream</Name>
-              <Path>class_null_stream.html</Path>
-              <Anchor>ab0d616a614956971c8389ddb6367cb51</Anchor>
-             </Node>
-             <Node>
-              <Name>operator&lt;&lt;</Name>
-              <Path>class_null_stream.html</Path>
-              <Anchor>ae1924b3936e9f328e3e5fa836eecdde6</Anchor>
-             </Node>
-             <Node>
-              <Name>operator&lt;&lt;</Name>
-              <Path>class_null_stream.html</Path>
-              <Anchor>a2ba57ce1b8df9e4dcfb034dd9a68c3ee</Anchor>
-             </Node>
-             <Node>
-              <Name>operator&lt;&lt;</Name>
-              <Path>class_null_stream.html</Path>
-              <Anchor>af65669cf88e989f04290027f8449e68b</Anchor>
-             </Node>
-             <Node>
-              <Name>operator&lt;&lt;</Name>
-              <Path>class_null_stream.html</Path>
-              <Anchor>ada662e14731cde3e88f4ffc2160ab295</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>PlainStream</Name>
-            <Path>class_plain_stream.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>PlainStream</Name>
-              <Path>class_plain_stream.html</Path>
-              <Anchor>ab7e4470b4335ab6c088c45cc10dc1ba8</Anchor>
-             </Node>
-             <Node>
-              <Name>operator&lt;&lt;</Name>
-              <Path>class_plain_stream.html</Path>
-              <Anchor>a842ae5014d943f213d97bf36b013ec12</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>Uncopyable</Name>
-            <Path>class_uncopyable.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>Uncopyable</Name>
-              <Path>class_uncopyable.html</Path>
-              <Anchor>a6d493b6c92f001b8f136c2ae07161ff4</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>yy_buffer_state</Name>
-            <Path>structyy__buffer__state.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>yy_at_bol</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a9d60c60af6e1a6f69de16871fd64f85f</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_bs_column</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a10c4fcd8be759e6bf11e6d3e8cdb0307</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_bs_lineno</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a818e94bc9c766e683c60df1e9fd01199</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_buf_pos</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a8435c3f786bbb55d21d0174e4cfc22a0</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_buf_size</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a48302f5f3477a9c78bbddf56d356ef54</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_buffer_status</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a70fd925d37a2f0454fbd0def675d106c</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_ch_buf</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a0d25458e69eb22207fc633a1255d099d</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_fill_buffer</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a63d2afbb1d79a3fc63df9e12626f827d</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_input_file</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a394bf1c9938ce57782dc313d97770123</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_is_interactive</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>abf5c70eea75581b58c0ee7bd31b14490</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_is_our_buffer</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a80ce2431c70dc4f89ced487f18449465</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_n_chars</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>afcc44872643f513e79b43c2b1f334a67</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>yy_trans_info</Name>
-            <Path>structyy__trans__info.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>yy_nxt</Name>
-              <Path>structyy__trans__info.html</Path>
-              <Anchor>ae0715250c2bef261e596e77e0030f13e</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_verify</Name>
-              <Path>structyy__trans__info.html</Path>
-              <Anchor>a5c9f61e770deef50bd4e697310342fe9</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>YYSTACKDATA</Name>
-            <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>l_base</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>ac907615d8aa6412ea5e7213d25c8a2c2</Anchor>
-             </Node>
-             <Node>
-              <Name>l_mark</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>a3ab4212dd6f5ab9336da7875cb308141</Anchor>
-             </Node>
-             <Node>
-              <Name>s_base</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>a830168abced095d119dc30040fb609ea</Anchor>
-             </Node>
-             <Node>
-              <Name>s_last</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>af078273594620299fb8595744bbe16f5</Anchor>
-             </Node>
-             <Node>
-              <Name>s_mark</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>ac62cc0b50aca6e5b4e8da7ff41aee2e5</Anchor>
-             </Node>
-             <Node>
-              <Name>stacksize</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>a17c64723e4653c855be339410899989a</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>YYSTYPE</Name>
-            <Path>union_y_y_s_t_y_p_e.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>intVal</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>a83ee412e29e20041c84ddb8ffa14b10c</Anchor>
-             </Node>
-             <Node>
-              <Name>node</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>aaad03259bc543752d63bdac51cf29c2d</Anchor>
-             </Node>
-             <Node>
-              <Name>nodes</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>afc54412b50013d39e2c1efa1e9a23fd5</Anchor>
-             </Node>
-             <Node>
-              <Name>token</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>a6769b8be3e579c0354fe74e67eb4e874</Anchor>
-             </Node>
-             <Node>
-              <Name>type</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>ab81ef4b879cfdb77d66b897830959717</Anchor>
-             </Node>
-             <Node>
-              <Name>types</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>a8a7c3159cc785355ff163338231f492a</Anchor>
+              <Name>pattern</Name>
+              <Path>class_debug_state.html</Path>
+              <Anchor>a753789304a0a12a4f5ffffb557fea597</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3358,20 +3152,6 @@
            <Node>
             <Name>fabrique::Bytestream</Name>
             <Path>classfabrique_1_1_bytestream.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>ANSIStream</Name>
-              <Path>class_a_n_s_i_stream.html</Path>
-             </Node>
-             <Node>
-              <Name>NullStream</Name>
-              <Path>class_null_stream.html</Path>
-             </Node>
-             <Node>
-              <Name>PlainStream</Name>
-              <Path>class_plain_stream.html</Path>
-             </Node>
-            </Subnodes>
            </Node>
            <Node>
             <Name>fabrique::ast::Callable</Name>
@@ -3386,6 +3166,10 @@
               <Path>classfabrique_1_1ast_1_1_function.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>DebugState</Name>
+            <Path>class_debug_state.html</Path>
            </Node>
            <Node>
             <Name>option::Descriptor</Name>
@@ -3688,12 +3472,6 @@
              <Node>
               <Name>fabrique::dag::DAG</Name>
               <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ImmutableDAG</Name>
-                <Path>class_immutable_d_a_g.html</Path>
-               </Node>
-              </Subnodes>
              </Node>
              <Node>
               <Name>fabrique::dag::Value</Name>
@@ -3754,8 +3532,8 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>Uncopyable</Name>
-            <Path>class_uncopyable.html</Path>
+            <Name>fabrique::Uncopyable</Name>
+            <Path>classfabrique_1_1_uncopyable.html</Path>
             <Subnodes>
              <Node>
               <Name>fabrique::ast::Node</Name>
@@ -3788,22 +3566,14 @@
             <Path>classfabrique_1_1ast_1_1_visitor.html</Path>
             <Subnodes>
              <Node>
-              <Name>DAGBuilder</Name>
-              <Path>class_d_a_g_builder.html</Path>
-             </Node>
-             <Node>
               <Name>fabrique::ast::ASTDump</Name>
               <Path>classfabrique_1_1ast_1_1_a_s_t_dump.html</Path>
              </Node>
+             <Node>
+              <Name>fabrique::dag::DAGBuilder</Name>
+              <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+             </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>yy_buffer_state</Name>
-            <Path>structyy__buffer__state.html</Path>
-           </Node>
-           <Node>
-            <Name>yy_trans_info</Name>
-            <Path>structyy__trans__info.html</Path>
            </Node>
            <Node>
             <Name>yyFlexLexer</Name>
@@ -3816,12 +3586,18 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>YYSTACKDATA</Name>
-            <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-           </Node>
-           <Node>
-            <Name>YYSTYPE</Name>
-            <Path>union_y_y_s_t_y_p_e.html</Path>
+            <Name>RegexLexer</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>fablexer.lexer.FabLexer</Name>
+              <Path>classfablexer_1_1lexer_1_1_fab_lexer.html</Path>
+             </Node>
+             <Node>
+              <Name>fablexer.lexer.FabLexer</Name>
+              <Path>classfablexer_1_1lexer_1_1_fab_lexer.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
           </Subnodes>
          </Node>
@@ -3955,7 +3731,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_action.html</Path>
-                  <Anchor>a8a769a94f3b258b4ccc1f3b749707cbc</Anchor>
+                  <Anchor>acfe6b9e62a6317f98d1d2aaf0aa0ac63</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4001,7 +3777,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_argument.html</Path>
-                  <Anchor>aa1e5b5119a62aafbcd2eceecfa24af50</Anchor>
+                  <Anchor>a74292b07b50192ed13b66e9be6c9bb45</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4111,7 +3887,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_binary_operation.html</Path>
-                  <Anchor>ade92f2bf2f54b228867dad3aecbe6a1a</Anchor>
+                  <Anchor>acf6b5530507172f94469135ec19c8443</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4148,7 +3924,7 @@
                  <Node>
                   <Name>Call</Name>
                   <Path>classfabrique_1_1ast_1_1_call.html</Path>
-                  <Anchor>a28db2946ee0691b40da7a52c1931126c</Anchor>
+                  <Anchor>a2cc131ff7194e0700ff9189338df9a8e</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -4173,7 +3949,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_call.html</Path>
-                  <Anchor>ab5ccebce2bbcb8be940b9cddad91e52e</Anchor>
+                  <Anchor>a9f2e54fe0ac4151ed0462474ba33b69b</Anchor>
                  </Node>
                  <Node>
                   <Name>target</Name>
@@ -4260,7 +4036,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_compound_expression.html</Path>
-                  <Anchor>a319be3902864ff5f0c73fdb1a2bfda41</Anchor>
+                  <Anchor>a56c5d4b8b87921cefee976e41697094b</Anchor>
                  </Node>
                  <Node>
                   <Name>result</Name>
@@ -4286,7 +4062,7 @@
                  <Node>
                   <Name>Conditional</Name>
                   <Path>classfabrique_1_1ast_1_1_conditional.html</Path>
-                  <Anchor>a751c2c3b83ddeb67740b4237656b7f9d</Anchor>
+                  <Anchor>a6d2f4e84a7f2326724e9ba1c947cd793</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -4306,7 +4082,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_conditional.html</Path>
-                  <Anchor>ab3e538fa90ff66bfff162a139fea07c7</Anchor>
+                  <Anchor>a6371057f414fbf5e09f66d13b359f3f5</Anchor>
                  </Node>
                  <Node>
                   <Name>thenClause</Name>
@@ -4316,6 +4092,10 @@
                 </Subnodes>
                </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>Expression.cc</Name>
+              <Path>_expression_8cc.html</Path>
              </Node>
              <Node>
               <Name>Expression.h</Name>
@@ -4328,7 +4108,7 @@
                  <Node>
                   <Name>~Expression</Name>
                   <Path>classfabrique_1_1ast_1_1_expression.html</Path>
-                  <Anchor>a404cff3e15436f1ee87eab93d447e152</Anchor>
+                  <Anchor>a07cb91792bbbf1d934dfe0f28f4ea283</Anchor>
                  </Node>
                  <Node>
                   <Name>Expression</Name>
@@ -4364,7 +4144,7 @@
                  <Node>
                   <Name>FileList</Name>
                   <Path>classfabrique_1_1ast_1_1_file_list.html</Path>
-                  <Anchor>aa1c3b571afba3a56cf5cfd8d21a0b673</Anchor>
+                  <Anchor>af0353a9092196b264962e5b67af837b4</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -4389,7 +4169,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_file_list.html</Path>
-                  <Anchor>adb9236814e206bc6a183a7d2f9cd7838</Anchor>
+                  <Anchor>a8cb3fdb76c00ce62aebbc28fcdb7d38f</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4401,11 +4181,39 @@
              </Node>
              <Node>
               <Name>Filename.h</Name>
-              <Path>_filename_8h_source.html</Path>
+              <Path>_filename_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Filename</Name>
+                <Path>classfabrique_1_1ast_1_1_filename.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Filename</Name>
+                  <Path>classfabrique_1_1ast_1_1_filename.html</Path>
+                  <Anchor>aa72215cae5ea7eb0bba8f1b3f67d6032</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1ast_1_1_filename.html</Path>
+                  <Anchor>a9f702b78a70d05d07b4fa39e873eb543</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>classfabrique_1_1ast_1_1_filename.html</Path>
+                  <Anchor>a466a51b81766f956c2125131314be397</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1ast_1_1_filename.html</Path>
+                  <Anchor>aabf57499798ca68f5e1cc0e4bf35768a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>Foreach.cc</Name>
-              <Path>_foreach_8cc_source.html</Path>
+              <Path>_foreach_8cc.html</Path>
              </Node>
              <Node>
               <Name>Foreach.h</Name>
@@ -4438,7 +4246,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>aac6fe98f7ea2bb5577816213095b2a44</Anchor>
+                  <Anchor>a7df9b4810c9a659473864cfbecc09c39</Anchor>
                  </Node>
                  <Node>
                   <Name>targetSequence</Name>
@@ -4483,7 +4291,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_function.html</Path>
-                  <Anchor>a6922c07129eb5debde5fade8b5715aa8</Anchor>
+                  <Anchor>a19d011823e9fad4165a5bfb325076df9</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4504,7 +4312,7 @@
                  <Node>
                   <Name>Identifier</Name>
                   <Path>classfabrique_1_1ast_1_1_identifier.html</Path>
-                  <Anchor>a4c8bb0cd9aa493a6ff127c0c6c463e15</Anchor>
+                  <Anchor>a83719d9d00cb74d47b0107a3b99ec10d</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -4534,7 +4342,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_identifier.html</Path>
-                  <Anchor>a173d7a79f3c00949584187bc91d281c4</Anchor>
+                  <Anchor>a142531d21be32c8ee93cda56e9553986</Anchor>
                  </Node>
                  <Node>
                   <Name>type</Name>
@@ -4547,11 +4355,49 @@
              </Node>
              <Node>
               <Name>List.cc</Name>
-              <Path>_a_s_t_2_list_8cc_source.html</Path>
+              <Path>_a_s_t_2_list_8cc.html</Path>
              </Node>
              <Node>
               <Name>List.h</Name>
-              <Path>_a_s_t_2_list_8h_source.html</Path>
+              <Path>_a_s_t_2_list_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>List</Name>
+                <Path>classfabrique_1_1ast_1_1_list.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>ConstIterator</Name>
+                  <Path>classfabrique_1_1ast_1_1_list.html</Path>
+                  <Anchor>a652456f34e8e6b076eb5665923ee337b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>List</Name>
+                  <Path>classfabrique_1_1ast_1_1_list.html</Path>
+                  <Anchor>a4b0d8d004d7d0e310628d38517514848</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1ast_1_1_list.html</Path>
+                  <Anchor>a2eff1690b87a429ce74383be9a15f528</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>begin</Name>
+                  <Path>classfabrique_1_1ast_1_1_list.html</Path>
+                  <Anchor>a31e4ed2d2970132017d899c6b0435037</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>end</Name>
+                  <Path>classfabrique_1_1ast_1_1_list.html</Path>
+                  <Anchor>a5cf7e979e86babfd9e49e4ac54e33a5c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1ast_1_1_list.html</Path>
+                  <Anchor>ae265be0faa533845d9e2df65bcfa22b8</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>literals.cc</Name>
@@ -4599,7 +4445,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_bool_literal.html</Path>
-                  <Anchor>ab22e6a156b4e9361f846702d94c890c6</Anchor>
+                  <Anchor>a2ff30a00af05e865e448149e3d0ece00</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -4625,7 +4471,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_int_literal.html</Path>
-                  <Anchor>af5a69e2dc48efccd9ef6eafa4072345c</Anchor>
+                  <Anchor>a14f8bda584d237a5d60078fa869361e8</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -4651,7 +4497,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_string_literal.html</Path>
-                  <Anchor>af929c8616d75b49598a53f1c5d64e5c8</Anchor>
+                  <Anchor>a3b22479f03aff2db3c79411f586c0963</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -4661,6 +4507,10 @@
                 </Subnodes>
                </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>Node.cc</Name>
+              <Path>_node_8cc.html</Path>
              </Node>
              <Node>
               <Name>Node.h</Name>
@@ -4673,7 +4523,7 @@
                  <Node>
                   <Name>~Node</Name>
                   <Path>classfabrique_1_1ast_1_1_node.html</Path>
-                  <Anchor>abb4dcbc7c6588f763ec698e1edd03d77</Anchor>
+                  <Anchor>a50baf842d668142bf9bc19267947bdbb</Anchor>
                  </Node>
                  <Node>
                   <Name>Node</Name>
@@ -4719,7 +4569,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_parameter.html</Path>
-                  <Anchor>aeac5222d42f366401d0929c9727968e2</Anchor>
+                  <Anchor>a363d618ad36b5e4665d7aef99587c243</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4756,6 +4606,11 @@
                   <Name>Scope</Name>
                   <Path>classfabrique_1_1ast_1_1_scope.html</Path>
                   <Anchor>afe674fd5ca8fa7565d4841746e65a588</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Scope</Name>
+                  <Path>classfabrique_1_1ast_1_1_scope.html</Path>
+                  <Anchor>af65c405cd3ed6ab3e468fa5b1905bdb2</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -4831,7 +4686,7 @@
                  <Node>
                   <Name>SymbolReference</Name>
                   <Path>classfabrique_1_1ast_1_1_symbol_reference.html</Path>
-                  <Anchor>aab6ffdae1452e3609691439caa86e8fa</Anchor>
+                  <Anchor>aae0c757c5013ac32db2a3c13b06eaa00</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -4844,14 +4699,14 @@
                   <Anchor>abf6fb0d33b2db1860a67e3a1b6f52f0b</Anchor>
                  </Node>
                  <Node>
-                  <Name>getName</Name>
+                  <Name>name</Name>
                   <Path>classfabrique_1_1ast_1_1_symbol_reference.html</Path>
-                  <Anchor>a11e2a685ae22eae7954720a5eaa32fa8</Anchor>
+                  <Anchor>af6404246a547fef932261ed3f77694c1</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_symbol_reference.html</Path>
-                  <Anchor>a4798736ba0267326539ce3fa04a50c7a</Anchor>
+                  <Anchor>a9697accd0de730ae82577f6cc3446896</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4904,7 +4759,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1ast_1_1_unary_operation.html</Path>
-                  <Anchor>ae72974100a8aa07527c75bb838227603</Anchor>
+                  <Anchor>a749499aa6afd22314f69e0cca0512448</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4921,7 +4776,44 @@
              </Node>
              <Node>
               <Name>Value.h</Name>
-              <Path>_a_s_t_2_value_8h_source.html</Path>
+              <Path>_a_s_t_2_value_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Value</Name>
+                <Path>classfabrique_1_1ast_1_1_value.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Value</Name>
+                  <Path>classfabrique_1_1ast_1_1_value.html</Path>
+                  <Anchor>a4436bea8676705f5126961e79295a1f3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1ast_1_1_value.html</Path>
+                  <Anchor>a880d3ce018df2f3caf80807020de9646</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>classfabrique_1_1ast_1_1_value.html</Path>
+                  <Anchor>ae872e419fab723dedbd9bcc3d96d65ed</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1ast_1_1_value.html</Path>
+                  <Anchor>a0a16db04aab6e1f3234ab8879721ccac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>value</Name>
+                  <Path>classfabrique_1_1ast_1_1_value.html</Path>
+                  <Anchor>abcf21db31496214f2c4941e1bb2954b0</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Visitor.cc</Name>
+              <Path>_visitor_8cc.html</Path>
              </Node>
              <Node>
               <Name>Visitor.h</Name>
@@ -4930,6 +4822,13 @@
                <Node>
                 <Name>Visitor</Name>
                 <Path>classfabrique_1_1ast_1_1_visitor.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>~Visitor</Name>
+                  <Path>classfabrique_1_1ast_1_1_visitor.html</Path>
+                  <Anchor>acecea09bacbd591ad06e2d1719a4162c</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>VISIT</Name>
@@ -4950,6 +4849,10 @@
             <Path>dir_d97893c72dedf4e0b2e9e1e8df755fbd.html</Path>
             <Subnodes>
              <Node>
+              <Name>Backend.cc</Name>
+              <Path>_backend_8cc.html</Path>
+             </Node>
+             <Node>
               <Name>Backend.h</Name>
               <Path>_backend_8h.html</Path>
               <Subnodes>
@@ -4957,6 +4860,11 @@
                 <Name>Backend</Name>
                 <Path>classfabrique_1_1backend_1_1_backend.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>~Backend</Name>
+                  <Path>classfabrique_1_1backend_1_1_backend.html</Path>
+                  <Anchor>a8d0a58668ffd381c772481987da8ce97</Anchor>
+                 </Node>
                  <Node>
                   <Name>DefaultFilename</Name>
                   <Path>classfabrique_1_1backend_1_1_backend.html</Path>
@@ -5029,11 +4937,6 @@
               <Name>Ninja.cc</Name>
               <Path>_ninja_8cc.html</Path>
               <Subnodes>
-               <Node>
-                <Name>stringify</Name>
-                <Path>_ninja_8cc.html</Path>
-                <Anchor>ad1ba171c84fd816fb9b84736bb7c8500</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -5059,6 +4962,10 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Null.cc</Name>
+              <Path>_null_8cc.html</Path>
+             </Node>
+             <Node>
               <Name>Null.h</Name>
               <Path>_null_8h.html</Path>
               <Subnodes>
@@ -5066,6 +4973,11 @@
                 <Name>NullBackend</Name>
                 <Path>classfabrique_1_1backend_1_1_null_backend.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>~NullBackend</Name>
+                  <Path>classfabrique_1_1backend_1_1_null_backend.html</Path>
+                  <Anchor>afedf5a8ca9494323e596f5c7d13f9dd9</Anchor>
+                 </Node>
                  <Node>
                   <Name>DefaultFilename</Name>
                   <Path>classfabrique_1_1backend_1_1_null_backend.html</Path>
@@ -5146,7 +5058,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_build.html</Path>
-                  <Anchor>a15c616b7dce94791b5a4548a7a582ab8</Anchor>
+                  <Anchor>a9b5770968e57ee613a0eb4ceb061fa86</Anchor>
                  </Node>
                  <Node>
                   <Name>sideEffectOutputs</Name>
@@ -5162,79 +5074,43 @@
               <Path>_d_a_g_8cc.html</Path>
               <Subnodes>
                <Node>
-                <Name>ImmutableDAG</Name>
-                <Path>class_immutable_d_a_g.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>ImmutableDAG</Name>
-                  <Path>class_immutable_d_a_g.html</Path>
-                  <Anchor>a791188d7f19db34f33839927ec4ad6b0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>builds</Name>
-                  <Path>class_immutable_d_a_g.html</Path>
-                  <Anchor>a8e7507aa402b96bd06f2b6a8fcf28ea3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>files</Name>
-                  <Path>class_immutable_d_a_g.html</Path>
-                  <Anchor>a40dcf60c3851338c27ceb68b117a1999</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>rules</Name>
-                  <Path>class_immutable_d_a_g.html</Path>
-                  <Anchor>a7dca05fc1f1fb157d234db7c381bb355</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>targets</Name>
-                  <Path>class_immutable_d_a_g.html</Path>
-                  <Anchor>a8d69fb3bbb2fd59b0d1dda70a7819ef6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>variables</Name>
-                  <Path>class_immutable_d_a_g.html</Path>
-                  <Anchor>a403aed8584cbfb81c1c4ead6a8af39a3</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>DAGBuilder</Name>
-                <Path>class_d_a_g_builder.html</Path>
+                <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
                 <Subnodes>
                  <Node>
                   <Name>DAGBuilder</Name>
-                  <Path>class_d_a_g_builder.html</Path>
-                  <Anchor>a5428b6db9cca019361eec72f66f61cf1</Anchor>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a287e513702d46aba37a25dfae36d7f30</Anchor>
                  </Node>
                  <Node>
                   <Name>~DAGBuilder</Name>
-                  <Path>class_d_a_g_builder.html</Path>
-                  <Anchor>a3094126f6e677a0c0bda68a28737241f</Anchor>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a0308bbd51b6c356e78ad9378cb1a2755</Anchor>
                  </Node>
                  <Node>
                   <Name>builds_</Name>
-                  <Path>class_d_a_g_builder.html</Path>
-                  <Anchor>a6f13a796f73c07f1ff97275c9d13ade9</Anchor>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>ab48e9825f5b239a1a2a64f061bd66ddb</Anchor>
                  </Node>
                  <Node>
                   <Name>files_</Name>
-                  <Path>class_d_a_g_builder.html</Path>
-                  <Anchor>a7be935e499abcdca68196c849b4e0397</Anchor>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a10480135f002d088d31bf674a6d53251</Anchor>
                  </Node>
                  <Node>
                   <Name>rules_</Name>
-                  <Path>class_d_a_g_builder.html</Path>
-                  <Anchor>a00a3c960d89a355a50ce477d8077d13f</Anchor>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a80a8571eab98e64e463a7bbda95391b6</Anchor>
                  </Node>
                  <Node>
                   <Name>targets_</Name>
-                  <Path>class_d_a_g_builder.html</Path>
-                  <Anchor>a52173b54de5676053ed7c24f16894804</Anchor>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a2c3740db37eb42da00d50f0cbfc84d21</Anchor>
                  </Node>
                  <Node>
                   <Name>variables_</Name>
-                  <Path>class_d_a_g_builder.html</Path>
-                  <Anchor>aa94a80828d449699158bff28d1a5bb9a</Anchor>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+                  <Anchor>a02d466fe5f68da22cb22cbcb6808dad5</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -5266,7 +5142,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
-                  <Anchor>a8e91431eb075f84c6dcbebf6c97c16aa</Anchor>
+                  <Anchor>a2695a3f17195e4c14cbc7669bad7470d</Anchor>
                  </Node>
                  <Node>
                   <Name>rules</Name>
@@ -5317,7 +5193,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_file.html</Path>
-                  <Anchor>a8bf9b9bfb2f00e8f3d6bd53aa331389a</Anchor>
+                  <Anchor>a4cc58c49e192dd551775bb6672007793</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -5330,11 +5206,74 @@
              </Node>
              <Node>
               <Name>List.cc</Name>
-              <Path>_d_a_g_2_list_8cc_source.html</Path>
+              <Path>_d_a_g_2_list_8cc.html</Path>
              </Node>
              <Node>
               <Name>List.h</Name>
-              <Path>_d_a_g_2_list_8h_source.html</Path>
+              <Path>_d_a_g_2_list_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>List</Name>
+                <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>iterator</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>a9573dc8a2635864e2fb90860918be5e6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>List</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>aec84181252c94a388f31a6e36f445372</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Add</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>a6b85b63b34a0dddfa75192a11f3aa3b5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>begin</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>a5ee10b8e01fdd5615a093dacc972a7c4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>canScalarAdd</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>a8ba11a53ebf82818f68367731363633f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>end</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>ac036325f92a41b5d8a3e0d826ed62810</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator[]</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>a730cc04316f39bd7fb9bf5e82e645ea6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrefixWith</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>a77310f7eb43a67c86d570e05f93e5788</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>ae265be0faa533845d9e2df65bcfa22b8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ScalarAdd</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>a1d3bf1032dda85f6312302e64adf9c28</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>size</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>a54595ef00dc0303031934d9e8401edbc</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>Primitive.cc</Name>
@@ -5351,12 +5290,12 @@
                  <Node>
                   <Name>Primitive</Name>
                   <Path>classfabrique_1_1dag_1_1_primitive.html</Path>
-                  <Anchor>a5b58d87090604799645a00c50b885b1f</Anchor>
+                  <Anchor>ad9518aa7b1e04bacdb7a802f35531585</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_primitive.html</Path>
-                  <Anchor>a8923d243bbec58b6b4e36266f07680a2</Anchor>
+                  <Anchor>a9f1062b055a7cc4552cee38d2e4481f4</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -5369,9 +5308,9 @@
                   <Anchor>a714f1836be4b09378c664896ed377159</Anchor>
                  </Node>
                  <Node>
-                  <Name>val</Name>
+                  <Name>value_</Name>
                   <Path>classfabrique_1_1dag_1_1_primitive.html</Path>
-                  <Anchor>a40f2f1f97452a1e65710d7ece936f4ab</Anchor>
+                  <Anchor>ac881f98bc1638ad2509c829036845ecb</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -5382,7 +5321,7 @@
                  <Node>
                   <Name>Boolean</Name>
                   <Path>classfabrique_1_1dag_1_1_boolean.html</Path>
-                  <Anchor>a2e49e8282bfc72b02e1005ce11f2f002</Anchor>
+                  <Anchor>a5fd2c833b670a4afecc1b500b7eaf14e</Anchor>
                  </Node>
                  <Node>
                   <Name>And</Name>
@@ -5392,7 +5331,7 @@
                  <Node>
                   <Name>Negate</Name>
                   <Path>classfabrique_1_1dag_1_1_boolean.html</Path>
-                  <Anchor>a17f983fa6871e2b961dc340f61d58491</Anchor>
+                  <Anchor>a01c904bcfbf9d3154968f9425dcfccfc</Anchor>
                  </Node>
                  <Node>
                   <Name>Or</Name>
@@ -5418,7 +5357,7 @@
                  <Node>
                   <Name>Integer</Name>
                   <Path>classfabrique_1_1dag_1_1_integer.html</Path>
-                  <Anchor>a40e0c8b672239c5b42ff7530498c9030</Anchor>
+                  <Anchor>ae26e50289077dce7601faf31a0a4d1a7</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -5439,7 +5378,7 @@
                  <Node>
                   <Name>String</Name>
                   <Path>classfabrique_1_1dag_1_1_string.html</Path>
-                  <Anchor>afd9f7726aeeaaad5eef7b5d9edbfef0c</Anchor>
+                  <Anchor>aeae49c5b500e42bb9a5e331cba1c7172</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -5449,7 +5388,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_string.html</Path>
-                  <Anchor>a81ffcf3edf60715ed7b5eff480584046</Anchor>
+                  <Anchor>ab3e26fc60891cf46cc13613e5d70d74e</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -5500,7 +5439,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_rule.html</Path>
-                  <Anchor>a59189756549d37935897e0f660a144ff</Anchor>
+                  <Anchor>a7dec961dab4f2a220d1db43bd6a8e6f8</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -5556,7 +5495,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1dag_1_1_target.html</Path>
-                  <Anchor>aa1ca4112c846db9f1ddc555f5fb50a04</Anchor>
+                  <Anchor>a893236bf2c0b80c82ead197a72cfd363</Anchor>
                  </Node>
                  <Node>
                   <Name>ScalarAdd</Name>
@@ -5574,19 +5513,151 @@
              </Node>
              <Node>
               <Name>UndefinedValueException.cc</Name>
-              <Path>_undefined_value_exception_8cc_source.html</Path>
+              <Path>_undefined_value_exception_8cc.html</Path>
              </Node>
              <Node>
               <Name>UndefinedValueException.h</Name>
-              <Path>_undefined_value_exception_8h_source.html</Path>
+              <Path>_undefined_value_exception_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>UndefinedValueException</Name>
+                <Path>classfabrique_1_1dag_1_1_undefined_value_exception.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>UndefinedValueException</Name>
+                  <Path>classfabrique_1_1dag_1_1_undefined_value_exception.html</Path>
+                  <Anchor>a6284197a490938707d1920465e4193d0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~UndefinedValueException</Name>
+                  <Path>classfabrique_1_1dag_1_1_undefined_value_exception.html</Path>
+                  <Anchor>a65d04f44481c9d08020fe3219eedd3c7</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>Value.cc</Name>
-              <Path>_d_a_g_2_value_8cc_source.html</Path>
+              <Path>_d_a_g_2_value_8cc.html</Path>
              </Node>
              <Node>
               <Name>Value.h</Name>
-              <Path>_d_a_g_2_value_8h_source.html</Path>
+              <Path>_d_a_g_2_value_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Value</Name>
+                <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Value</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>ac598d6d8ae955dec322eef5580a68c31</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Add</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>a3cf7d231fa1dd7d1f2d96faab1614308</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>And</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>a7e3d582f5dc2085575ecba5498e322ec</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>canScalarAdd</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Negate</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>a4ff280a85f83d62116e3555952d49638</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Or</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>ad01478ef42fda5e0aa51b325d9612209</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrefixWith</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>a917acf00d71ebba73c8596969a613ca7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ScalarAdd</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>ae1c146ecb5f54638b9f098aa9668b26e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Xor</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>a1761050f6a2e30611f207414e262a480</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>ValueMap</Name>
+                <Path>_d_a_g_2_value_8h.html</Path>
+                <Anchor>a0283e2df2aa96573d3e418f39f020973</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Meta</Name>
+            <Path>dir_7795a02a4813dcd036f04e5f7854f185.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>pygments</Name>
+              <Path>dir_3d0318c3f2d14c17b75b0272e8d64e34.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>build</Name>
+                <Path>dir_bbbca02e2544e99f4fae920571db69b7.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>lib</Name>
+                  <Path>dir_31ff1cf79f22d0bb817aed42ad23408f.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>fablexer</Name>
+                    <Path>dir_f1405a4fe096d854ced2e50bd6247e71.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>__init__.py</Name>
+                      <Path>build_2lib_2fablexer_2____init_____8py_source.html</Path>
+                     </Node>
+                     <Node>
+                      <Name>lexer.py</Name>
+                      <Path>build_2lib_2fablexer_2lexer_8py_source.html</Path>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>fablexer</Name>
+                <Path>dir_e7da03bb85dbb98c2a6d0a8e6dc9b7f8.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>__init__.py</Name>
+                  <Path>fablexer_2____init_____8py_source.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>lexer.py</Name>
+                  <Path>fablexer_2lexer_8py_source.html</Path>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>setup.py</Name>
+                <Path>setup_8py_source.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
             </Subnodes>
            </Node>
@@ -5621,6 +5692,11 @@
                   <Name>Lexer</Name>
                   <Path>classfabrique_1_1_lexer.html</Path>
                   <Anchor>aeb0969e2fc02a33882db8ad67a885d37</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Lexer</Name>
+                  <Path>classfabrique_1_1_lexer.html</Path>
+                  <Anchor>ad26a84af23d8d303723e36e83fc4e556</Anchor>
                  </Node>
                  <Node>
                   <Name>CurrentTokenRange</Name>
@@ -5676,7 +5752,7 @@
                  <Node>
                   <Name>CompoundExpr</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ae90b7156a644118aafe4244c9b3db6a1</Anchor>
+                  <Anchor>af85259311802109bbc296ef41246a612</Anchor>
                  </Node>
                  <Node>
                   <Name>CreateCall</Name>
@@ -5842,7 +5918,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1_token.html</Path>
-                  <Anchor>a5325e8146dfcb06d58a04c7a3b960b82</Anchor>
+                  <Anchor>aad19c1d015182a6714c5b014438e1609</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
@@ -5868,28 +5944,6 @@
                 <Anchor>a2bb3172c9c032138b3e1cf8701a25fe4</Anchor>
                </Node>
               </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>Parsing</Name>
-            <Path>dir_91a344cb2f1c62e006c14959b1a9e949.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>fab.lex.cc</Name>
-              <Path>fab_8lex_8cc_source.html</Path>
-             </Node>
-             <Node>
-              <Name>fab.lex.h</Name>
-              <Path>fab_8lex_8h_source.html</Path>
-             </Node>
-             <Node>
-              <Name>fab.yacc.cc</Name>
-              <Path>fab_8yacc_8cc_source.html</Path>
-             </Node>
-             <Node>
-              <Name>fab.yacc.h</Name>
-              <Path>fab_8yacc_8h_source.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -6091,159 +6145,33 @@
               <Path>_bytestream_8cc.html</Path>
               <Subnodes>
                <Node>
-                <Name>ANSIStream</Name>
-                <Path>class_a_n_s_i_stream.html</Path>
+                <Name>DebugState</Name>
+                <Path>class_debug_state.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>Colour</Name>
-                  <Path>class_a_n_s_i_stream.html</Path>
-                  <Anchor>a7d158ac8a071666b96cd437d2d7059e5</Anchor>
-                  <Subnodes>
-                   <Node>
-                    <Name>Black</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>a7d158ac8a071666b96cd437d2d7059e5ab6d97529feaa6a0e65704f6aee1368eb</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Red</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>a7d158ac8a071666b96cd437d2d7059e5a46821f0ea471000cd56fba932e569ff5</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Green</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>a7d158ac8a071666b96cd437d2d7059e5a78287966c8e3dff347703185ed762dcf</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Yellow</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>a7d158ac8a071666b96cd437d2d7059e5aa18e19b15696831d685a66d35ca292bb</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Blue</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>a7d158ac8a071666b96cd437d2d7059e5ab544220c3d2ffb7fdca628da220c1d60</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Magenta</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>a7d158ac8a071666b96cd437d2d7059e5ae99538d7a1297c4cfc2347bb2a51b543</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Cyan</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>a7d158ac8a071666b96cd437d2d7059e5a5ad12cefb159478409bb4fdbe196bed5</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>White</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>a7d158ac8a071666b96cd437d2d7059e5a1994bfc21f362bc6aef5a2ffca908c2e</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>EndOfColours</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>a7d158ac8a071666b96cd437d2d7059e5acce7ab27e58f8b223948982d05cce5d9</Anchor>
-                   </Node>
-                  </Subnodes>
+                  <Name>get</Name>
+                  <Path>class_debug_state.html</Path>
+                  <Anchor>ac98f315816161fa327b93d0e26b7f94e</Anchor>
                  </Node>
                  <Node>
-                  <Name>Modifier</Name>
-                  <Path>class_a_n_s_i_stream.html</Path>
-                  <Anchor>ad9ecbbad6a7c31e8d52973343614a87e</Anchor>
-                  <Subnodes>
-                   <Node>
-                    <Name>ResetAll</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>ad9ecbbad6a7c31e8d52973343614a87ea3381b6efe27f6a2048b99b8b04ad61f9</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Normal</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>ad9ecbbad6a7c31e8d52973343614a87ea4737abd79d94b41feab0eda5324909cd</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Bold</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>ad9ecbbad6a7c31e8d52973343614a87ea1a4ea8fa13e72b13add0b768a14427cc</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Faint</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>ad9ecbbad6a7c31e8d52973343614a87eae105901984ca97d8f60aed7cb61e5567</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Italic</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>ad9ecbbad6a7c31e8d52973343614a87eaf7d356c2d9ddb0d7ca27a10c64ee52d2</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Underline</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>ad9ecbbad6a7c31e8d52973343614a87ea7f8564ea26a09a5aef081336b22fda36</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>EndOfModifiers</Name>
-                    <Path>class_a_n_s_i_stream.html</Path>
-                    <Anchor>ad9ecbbad6a7c31e8d52973343614a87eaa407b08e8ef33816df65b010ed41d803</Anchor>
-                   </Node>
-                  </Subnodes>
+                  <Name>match</Name>
+                  <Path>class_debug_state.html</Path>
+                  <Anchor>a2b0a2cdd84beae8db2882089b76615da</Anchor>
                  </Node>
                  <Node>
-                  <Name>ANSIStream</Name>
-                  <Path>class_a_n_s_i_stream.html</Path>
-                  <Anchor>a3bd747e71b957111ea6433ef2f3aa11f</Anchor>
+                  <Name>null</Name>
+                  <Path>class_debug_state.html</Path>
+                  <Anchor>af793ae49386e9744f2932a9070bf360d</Anchor>
                  </Node>
                  <Node>
-                  <Name>operator&lt;&lt;</Name>
-                  <Path>class_a_n_s_i_stream.html</Path>
-                  <Anchor>af6ba5aa47fc81adf1e6fee51445d0422</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>PlainStream</Name>
-                <Path>class_plain_stream.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>PlainStream</Name>
-                  <Path>class_plain_stream.html</Path>
-                  <Anchor>ab7e4470b4335ab6c088c45cc10dc1ba8</Anchor>
+                  <Name>out</Name>
+                  <Path>class_debug_state.html</Path>
+                  <Anchor>a870c18ca0e653c45ef90a7f3ba2105ad</Anchor>
                  </Node>
                  <Node>
-                  <Name>operator&lt;&lt;</Name>
-                  <Path>class_plain_stream.html</Path>
-                  <Anchor>a842ae5014d943f213d97bf36b013ec12</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>NullStream</Name>
-                <Path>class_null_stream.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>NullStream</Name>
-                  <Path>class_null_stream.html</Path>
-                  <Anchor>ab0d616a614956971c8389ddb6367cb51</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;&lt;</Name>
-                  <Path>class_null_stream.html</Path>
-                  <Anchor>ae1924b3936e9f328e3e5fa836eecdde6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;&lt;</Name>
-                  <Path>class_null_stream.html</Path>
-                  <Anchor>a2ba57ce1b8df9e4dcfb034dd9a68c3ee</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;&lt;</Name>
-                  <Path>class_null_stream.html</Path>
-                  <Anchor>af65669cf88e989f04290027f8449e68b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;&lt;</Name>
-                  <Path>class_null_stream.html</Path>
-                  <Anchor>ada662e14731cde3e88f4ffc2160ab295</Anchor>
+                  <Name>pattern</Name>
+                  <Path>class_debug_state.html</Path>
+                  <Anchor>a753789304a0a12a4f5ffffb557fea597</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -6330,6 +6258,11 @@
                   </Subnodes>
                  </Node>
                  <Node>
+                  <Name>~Bytestream</Name>
+                  <Path>classfabrique_1_1_bytestream.html</Path>
+                  <Anchor>a2cd1d19b6612e068b82eed1b202d763d</Anchor>
+                 </Node>
+                 <Node>
                   <Name>Bytestream</Name>
                   <Path>classfabrique_1_1_bytestream.html</Path>
                   <Anchor>a7893ea2d200027a2bb367a37833a79c1</Anchor>
@@ -6352,6 +6285,11 @@
                  <Node>
                   <Name>operator&lt;&lt;</Name>
                   <Path>classfabrique_1_1_bytestream.html</Path>
+                  <Anchor>abcebfc21628fa25a476b83fbab3144fc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator&lt;&lt;</Name>
+                  <Path>classfabrique_1_1_bytestream.html</Path>
                   <Anchor>ac08a56a69d68c238f03361e1a063939d</Anchor>
                  </Node>
                  <Node>
@@ -6360,9 +6298,9 @@
                   <Anchor>a2ef3ddb19e85059aef93b332656c002a</Anchor>
                  </Node>
                  <Node>
-                  <Name>out</Name>
+                  <Name>out_</Name>
                   <Path>classfabrique_1_1_bytestream.html</Path>
-                  <Anchor>ae0c20ac6d56c1005fd07d1e4658385c4</Anchor>
+                  <Anchor>a892b830a4568d244ef18bde96978cf10</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -6393,7 +6331,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1_error_report.html</Path>
-                  <Anchor>a4c94a23a196aea4e28ea6fa0b1067a06</Anchor>
+                  <Anchor>a06595cfa0bbb69651cd1622802364120</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -6415,6 +6353,11 @@
                   <Name>AssertionFailure</Name>
                   <Path>classfabrique_1_1_assertion_failure.html</Path>
                   <Anchor>a794ed2376623494e89e9ad49667841a1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~AssertionFailure</Name>
+                  <Path>classfabrique_1_1_assertion_failure.html</Path>
+                  <Anchor>aafde76b2f199d128598536b357f7de4e</Anchor>
                  </Node>
                  <Node>
                   <Name>condition</Name>
@@ -6443,6 +6386,11 @@
                   <Anchor>a3f1406c8caa4217596f84c4d82d140e2</Anchor>
                  </Node>
                  <Node>
+                  <Name>~DuplicateException</Name>
+                  <Path>classfabrique_1_1_duplicate_exception.html</Path>
+                  <Anchor>a5437bfc2967c91ddf83309b6c5482d41</Anchor>
+                 </Node>
+                 <Node>
                   <Name>what</Name>
                   <Path>classfabrique_1_1_duplicate_exception.html</Path>
                   <Anchor>ae95a1dc371630a25c3ec723a75a1d9aa</Anchor>
@@ -6453,6 +6401,11 @@
                 <Name>SourceCodeException</Name>
                 <Path>classfabrique_1_1_source_code_exception.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>~SourceCodeException</Name>
+                  <Path>classfabrique_1_1_source_code_exception.html</Path>
+                  <Anchor>a20a9a3bcfbbef706806401345fac5b30</Anchor>
+                 </Node>
                  <Node>
                   <Name>SourceCodeException</Name>
                   <Path>classfabrique_1_1_source_code_exception.html</Path>
@@ -6466,7 +6419,7 @@
                  <Node>
                   <Name>PrettyPrint</Name>
                   <Path>classfabrique_1_1_source_code_exception.html</Path>
-                  <Anchor>abefbc7196ee10f838061dcb3926de950</Anchor>
+                  <Anchor>aba85f7c69a393e4f4f4ac7c9ae56460b</Anchor>
                  </Node>
                  <Node>
                   <Name>what</Name>
@@ -6484,6 +6437,11 @@
                   <Path>classfabrique_1_1_syntax_error.html</Path>
                   <Anchor>a0f050d93f4306a167bb3e113cca3a2e2</Anchor>
                  </Node>
+                 <Node>
+                  <Name>~SyntaxError</Name>
+                  <Path>classfabrique_1_1_syntax_error.html</Path>
+                  <Anchor>a74ec8da0f58263a36f74c2c6be636545</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -6495,12 +6453,12 @@
                   <Path>classfabrique_1_1_semantic_exception.html</Path>
                   <Anchor>a28647dedab6575069401cc19f95b333e</Anchor>
                  </Node>
+                 <Node>
+                  <Name>~SemanticException</Name>
+                  <Path>classfabrique_1_1_semantic_exception.html</Path>
+                  <Anchor>a3a9b338a1387e02c2bd7951a2d1ff165</Anchor>
+                 </Node>
                 </Subnodes>
-               </Node>
-               <Node>
-                <Name>FabAssert</Name>
-                <Path>exceptions_8h.html</Path>
-                <Anchor>a5995a469efa74113caf12a484d49772f</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -6545,6 +6503,447 @@
                </Node>
               </Subnodes>
              </Node>
+             <Node>
+              <Name>Printable.cc</Name>
+              <Path>_printable_8cc.html</Path>
+             </Node>
+             <Node>
+              <Name>Printable.h</Name>
+              <Path>_printable_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Printable</Name>
+                <Path>classfabrique_1_1_printable.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>~Printable</Name>
+                  <Path>classfabrique_1_1_printable.html</Path>
+                  <Anchor>a3eb4e71e9db5185a870a43f29895595f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1_printable.html</Path>
+                  <Anchor>a7b148c5f200de45f3ad33a37a090997f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>str</Name>
+                  <Path>classfabrique_1_1_printable.html</Path>
+                  <Anchor>ad40bdde846711058259c877bb143e49b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>SourceLocation.cc</Name>
+              <Path>_source_location_8cc.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>SourceLocation.h</Name>
+              <Path>_source_location_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>SourceLocation</Name>
+                <Path>classfabrique_1_1_source_location.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>SourceLocation</Name>
+                  <Path>classfabrique_1_1_source_location.html</Path>
+                  <Anchor>a0ee1f7f843489b78b7317e79ecd3ff71</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator bool</Name>
+                  <Path>classfabrique_1_1_source_location.html</Path>
+                  <Anchor>a641d6b2d471a6ccde18e3ba91e943e54</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator!=</Name>
+                  <Path>classfabrique_1_1_source_location.html</Path>
+                  <Anchor>a0252eaa54b0128b59cb494404635d27c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator==</Name>
+                  <Path>classfabrique_1_1_source_location.html</Path>
+                  <Anchor>af215423d5e542e492b025932e77649d6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1_source_location.html</Path>
+                  <Anchor>a21f67087961a3f37c7535c79ed42d184</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>column</Name>
+                  <Path>classfabrique_1_1_source_location.html</Path>
+                  <Anchor>a0285c057e8d803a335ff011f10409b2d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>filename</Name>
+                  <Path>classfabrique_1_1_source_location.html</Path>
+                  <Anchor>aab2056b64945d6dd4b48131fcff9d056</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>line</Name>
+                  <Path>classfabrique_1_1_source_location.html</Path>
+                  <Anchor>a958b99305ee57397e55e83dab5369d1d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>SourceRange</Name>
+                <Path>classfabrique_1_1_source_range.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>SourceRange</Name>
+                  <Path>classfabrique_1_1_source_range.html</Path>
+                  <Anchor>a548e8e84c15bf1a85f33302560e222c4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SourceRange</Name>
+                  <Path>classfabrique_1_1_source_range.html</Path>
+                  <Anchor>a28f835ca93648133881e39fe21c556ce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SourceRange</Name>
+                  <Path>classfabrique_1_1_source_range.html</Path>
+                  <Anchor>a0c4c96d1c70bc5e6a7974f299e438118</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator bool</Name>
+                  <Path>classfabrique_1_1_source_range.html</Path>
+                  <Anchor>aa25dad57178f462d4f3e151455ea3926</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator!=</Name>
+                  <Path>classfabrique_1_1_source_range.html</Path>
+                  <Anchor>ac1e546c3904d2949f974030cc8d851f0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator==</Name>
+                  <Path>classfabrique_1_1_source_range.html</Path>
+                  <Anchor>a25bf49ab5d54af1306853e701fcc3cb0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1_source_range.html</Path>
+                  <Anchor>a7f320c900b25deb447617141663e9e60</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>begin</Name>
+                  <Path>classfabrique_1_1_source_range.html</Path>
+                  <Anchor>a560f7c6c62646f08cb55e832df3a7826</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>end</Name>
+                  <Path>classfabrique_1_1_source_range.html</Path>
+                  <Anchor>ae11562b6734921de99ac4d4e51f8afa4</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>HasSource</Name>
+                <Path>classfabrique_1_1_has_source.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>HasSource</Name>
+                  <Path>classfabrique_1_1_has_source.html</Path>
+                  <Anchor>a7c6adbbb757b7c17f41c91e95b408cec</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>source</Name>
+                  <Path>classfabrique_1_1_has_source.html</Path>
+                  <Anchor>a6ea37338bee14583d5aded8e4748dacd</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Uncopyable.h</Name>
+              <Path>_uncopyable_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Uncopyable</Name>
+                <Path>classfabrique_1_1_uncopyable.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Uncopyable</Name>
+                  <Path>classfabrique_1_1_uncopyable.html</Path>
+                  <Anchor>aae806d46db16b2d83c175786ca846d87</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Visitable.cc</Name>
+              <Path>_visitable_8cc_source.html</Path>
+             </Node>
+             <Node>
+              <Name>Visitable.h</Name>
+              <Path>_visitable_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Visitable</Name>
+                <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>~Visitable</Name>
+                  <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
+                  <Anchor>a68f2a5d432edfeb1aa9282c041faf61c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
+                  <Anchor>a9c0cf7d423a51aa1ea85848f401fc52d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Types</Name>
+            <Path>dir_4332622734cddde5f771acacb5010a61.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>FunctionType.cc</Name>
+              <Path>_function_type_8cc.html</Path>
+             </Node>
+             <Node>
+              <Name>FunctionType.h</Name>
+              <Path>_function_type_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>FunctionType</Name>
+                <Path>classfabrique_1_1_function_type.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>classfabrique_1_1_function_type.html</Path>
+                  <Anchor>a3e4c9393525957aa7933e130211c57fa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>parameterTypes</Name>
+                  <Path>classfabrique_1_1_function_type.html</Path>
+                  <Anchor>acad2bca6f59b3508e3905f1fd9b397a1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1_function_type.html</Path>
+                  <Anchor>a91812c2168c9e0368287f75df247b6fe</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>returnType</Name>
+                  <Path>classfabrique_1_1_function_type.html</Path>
+                  <Anchor>adfefef25bee38a2b7dc73099e0c5294d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FabContext</Name>
+                  <Path>classfabrique_1_1_function_type.html</Path>
+                  <Anchor>a5061fc5d25ef4dc658d0a318d44cacd1</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Type.cc</Name>
+              <Path>_type_8cc.html</Path>
+             </Node>
+             <Node>
+              <Name>Type.h</Name>
+              <Path>_type_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Type</Name>
+                <Path>classfabrique_1_1_type.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Type</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>aebd4be0f62f3503bcf077c8f02556b7f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Type</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>ab9be58f5f3f56af96777de83059e88c2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Type</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a884a6e6264891d4e799d28dca7a3b734</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Type</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a0ab21908b4764e0c8e28b291514a87e4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isFile</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a4e6d33ab6c8b38f61a2f1b567a50f5bd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isListOf</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a5c45fe8eaedc1a2da4f144ea9ac1ab0a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isSubtype</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>af78a4321c4624991d1cee27b534d0ba1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isSupertype</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a24cb8201512a81945dcb009ebbec26c8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a4eb81020ce1b794859486747947633a2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator!=</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a096fce06de6a8781851443177591d98c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator&lt;</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>abd956c42d74d95b9a7ab7f7312c60ee9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator==</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a999d77811b287793b7ae01bc63b6417a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator&gt;</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a3a8928428c5427c3a8166fea96042b06</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator[]</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a84c8435afcd20746598a81cdd2f47957</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>ac698d6ec7deaf1c676dbca4ca78ade1e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>typeParamCount</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>ae4b255749390058a1d17b27bce664ae1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>typeParameters</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>ac0410ab58d2820846463a81bec7cb098</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FabContext</Name>
+                  <Path>classfabrique_1_1_type.html</Path>
+                  <Anchor>a5061fc5d25ef4dc658d0a318d44cacd1</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Typed.cc</Name>
+              <Path>_typed_8cc.html</Path>
+             </Node>
+             <Node>
+              <Name>Typed.h</Name>
+              <Path>_typed_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Typed</Name>
+                <Path>classfabrique_1_1_typed.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Typed</Name>
+                  <Path>classfabrique_1_1_typed.html</Path>
+                  <Anchor>a70eb6215f910198fbdc2db371b0e1cd8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Typed</Name>
+                  <Path>classfabrique_1_1_typed.html</Path>
+                  <Anchor>a671d6f8565384c99c8aabd0e22920493</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>type</Name>
+                  <Path>classfabrique_1_1_typed.html</Path>
+                  <Anchor>af32afd50db8c1f2ea8c20bc59ee56961</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>TypeError.cc</Name>
+              <Path>_type_error_8cc.html</Path>
+             </Node>
+             <Node>
+              <Name>TypeError.h</Name>
+              <Path>_type_error_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>TypeError</Name>
+                <Path>classfabrique_1_1_type_error.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>TypeError</Name>
+                  <Path>classfabrique_1_1_type_error.html</Path>
+                  <Anchor>a23322d5f27bda1945e33a8dcd65ff380</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~TypeError</Name>
+                  <Path>classfabrique_1_1_type_error.html</Path>
+                  <Anchor>a1133602045627eb936197a575a6088f5</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>WrongTypeException</Name>
+                <Path>classfabrique_1_1_wrong_type_exception.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>WrongTypeException</Name>
+                  <Path>classfabrique_1_1_wrong_type_exception.html</Path>
+                  <Anchor>aea57d3b3c2940231129c2b915ccee3eb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>WrongTypeException</Name>
+                  <Path>classfabrique_1_1_wrong_type_exception.html</Path>
+                  <Anchor>ae32635d7951531b9e1172c358efcfabf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>WrongTypeException</Name>
+                  <Path>classfabrique_1_1_wrong_type_exception.html</Path>
+                  <Anchor>adf3b763806f2bc8f14ddcf4f57d8e583</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~WrongTypeException</Name>
+                  <Path>classfabrique_1_1_wrong_type_exception.html</Path>
+                  <Anchor>af63e09a8c23a8f81db0e2f901b189f87</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>vendor</Name>
+            <Path>dir_c5da75fdc1d6c57999112ed830c87a3c.html</Path>
+            <Subnodes>
              <Node>
               <Name>optionparser.h</Name>
               <Path>optionparser_8h.html</Path>
@@ -7436,393 +7835,6 @@
                </Node>
               </Subnodes>
              </Node>
-             <Node>
-              <Name>Printable.cc</Name>
-              <Path>_printable_8cc.html</Path>
-             </Node>
-             <Node>
-              <Name>Printable.h</Name>
-              <Path>_printable_8h.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Printable</Name>
-                <Path>classfabrique_1_1_printable.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>PrettyPrint</Name>
-                  <Path>classfabrique_1_1_printable.html</Path>
-                  <Anchor>a468ea0af04900af37c331cb804213877</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>str</Name>
-                  <Path>classfabrique_1_1_printable.html</Path>
-                  <Anchor>ad40bdde846711058259c877bb143e49b</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>SourceLocation.cc</Name>
-              <Path>_source_location_8cc.html</Path>
-             </Node>
-             <Node>
-              <Name>SourceLocation.h</Name>
-              <Path>_source_location_8h.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>SourceLocation</Name>
-                <Path>classfabrique_1_1_source_location.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>SourceLocation</Name>
-                  <Path>classfabrique_1_1_source_location.html</Path>
-                  <Anchor>af3282bb7485d49a096b552a6960619ae</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator bool</Name>
-                  <Path>classfabrique_1_1_source_location.html</Path>
-                  <Anchor>a641d6b2d471a6ccde18e3ba91e943e54</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator!=</Name>
-                  <Path>classfabrique_1_1_source_location.html</Path>
-                  <Anchor>a0252eaa54b0128b59cb494404635d27c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator==</Name>
-                  <Path>classfabrique_1_1_source_location.html</Path>
-                  <Anchor>af215423d5e542e492b025932e77649d6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PrettyPrint</Name>
-                  <Path>classfabrique_1_1_source_location.html</Path>
-                  <Anchor>a5b2769d9d8f9e70cbc86a6360e7ed7cb</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>column</Name>
-                  <Path>classfabrique_1_1_source_location.html</Path>
-                  <Anchor>a44b2f4391743b16e53ae1bf78efd2e3f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>filename</Name>
-                  <Path>classfabrique_1_1_source_location.html</Path>
-                  <Anchor>aab2056b64945d6dd4b48131fcff9d056</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>line</Name>
-                  <Path>classfabrique_1_1_source_location.html</Path>
-                  <Anchor>a70f0d4d0c93057da0a3a5f3d7912b9b4</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>SourceRange</Name>
-                <Path>classfabrique_1_1_source_range.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>SourceRange</Name>
-                  <Path>classfabrique_1_1_source_range.html</Path>
-                  <Anchor>a548e8e84c15bf1a85f33302560e222c4</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>SourceRange</Name>
-                  <Path>classfabrique_1_1_source_range.html</Path>
-                  <Anchor>a28f835ca93648133881e39fe21c556ce</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>SourceRange</Name>
-                  <Path>classfabrique_1_1_source_range.html</Path>
-                  <Anchor>a0c4c96d1c70bc5e6a7974f299e438118</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator bool</Name>
-                  <Path>classfabrique_1_1_source_range.html</Path>
-                  <Anchor>aa25dad57178f462d4f3e151455ea3926</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator!=</Name>
-                  <Path>classfabrique_1_1_source_range.html</Path>
-                  <Anchor>ac1e546c3904d2949f974030cc8d851f0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator==</Name>
-                  <Path>classfabrique_1_1_source_range.html</Path>
-                  <Anchor>a25bf49ab5d54af1306853e701fcc3cb0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PrettyPrint</Name>
-                  <Path>classfabrique_1_1_source_range.html</Path>
-                  <Anchor>a8ba38397ec7a2075fad32bcc1029c44e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>begin</Name>
-                  <Path>classfabrique_1_1_source_range.html</Path>
-                  <Anchor>a560f7c6c62646f08cb55e832df3a7826</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>end</Name>
-                  <Path>classfabrique_1_1_source_range.html</Path>
-                  <Anchor>ae11562b6734921de99ac4d4e51f8afa4</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>HasSource</Name>
-                <Path>classfabrique_1_1_has_source.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>HasSource</Name>
-                  <Path>classfabrique_1_1_has_source.html</Path>
-                  <Anchor>a7c6adbbb757b7c17f41c91e95b408cec</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>source</Name>
-                  <Path>classfabrique_1_1_has_source.html</Path>
-                  <Anchor>a6ea37338bee14583d5aded8e4748dacd</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Uncopyable.h</Name>
-              <Path>_uncopyable_8h.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Uncopyable</Name>
-                <Path>class_uncopyable.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Uncopyable</Name>
-                  <Path>class_uncopyable.html</Path>
-                  <Anchor>a6d493b6c92f001b8f136c2ae07161ff4</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Visitable.h</Name>
-              <Path>_visitable_8h_source.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>Types</Name>
-            <Path>dir_4332622734cddde5f771acacb5010a61.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>FunctionType.cc</Name>
-              <Path>_function_type_8cc.html</Path>
-             </Node>
-             <Node>
-              <Name>FunctionType.h</Name>
-              <Path>_function_type_8h.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>FunctionType</Name>
-                <Path>classfabrique_1_1_function_type.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>name</Name>
-                  <Path>classfabrique_1_1_function_type.html</Path>
-                  <Anchor>ad79b923ee2225b62780ccb14c01b678a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>parameterTypes</Name>
-                  <Path>classfabrique_1_1_function_type.html</Path>
-                  <Anchor>acad2bca6f59b3508e3905f1fd9b397a1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PrettyPrint</Name>
-                  <Path>classfabrique_1_1_function_type.html</Path>
-                  <Anchor>ab18f1a2206012fdff4f006dcd952345e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>returnType</Name>
-                  <Path>classfabrique_1_1_function_type.html</Path>
-                  <Anchor>adfefef25bee38a2b7dc73099e0c5294d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>FabContext</Name>
-                  <Path>classfabrique_1_1_function_type.html</Path>
-                  <Anchor>a5061fc5d25ef4dc658d0a318d44cacd1</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Type.cc</Name>
-              <Path>_type_8cc.html</Path>
-             </Node>
-             <Node>
-              <Name>Type.h</Name>
-              <Path>_type_8h.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Type</Name>
-                <Path>classfabrique_1_1_type.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Type</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>aebd4be0f62f3503bcf077c8f02556b7f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~Type</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>ab9be58f5f3f56af96777de83059e88c2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Type</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a884a6e6264891d4e799d28dca7a3b734</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Type</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a0ab21908b4764e0c8e28b291514a87e4</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>isFile</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a4e6d33ab6c8b38f61a2f1b567a50f5bd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>isListOf</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a5c45fe8eaedc1a2da4f144ea9ac1ab0a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>isSubtype</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>af78a4321c4624991d1cee27b534d0ba1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>isSupertype</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a24cb8201512a81945dcb009ebbec26c8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>name</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a8e3afae5481e6ba1a859c153db01bddb</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator!=</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a096fce06de6a8781851443177591d98c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>abd956c42d74d95b9a7ab7f7312c60ee9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator==</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a999d77811b287793b7ae01bc63b6417a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&gt;</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a3a8928428c5427c3a8166fea96042b06</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator[]</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a84c8435afcd20746598a81cdd2f47957</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PrettyPrint</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a52b9615fd1cbda31ead95152c65ae09f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>typeParamCount</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a69c917d579ee73ad63c4be0c9b5908e7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>typeParameters</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>ac0410ab58d2820846463a81bec7cb098</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>FabContext</Name>
-                  <Path>classfabrique_1_1_type.html</Path>
-                  <Anchor>a5061fc5d25ef4dc658d0a318d44cacd1</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Typed.h</Name>
-              <Path>_typed_8h.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Typed</Name>
-                <Path>classfabrique_1_1_typed.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Typed</Name>
-                  <Path>classfabrique_1_1_typed.html</Path>
-                  <Anchor>a9573ff7eed1f45b1ac44fb4d03b03b47</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>type</Name>
-                  <Path>classfabrique_1_1_typed.html</Path>
-                  <Anchor>af32afd50db8c1f2ea8c20bc59ee56961</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>TypeError.cc</Name>
-              <Path>_type_error_8cc.html</Path>
-             </Node>
-             <Node>
-              <Name>TypeError.h</Name>
-              <Path>_type_error_8h.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>TypeError</Name>
-                <Path>classfabrique_1_1_type_error.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>TypeError</Name>
-                  <Path>classfabrique_1_1_type_error.html</Path>
-                  <Anchor>a23322d5f27bda1945e33a8dcd65ff380</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>WrongTypeException</Name>
-                <Path>classfabrique_1_1_wrong_type_exception.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>WrongTypeException</Name>
-                  <Path>classfabrique_1_1_wrong_type_exception.html</Path>
-                  <Anchor>aea57d3b3c2940231129c2b915ccee3eb</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>WrongTypeException</Name>
-                  <Path>classfabrique_1_1_wrong_type_exception.html</Path>
-                  <Anchor>ae32635d7951531b9e1172c358efcfabf</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>WrongTypeException</Name>
-                  <Path>classfabrique_1_1_wrong_type_exception.html</Path>
-                  <Anchor>adf3b763806f2bc8f14ddcf4f57d8e583</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -7835,11 +7847,6 @@
               <Anchor>a0ddf1224851353fc92bfbff6f499fa97</Anchor>
              </Node>
              <Node>
-              <Name>Parse</Name>
-              <Path>driver_8cc.html</Path>
-              <Anchor>afc383bd0f0e7f6f2a40334fdd1860f7e</Anchor>
-             </Node>
-             <Node>
               <Name>yyerror</Name>
               <Path>driver_8cc.html</Path>
               <Anchor>a8654cb2f5c8df0404859230815608bb3</Anchor>
@@ -7847,28 +7854,18 @@
              <Node>
               <Name>yylex</Name>
               <Path>driver_8cc.html</Path>
-              <Anchor>a4e4e48737a1ce4352c61da1466eb36db</Anchor>
+              <Anchor>ac7c4a37efaf1809ec4ee7cc3687f626f</Anchor>
              </Node>
              <Node>
               <Name>yyparse</Name>
               <Path>driver_8cc.html</Path>
               <Anchor>a90ca5a64e526b0515ece5e2bd159829c</Anchor>
              </Node>
-             <Node>
-              <Name>err</Name>
-              <Path>driver_8cc.html</Path>
-              <Anchor>ad66801bbc4fce75bbefc7417f77c0b99</Anchor>
-             </Node>
-             <Node>
-              <Name>lex</Name>
-              <Path>driver_8cc.html</Path>
-              <Anchor>ac746879fb382c7aded18c2783df16a62</Anchor>
-             </Node>
             </Subnodes>
            </Node>
            <Node>
             <Name>FabContext.cc</Name>
-            <Path>_fab_context_8cc_source.html</Path>
+            <Path>_fab_context_8cc.html</Path>
            </Node>
            <Node>
             <Name>FabContext.h</Name>

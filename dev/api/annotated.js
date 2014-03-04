@@ -1,5 +1,10 @@
 var annotated =
 [
+    [ "fablexer", null, [
+      [ "lexer", null, [
+        [ "FabLexer", "classfablexer_1_1lexer_1_1_fab_lexer.html", null ]
+      ] ]
+    ] ],
     [ "fabrique", null, [
       [ "ast", null, [
         [ "Action", "classfabrique_1_1ast_1_1_action.html", "classfabrique_1_1ast_1_1_action" ],
@@ -27,7 +32,7 @@ var annotated =
         [ "SymbolReference", "classfabrique_1_1ast_1_1_symbol_reference.html", "classfabrique_1_1ast_1_1_symbol_reference" ],
         [ "UnaryOperation", "classfabrique_1_1ast_1_1_unary_operation.html", "classfabrique_1_1ast_1_1_unary_operation" ],
         [ "Value", "classfabrique_1_1ast_1_1_value.html", "classfabrique_1_1ast_1_1_value" ],
-        [ "Visitor", "classfabrique_1_1ast_1_1_visitor.html", null ],
+        [ "Visitor", "classfabrique_1_1ast_1_1_visitor.html", "classfabrique_1_1ast_1_1_visitor" ],
         [ "Parser", "classfabrique_1_1ast_1_1_parser.html", "classfabrique_1_1ast_1_1_parser" ],
         [ "Visitable", "classfabrique_1_1ast_1_1_visitable.html", "classfabrique_1_1ast_1_1_visitable" ]
       ] ],
@@ -40,6 +45,7 @@ var annotated =
       ] ],
       [ "dag", null, [
         [ "Build", "classfabrique_1_1dag_1_1_build.html", "classfabrique_1_1dag_1_1_build" ],
+        [ "DAGBuilder", "classfabrique_1_1dag_1_1_d_a_g_builder.html", "classfabrique_1_1dag_1_1_d_a_g_builder" ],
         [ "DAG", "classfabrique_1_1dag_1_1_d_a_g.html", "classfabrique_1_1dag_1_1_d_a_g" ],
         [ "File", "classfabrique_1_1dag_1_1_file.html", "classfabrique_1_1dag_1_1_file" ],
         [ "List", "classfabrique_1_1dag_1_1_list.html", "classfabrique_1_1dag_1_1_list" ],
@@ -68,6 +74,7 @@ var annotated =
       [ "SourceLocation", "classfabrique_1_1_source_location.html", "classfabrique_1_1_source_location" ],
       [ "SourceRange", "classfabrique_1_1_source_range.html", "classfabrique_1_1_source_range" ],
       [ "HasSource", "classfabrique_1_1_has_source.html", "classfabrique_1_1_has_source" ],
+      [ "Uncopyable", "classfabrique_1_1_uncopyable.html", "classfabrique_1_1_uncopyable" ],
       [ "FunctionType", "classfabrique_1_1_function_type.html", "classfabrique_1_1_function_type" ],
       [ "Type", "classfabrique_1_1_type.html", "classfabrique_1_1_type" ],
       [ "Typed", "classfabrique_1_1_typed.html", "classfabrique_1_1_typed" ],
@@ -75,14 +82,5 @@ var annotated =
       [ "WrongTypeException", "classfabrique_1_1_wrong_type_exception.html", "classfabrique_1_1_wrong_type_exception" ]
     ] ],
     [ "option", "namespaceoption.html", "namespaceoption" ],
-    [ "ANSIStream", "class_a_n_s_i_stream.html", "class_a_n_s_i_stream" ],
-    [ "DAGBuilder", "class_d_a_g_builder.html", "class_d_a_g_builder" ],
-    [ "ImmutableDAG", "class_immutable_d_a_g.html", "class_immutable_d_a_g" ],
-    [ "NullStream", "class_null_stream.html", "class_null_stream" ],
-    [ "PlainStream", "class_plain_stream.html", "class_plain_stream" ],
-    [ "Uncopyable", "class_uncopyable.html", "class_uncopyable" ],
-    [ "yy_buffer_state", "structyy__buffer__state.html", "structyy__buffer__state" ],
-    [ "yy_trans_info", "structyy__trans__info.html", "structyy__trans__info" ],
-    [ "YYSTACKDATA", "struct_y_y_s_t_a_c_k_d_a_t_a.html", "struct_y_y_s_t_a_c_k_d_a_t_a" ],
-    [ "YYSTYPE", "union_y_y_s_t_y_p_e.html", "union_y_y_s_t_y_p_e" ]
+    [ "DebugState", "class_debug_state.html", "class_debug_state" ]
 ];

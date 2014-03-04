@@ -8,6 +8,7 @@ var dir_4332622734cddde5f771acacb5010a61 =
     [ "Type.h", "_type_8h.html", [
       [ "Type", "classfabrique_1_1_type.html", "classfabrique_1_1_type" ]
     ] ],
+    [ "Typed.cc", "_typed_8cc.html", null ],
     [ "Typed.h", "_typed_8h.html", [
       [ "Typed", "classfabrique_1_1_typed.html", "classfabrique_1_1_typed" ]
     ] ],

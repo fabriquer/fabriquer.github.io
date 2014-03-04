@@ -1,7 +1,7 @@
 var searchData=
 [
   ['namearguments',['NameArguments',['../classfabrique_1_1ast_1_1_callable.html#a91768dd9531ceb576f0d3fe19f60587f',1,'fabrique::ast::Callable']]],
-  ['negate',['Negate',['../classfabrique_1_1dag_1_1_boolean.html#a17f983fa6871e2b961dc340f61d58491',1,'fabrique::dag::Boolean::Negate()'],['../classfabrique_1_1dag_1_1_value.html#a4ff280a85f83d62116e3555952d49638',1,'fabrique::dag::Value::Negate()']]],
+  ['negate',['Negate',['../classfabrique_1_1dag_1_1_boolean.html#a01c904bcfbf9d3154968f9425dcfccfc',1,'fabrique::dag::Boolean::Negate()'],['../classfabrique_1_1dag_1_1_value.html#a4ff280a85f83d62116e3555952d49638',1,'fabrique::dag::Value::Negate()']]],
   ['next',['next',['../classoption_1_1_option.html#a59ae9aed505f4d410633bb36478a32be',1,'option::Option::next()'],['../classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html#a58b8743da57de2d108472eee60324df6',1,'option::PrintUsageImplementation::LinePartIterator::next()']]],
   ['nextrow',['nextRow',['../classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html#a55d5c3e50f9c1d8cd48f518899a5a48c',1,'option::PrintUsageImplementation::LinePartIterator']]],
   ['nexttable',['nextTable',['../classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html#afe43ca12d399ed3c871e4dc5bf63356e',1,'option::PrintUsageImplementation::LinePartIterator']]],

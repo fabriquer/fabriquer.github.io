@@ -12,15 +12,12 @@ var hierarchy =
       [ "fabrique::backend::NinjaBackend", "classfabrique_1_1backend_1_1_ninja_backend.html", null ],
       [ "fabrique::backend::NullBackend", "classfabrique_1_1backend_1_1_null_backend.html", null ]
     ] ],
-    [ "fabrique::Bytestream", "classfabrique_1_1_bytestream.html", [
-      [ "ANSIStream", "class_a_n_s_i_stream.html", null ],
-      [ "NullStream", "class_null_stream.html", null ],
-      [ "PlainStream", "class_plain_stream.html", null ]
-    ] ],
+    [ "fabrique::Bytestream", "classfabrique_1_1_bytestream.html", null ],
     [ "fabrique::ast::Callable", "classfabrique_1_1ast_1_1_callable.html", [
       [ "fabrique::ast::Action", "classfabrique_1_1ast_1_1_action.html", null ],
       [ "fabrique::ast::Function", "classfabrique_1_1ast_1_1_function.html", null ]
     ] ],
+    [ "DebugState", "class_debug_state.html", null ],
     [ "option::Descriptor", "structoption_1_1_descriptor.html", null ],
     [ "std::exception", null, [
       [ "fabrique::AssertionFailure", "classfabrique_1_1_assertion_failure.html", null ],
@@ -103,9 +100,7 @@ var hierarchy =
     [ "fabrique::ast::Parser", "classfabrique_1_1ast_1_1_parser.html", null ],
     [ "fabrique::Printable", "classfabrique_1_1_printable.html", [
       [ "fabrique::ast::Node", "classfabrique_1_1ast_1_1_node.html", null ],
-      [ "fabrique::dag::DAG", "classfabrique_1_1dag_1_1_d_a_g.html", [
-        [ "ImmutableDAG", "class_immutable_d_a_g.html", null ]
-      ] ],
+      [ "fabrique::dag::DAG", "classfabrique_1_1dag_1_1_d_a_g.html", null ],
       [ "fabrique::dag::Value", "classfabrique_1_1dag_1_1_value.html", null ],
       [ "fabrique::ErrorReport", "classfabrique_1_1_error_report.html", null ],
       [ "fabrique::SourceCodeException", "classfabrique_1_1_source_code_exception.html", null ],
@@ -122,7 +117,7 @@ var hierarchy =
       [ "fabrique::ast::Expression", "classfabrique_1_1ast_1_1_expression.html", null ],
       [ "fabrique::dag::Value", "classfabrique_1_1dag_1_1_value.html", null ]
     ] ],
-    [ "Uncopyable", "class_uncopyable.html", [
+    [ "fabrique::Uncopyable", "classfabrique_1_1_uncopyable.html", [
       [ "fabrique::ast::Node", "classfabrique_1_1ast_1_1_node.html", null ],
       [ "fabrique::ast::Scope", "classfabrique_1_1ast_1_1_scope.html", [
         [ "fabrique::ast::CompoundExpression", "classfabrique_1_1ast_1_1_compound_expression.html", null ]
@@ -132,14 +127,14 @@ var hierarchy =
       [ "fabrique::ast::Node", "classfabrique_1_1ast_1_1_node.html", null ]
     ] ],
     [ "fabrique::ast::Visitor", "classfabrique_1_1ast_1_1_visitor.html", [
-      [ "DAGBuilder", "class_d_a_g_builder.html", null ],
-      [ "fabrique::ast::ASTDump", "classfabrique_1_1ast_1_1_a_s_t_dump.html", null ]
+      [ "fabrique::ast::ASTDump", "classfabrique_1_1ast_1_1_a_s_t_dump.html", null ],
+      [ "fabrique::dag::DAGBuilder", "classfabrique_1_1dag_1_1_d_a_g_builder.html", null ]
     ] ],
-    [ "yy_buffer_state", "structyy__buffer__state.html", null ],
-    [ "yy_trans_info", "structyy__trans__info.html", null ],
     [ "yyFlexLexer", null, [
       [ "fabrique::Lexer", "classfabrique_1_1_lexer.html", null ]
     ] ],
-    [ "YYSTACKDATA", "struct_y_y_s_t_a_c_k_d_a_t_a.html", null ],
-    [ "YYSTYPE", "union_y_y_s_t_y_p_e.html", null ]
+    [ "RegexLexer", null, [
+      [ "fablexer.lexer.FabLexer", "classfablexer_1_1lexer_1_1_fab_lexer.html", null ],
+      [ "fablexer.lexer.FabLexer", "classfablexer_1_1lexer_1_1_fab_lexer.html", null ]
+    ] ]
 ];

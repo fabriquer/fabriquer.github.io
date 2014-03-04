@@ -4,7 +4,7 @@
 <plist version="1.0">
 <dict>
      <key>CFBundleName</key>
-     <string>Fabrique</string>
+     <string>Fabriquer</string>
      <key>CFBundleIdentifier</key>
      <string>io.github.fabriquer.fabriquer</string>
      <key>CFBundleVersion</key>

@@ -5,7 +5,6 @@ var searchData=
   ['identifier_2ecc',['Identifier.cc',['../_identifier_8cc.html',1,'']]],
   ['identifier_2eh',['Identifier.h',['../_identifier_8h.html',1,'']]],
   ['ifelse',['IfElse',['../classfabrique_1_1ast_1_1_parser.html#aed1465df26505493550bd2de1a9fa0a6',1,'fabrique::ast::Parser']]],
-  ['immutabledag',['ImmutableDAG',['../class_immutable_d_a_g.html',1,'']]],
   ['index',['index',['../structoption_1_1_descriptor.html#a1fee8ac44f529c99ac2b1149b4c391b1',1,'option::Descriptor::index()'],['../classoption_1_1_option.html#ac0acba91bbfcca0c35cfc54f197b15d2',1,'option::Option::index()']]],
   ['integer',['Integer',['../classfabrique_1_1dag_1_1_integer.html',1,'fabrique::dag']]],
   ['intliteral',['IntLiteral',['../classfabrique_1_1ast_1_1_int_literal.html',1,'fabrique::ast']]],

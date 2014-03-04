@@ -92,238 +92,21 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ANSIStream</Name>
+      <Name>DebugState</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ANSIStream</Scope>
+      <Scope>DebugState</Scope>
     </TokenIdentifier>
-    <Path>class_a_n_s_i_stream.html</Path>
+    <Path>class_debug_state.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Debug</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>fabrique::Bytestream</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1_bytestream.html</Path>
-    <Anchor>ab4d0d1008fc4fa6ba2192e6f3921e7c3</Anchor>
-    <Abstract>Retrieve the debug output stream or a do-nothing stream, based on the (hierarchical) debug naming sch...</Abstract>
-    <DeclaredIn>Bytestream.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Formatted</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>fabrique::Bytestream</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1_bytestream.html</Path>
-    <Anchor>ab07d387febeb571df8d66b343331599a</Anchor>
-    <Abstract>Construct a formatted Bytestream to wrap an std::ostream. </Abstract>
-    <DeclaredIn>Bytestream.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Plain</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>fabrique::Bytestream</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1_bytestream.html</Path>
-    <Anchor>ab4531899c580babf2c2af3dd39602826</Anchor>
-    <Abstract>Construct a plain Bytestream to wrap an std::ostream. </Abstract>
-    <DeclaredIn>Bytestream.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DAGBuilder</Name>
-      <APILanguage>c</APILanguage>
+      <Name>fablexer::lexer::FabLexer</Name>
+      <APILanguage>python</APILanguage>
       <Type>cl</Type>
-      <Scope>DAGBuilder</Scope>
+      <Scope>fablexer.lexer.FabLexer</Scope>
     </TokenIdentifier>
-    <Path>class_d_a_g_builder.html</Path>
-    <Abstract>AST Visitor that flattens the AST into a DAG. </Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ImmutableDAG</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>ImmutableDAG</Scope>
-    </TokenIdentifier>
-    <Path>class_immutable_d_a_g.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PrettyPrint</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>fabrique::dag::DAG</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
-    <Anchor>a8e91431eb075f84c6dcbebf6c97c16aa</Anchor>
-    <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
-    <DeclaredIn>DAG.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>NullStream</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>NullStream</Scope>
-    </TokenIdentifier>
-    <Path>class_null_stream.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Debug</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>fabrique::Bytestream</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1_bytestream.html</Path>
-    <Anchor>ab4d0d1008fc4fa6ba2192e6f3921e7c3</Anchor>
-    <Abstract>Retrieve the debug output stream or a do-nothing stream, based on the (hierarchical) debug naming sch...</Abstract>
-    <DeclaredIn>Bytestream.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Formatted</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>fabrique::Bytestream</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1_bytestream.html</Path>
-    <Anchor>ab07d387febeb571df8d66b343331599a</Anchor>
-    <Abstract>Construct a formatted Bytestream to wrap an std::ostream. </Abstract>
-    <DeclaredIn>Bytestream.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Plain</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>fabrique::Bytestream</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1_bytestream.html</Path>
-    <Anchor>ab4531899c580babf2c2af3dd39602826</Anchor>
-    <Abstract>Construct a plain Bytestream to wrap an std::ostream. </Abstract>
-    <DeclaredIn>Bytestream.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PlainStream</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>PlainStream</Scope>
-    </TokenIdentifier>
-    <Path>class_plain_stream.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Debug</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>fabrique::Bytestream</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1_bytestream.html</Path>
-    <Anchor>ab4d0d1008fc4fa6ba2192e6f3921e7c3</Anchor>
-    <Abstract>Retrieve the debug output stream or a do-nothing stream, based on the (hierarchical) debug naming sch...</Abstract>
-    <DeclaredIn>Bytestream.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Formatted</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>fabrique::Bytestream</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1_bytestream.html</Path>
-    <Anchor>ab07d387febeb571df8d66b343331599a</Anchor>
-    <Abstract>Construct a formatted Bytestream to wrap an std::ostream. </Abstract>
-    <DeclaredIn>Bytestream.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Plain</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>fabrique::Bytestream</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1_bytestream.html</Path>
-    <Anchor>ab4531899c580babf2c2af3dd39602826</Anchor>
-    <Abstract>Construct a plain Bytestream to wrap an std::ostream. </Abstract>
-    <DeclaredIn>Bytestream.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Uncopyable</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>Uncopyable</Scope>
-    </TokenIdentifier>
-    <Path>class_uncopyable.html</Path>
-    <Abstract>An object that cannot be copy-constructed. </Abstract>
-    <DeclaredIn>Uncopyable.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>yy_buffer_state</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>yy_buffer_state</Scope>
-    </TokenIdentifier>
-    <Path>structyy__buffer__state.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>yy_bs_lineno</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>yy_buffer_state</Scope>
-    </TokenIdentifier>
-    <Path>structyy__buffer__state.html</Path>
-    <Anchor>a818e94bc9c766e683c60df1e9fd01199</Anchor>
-    <Abstract>The line count. </Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>yy_bs_column</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>yy_buffer_state</Scope>
-    </TokenIdentifier>
-    <Path>structyy__buffer__state.html</Path>
-    <Anchor>a10c4fcd8be759e6bf11e6d3e8cdb0307</Anchor>
-    <Abstract>The column count. </Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>yy_trans_info</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>yy_trans_info</Scope>
-    </TokenIdentifier>
-    <Path>structyy__trans__info.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>YYSTACKDATA</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>YYSTACKDATA</Scope>
-    </TokenIdentifier>
-    <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>YYSTYPE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>YYSTYPE</Scope>
-    </TokenIdentifier>
-    <Path>union_y_y_s_t_y_p_e.html</Path>
+    <Path>classfablexer_1_1lexer_1_1_fab_lexer.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -436,7 +219,7 @@
       <Scope>fabrique::Token</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_token.html</Path>
-    <Anchor>a5325e8146dfcb06d58a04c7a3b960b82</Anchor>
+    <Anchor>aad19c1d015182a6714c5b014438e1609</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Token.h</DeclaredIn>
   </Token>
@@ -483,7 +266,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1_bytestream.html</Path>
     <Anchor>ab07d387febeb571df8d66b343331599a</Anchor>
-    <Abstract>Construct a formatted Bytestream to wrap an std::ostream. </Abstract>
+    <Abstract>Construct a formatted fabrique::Bytestream to wrap an std::ostream. </Abstract>
     <DeclaredIn>Bytestream.h</DeclaredIn>
   </Token>
   <Token>
@@ -495,7 +278,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1_bytestream.html</Path>
     <Anchor>ab4531899c580babf2c2af3dd39602826</Anchor>
-    <Abstract>Construct a plain Bytestream to wrap an std::ostream. </Abstract>
+    <Abstract>Construct a plain fabrique::Bytestream to wrap an std::ostream. </Abstract>
     <DeclaredIn>Bytestream.h</DeclaredIn>
   </Token>
   <Token>
@@ -515,7 +298,7 @@
       <Scope>fabrique::ErrorReport</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_error_report.html</Path>
-    <Anchor>a4c94a23a196aea4e28ea6fa0b1067a06</Anchor>
+    <Anchor>a06595cfa0bbb69651cd1622802364120</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>ErrorReport.h</DeclaredIn>
   </Token>
@@ -560,7 +343,7 @@
       <Scope>fabrique::SourceCodeException</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_code_exception.html</Path>
-    <Anchor>abefbc7196ee10f838061dcb3926de950</Anchor>
+    <Anchor>aba85f7c69a393e4f4f4ac7c9ae56460b</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>exceptions.h</DeclaredIn>
   </Token>
@@ -583,7 +366,7 @@
       <Scope>fabrique::SourceCodeException</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_code_exception.html</Path>
-    <Anchor>abefbc7196ee10f838061dcb3926de950</Anchor>
+    <Anchor>aba85f7c69a393e4f4f4ac7c9ae56460b</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>exceptions.h</DeclaredIn>
   </Token>
@@ -606,7 +389,7 @@
       <Scope>fabrique::SourceCodeException</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_code_exception.html</Path>
-    <Anchor>abefbc7196ee10f838061dcb3926de950</Anchor>
+    <Anchor>aba85f7c69a393e4f4f4ac7c9ae56460b</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>exceptions.h</DeclaredIn>
   </Token>
@@ -638,7 +421,7 @@
       <Scope>fabrique::Printable</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_printable.html</Path>
-    <Anchor>a468ea0af04900af37c331cb804213877</Anchor>
+    <Anchor>a7b148c5f200de45f3ad33a37a090997f</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Printable.h</DeclaredIn>
   </Token>
@@ -661,7 +444,7 @@
       <Scope>fabrique::SourceLocation</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_location.html</Path>
-    <Anchor>a5b2769d9d8f9e70cbc86a6360e7ed7cb</Anchor>
+    <Anchor>a21f67087961a3f37c7535c79ed42d184</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>SourceLocation.h</DeclaredIn>
   </Token>
@@ -682,7 +465,7 @@
       <Scope>fabrique::SourceRange</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_range.html</Path>
-    <Anchor>a8ba38397ec7a2075fad32bcc1029c44e</Anchor>
+    <Anchor>a7f320c900b25deb447617141663e9e60</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>SourceLocation.h</DeclaredIn>
   </Token>
@@ -694,7 +477,7 @@
       <Scope>fabrique::SourceRange</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_range.html</Path>
-    <Anchor>ade43c68d5611db034a2fbf018d3ce926</Anchor>
+    <Anchor>a593e6159e681fc06afaec09564ff077c</Anchor>
     <Abstract>Construct a short (within a single line) range. </Abstract>
     <DeclaredIn>SourceLocation.h</DeclaredIn>
   </Token>
@@ -707,7 +490,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_range.html</Path>
     <Anchor>a1c3872e552d02f7d19df1f3d4dd08f0e</Anchor>
-    <Abstract>Create a range that spans two HasSource objects. </Abstract>
+    <Abstract>Create a range that spans two fabrique::HasSource objects. </Abstract>
     <DeclaredIn>SourceLocation.h</DeclaredIn>
   </Token>
   <Token>
@@ -720,6 +503,17 @@
     <Path>classfabrique_1_1_has_source.html</Path>
     <Abstract>A mixin type for something that has a location in source code. </Abstract>
     <DeclaredIn>SourceLocation.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::Uncopyable</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::Uncopyable</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1_uncopyable.html</Path>
+    <Abstract>An object that cannot be copy-constructed. </Abstract>
+    <DeclaredIn>Uncopyable.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -740,7 +534,7 @@
       <Scope>fabrique::FunctionType</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_function_type.html</Path>
-    <Anchor>ab18f1a2206012fdff4f006dcd952345e</Anchor>
+    <Anchor>a91812c2168c9e0368287f75df247b6fe</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>FunctionType.h</DeclaredIn>
   </Token>
@@ -763,7 +557,7 @@
       <Scope>fabrique::Type</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_type.html</Path>
-    <Anchor>a52b9615fd1cbda31ead95152c65ae09f</Anchor>
+    <Anchor>ac698d6ec7deaf1c676dbca4ca78ade1e</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Type.h</DeclaredIn>
   </Token>
@@ -775,7 +569,7 @@
       <Scope>fabrique::Typed</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_typed.html</Path>
-    <Abstract>A mixin type for something that has a fabrique::Type. </Abstract>
+    <Abstract>A mixin type for something that has a fabrique::fabrique::Type. </Abstract>
     <DeclaredIn>Typed.h</DeclaredIn>
   </Token>
   <Token>
@@ -786,7 +580,7 @@
       <Scope>fabrique::TypeError</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_type_error.html</Path>
-    <Abstract>Something is wrong with a Type. </Abstract>
+    <Abstract>Something is wrong with a fabrique::Type. </Abstract>
     <DeclaredIn>TypeError.h</DeclaredIn>
   </Token>
   <Token>
@@ -797,7 +591,7 @@
       <Scope>fabrique::SourceCodeException</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_code_exception.html</Path>
-    <Anchor>abefbc7196ee10f838061dcb3926de950</Anchor>
+    <Anchor>aba85f7c69a393e4f4f4ac7c9ae56460b</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>exceptions.h</DeclaredIn>
   </Token>
@@ -809,7 +603,7 @@
       <Scope>fabrique::WrongTypeException</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_wrong_type_exception.html</Path>
-    <Abstract>Something is wrong with a Type. </Abstract>
+    <Abstract>Something is wrong with a fabrique::Type. </Abstract>
     <DeclaredIn>TypeError.h</DeclaredIn>
   </Token>
   <Token>
@@ -820,7 +614,7 @@
       <Scope>fabrique::SourceCodeException</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_code_exception.html</Path>
-    <Anchor>abefbc7196ee10f838061dcb3926de950</Anchor>
+    <Anchor>aba85f7c69a393e4f4f4ac7c9ae56460b</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>exceptions.h</DeclaredIn>
   </Token>
@@ -843,7 +637,7 @@
       <Scope>fabrique::ast::Action</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_action.html</Path>
-    <Anchor>a8a769a94f3b258b4ccc1f3b749707cbc</Anchor>
+    <Anchor>acfe6b9e62a6317f98d1d2aaf0aa0ac63</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Action.h</DeclaredIn>
   </Token>
@@ -890,7 +684,7 @@
       <Scope>fabrique::ast::Argument</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_argument.html</Path>
-    <Anchor>aa1e5b5119a62aafbcd2eceecfa24af50</Anchor>
+    <Anchor>a74292b07b50192ed13b66e9be6c9bb45</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Argument.h</DeclaredIn>
   </Token>
@@ -924,7 +718,7 @@
       <Scope>fabrique::ast::BinaryOperation</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_binary_operation.html</Path>
-    <Anchor>ade92f2bf2f54b228867dad3aecbe6a1a</Anchor>
+    <Anchor>acf6b5530507172f94469135ec19c8443</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>BinaryOperation.h</DeclaredIn>
   </Token>
@@ -947,7 +741,7 @@
       <Scope>fabrique::ast::Call</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_call.html</Path>
-    <Anchor>ab5ccebce2bbcb8be940b9cddad91e52e</Anchor>
+    <Anchor>a9f2e54fe0ac4151ed0462474ba33b69b</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Call.h</DeclaredIn>
   </Token>
@@ -982,7 +776,7 @@
       <Scope>fabrique::ast::CompoundExpression</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_compound_expression.html</Path>
-    <Abstract>An expression that can contain values. </Abstract>
+    <Abstract>An expression that can contain intermediate values. </Abstract>
     <DeclaredIn>CompoundExpr.h</DeclaredIn>
   </Token>
   <Token>
@@ -993,7 +787,7 @@
       <Scope>fabrique::ast::CompoundExpression</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_compound_expression.html</Path>
-    <Anchor>a319be3902864ff5f0c73fdb1a2bfda41</Anchor>
+    <Anchor>a56c5d4b8b87921cefee976e41697094b</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>CompoundExpr.h</DeclaredIn>
   </Token>
@@ -1016,7 +810,7 @@
       <Scope>fabrique::ast::Conditional</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_conditional.html</Path>
-    <Anchor>ab3e538fa90ff66bfff162a139fea07c7</Anchor>
+    <Anchor>a6371057f414fbf5e09f66d13b359f3f5</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Conditional.h</DeclaredIn>
   </Token>
@@ -1039,7 +833,7 @@
       <Scope>fabrique::Printable</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_printable.html</Path>
-    <Anchor>a468ea0af04900af37c331cb804213877</Anchor>
+    <Anchor>a7b148c5f200de45f3ad33a37a090997f</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Printable.h</DeclaredIn>
   </Token>
@@ -1062,7 +856,7 @@
       <Scope>fabrique::ast::FileList</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_file_list.html</Path>
-    <Anchor>adb9236814e206bc6a183a7d2f9cd7838</Anchor>
+    <Anchor>a8cb3fdb76c00ce62aebbc28fcdb7d38f</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>FileList.h</DeclaredIn>
   </Token>
@@ -1085,7 +879,7 @@
       <Scope>fabrique::ast::Filename</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_filename.html</Path>
-    <Anchor>a75b17fece99659796b98d081d48038f6</Anchor>
+    <Anchor>aabf57499798ca68f5e1cc0e4bf35768a</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Filename.h</DeclaredIn>
   </Token>
@@ -1108,7 +902,7 @@
       <Scope>fabrique::ast::ForeachExpr</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-    <Anchor>aac6fe98f7ea2bb5577816213095b2a44</Anchor>
+    <Anchor>a7df9b4810c9a659473864cfbecc09c39</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Foreach.h</DeclaredIn>
   </Token>
@@ -1131,7 +925,7 @@
       <Scope>fabrique::ast::Function</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_function.html</Path>
-    <Anchor>a6922c07129eb5debde5fade8b5715aa8</Anchor>
+    <Anchor>a19d011823e9fad4165a5bfb325076df9</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Function.h</DeclaredIn>
   </Token>
@@ -1166,7 +960,7 @@
       <Scope>fabrique::ast::Identifier</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_identifier.html</Path>
-    <Anchor>a173d7a79f3c00949584187bc91d281c4</Anchor>
+    <Anchor>a142531d21be32c8ee93cda56e9553986</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Identifier.h</DeclaredIn>
   </Token>
@@ -1189,7 +983,7 @@
       <Scope>fabrique::ast::List</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_list.html</Path>
-    <Anchor>ae6b4f9bf7736b08bba0e8ade4fa71a88</Anchor>
+    <Anchor>ae265be0faa533845d9e2df65bcfa22b8</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>List.h</DeclaredIn>
   </Token>
@@ -1212,7 +1006,7 @@
       <Scope>fabrique::Printable</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_printable.html</Path>
-    <Anchor>a468ea0af04900af37c331cb804213877</Anchor>
+    <Anchor>a7b148c5f200de45f3ad33a37a090997f</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Printable.h</DeclaredIn>
   </Token>
@@ -1233,7 +1027,7 @@
       <Scope>fabrique::ast::BoolLiteral</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_bool_literal.html</Path>
-    <Anchor>ab22e6a156b4e9361f846702d94c890c6</Anchor>
+    <Anchor>a2ff30a00af05e865e448149e3d0ece00</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>literals.h</DeclaredIn>
   </Token>
@@ -1254,7 +1048,7 @@
       <Scope>fabrique::ast::IntLiteral</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_int_literal.html</Path>
-    <Anchor>af5a69e2dc48efccd9ef6eafa4072345c</Anchor>
+    <Anchor>a14f8bda584d237a5d60078fa869361e8</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>literals.h</DeclaredIn>
   </Token>
@@ -1275,7 +1069,7 @@
       <Scope>fabrique::ast::StringLiteral</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_string_literal.html</Path>
-    <Anchor>af929c8616d75b49598a53f1c5d64e5c8</Anchor>
+    <Anchor>a3b22479f03aff2db3c79411f586c0963</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>literals.h</DeclaredIn>
   </Token>
@@ -1298,7 +1092,7 @@
       <Scope>fabrique::Printable</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_printable.html</Path>
-    <Anchor>a468ea0af04900af37c331cb804213877</Anchor>
+    <Anchor>a7b148c5f200de45f3ad33a37a090997f</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Printable.h</DeclaredIn>
   </Token>
@@ -1310,7 +1104,7 @@
       <Scope>fabrique::ast::Parameter</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_parameter.html</Path>
-    <Abstract>A formal parameter in a Function. </Abstract>
+    <Abstract>A formal parameter in a fabrique::ast::Function. </Abstract>
     <DeclaredIn>Parameter.h</DeclaredIn>
   </Token>
   <Token>
@@ -1321,7 +1115,7 @@
       <Scope>fabrique::ast::Parameter</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_parameter.html</Path>
-    <Anchor>aeac5222d42f366401d0929c9727968e2</Anchor>
+    <Anchor>a363d618ad36b5e4665d7aef99587c243</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Parameter.h</DeclaredIn>
   </Token>
@@ -1349,25 +1143,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SymbolReference</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>fabrique::ast::SymbolReference</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1ast_1_1_symbol_reference.html</Path>
-    <Anchor>aab6ffdae1452e3609691439caa86e8fa</Anchor>
-    <Abstract>Constructor. </Abstract>
-    <DeclaredIn>SymbolReference.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>PrettyPrint</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>fabrique::ast::SymbolReference</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_symbol_reference.html</Path>
-    <Anchor>a4798736ba0267326539ce3fa04a50c7a</Anchor>
+    <Anchor>a9697accd0de730ae82577f6cc3446896</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>SymbolReference.h</DeclaredIn>
   </Token>
@@ -1390,7 +1172,7 @@
       <Scope>fabrique::ast::UnaryOperation</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_unary_operation.html</Path>
-    <Anchor>ae72974100a8aa07527c75bb838227603</Anchor>
+    <Anchor>a749499aa6afd22314f69e0cca0512448</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>UnaryOperation.h</DeclaredIn>
   </Token>
@@ -1413,7 +1195,7 @@
       <Scope>fabrique::ast::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_value.html</Path>
-    <Anchor>a6817b7c8d1b55a715e757c76af7cdd19</Anchor>
+    <Anchor>a0a16db04aab6e1f3234ab8879721ccac</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
@@ -1543,7 +1325,7 @@
       <Scope>fabrique::ast::Parser</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-    <Anchor>ae90b7156a644118aafe4244c9b3db6a1</Anchor>
+    <Anchor>af85259311802109bbc296ef41246a612</Anchor>
     <Abstract>An expression that can (optionally) include intermediate values. </Abstract>
     <DeclaredIn>Parser.h</DeclaredIn>
   </Token>
@@ -1687,7 +1469,7 @@
       <Scope>fabrique::ast::Visitable</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
-    <Abstract>A thing that can be visited by a Visitor. </Abstract>
+    <Abstract>A thing that can be visited by a fabrique::Visitor. </Abstract>
     <DeclaredIn>Visitable.h</DeclaredIn>
   </Token>
   <Token>
@@ -1709,7 +1491,7 @@
       <Scope>fabrique::backend::DotBackend</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1backend_1_1_dot_backend.html</Path>
-    <Abstract>A backend that produces GraphViz .dot files (see http://www.graphviz.org/). </Abstract>
+    <Abstract>A backend that produces GraphViz .dot files. </Abstract>
     <DeclaredIn>Dot.h</DeclaredIn>
   </Token>
   <Token>
@@ -1720,7 +1502,7 @@
       <Scope>fabrique::backend::MakeBackend</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1backend_1_1_make_backend.html</Path>
-    <Abstract>A backend that produces POSIX make files with no BSD or GNU extensions (see http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html). </Abstract>
+    <Abstract>A backend that produces POSIX make files (no BSD or GNU extensions). </Abstract>
     <DeclaredIn>Make.h</DeclaredIn>
   </Token>
   <Token>
@@ -1731,7 +1513,7 @@
       <Scope>fabrique::backend::NinjaBackend</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1backend_1_1_ninja_backend.html</Path>
-    <Abstract>A backend that produces Ninja files (see http://martine.github.io/ninja). </Abstract>
+    <Abstract>A backend that produces Ninja files. </Abstract>
     <DeclaredIn>Ninja.h</DeclaredIn>
   </Token>
   <Token>
@@ -1753,7 +1535,7 @@
       <Scope>fabrique::dag::Build</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_build.html</Path>
-    <Abstract>An application of a Rule to transform File objects. </Abstract>
+    <Abstract>An application of a fabrique::dag::Rule to transform File objects. </Abstract>
     <DeclaredIn>Build.h</DeclaredIn>
   </Token>
   <Token>
@@ -1764,7 +1546,7 @@
       <Scope>fabrique::dag::Build</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_build.html</Path>
-    <Anchor>a15c616b7dce94791b5a4548a7a582ab8</Anchor>
+    <Anchor>a9b5770968e57ee613a0eb4ceb061fa86</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Build.h</DeclaredIn>
   </Token>
@@ -1789,7 +1571,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>a3cf7d231fa1dd7d1f2d96faab1614308</Anchor>
-    <Abstract>Add this Value to a following Value. </Abstract>
+    <Abstract>Add this fabrique::dag::Value to a following Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -1813,7 +1595,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>ae1c146ecb5f54638b9f098aa9668b26e</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -1860,9 +1642,19 @@
       <Scope>fabrique::dag::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
-    <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::dag::DAGBuilder</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::dag::DAGBuilder</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+    <Abstract>AST Visitor that flattens the AST into a DAG. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1883,7 +1675,7 @@
       <Scope>fabrique::dag::DAG</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
-    <Anchor>a8e91431eb075f84c6dcbebf6c97c16aa</Anchor>
+    <Anchor>a2695a3f17195e4c14cbc7669bad7470d</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>DAG.h</DeclaredIn>
   </Token>
@@ -1906,7 +1698,7 @@
       <Scope>fabrique::dag::File</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_file.html</Path>
-    <Anchor>a8bf9b9bfb2f00e8f3d6bd53aa331389a</Anchor>
+    <Anchor>a4cc58c49e192dd551775bb6672007793</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>File.h</DeclaredIn>
   </Token>
@@ -1931,7 +1723,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>a3cf7d231fa1dd7d1f2d96faab1614308</Anchor>
-    <Abstract>Add this Value to a following Value. </Abstract>
+    <Abstract>Add this fabrique::dag::Value to a following Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -1955,7 +1747,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>ae1c146ecb5f54638b9f098aa9668b26e</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2002,8 +1794,8 @@
       <Scope>fabrique::dag::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
-    <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2050,7 +1842,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_list.html</Path>
     <Anchor>a1d3bf1032dda85f6312302e64adf9c28</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>List.h</DeclaredIn>
   </Token>
   <Token>
@@ -2062,7 +1854,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_list.html</Path>
     <Anchor>a8ba11a53ebf82818f68367731363633f</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>List.h</DeclaredIn>
   </Token>
   <Token>
@@ -2073,7 +1865,7 @@
       <Scope>fabrique::dag::List</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_list.html</Path>
-    <Anchor>ae6b4f9bf7736b08bba0e8ade4fa71a88</Anchor>
+    <Anchor>ae265be0faa533845d9e2df65bcfa22b8</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>List.h</DeclaredIn>
   </Token>
@@ -2144,7 +1936,7 @@
       <Scope>fabrique::dag::Primitive</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_primitive.html</Path>
-    <Anchor>a8923d243bbec58b6b4e36266f07680a2</Anchor>
+    <Anchor>a9f1062b055a7cc4552cee38d2e4481f4</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Primitive.h</DeclaredIn>
   </Token>
@@ -2169,7 +1961,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>a3cf7d231fa1dd7d1f2d96faab1614308</Anchor>
-    <Abstract>Add this Value to a following Value. </Abstract>
+    <Abstract>Add this fabrique::dag::Value to a following Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2193,7 +1985,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>ae1c146ecb5f54638b9f098aa9668b26e</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2240,8 +2032,8 @@
       <Scope>fabrique::dag::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
-    <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2261,7 +2053,7 @@
       <Scope>fabrique::dag::Boolean</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_boolean.html</Path>
-    <Anchor>a17f983fa6871e2b961dc340f61d58491</Anchor>
+    <Anchor>a01c904bcfbf9d3154968f9425dcfccfc</Anchor>
     <Abstract>Unary &amp;#39;not&amp;#39; operator. </Abstract>
     <DeclaredIn>Primitive.h</DeclaredIn>
   </Token>
@@ -2309,7 +2101,7 @@
       <Scope>fabrique::dag::Primitive&lt; bool &gt;</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_primitive.html</Path>
-    <Anchor>a8923d243bbec58b6b4e36266f07680a2</Anchor>
+    <Anchor>a9f1062b055a7cc4552cee38d2e4481f4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2320,7 +2112,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>a3cf7d231fa1dd7d1f2d96faab1614308</Anchor>
-    <Abstract>Add this Value to a following Value. </Abstract>
+    <Abstract>Add this fabrique::dag::Value to a following Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2344,7 +2136,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>ae1c146ecb5f54638b9f098aa9668b26e</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2355,8 +2147,8 @@
       <Scope>fabrique::dag::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
-    <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2377,7 +2169,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_integer.html</Path>
     <Anchor>a7fdad9a129292bd4e7debf3ddffbf7ca</Anchor>
-    <Abstract>Add this Value to a following Value. </Abstract>
+    <Abstract>Add this fabrique::dag::Value to a following Value. </Abstract>
     <DeclaredIn>Primitive.h</DeclaredIn>
   </Token>
   <Token>
@@ -2388,7 +2180,7 @@
       <Scope>fabrique::dag::Primitive&lt; int &gt;</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_primitive.html</Path>
-    <Anchor>a8923d243bbec58b6b4e36266f07680a2</Anchor>
+    <Anchor>a9f1062b055a7cc4552cee38d2e4481f4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2423,7 +2215,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>ae1c146ecb5f54638b9f098aa9668b26e</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2470,8 +2262,8 @@
       <Scope>fabrique::dag::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
-    <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2492,7 +2284,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_string.html</Path>
     <Anchor>ad59ccb4c299b88e50b5c3768e10c8ced</Anchor>
-    <Abstract>Add this Value to a following Value. </Abstract>
+    <Abstract>Add this fabrique::dag::Value to a following Value. </Abstract>
     <DeclaredIn>Primitive.h</DeclaredIn>
   </Token>
   <Token>
@@ -2503,7 +2295,7 @@
       <Scope>fabrique::dag::String</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_string.html</Path>
-    <Anchor>a81ffcf3edf60715ed7b5eff480584046</Anchor>
+    <Anchor>ab3e26fc60891cf46cc13613e5d70d74e</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Primitive.h</DeclaredIn>
   </Token>
@@ -2540,7 +2332,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>ae1c146ecb5f54638b9f098aa9668b26e</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2587,8 +2379,8 @@
       <Scope>fabrique::dag::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
-    <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2622,7 +2414,7 @@
       <Scope>fabrique::dag::Rule</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_rule.html</Path>
-    <Anchor>a59189756549d37935897e0f660a144ff</Anchor>
+    <Anchor>a7dec961dab4f2a220d1db43bd6a8e6f8</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Rule.h</DeclaredIn>
   </Token>
@@ -2647,7 +2439,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>a3cf7d231fa1dd7d1f2d96faab1614308</Anchor>
-    <Abstract>Add this Value to a following Value. </Abstract>
+    <Abstract>Add this fabrique::dag::Value to a following Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2671,7 +2463,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>ae1c146ecb5f54638b9f098aa9668b26e</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2718,8 +2510,8 @@
       <Scope>fabrique::dag::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
-    <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2742,7 +2534,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_target.html</Path>
     <Anchor>adb9509f9605e7a4e115829e493fb8938</Anchor>
-    <Abstract>Add this Value to a following Value. </Abstract>
+    <Abstract>Add this fabrique::dag::Value to a following Value. </Abstract>
     <DeclaredIn>Target.h</DeclaredIn>
   </Token>
   <Token>
@@ -2766,7 +2558,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_target.html</Path>
     <Anchor>a63c0dcf4b4b319e4f762174d1aba5836</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>Target.h</DeclaredIn>
   </Token>
   <Token>
@@ -2813,7 +2605,7 @@
       <Scope>fabrique::dag::Target</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_target.html</Path>
-    <Anchor>aa1ca4112c846db9f1ddc555f5fb50a04</Anchor>
+    <Anchor>a893236bf2c0b80c82ead197a72cfd363</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Target.h</DeclaredIn>
   </Token>
@@ -2837,8 +2629,8 @@
       <Scope>fabrique::dag::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
-    <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2860,7 +2652,7 @@
       <Scope>fabrique::SourceCodeException</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_source_code_exception.html</Path>
-    <Anchor>abefbc7196ee10f838061dcb3926de950</Anchor>
+    <Anchor>aba85f7c69a393e4f4f4ac7c9ae56460b</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>exceptions.h</DeclaredIn>
   </Token>
@@ -2896,7 +2688,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>a3cf7d231fa1dd7d1f2d96faab1614308</Anchor>
-    <Abstract>Add this Value to a following Value. </Abstract>
+    <Abstract>Add this fabrique::dag::Value to a following Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2920,7 +2712,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
     <Anchor>ae1c146ecb5f54638b9f098aa9668b26e</Anchor>
-    <Abstract>Add another Value scalar-wise across this Value. </Abstract>
+    <Abstract>Add another fabrique::dag::Value scalar-wise across this Value. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2967,8 +2759,8 @@
       <Scope>fabrique::dag::Value</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1dag_1_1_value.html</Path>
-    <Anchor>ad269b6f2ab76cb53ce9225c0fbf507b1</Anchor>
-    <Abstract>This Value add v to itself in a scalar fashion. </Abstract>
+    <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
+    <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
   </Token>
   <Token>
@@ -2979,7 +2771,7 @@
       <Scope>fabrique::Printable</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_printable.html</Path>
-    <Anchor>a468ea0af04900af37c331cb804213877</Anchor>
+    <Anchor>a7b148c5f200de45f3ad33a37a090997f</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Printable.h</DeclaredIn>
   </Token>
@@ -3096,7 +2888,7 @@
     </TokenIdentifier>
     <Path>structoption_1_1_descriptor.html</Path>
     <Anchor>a1b220dabd8aad075fa441a80f9b9343c</Anchor>
-    <Abstract>Used to distinguish between options with the same index. </Abstract>
+    <Abstract>Used to distinguish between options with the same fabrique::index. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3129,7 +2921,7 @@
     </TokenIdentifier>
     <Path>structoption_1_1_descriptor.html</Path>
     <Anchor>aa5d675dba0214a4abd73007ff163cc67</Anchor>
-    <Abstract>For each option that matches shortopt or longopt this function will be called to check a potential ar...</Abstract>
+    <Abstract>For each option that matches fabrique::shortopt or longopt this function will be called to check a po...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3330,7 +3122,7 @@
     </TokenIdentifier>
     <Path>classoption_1_1_option.html</Path>
     <Anchor>aa2810152fc23b14175b115d1a7d38095</Anchor>
-    <Abstract>Creates a new Option that is a one-element linked list and has NULL desc, name, arg and namelen...</Abstract>
+    <Abstract>Creates a new Option that is a one-element linked list and has NULL fabrique::desc, name, arg and namelen. </Abstract>
     <DeclaredIn>optionparser.h</DeclaredIn>
   </Token>
   <Token>
@@ -3342,7 +3134,7 @@
     </TokenIdentifier>
     <Path>classoption_1_1_option.html</Path>
     <Anchor>a385221e2a8f37c548f0d5777bfddb216</Anchor>
-    <Abstract>Creates a new Option that is a one-element linked list and has the given values for desc...</Abstract>
+    <Abstract>Creates a new Option that is a one-element linked list and has the given values for fabrique::desc...</Abstract>
     <DeclaredIn>optionparser.h</DeclaredIn>
   </Token>
   <Token>
@@ -3411,7 +3203,7 @@
     </TokenIdentifier>
     <Path>classoption_1_1_option.html</Path>
     <Anchor>a3aa2957b19ad5815873441b415d56050</Anchor>
-    <Abstract>The length of the option name. </Abstract>
+    <Abstract>The length of the option fabrique::name. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4044,7 +3836,7 @@
     </TokenIdentifier>
     <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
     <Anchor>afa41382acabcd37ca70f7e8b9994b8c0</Anchor>
-    <Abstract>Returns the index (counting from 0) of the column in which the part pointed to by data() is located...</Abstract>
+    <Abstract>Returns the index (counting from 0) of the column in which the part pointed to by fabrique::data() is...</Abstract>
     <DeclaredIn>optionparser.h</DeclaredIn>
   </Token>
   <Token>
@@ -4068,7 +3860,7 @@
     </TokenIdentifier>
     <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
     <Anchor>a557e521cb41e951a34df2737d25f9dce</Anchor>
-    <Abstract>Returns the length of the part pointed to by data() in raw chars (not UTF-8 characters). </Abstract>
+    <Abstract>Returns the length of the part pointed to by fabrique::data() in raw chars (not UTF-8 characters)...</Abstract>
     <DeclaredIn>optionparser.h</DeclaredIn>
   </Token>
   <Token>
@@ -4080,7 +3872,7 @@
     </TokenIdentifier>
     <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
     <Anchor>a03b6fedfe805d7fc73216da5cd33270e</Anchor>
-    <Abstract>Returns the width in screen columns of the part pointed to by data(). </Abstract>
+    <Abstract>Returns the width in screen columns of the part pointed to by fabrique::data(). </Abstract>
     <DeclaredIn>optionparser.h</DeclaredIn>
   </Token>
   <Token>

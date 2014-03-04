@@ -4,6 +4,7 @@ var classfabrique_1_1ast_1_1_scope =
     [ "SymbolMap", "classfabrique_1_1ast_1_1_scope.html#ad1eee3458e234a4753aef89cfcdf98b3", null ],
     [ "Scope", "classfabrique_1_1ast_1_1_scope.html#a1e0853c43ea10e3907645acfaa81a5df", null ],
     [ "Scope", "classfabrique_1_1ast_1_1_scope.html#afe674fd5ca8fa7565d4841746e65a588", null ],
+    [ "~Scope", "classfabrique_1_1ast_1_1_scope.html#af65c405cd3ed6ab3e468fa5b1905bdb2", null ],
     [ "Accept", "classfabrique_1_1ast_1_1_scope.html#a12684fa25b620ea5d5ee1333b3e0b301", null ],
     [ "begin", "classfabrique_1_1ast_1_1_scope.html#ae83f49b69dc8ff83a74cc50d8e57106e", null ],
     [ "contains", "classfabrique_1_1ast_1_1_scope.html#afcbd21a608453b0505f5ff4d9a91bbf3", null ],

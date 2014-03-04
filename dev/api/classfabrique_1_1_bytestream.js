@@ -15,11 +15,13 @@ var classfabrique_1_1_bytestream =
       [ "Line", "classfabrique_1_1_bytestream.html#ada63ac430a4a8c872650ba406589ff3ca6ae6dc0a49cafd09910cce752acbc2fd", null ],
       [ "Reset", "classfabrique_1_1_bytestream.html#ada63ac430a4a8c872650ba406589ff3ca7a14a280fb8213f5617721f7de753c1b", null ]
     ] ],
+    [ "~Bytestream", "classfabrique_1_1_bytestream.html#a2cd1d19b6612e068b82eed1b202d763d", null ],
     [ "Bytestream", "classfabrique_1_1_bytestream.html#a7893ea2d200027a2bb367a37833a79c1", null ],
     [ "operator<<", "classfabrique_1_1_bytestream.html#a2a915674f99230ef52fc88d90523b211", null ],
     [ "operator<<", "classfabrique_1_1_bytestream.html#ad44e1bb908e5284777d13109a9682950", null ],
     [ "operator<<", "classfabrique_1_1_bytestream.html#a967603861ff3e0a29be8e3b26e12d098", null ],
+    [ "operator<<", "classfabrique_1_1_bytestream.html#abcebfc21628fa25a476b83fbab3144fc", null ],
     [ "operator<<", "classfabrique_1_1_bytestream.html#ac08a56a69d68c238f03361e1a063939d", null ],
     [ "raw", "classfabrique_1_1_bytestream.html#a2ef3ddb19e85059aef93b332656c002a", null ],
-    [ "out", "classfabrique_1_1_bytestream.html#ae0c20ac6d56c1005fd07d1e4658385c4", null ]
+    [ "out_", "classfabrique_1_1_bytestream.html#a892b830a4568d244ef18bde96978cf10", null ]
 ];

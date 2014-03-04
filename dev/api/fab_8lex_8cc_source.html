@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Fabrique: Parsing/fab.lex.cc Source File</title>
+<title>Fabrique: build/Parsing/fab.lex.cc Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -621,8 +621,8 @@ $(document).ready(function(){initNavTree('fab_8lex_8cc_source.html','');});
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define yymore() yymore_used_but_not_detected</span></div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define YY_MORE_ADJ 0</span></div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define YY_RESTORE_YY_MORE_OFFSET</span></div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#line 1 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#line 2 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#line 1 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#line 2 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ast_8h.html">AST/ast.h</a>&quot;</span></div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;</div>
@@ -769,7 +769,7 @@ $(document).ready(function(){initNavTree('fab_8lex_8cc_source.html','');});
 <div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">char</span> *yy_cp, *yy_bp;</div>
 <div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">int</span> yy_act;</div>
 <div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;    </div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;<span class="preprocessor">#line 62 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;<span class="preprocessor">#line 62 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;</div>
 <div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;<span class="preprocessor">#line 671 &quot;Parsing/fab.lex.cc&quot;</span></div>
@@ -868,32 +868,32 @@ $(document).ready(function(){initNavTree('fab_8lex_8cc_source.html','');});
 <div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;<span class="keywordflow">case</span> 1:</div>
 <div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;<span class="comment">/* rule 1 can match eol */</span></div>
 <div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;<span class="preprocessor">#line 64 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;<span class="preprocessor">#line 64 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;<span class="preprocessor"></span>SetComment(yylval, <span class="keyword">true</span>);   <span class="comment">/* comment includes a newline */</span></div>
 <div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;<span class="keywordflow">case</span> 2:</div>
 <div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;<span class="preprocessor">#line 66 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;<span class="preprocessor">#line 66 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;<span class="preprocessor"></span>{ BEGIN SQSTR; BeginString(); } <span class="comment">/* open a string literal */</span></div>
 <div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;<span class="keywordflow">case</span> 3:</div>
 <div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;<span class="preprocessor">#line 67 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;<span class="preprocessor">#line 67 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;<span class="preprocessor"></span>{ BEGIN DQSTR; BeginString(); }</div>
 <div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;<span class="keywordflow">case</span> 4:</div>
 <div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;<span class="preprocessor">#line 69 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;<span class="preprocessor">#line 69 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;<span class="preprocessor"></span>{ AppendChar(<span class="charliteral">&#39;\&#39;&#39;</span>); }       <span class="comment">/* escapes within a string */</span></div>
 <div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;<span class="keywordflow">case</span> 5:</div>
 <div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;<span class="preprocessor">#line 70 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;<span class="preprocessor">#line 70 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;<span class="preprocessor"></span>{ AppendChar(<span class="charliteral">&#39;&quot;&#39;</span>); }</div>
 <div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;<span class="keywordflow">case</span> 6:</div>
 <div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;<span class="preprocessor">#line 72 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;<span class="preprocessor">#line 72 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;<span class="preprocessor"></span>{               <span class="comment">/* close a string literal */</span></div>
 <div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;    BEGIN 0;</div>
 <div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;    EndString(yylval);</div>
@@ -902,7 +902,7 @@ $(document).ready(function(){initNavTree('fab_8lex_8cc_source.html','');});
 <div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;<span class="keywordflow">case</span> 7:</div>
 <div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;<span class="preprocessor">#line 78 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;<span class="preprocessor">#line 78 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;<span class="preprocessor"></span>{</div>
 <div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;    BEGIN 0;</div>
 <div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;    EndString(yylval);</div>
@@ -912,153 +912,153 @@ $(document).ready(function(){initNavTree('fab_8lex_8cc_source.html','');});
 <div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;<span class="keywordflow">case</span> 8:</div>
 <div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;<span class="comment">/* rule 8 can match eol */</span></div>
 <div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;<span class="preprocessor">#line 84 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;<span class="preprocessor">#line 84 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;<span class="preprocessor"></span>{ printf(<span class="stringliteral">&quot;invalid string&quot;</span>); exit(1); }  <span class="comment">// other characters</span></div>
 <div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;<span class="keywordflow">case</span> 9:</div>
 <div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;<span class="preprocessor">#line 85 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;<span class="preprocessor">#line 85 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;<span class="preprocessor"></span>{ AppendChar(*yytext); }</div>
 <div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;<span class="keywordflow">case</span> 10:</div>
 <div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;<span class="preprocessor">#line 87 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;<span class="preprocessor">#line 87 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;<span class="preprocessor"></span><span class="keywordflow">return</span> TRUE;</div>
 <div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;<span class="keywordflow">case</span> 11:</div>
 <div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;<span class="preprocessor">#line 88 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;<span class="preprocessor">#line 88 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;<span class="preprocessor"></span><span class="keywordflow">return</span> FALSE;</div>
 <div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;<span class="keywordflow">case</span> 12:</div>
 <div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;<span class="preprocessor">#line 89 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;<span class="preprocessor">#line 89 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;<span class="preprocessor"></span>yylval-&gt;intVal = atoi(yytext);  <span class="keywordflow">return</span> INT_LITERAL;</div>
 <div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;<span class="keywordflow">case</span> 13:</div>
 <div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;<span class="preprocessor">#line 90 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;<span class="preprocessor">#line 90 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> IF;</div>
 <div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;<span class="keywordflow">case</span> 14:</div>
 <div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;<span class="preprocessor">#line 91 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;<span class="preprocessor">#line 91 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> ELSE;</div>
 <div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;<span class="keywordflow">case</span> 15:</div>
 <div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;<span class="preprocessor">#line 92 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;<span class="preprocessor">#line 92 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> FOREACH;</div>
 <div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;<span class="keywordflow">case</span> 16:</div>
 <div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;<span class="preprocessor">#line 93 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;<span class="preprocessor">#line 93 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> AS;</div>
 <div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;<span class="keywordflow">case</span> 17:</div>
 <div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;<span class="preprocessor">#line 94 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;<span class="preprocessor">#line 94 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> ACTION;</div>
 <div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;<span class="keywordflow">case</span> 18:</div>
 <div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;<span class="preprocessor">#line 95 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;<span class="preprocessor">#line 95 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> FILES;</div>
 <div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;<span class="keywordflow">case</span> 19:</div>
 <div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;<span class="preprocessor">#line 96 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;<span class="preprocessor">#line 96 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> FILE_TOKEN;</div>
 <div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;<span class="keywordflow">case</span> 20:</div>
 <div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;<span class="preprocessor">#line 97 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;<span class="preprocessor">#line 97 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> FUNCTION;</div>
 <div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;<span class="keywordflow">case</span> 21:</div>
 <div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;<span class="preprocessor">#line 98 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;<span class="preprocessor">#line 98 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> RETURN;</div>
 <div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;<span class="keywordflow">case</span> 22:</div>
 <div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;<span class="preprocessor">#line 99 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;<span class="preprocessor">#line 99 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> NOT;</div>
 <div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;<span class="keywordflow">case</span> 23:</div>
 <div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;<span class="preprocessor">#line 100 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;<span class="preprocessor">#line 100 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> AND;</div>
 <div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;<span class="keywordflow">case</span> 24:</div>
 <div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;<span class="preprocessor">#line 101 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;<span class="preprocessor">#line 101 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> OR;</div>
 <div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;<span class="keywordflow">case</span> 25:</div>
 <div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;<span class="preprocessor">#line 102 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;<span class="preprocessor">#line 102 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> XOR;</div>
 <div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;<span class="keywordflow">case</span> 26:</div>
 <div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;<span class="preprocessor">#line 103 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;<span class="preprocessor">#line 103 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> INPUT;</div>
 <div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;<span class="keywordflow">case</span> 27:</div>
 <div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;<span class="preprocessor">#line 104 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;<span class="preprocessor">#line 104 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> ADD;</div>
 <div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;<span class="keywordflow">case</span> 28:</div>
 <div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;<span class="preprocessor">#line 105 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;<span class="preprocessor">#line 105 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> PREFIX;</div>
 <div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;<span class="keywordflow">case</span> 29:</div>
 <div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;<span class="preprocessor">#line 106 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;<span class="preprocessor">#line 106 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> SCALAR_ADD;</div>
 <div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;<span class="keywordflow">case</span> 30:</div>
 <div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;<span class="preprocessor">#line 107 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;<span class="preprocessor">#line 107 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> *yytext;</div>
 <div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;<span class="keywordflow">case</span> 31:</div>
 <div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;<span class="preprocessor">#line 108 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;<span class="preprocessor">#line 108 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> *yytext;</div>
 <div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;<span class="keywordflow">case</span> 32:</div>
 <div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;<span class="preprocessor">#line 109 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;<span class="preprocessor">#line 109 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> IDENTIFIER;</div>
 <div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;<span class="keywordflow">case</span> 33:</div>
 <div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;<span class="preprocessor">#line 110 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;<span class="preprocessor">#line 110 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;<span class="preprocessor"></span>SetToken(yylval);       <span class="keywordflow">return</span> FILENAME;</div>
 <div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;<span class="keywordflow">case</span> 34:</div>
 <div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;<span class="preprocessor">#line 111 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;<span class="preprocessor">#line 111 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;<span class="preprocessor"></span>yycolumn += 7;          <span class="comment">/* ignore */</span></div>
 <div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;<span class="keywordflow">case</span> 35:</div>
 <div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;<span class="comment">/* rule 35 can match eol */</span></div>
 <div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;<span class="preprocessor">#line 112 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;<span class="preprocessor">#line 112 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;<span class="preprocessor"></span><span class="comment">/* ignore */</span></div>
 <div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;<span class="keywordflow">case</span> 36:</div>
 <div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;<span class="preprocessor">#line 113 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;<span class="preprocessor">#line 113 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;<span class="preprocessor"></span><span class="comment">/* ignore */</span></div>
 <div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;<span class="keywordflow">case</span> 37:</div>
 <div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;YY_RULE_SETUP</div>
-<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;<span class="preprocessor">#line 114 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;<span class="preprocessor">#line 114 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;<span class="preprocessor"></span>ECHO;</div>
 <div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;    YY_BREAK</div>
 <div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;<span class="preprocessor">#line 960 &quot;Parsing/fab.lex.cc&quot;</span></div>
@@ -1939,10 +1939,10 @@ $(document).ready(function(){initNavTree('fab_8lex_8cc_source.html','');});
 <div class="line"><a name="l01867"></a><span class="lineno"> 1867</span>&#160;</div>
 <div class="line"><a name="l01868"></a><span class="lineno"> 1868</span>&#160;<span class="preprocessor">#define YYTABLES_NAME &quot;yytables&quot;</span></div>
 <div class="line"><a name="l01869"></a><span class="lineno"> 1869</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01870"></a><span class="lineno"> 1870</span>&#160;<span class="preprocessor">#line 114 &quot;/Volumes/Dev/fabrique/Parsing/fab.l&quot;</span></div>
+<div class="line"><a name="l01870"></a><span class="lineno"> 1870</span>&#160;<span class="preprocessor">#line 114 &quot;/Volumes/Dev/fabriquer/Parsing/fab.l&quot;</span></div>
 <div class="ttc" id="structyy__buffer__state_html_a818e94bc9c766e683c60df1e9fd01199"><div class="ttname"><a href="structyy__buffer__state.html#a818e94bc9c766e683c60df1e9fd01199">yy_buffer_state::yy_bs_lineno</a></div><div class="ttdeci">int yy_bs_lineno</div><div class="ttdoc">The line count. </div><div class="ttdef"><b>Definition:</b> <a href="fab_8lex_8cc_source.html#l00249">fab.lex.cc:249</a></div></div>
 <div class="ttc" id="ast_8h_html"><div class="ttname"><a href="ast_8h.html">ast.h</a></div><div class="ttdoc">Meta-include file for all AST node types. </div></div>
-<div class="ttc" id="union_y_y_s_t_y_p_e_html"><div class="ttname"><a href="union_y_y_s_t_y_p_e.html">YYSTYPE</a></div><div class="ttdef"><b>Definition:</b> <a href="fab_8yacc_8h_source.html#l00032">fab.yacc.h:32</a></div></div>
+<div class="ttc" id="union_y_y_s_t_y_p_e_html"><div class="ttname"><a href="union_y_y_s_t_y_p_e.html">YYSTYPE</a></div><div class="ttdef"><b>Definition:</b> <a href="fab_8yacc_8cc_source.html#l00111">fab.yacc.cc:111</a></div></div>
 <div class="ttc" id="structyy__buffer__state_html_a10c4fcd8be759e6bf11e6d3e8cdb0307"><div class="ttname"><a href="structyy__buffer__state.html#a10c4fcd8be759e6bf11e6d3e8cdb0307">yy_buffer_state::yy_bs_column</a></div><div class="ttdeci">int yy_bs_column</div><div class="ttdoc">The column count. </div><div class="ttdef"><b>Definition:</b> <a href="fab_8lex_8cc_source.html#l00250">fab.lex.cc:250</a></div></div>
 <div class="ttc" id="lex_8h_html"><div class="ttname"><a href="lex_8h.html">lex.h</a></div><div class="ttdoc">Meta-include file for lex headers (gen or system). </div></div>
 <div class="ttc" id="structyy__buffer__state_html"><div class="ttname"><a href="structyy__buffer__state.html">yy_buffer_state</a></div><div class="ttdef"><b>Definition:</b> <a href="fab_8lex_8cc_source.html#l00212">fab.lex.cc:212</a></div></div>
@@ -1955,7 +1955,7 @@ $(document).ready(function(){initNavTree('fab_8lex_8cc_source.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_91a344cb2f1c62e006c14959b1a9e949.html">Parsing</a></li><li class="navelem"><b>fab.lex.cc</b></li>
+    <li class="navelem"><a class="el" href="dir_4fef79e7177ba769987a8da36c892c5f.html">build</a></li><li class="navelem"><a class="el" href="dir_91a344cb2f1c62e006c14959b1a9e949.html">Parsing</a></li><li class="navelem"><b>fab.lex.cc</b></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
