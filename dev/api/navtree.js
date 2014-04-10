@@ -1,6 +1,7 @@
 var NAVTREE =
 [
-  [ "Fabriquer", "index.html", [
+  [ "Fabrique", "index.html", [
+    [ "Fabrique TODO list", "md__t_o_d_o.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -37,9 +38,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"_visitable_8cc_source.html",
-"classfabrique_1_1ast_1_1_foreach_expr.html#a02b2422ded20260185f21719ed5c391f",
-"classoption_1_1_option.html#abb4e13cd7c90999c8a6b1f871cece283"
+"_typed_8cc_source.html",
+"classfabrique_1_1ast_1_1_binary_operation.html",
+"classfabrique_1_1dag_1_1_file.html",
+"structoption_1_1_descriptor.html#a1fee8ac44f529c99ac2b1149b4c391b1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -26,6 +26,7 @@ var annotated =
         [ "BoolLiteral", "classfabrique_1_1ast_1_1_bool_literal.html", "classfabrique_1_1ast_1_1_bool_literal" ],
         [ "IntLiteral", "classfabrique_1_1ast_1_1_int_literal.html", "classfabrique_1_1ast_1_1_int_literal" ],
         [ "StringLiteral", "classfabrique_1_1ast_1_1_string_literal.html", "classfabrique_1_1ast_1_1_string_literal" ],
+        [ "Mapping", "classfabrique_1_1ast_1_1_mapping.html", "classfabrique_1_1ast_1_1_mapping" ],
         [ "Node", "classfabrique_1_1ast_1_1_node.html", "classfabrique_1_1ast_1_1_node" ],
         [ "Parameter", "classfabrique_1_1ast_1_1_parameter.html", "classfabrique_1_1ast_1_1_parameter" ],
         [ "Scope", "classfabrique_1_1ast_1_1_scope.html", "classfabrique_1_1ast_1_1_scope" ],
@@ -48,6 +49,7 @@ var annotated =
         [ "DAGBuilder", "classfabrique_1_1dag_1_1_d_a_g_builder.html", "classfabrique_1_1dag_1_1_d_a_g_builder" ],
         [ "DAG", "classfabrique_1_1dag_1_1_d_a_g.html", "classfabrique_1_1dag_1_1_d_a_g" ],
         [ "File", "classfabrique_1_1dag_1_1_file.html", "classfabrique_1_1dag_1_1_file" ],
+        [ "Formatter", "classfabrique_1_1dag_1_1_formatter.html", "classfabrique_1_1dag_1_1_formatter" ],
         [ "List", "classfabrique_1_1dag_1_1_list.html", "classfabrique_1_1dag_1_1_list" ],
         [ "Primitive", "classfabrique_1_1dag_1_1_primitive.html", "classfabrique_1_1dag_1_1_primitive" ],
         [ "Boolean", "classfabrique_1_1dag_1_1_boolean.html", "classfabrique_1_1dag_1_1_boolean" ],
@@ -56,7 +58,8 @@ var annotated =
         [ "Rule", "classfabrique_1_1dag_1_1_rule.html", "classfabrique_1_1dag_1_1_rule" ],
         [ "Target", "classfabrique_1_1dag_1_1_target.html", "classfabrique_1_1dag_1_1_target" ],
         [ "UndefinedValueException", "classfabrique_1_1dag_1_1_undefined_value_exception.html", "classfabrique_1_1dag_1_1_undefined_value_exception" ],
-        [ "Value", "classfabrique_1_1dag_1_1_value.html", "classfabrique_1_1dag_1_1_value" ]
+        [ "Value", "classfabrique_1_1dag_1_1_value.html", "classfabrique_1_1dag_1_1_value" ],
+        [ "Visitor", "classfabrique_1_1dag_1_1_visitor.html", "classfabrique_1_1dag_1_1_visitor" ]
       ] ],
       [ "FabContext", "classfabrique_1_1_fab_context.html", "classfabrique_1_1_fab_context" ],
       [ "Lexer", "classfabrique_1_1_lexer.html", "classfabrique_1_1_lexer" ],
@@ -66,6 +69,8 @@ var annotated =
       [ "ErrorReport", "classfabrique_1_1_error_report.html", "classfabrique_1_1_error_report" ],
       [ "AssertionFailure", "classfabrique_1_1_assertion_failure.html", "classfabrique_1_1_assertion_failure" ],
       [ "DuplicateException", "classfabrique_1_1_duplicate_exception.html", "classfabrique_1_1_duplicate_exception" ],
+      [ "OSError", "classfabrique_1_1_o_s_error.html", "classfabrique_1_1_o_s_error" ],
+      [ "UserError", "classfabrique_1_1_user_error.html", "classfabrique_1_1_user_error" ],
       [ "SourceCodeException", "classfabrique_1_1_source_code_exception.html", "classfabrique_1_1_source_code_exception" ],
       [ "SyntaxError", "classfabrique_1_1_syntax_error.html", "classfabrique_1_1_syntax_error" ],
       [ "SemanticException", "classfabrique_1_1_semantic_exception.html", "classfabrique_1_1_semantic_exception" ],
@@ -82,5 +87,8 @@ var annotated =
       [ "WrongTypeException", "classfabrique_1_1_wrong_type_exception.html", "classfabrique_1_1_wrong_type_exception" ]
     ] ],
     [ "option", "namespaceoption.html", "namespaceoption" ],
-    [ "DebugState", "class_debug_state.html", "class_debug_state" ]
+    [ "DebugState", "class_debug_state.html", "class_debug_state" ],
+    [ "DotFormatter", "class_dot_formatter.html", "class_dot_formatter" ],
+    [ "MakeFormatter", "class_make_formatter.html", "class_make_formatter" ],
+    [ "NinjaFormatter", "class_ninja_formatter.html", "class_ninja_formatter" ]
 ];

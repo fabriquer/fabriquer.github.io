@@ -14,12 +14,16 @@ var dir_1697ed7e5b7c31acceeafb998d452e8b =
     [ "exceptions.h", "exceptions_8h.html", [
       [ "AssertionFailure", "classfabrique_1_1_assertion_failure.html", "classfabrique_1_1_assertion_failure" ],
       [ "DuplicateException", "classfabrique_1_1_duplicate_exception.html", "classfabrique_1_1_duplicate_exception" ],
+      [ "OSError", "classfabrique_1_1_o_s_error.html", "classfabrique_1_1_o_s_error" ],
+      [ "UserError", "classfabrique_1_1_user_error.html", "classfabrique_1_1_user_error" ],
       [ "SourceCodeException", "classfabrique_1_1_source_code_exception.html", "classfabrique_1_1_source_code_exception" ],
       [ "SyntaxError", "classfabrique_1_1_syntax_error.html", "classfabrique_1_1_syntax_error" ],
       [ "SemanticException", "classfabrique_1_1_semantic_exception.html", "classfabrique_1_1_semantic_exception" ]
     ] ],
     [ "Join.cc", "_join_8cc.html", null ],
     [ "Join.h", "_join_8h.html", "_join_8h" ],
+    [ "os-posix.cc", "os-posix_8cc.html", null ],
+    [ "os.h", "os_8h.html", "os_8h" ],
     [ "Printable.cc", "_printable_8cc.html", null ],
     [ "Printable.h", "_printable_8h.html", [
       [ "Printable", "classfabrique_1_1_printable.html", "classfabrique_1_1_printable" ]

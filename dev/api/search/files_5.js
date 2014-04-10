@@ -10,6 +10,7 @@ var searchData=
   ['filename_2eh',['Filename.h',['../_filename_8h.html',1,'']]],
   ['foreach_2ecc',['Foreach.cc',['../_foreach_8cc.html',1,'']]],
   ['foreach_2eh',['Foreach.h',['../_foreach_8h.html',1,'']]],
+  ['formatter_2ecc',['Formatter.cc',['../_formatter_8cc.html',1,'']]],
   ['function_2ecc',['Function.cc',['../_function_8cc.html',1,'']]],
   ['function_2eh',['Function.h',['../_function_8h.html',1,'']]],
   ['functiontype_2ecc',['FunctionType.cc',['../_function_type_8cc.html',1,'']]],

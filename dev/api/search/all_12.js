@@ -9,5 +9,6 @@ var searchData=
   ['undefinedvalueexception',['UndefinedValueException',['../classfabrique_1_1dag_1_1_undefined_value_exception.html',1,'fabrique::dag']]],
   ['undefinedvalueexception_2ecc',['UndefinedValueException.cc',['../_undefined_value_exception_8cc.html',1,'']]],
   ['undefinedvalueexception_2eh',['UndefinedValueException.h',['../_undefined_value_exception_8h.html',1,'']]],
-  ['uniqptr_2eh',['UniqPtr.h',['../_uniq_ptr_8h.html',1,'']]]
+  ['uniqptr_2eh',['UniqPtr.h',['../_uniq_ptr_8h.html',1,'']]],
+  ['usererror',['UserError',['../classfabrique_1_1_user_error.html',1,'fabrique']]]
 ];
