@@ -22,6 +22,7 @@ var hierarchy =
     [ "std::exception", null, [
       [ "fabrique::AssertionFailure", "classfabrique_1_1_assertion_failure.html", null ],
       [ "fabrique::DuplicateException", "classfabrique_1_1_duplicate_exception.html", null ],
+      [ "fabrique::OSError", "classfabrique_1_1_o_s_error.html", null ],
       [ "fabrique::SourceCodeException", "classfabrique_1_1_source_code_exception.html", [
         [ "fabrique::SemanticException", "classfabrique_1_1_semantic_exception.html", [
           [ "fabrique::dag::UndefinedValueException", "classfabrique_1_1dag_1_1_undefined_value_exception.html", null ],
@@ -30,7 +31,8 @@ var hierarchy =
           ] ]
         ] ],
         [ "fabrique::SyntaxError", "classfabrique_1_1_syntax_error.html", null ]
-      ] ]
+      ] ],
+      [ "fabrique::UserError", "classfabrique_1_1_user_error.html", null ]
     ] ],
     [ "fabrique::FabContext", "classfabrique_1_1_fab_context.html", null ],
     [ "fabrique::HasSource", "classfabrique_1_1_has_source.html", [
@@ -62,7 +64,8 @@ var hierarchy =
             [ "fabrique::ast::StringLiteral", "classfabrique_1_1ast_1_1_string_literal.html", null ]
           ] ]
         ] ],
-        [ "fabrique::ast::Identifier", "classfabrique_1_1ast_1_1_identifier.html", null ]
+        [ "fabrique::ast::Identifier", "classfabrique_1_1ast_1_1_identifier.html", null ],
+        [ "fabrique::ast::Mapping", "classfabrique_1_1ast_1_1_mapping.html", null ]
       ] ],
       [ "fabrique::dag::Value", "classfabrique_1_1dag_1_1_value.html", [
         [ "fabrique::dag::Build", "classfabrique_1_1dag_1_1_build.html", null ],
@@ -125,6 +128,13 @@ var hierarchy =
     ] ],
     [ "fabrique::ast::Visitable", "classfabrique_1_1ast_1_1_visitable.html", [
       [ "fabrique::ast::Node", "classfabrique_1_1ast_1_1_node.html", null ]
+    ] ],
+    [ "fabrique::dag::Visitor", "classfabrique_1_1dag_1_1_visitor.html", [
+      [ "fabrique::dag::Formatter", "classfabrique_1_1dag_1_1_formatter.html", [
+        [ "DotFormatter", "class_dot_formatter.html", null ],
+        [ "MakeFormatter", "class_make_formatter.html", null ],
+        [ "NinjaFormatter", "class_ninja_formatter.html", null ]
+      ] ]
     ] ],
     [ "fabrique::ast::Visitor", "classfabrique_1_1ast_1_1_visitor.html", [
       [ "fabrique::ast::ASTDump", "classfabrique_1_1ast_1_1_a_s_t_dump.html", null ],

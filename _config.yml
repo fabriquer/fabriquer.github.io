@@ -1,6 +1,6 @@
 safe: true
 lsi: false
 pygments: true
-title: Fabriquer
+title: Fabrique
 subtitle: A build language for complex systems
-repo: https://github.com/fabriquer/fabriquer
+repo: https://github.com/fabriquer/fabrique

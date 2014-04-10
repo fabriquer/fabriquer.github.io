@@ -15,6 +15,7 @@ var searchData=
   ['dot_2ecc',['Dot.cc',['../_dot_8cc.html',1,'']]],
   ['dot_2eh',['Dot.h',['../_dot_8h.html',1,'']]],
   ['dotbackend',['DotBackend',['../classfabrique_1_1backend_1_1_dot_backend.html',1,'fabrique::backend']]],
+  ['dotformatter',['DotFormatter',['../class_dot_formatter.html',1,'']]],
   ['driver_2ecc',['driver.cc',['../driver_8cc.html',1,'']]],
   ['duplicateexception',['DuplicateException',['../classfabrique_1_1_duplicate_exception.html',1,'fabrique']]]
 ];

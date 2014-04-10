@@ -10,7 +10,7 @@ var _arguments_8cc =
       [ "Usage", "_arguments_8cc.html#a2a079e1d05d6348a3979c06647633481a07ef44b5c07814160a89844c9a4a1e75", null ],
       [ "Help", "_arguments_8cc.html#a2a079e1d05d6348a3979c06647633481a2c1b595c80ad4c1b7452f5ef8887ffba", null ],
       [ "Format", "_arguments_8cc.html#a2a079e1d05d6348a3979c06647633481a344024eaa3665770909a7c33cbbe2674", null ],
-      [ "OutputFile", "_arguments_8cc.html#a2a079e1d05d6348a3979c06647633481a3229017c8f084b040dde5950bcb2525b", null ],
+      [ "OutputDirectory", "_arguments_8cc.html#a2a079e1d05d6348a3979c06647633481aab20dd2bf3a84a8845e7ec87641ca0f6", null ],
       [ "ParseOnly", "_arguments_8cc.html#a2a079e1d05d6348a3979c06647633481a1b827e47cc6e496818aa50e80551dec1", null ],
       [ "PrettyPrintAST", "_arguments_8cc.html#a2a079e1d05d6348a3979c06647633481ab39d871d1d8484b61260747c0a8e833e", null ],
       [ "PrettyPrintDAG", "_arguments_8cc.html#a2a079e1d05d6348a3979c06647633481af375cf6baab9d6c0357e75612f1b4b06", null ],

@@ -20,12 +20,14 @@ var searchData=
   ['finished',['finished',['../structoption_1_1_parser_1_1_action.html#a3ec558b51e34d33d116f14587289e032',1,'option::Parser::Action::finished()'],['../classoption_1_1_parser_1_1_store_option_action.html#a617f675ef50a72ae36ce91f065bc8441',1,'option::Parser::StoreOptionAction::finished()']]],
   ['first',['first',['../classoption_1_1_option.html#abb4e13cd7c90999c8a6b1f871cece283',1,'option::Option']]],
   ['flush',['flush',['../classoption_1_1_print_usage_implementation_1_1_line_wrapper.html#a9383db9fd3fb18ce091db63ce0b149fd',1,'option::PrintUsageImplementation::LineWrapper']]],
-  ['foreach',['Foreach',['../classfabrique_1_1ast_1_1_parser.html#a5d2cec8061893e263c50d3aecfee2d51',1,'fabrique::ast::Parser']]],
+  ['foreach',['Foreach',['../classfabrique_1_1ast_1_1_parser.html#a055e58d0fc759c0dfd0b45bf54243c18',1,'fabrique::ast::Parser']]],
   ['foreach_2ecc',['Foreach.cc',['../_foreach_8cc.html',1,'']]],
   ['foreach_2eh',['Foreach.h',['../_foreach_8h.html',1,'']]],
   ['foreachexpr',['ForeachExpr',['../classfabrique_1_1ast_1_1_foreach_expr.html',1,'fabrique::ast']]],
   ['format',['Format',['../classfabrique_1_1_bytestream.html#ada63ac430a4a8c872650ba406589ff3c',1,'fabrique::Bytestream']]],
   ['formatted',['Formatted',['../classfabrique_1_1_bytestream.html#ab07d387febeb571df8d66b343331599a',1,'fabrique::Bytestream']]],
+  ['formatter',['Formatter',['../classfabrique_1_1dag_1_1_formatter.html',1,'fabrique::dag']]],
+  ['formatter_2ecc',['Formatter.cc',['../_formatter_8cc.html',1,'']]],
   ['function',['Function',['../classfabrique_1_1ast_1_1_function.html',1,'fabrique::ast']]],
   ['function_2ecc',['Function.cc',['../_function_8cc.html',1,'']]],
   ['function_2eh',['Function.h',['../_function_8h.html',1,'']]],
@@ -33,5 +35,6 @@ var searchData=
   ['functiontype',['FunctionType',['../classfabrique_1_1_function_type.html',1,'fabrique']]],
   ['functiontype_2ecc',['FunctionType.cc',['../_function_type_8cc.html',1,'']]],
   ['functiontype_2eh',['FunctionType.h',['../_function_type_8h.html',1,'']]],
-  ['functionwriter',['FunctionWriter',['../structoption_1_1_print_usage_implementation_1_1_function_writer.html',1,'option::PrintUsageImplementation']]]
+  ['functionwriter',['FunctionWriter',['../structoption_1_1_print_usage_implementation_1_1_function_writer.html',1,'option::PrintUsageImplementation']]],
+  ['fabrique_20todo_20list',['Fabrique TODO list',['../md__t_o_d_o.html',1,'']]]
 ];

@@ -4,9 +4,9 @@
 <plist version="1.0">
 <dict>
      <key>CFBundleName</key>
-     <string>Fabriquer</string>
+     <string>Fabrique</string>
      <key>CFBundleIdentifier</key>
-     <string>io.github.fabriquer.fabriquer</string>
+     <string>io.github.fabriquer.fabrique</string>
      <key>CFBundleVersion</key>
      <string>ProjectNumber</string>
      <key>DocSetFeedName</key>

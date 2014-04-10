@@ -26,14 +26,14 @@
 		<link rel="stylesheet" type="text/css" href="/style/base.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="/style/pygments.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="/style/print.css" media="print" />
-		<title>Fabriquer API documentation</title>
+		<title>Fabrique API documentation</title>
 	</head>
 	<body>
 		<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 		<div id="titlearea">
 		<header>
 			<div class="inner">
-				<h1>Fabriquer</h1>
+				<h1>Fabrique</h1>
 				<h2>A build language for complex systems</h2>
 			</div>
 			<nav>
@@ -73,6 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -120,7 +121,7 @@ $(document).ready(function(){initNavTree('_file_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -179,29 +180,42 @@ $(document).ready(function(){initNavTree('_file_8h_source.html','');});
 <div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classfabrique_1_1dag_1_1_file.html">   46</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfabrique_1_1dag_1_1_file.html">File</a> : <span class="keyword">public</span> <a class="code" href="classfabrique_1_1dag_1_1_value.html">Value</a></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classfabrique_1_1dag_1_1_file.html">File</a>(<span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp;, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> source);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classfabrique_1_1dag_1_1_file.html">File</a>(std::string name, <span class="keywordtype">bool</span> <a class="code" href="classfabrique_1_1dag_1_1_file.html#a516766962ef1893041d33a4548b8065b">absolute</a>, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp;, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a>);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classfabrique_1_1dag_1_1_file.html">File</a>() {}</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">virtual</span> std::string filename()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> filename_; }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">virtual</span> std::string str()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> filename_; }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classfabrique_1_1dag_1_1_file.html#a4cc58c49e192dd551775bb6672007793">PrettyPrint</a>(<a class="code" href="classfabrique_1_1_bytestream.html">Bytestream</a>&amp;, <span class="keywordtype">size_t</span> indent = 0) <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">const</span> std::string filename_;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;} <span class="comment">// namespace dag</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;} <span class="comment">// namespace fabrique</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">virtual</span> std::string filename() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">virtual</span> std::string fullName() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">virtual</span> std::string str()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> filename_; }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classfabrique_1_1dag_1_1_file.html#a516766962ef1893041d33a4548b8065b">   57</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classfabrique_1_1dag_1_1_file.html#a516766962ef1893041d33a4548b8065b">absolute</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> absolute_; }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">bool</span> generated()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> generated_; }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> setGenerated(<span class="keywordtype">bool</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    std::string subdirectory()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> subdirectory_; }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> setSubdirectory(std::string subdir) { subdirectory_ = subdir; }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classfabrique_1_1dag_1_1_file.html#a4cc58c49e192dd551775bb6672007793">PrettyPrint</a>(Bytestream&amp;, <span class="keywordtype">size_t</span> indent = 0) <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> Accept(Visitor&amp;) <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">const</span> std::string filename_;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    std::string subdirectory_;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">bool</span> absolute_;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">bool</span> generated_;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;};</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;} <span class="comment">// namespace dag</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;} <span class="comment">// namespace fabrique</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classfabrique_1_1dag_1_1_file_html"><div class="ttname"><a href="classfabrique_1_1dag_1_1_file.html">fabrique::dag::File</a></div><div class="ttdoc">A reference to a file on disk (source or target). </div><div class="ttdef"><b>Definition:</b> <a href="_file_8h_source.html#l00046">File.h:46</a></div></div>
 <div class="ttc" id="_d_a_g_2_value_8h_html"><div class="ttname"><a href="_d_a_g_2_value_8h.html">Value.h</a></div><div class="ttdoc">Declaration of fabrique::dag::Value. </div></div>
-<div class="ttc" id="classfabrique_1_1_bytestream_html"><div class="ttname"><a href="classfabrique_1_1_bytestream.html">fabrique::Bytestream</a></div><div class="ttdoc">A ostream-like class that may support formatting. </div><div class="ttdef"><b>Definition:</b> <a href="_bytestream_8h_source.html#l00043">Bytestream.h:43</a></div></div>
+<div class="ttc" id="classfabrique_1_1dag_1_1_file_html_a516766962ef1893041d33a4548b8065b"><div class="ttname"><a href="classfabrique_1_1dag_1_1_file.html#a516766962ef1893041d33a4548b8065b">fabrique::dag::File::absolute</a></div><div class="ttdeci">bool absolute() const </div><div class="ttdoc">This file refers to an absolute path. </div><div class="ttdef"><b>Definition:</b> <a href="_file_8h_source.html#l00057">File.h:57</a></div></div>
 <div class="ttc" id="classfabrique_1_1_source_range_html"><div class="ttname"><a href="classfabrique_1_1_source_range.html">fabrique::SourceRange</a></div><div class="ttdef"><b>Definition:</b> <a href="_source_location_8h_source.html#l00071">SourceLocation.h:71</a></div></div>
 <div class="ttc" id="classfabrique_1_1_type_html"><div class="ttname"><a href="classfabrique_1_1_type.html">fabrique::Type</a></div><div class="ttdoc">The name of a value, function, parameter or argument. </div><div class="ttdef"><b>Definition:</b> <a href="_type_8h_source.html#l00047">Type.h:47</a></div></div>
-<div class="ttc" id="classfabrique_1_1dag_1_1_file_html_a4cc58c49e192dd551775bb6672007793"><div class="ttname"><a href="classfabrique_1_1dag_1_1_file.html#a4cc58c49e192dd551775bb6672007793">fabrique::dag::File::PrettyPrint</a></div><div class="ttdeci">virtual void PrettyPrint(Bytestream &amp;, size_t indent=0) const override</div><div class="ttdoc">Print a human-readable representation to an output stream and return that output stream. </div><div class="ttdef"><b>Definition:</b> <a href="_file_8cc_source.html#l00045">File.cc:45</a></div></div>
-<div class="ttc" id="classfabrique_1_1dag_1_1_value_html"><div class="ttname"><a href="classfabrique_1_1dag_1_1_value.html">fabrique::dag::Value</a></div><div class="ttdoc">The result of evaluating an expression. </div><div class="ttdef"><b>Definition:</b> <a href="_d_a_g_2_value_8h_source.html#l00050">Value.h:50</a></div></div>
+<div class="ttc" id="classfabrique_1_1dag_1_1_file_html_a4cc58c49e192dd551775bb6672007793"><div class="ttname"><a href="classfabrique_1_1dag_1_1_file.html#a4cc58c49e192dd551775bb6672007793">fabrique::dag::File::PrettyPrint</a></div><div class="ttdeci">virtual void PrettyPrint(Bytestream &amp;, size_t indent=0) const override</div><div class="ttdoc">Print a human-readable representation to an output stream and return that output stream. </div><div class="ttdef"><b>Definition:</b> <a href="_file_8cc_source.html#l00080">File.cc:80</a></div></div>
+<div class="ttc" id="classfabrique_1_1dag_1_1_value_html"><div class="ttname"><a href="classfabrique_1_1dag_1_1_value.html">fabrique::dag::Value</a></div><div class="ttdoc">The result of evaluating an expression. </div><div class="ttdef"><b>Definition:</b> <a href="_d_a_g_2_value_8h_source.html#l00052">Value.h:52</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </section>

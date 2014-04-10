@@ -6,7 +6,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>_visitor_8h.html</Path>
+    <Path>_a_s_t_2_visitor_8h.html</Path>
     <Anchor>adfe777bc932a304bd9acf6b07e60c02f</Anchor>
     <Abstract>Define entry (which returns true to continue descent) and exit methods. </Abstract>
     <DeclaredIn>Visitor.h</DeclaredIn>
@@ -17,7 +17,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>_visitor_8h.html</Path>
+    <Path>_a_s_t_2_visitor_8h.html</Path>
     <Anchor>adfe777bc932a304bd9acf6b07e60c02f</Anchor>
     <Abstract>Define entry (which returns true to continue descent) and exit methods. </Abstract>
     <DeclaredIn>Visitor.h</DeclaredIn>
@@ -92,12 +92,46 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>md_TODO</Name>
+      <APILanguage>markdown</APILanguage>
+    </TokenIdentifier>
+    <Path>md__t_o_d_o.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DebugState</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
       <Scope>DebugState</Scope>
     </TokenIdentifier>
     <Path>class_debug_state.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DotFormatter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>DotFormatter</Scope>
+    </TokenIdentifier>
+    <Path>class_dot_formatter.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MakeFormatter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>MakeFormatter</Scope>
+    </TokenIdentifier>
+    <Path>class_make_formatter.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NinjaFormatter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>NinjaFormatter</Scope>
+    </TokenIdentifier>
+    <Path>class_ninja_formatter.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -322,6 +356,28 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1_duplicate_exception.html</Path>
     <Abstract>An unexpected duplicate was encountered. </Abstract>
+    <DeclaredIn>exceptions.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::OSError</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::OSError</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1_o_s_error.html</Path>
+    <Abstract>An error that has an OS-specific description. </Abstract>
+    <DeclaredIn>exceptions.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::UserError</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::UserError</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1_user_error.html</Path>
+    <Abstract>An error in user input. </Abstract>
     <DeclaredIn>exceptions.h</DeclaredIn>
   </Token>
   <Token>
@@ -1075,6 +1131,29 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>fabrique::ast::Mapping</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::ast::Mapping</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+    <Abstract>An expression that maps a sequence into a variable (e.g., at the beginning of a foreach loop)...</Abstract>
+    <DeclaredIn>Mapping.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PrettyPrint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>fabrique::ast::Mapping</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+    <Anchor>a428ffebad83e556e72a1edba3f7cbbb3</Anchor>
+    <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
+    <DeclaredIn>Mapping.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>fabrique::ast::Node</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -1361,7 +1440,7 @@
       <Scope>fabrique::ast::Parser</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-    <Anchor>a5d2cec8061893e263c50d3aecfee2d51</Anchor>
+    <Anchor>a055e58d0fc759c0dfd0b45bf54243c18</Anchor>
     <Abstract>An expression for mapping list elements into another list: foreach x in some_list: x + 1...</Abstract>
     <DeclaredIn>Parser.h</DeclaredIn>
   </Token>
@@ -1411,6 +1490,18 @@
     <Path>classfabrique_1_1ast_1_1_parser.html</Path>
     <Anchor>af546f45a11e1e98f81c2af31f933104f</Anchor>
     <Abstract>Define a List of expressions. </Abstract>
+    <DeclaredIn>Parser.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Map</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>fabrique::ast::Parser</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1ast_1_1_parser.html</Path>
+    <Anchor>a003e45d6787d842d2646f0a750e94173</Anchor>
+    <Abstract>Define a mapping from a sequence to a name. </Abstract>
     <DeclaredIn>Parser.h</DeclaredIn>
   </Token>
   <Token>
@@ -1692,6 +1783,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>absolute</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>fabrique::dag::File</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1dag_1_1_file.html</Path>
+    <Anchor>a516766962ef1893041d33a4548b8065b</Anchor>
+    <Abstract>This file refers to an absolute path. </Abstract>
+    <DeclaredIn>File.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>PrettyPrint</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1797,6 +1900,17 @@
     <Anchor>ab47afc908b89a09a6b440e90226fc7a4</Anchor>
     <Abstract>This Value can add a value to itself in a scalar fashion. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::dag::Formatter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::dag::Formatter</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+    <Abstract>An object that converts DAG nodes into strings. </Abstract>
+    <DeclaredIn>Formatter.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2774,6 +2888,15 @@
     <Anchor>a7b148c5f200de45f3ad33a37a090997f</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Printable.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::dag::Visitor</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::dag::Visitor</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>

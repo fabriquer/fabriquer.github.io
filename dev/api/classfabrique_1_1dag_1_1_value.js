@@ -1,6 +1,7 @@
 var classfabrique_1_1dag_1_1_value =
 [
     [ "Value", "classfabrique_1_1dag_1_1_value.html#ac598d6d8ae955dec322eef5580a68c31", null ],
+    [ "Accept", "classfabrique_1_1dag_1_1_value.html#a023bfe148d06191685a190cfaddc056b", null ],
     [ "Add", "classfabrique_1_1dag_1_1_value.html#a3cf7d231fa1dd7d1f2d96faab1614308", null ],
     [ "And", "classfabrique_1_1dag_1_1_value.html#a7e3d582f5dc2085575ecba5498e322ec", null ],
     [ "canScalarAdd", "classfabrique_1_1dag_1_1_value.html#ab47afc908b89a09a6b440e90226fc7a4", null ],

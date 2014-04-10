@@ -66,6 +66,10 @@ var dir_8a9343da10c09e5691fac33bc79c4221 =
       [ "IntLiteral", "classfabrique_1_1ast_1_1_int_literal.html", "classfabrique_1_1ast_1_1_int_literal" ],
       [ "StringLiteral", "classfabrique_1_1ast_1_1_string_literal.html", "classfabrique_1_1ast_1_1_string_literal" ]
     ] ],
+    [ "Mapping.cc", "_mapping_8cc.html", null ],
+    [ "Mapping.h", "_mapping_8h.html", [
+      [ "Mapping", "classfabrique_1_1ast_1_1_mapping.html", "classfabrique_1_1ast_1_1_mapping" ]
+    ] ],
     [ "Node.cc", "_node_8cc.html", null ],
     [ "Node.h", "_node_8h.html", [
       [ "Node", "classfabrique_1_1ast_1_1_node.html", "classfabrique_1_1ast_1_1_node" ]
@@ -88,6 +92,6 @@ var dir_8a9343da10c09e5691fac33bc79c4221 =
     [ "Value.h", "_a_s_t_2_value_8h.html", [
       [ "Value", "classfabrique_1_1ast_1_1_value.html", "classfabrique_1_1ast_1_1_value" ]
     ] ],
-    [ "Visitor.cc", "_visitor_8cc.html", null ],
-    [ "Visitor.h", "_visitor_8h.html", "_visitor_8h" ]
+    [ "Visitor.cc", "_a_s_t_2_visitor_8cc.html", null ],
+    [ "Visitor.h", "_a_s_t_2_visitor_8h.html", "_a_s_t_2_visitor_8h" ]
 ];

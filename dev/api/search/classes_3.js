@@ -5,5 +5,6 @@ var searchData=
   ['debugstate',['DebugState',['../class_debug_state.html',1,'']]],
   ['descriptor',['Descriptor',['../structoption_1_1_descriptor.html',1,'option']]],
   ['dotbackend',['DotBackend',['../classfabrique_1_1backend_1_1_dot_backend.html',1,'fabrique::backend']]],
+  ['dotformatter',['DotFormatter',['../class_dot_formatter.html',1,'']]],
   ['duplicateexception',['DuplicateException',['../classfabrique_1_1_duplicate_exception.html',1,'fabrique']]]
 ];

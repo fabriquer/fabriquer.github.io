@@ -26,14 +26,14 @@
 		<link rel="stylesheet" type="text/css" href="/style/base.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="/style/pygments.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="/style/print.css" media="print" />
-		<title>Fabriquer API documentation</title>
+		<title>Fabrique API documentation</title>
 	</head>
 	<body>
 		<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 		<div id="titlearea">
 		<header>
 			<div class="inner">
-				<h1>Fabriquer</h1>
+				<h1>Fabrique</h1>
 				<h2>A build language for complex systems</h2>
 			</div>
 			<nav>
@@ -73,6 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -120,7 +121,7 @@ $(document).ready(function(){initNavTree('_foreach_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -136,7 +137,7 @@ $(document).ready(function(){initNavTree('_foreach_8h_source.html','');});
 <div class="contents">
 <a href="_foreach_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright (c) 2013 Jonathan Anderson</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Copyright (c) 2013-2014 Jonathan Anderson</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * All rights reserved.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * This software was developed by SRI International and the University of</span></div>
@@ -169,7 +170,7 @@ $(document).ready(function(){initNavTree('_foreach_8h_source.html','');});
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define FOREACH_H</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_compound_expr_8h.html">AST/CompoundExpr.h</a>&quot;</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_expression_8h.html">AST/Expression.h</a>&quot;</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_mapping_8h.html">AST/Mapping.h</a>&quot;</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">namespace </span>fabrique {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
@@ -184,40 +185,36 @@ $(document).ready(function(){initNavTree('_foreach_8h_source.html','');});
 <div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classfabrique_1_1ast_1_1_foreach_expr.html">   51</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfabrique_1_1ast_1_1_foreach_expr.html">ForeachExpr</a> : <span class="keyword">public</span> <a class="code" href="classfabrique_1_1ast_1_1_expression.html">Expression</a></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="classfabrique_1_1ast_1_1_foreach_expr.html">ForeachExpr</a>(UniqPtr&lt;Expression&gt;&amp; list,</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                UniqPtr&lt;Parameter&gt;&amp; loopParam,</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                UniqPtr&lt;CompoundExpression&gt;&amp; body,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; resultTy,</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a>&amp; source);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1ast_1_1_expression.html">Expression</a>&amp; targetSequence()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *source_; }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1ast_1_1_parameter.html">Parameter</a>&amp; loopParameter()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *loopParameter_; }</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1ast_1_1_compound_expression.html">CompoundExpression</a>&amp; loopBody()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *body_; }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="classfabrique_1_1ast_1_1_foreach_expr.html">ForeachExpr</a>(UniqPtr&lt;Mapping&gt;&amp;, UniqPtr&lt;CompoundExpression&gt;&amp; body,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp;, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a>&amp;);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1ast_1_1_expression.html">Expression</a>&amp; sourceSequence()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> mapping_-&gt;source(); }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1ast_1_1_parameter.html">Parameter</a>&amp; loopParameter()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> mapping_-&gt;target(); }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1ast_1_1_compound_expression.html">CompoundExpression</a>&amp; loopBody()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *body_; }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classfabrique_1_1ast_1_1_foreach_expr.html#a7df9b4810c9a659473864cfbecc09c39">PrettyPrint</a>(<a class="code" href="classfabrique_1_1_bytestream.html">Bytestream</a>&amp;, <span class="keywordtype">size_t</span> indent = 0) <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Accept(<a class="code" href="classfabrique_1_1ast_1_1_visitor.html">Visitor</a>&amp;) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classfabrique_1_1ast_1_1_foreach_expr.html#a7df9b4810c9a659473864cfbecc09c39">PrettyPrint</a>(<a class="code" href="classfabrique_1_1_bytestream.html">Bytestream</a>&amp;, <span class="keywordtype">size_t</span> indent = 0) <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Accept(<a class="code" href="classfabrique_1_1ast_1_1_visitor.html">Visitor</a>&amp;) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keyword">const</span> UniqPtr&lt;Expression&gt; source_;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">const</span> UniqPtr&lt;Parameter&gt; loopParameter_;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">const</span> UniqPtr&lt;CompoundExpression&gt; body_;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;};</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;} <span class="comment">// namespace ast</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;} <span class="comment">// namespace fabrique</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">const</span> UniqPtr&lt;Mapping&gt; mapping_;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">const</span> UniqPtr&lt;CompoundExpression&gt; body_;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;} <span class="comment">// namespace ast</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;} <span class="comment">// namespace fabrique</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="_compound_expr_8h_html"><div class="ttname"><a href="_compound_expr_8h.html">CompoundExpr.h</a></div><div class="ttdoc">Declaration of fabrique::ast::CompoundExpr. </div></div>
 <div class="ttc" id="classfabrique_1_1ast_1_1_compound_expression_html"><div class="ttname"><a href="classfabrique_1_1ast_1_1_compound_expression.html">fabrique::ast::CompoundExpression</a></div><div class="ttdoc">An expression that can contain intermediate values. </div><div class="ttdef"><b>Definition:</b> <a href="_compound_expr_8h_source.html#l00053">CompoundExpr.h:53</a></div></div>
-<div class="ttc" id="classfabrique_1_1ast_1_1_foreach_expr_html_a7df9b4810c9a659473864cfbecc09c39"><div class="ttname"><a href="classfabrique_1_1ast_1_1_foreach_expr.html#a7df9b4810c9a659473864cfbecc09c39">fabrique::ast::ForeachExpr::PrettyPrint</a></div><div class="ttdeci">virtual void PrettyPrint(Bytestream &amp;, size_t indent=0) const override</div><div class="ttdoc">Print a human-readable representation to an output stream and return that output stream. </div><div class="ttdef"><b>Definition:</b> <a href="_foreach_8cc_source.html#l00052">Foreach.cc:52</a></div></div>
+<div class="ttc" id="classfabrique_1_1ast_1_1_foreach_expr_html_a7df9b4810c9a659473864cfbecc09c39"><div class="ttname"><a href="classfabrique_1_1ast_1_1_foreach_expr.html#a7df9b4810c9a659473864cfbecc09c39">fabrique::ast::ForeachExpr::PrettyPrint</a></div><div class="ttdeci">virtual void PrettyPrint(Bytestream &amp;, size_t indent=0) const override</div><div class="ttdoc">Print a human-readable representation to an output stream and return that output stream. </div><div class="ttdef"><b>Definition:</b> <a href="_foreach_8cc_source.html#l00051">Foreach.cc:51</a></div></div>
 <div class="ttc" id="classfabrique_1_1ast_1_1_expression_html"><div class="ttname"><a href="classfabrique_1_1ast_1_1_expression.html">fabrique::ast::Expression</a></div><div class="ttdoc">Base class for expressions that can be evaluated. </div><div class="ttdef"><b>Definition:</b> <a href="_expression_8h_source.html#l00045">Expression.h:45</a></div></div>
 <div class="ttc" id="classfabrique_1_1_bytestream_html"><div class="ttname"><a href="classfabrique_1_1_bytestream.html">fabrique::Bytestream</a></div><div class="ttdoc">A ostream-like class that may support formatting. </div><div class="ttdef"><b>Definition:</b> <a href="_bytestream_8h_source.html#l00043">Bytestream.h:43</a></div></div>
 <div class="ttc" id="classfabrique_1_1_source_range_html"><div class="ttname"><a href="classfabrique_1_1_source_range.html">fabrique::SourceRange</a></div><div class="ttdef"><b>Definition:</b> <a href="_source_location_8h_source.html#l00071">SourceLocation.h:71</a></div></div>
 <div class="ttc" id="classfabrique_1_1ast_1_1_parameter_html"><div class="ttname"><a href="classfabrique_1_1ast_1_1_parameter.html">fabrique::ast::Parameter</a></div><div class="ttdoc">A formal parameter in a fabrique::ast::Function. </div><div class="ttdef"><b>Definition:</b> <a href="_parameter_8h_source.html#l00046">Parameter.h:46</a></div></div>
+<div class="ttc" id="_mapping_8h_html"><div class="ttname"><a href="_mapping_8h.html">Mapping.h</a></div><div class="ttdoc">Declaration of fabrique::ast::Mapping. </div></div>
 <div class="ttc" id="classfabrique_1_1_type_html"><div class="ttname"><a href="classfabrique_1_1_type.html">fabrique::Type</a></div><div class="ttdoc">The name of a value, function, parameter or argument. </div><div class="ttdef"><b>Definition:</b> <a href="_type_8h_source.html#l00047">Type.h:47</a></div></div>
-<div class="ttc" id="classfabrique_1_1ast_1_1_visitor_html"><div class="ttname"><a href="classfabrique_1_1ast_1_1_visitor.html">fabrique::ast::Visitor</a></div><div class="ttdoc">Interface for visitors that walk the AST. </div><div class="ttdef"><b>Definition:</b> <a href="_visitor_8h_source.html#l00049">Visitor.h:49</a></div></div>
+<div class="ttc" id="classfabrique_1_1ast_1_1_visitor_html"><div class="ttname"><a href="classfabrique_1_1ast_1_1_visitor.html">fabrique::ast::Visitor</a></div><div class="ttdoc">Interface for visitors that walk the AST. </div><div class="ttdef"><b>Definition:</b> <a href="_a_s_t_2_visitor_8h_source.html#l00049">Visitor.h:49</a></div></div>
 <div class="ttc" id="classfabrique_1_1ast_1_1_foreach_expr_html"><div class="ttname"><a href="classfabrique_1_1ast_1_1_foreach_expr.html">fabrique::ast::ForeachExpr</a></div><div class="ttdoc">An expression that maps list elements into another list. </div><div class="ttdef"><b>Definition:</b> <a href="_foreach_8h_source.html#l00051">Foreach.h:51</a></div></div>
-<div class="ttc" id="_expression_8h_html"><div class="ttname"><a href="_expression_8h.html">Expression.h</a></div><div class="ttdoc">Declaration of fabrique::ast::Expression. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </section>

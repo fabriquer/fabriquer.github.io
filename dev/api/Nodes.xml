@@ -6,6 +6,10 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
+        <Name>Fabrique TODO list</Name>
+        <Path>md__t_o_d_o.html</Path>
+       </Node>
+       <Node>
         <Name>Namespaces</Name>
         <Path></Path>
         <Subnodes>
@@ -456,7 +460,7 @@
                  <Node>
                   <Name>ForeachExpr</Name>
                   <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>a75ec6ff9b7f8a3bcfac7e3f031e4e14e</Anchor>
+                  <Anchor>a1f669a874c7980e0b331afb8395965b9</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -479,9 +483,9 @@
                   <Anchor>a7df9b4810c9a659473864cfbecc09c39</Anchor>
                  </Node>
                  <Node>
-                  <Name>targetSequence</Name>
+                  <Name>sourceSequence</Name>
                   <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>affc495e769a5356188a7f02febf88fd0</Anchor>
+                  <Anchor>a629cfc2d94994fd7ddcb2734cbf730eb</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -689,6 +693,37 @@
                   <Name>str</Name>
                   <Path>classfabrique_1_1ast_1_1_string_literal.html</Path>
                   <Anchor>a2bd47cc691bd286e7d0c52a42f83452f</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Mapping</Name>
+                <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Mapping</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>ab927d7d2cafd1a4182b42bdb51c56123</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>acdc7649ee2b3abcbb74efbf548a85a14</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>a428ffebad83e556e72a1edba3f7cbbb3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>source</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>a33196c3e2fbf83e4420ed1dc78163be0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>target</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>a2a2e985f394d5c0d308fbce8811d77bf</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -961,6 +996,16 @@
                   <Anchor>a7848c1c286a092bb923e2936b5d255dd</Anchor>
                  </Node>
                  <Node>
+                  <Name>Builtin</Name>
+                  <Path>classfabrique_1_1ast_1_1_parser.html</Path>
+                  <Anchor>a493af3250d6720d95782cc34e1bb3f94</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Builtin</Name>
+                  <Path>classfabrique_1_1ast_1_1_parser.html</Path>
+                  <Anchor>ac3df5cb31487d3176ad765016c58e3bb</Anchor>
+                 </Node>
+                 <Node>
                   <Name>CompoundExpr</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
                   <Anchor>af85259311802109bbc296ef41246a612</Anchor>
@@ -1018,7 +1063,7 @@
                  <Node>
                   <Name>Foreach</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a5d2cec8061893e263c50d3aecfee2d51</Anchor>
+                  <Anchor>a055e58d0fc759c0dfd0b45bf54243c18</Anchor>
                  </Node>
                  <Node>
                   <Name>getType</Name>
@@ -1054,6 +1099,11 @@
                   <Name>ListOf</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
                   <Anchor>af546f45a11e1e98f81c2af31f933104f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Map</Name>
+                  <Path>classfabrique_1_1ast_1_1_parser.html</Path>
+                  <Anchor>a003e45d6787d842d2646f0a750e94173</Anchor>
                  </Node>
                  <Node>
                   <Name>Param</Name>
@@ -1220,6 +1270,11 @@
                   <Anchor>a71438ebe26229bbd8587523084e8504d</Anchor>
                  </Node>
                  <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_build.html</Path>
+                  <Anchor>a433c78d6c947bc5e1aab039e7bbd5075</Anchor>
+                 </Node>
+                 <Node>
                   <Name>allInputs</Name>
                   <Path>classfabrique_1_1dag_1_1_build.html</Path>
                   <Anchor>a395481272665aebe0452dacc49d63fac</Anchor>
@@ -1250,9 +1305,9 @@
                   <Anchor>a48deb206bffee48eb735ca691cc86b1e</Anchor>
                  </Node>
                  <Node>
-                  <Name>outputs</Name>
+                  <Name>explicitOutputs</Name>
                   <Path>classfabrique_1_1dag_1_1_build.html</Path>
-                  <Anchor>a3d15083364ea6c9cdeba8cf85bff04fd</Anchor>
+                  <Anchor>a0eaf938293612f313d40cabefbac6f67</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
@@ -1312,6 +1367,11 @@
                 <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>buildroot</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
+                  <Anchor>aea82e67c717d9841b5f68a49f816d412</Anchor>
+                 </Node>
+                 <Node>
                   <Name>builds</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
                   <Anchor>aa0057c8507c4c381217b4e2a718ab230</Anchor>
@@ -1332,6 +1392,11 @@
                   <Anchor>ad71eb33d6e9b712d5632607539d7ffab</Anchor>
                  </Node>
                  <Node>
+                  <Name>srcroot</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
+                  <Anchor>ac4e8fa892b740c273fcc3d5fd2a06347</Anchor>
+                 </Node>
+                 <Node>
                   <Name>targets</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
                   <Anchor>a6e6d71b9327e6d04569311356114d4ce</Anchor>
@@ -1350,7 +1415,7 @@
                  <Node>
                   <Name>File</Name>
                   <Path>classfabrique_1_1dag_1_1_file.html</Path>
-                  <Anchor>a69aa9de7f429baa8f632af3534489ed0</Anchor>
+                  <Anchor>a6c4abe6ca51eb9fecebc943b7a144fc8</Anchor>
                  </Node>
                  <Node>
                   <Name>~File</Name>
@@ -1358,9 +1423,29 @@
                   <Anchor>a65314002ca499477a12436680f77eaa9</Anchor>
                  </Node>
                  <Node>
+                  <Name>absolute</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a516766962ef1893041d33a4548b8065b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a70f74875a027568890451809fcf9826d</Anchor>
+                 </Node>
+                 <Node>
                   <Name>filename</Name>
                   <Path>classfabrique_1_1dag_1_1_file.html</Path>
-                  <Anchor>a2f42783b749fed9b81a38b7c01f44064</Anchor>
+                  <Anchor>aed44300cf21a29fd518f7eb160c1cb3f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>fullName</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a27ae049b069f536085af36d9e2f715bf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>generated</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a5d6da40652a9855edc01ee84a1de281e</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
@@ -1368,9 +1453,115 @@
                   <Anchor>a4cc58c49e192dd551775bb6672007793</Anchor>
                  </Node>
                  <Node>
+                  <Name>setGenerated</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a75b772df94d6b3c507ba3313cde08de1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setSubdirectory</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a5b1a7bbfe1d68eee14f22583187eb994</Anchor>
+                 </Node>
+                 <Node>
                   <Name>str</Name>
                   <Path>classfabrique_1_1dag_1_1_file.html</Path>
                   <Anchor>a321db284937b0c244cd3f6e1e8d32ddf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>subdirectory</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a23799f792972bf253ba7eae3ae5a55a4</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Formatter</Name>
+                <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>aa3c1d26d2a7bc67fa6a353230f652975</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>afdb8a25e4ac0bd948b16754c162c13a0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a9231a09555585e63c0af1b5577464b9f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>af56b9bd837eee44052d1994ce0680a0b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a83e7029ea2a685ea1168a8d27f290d8b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a25d24cb1d8bf9e164cd5f428274c4491</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>ab9fce15a08299f0946682eeb63bb7d1a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>ab389f0a9bf919904ad68f32c4772e0df</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>aa1d71f50f8070045ef5d5ecbc0853159</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>ad5343b4abd1ef77c8a8177e7cba1098e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a802fb57057791a60e149373e30a87a9e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a266e3aabc93ac59104470baa8e6c08e0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a92b5ad8a1f7f5facf85472b14bdfd1ec</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a37f6a961ad955f2d5f9863a8c4fb206b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a0025c805a3c29e74968cc22f6a534e4c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a40ad3bcb017b86a6a767234cb8f19c0c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+                  <Anchor>a374226fa433357108d9758f04b6ea3e3</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1387,6 +1578,11 @@
                   <Name>List</Name>
                   <Path>classfabrique_1_1dag_1_1_list.html</Path>
                   <Anchor>aec84181252c94a388f31a6e36f445372</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>ace0ab7b9c6b4ee6e08266c253bf157f5</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -1476,6 +1672,11 @@
                   <Anchor>a5fd2c833b670a4afecc1b500b7eaf14e</Anchor>
                  </Node>
                  <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_boolean.html</Path>
+                  <Anchor>afc687757d6c16007b124b907133cfbd0</Anchor>
+                 </Node>
+                 <Node>
                   <Name>And</Name>
                   <Path>classfabrique_1_1dag_1_1_boolean.html</Path>
                   <Anchor>a10407dda8324ef12f6c81864a8f8c589</Anchor>
@@ -1512,6 +1713,11 @@
                   <Anchor>ae26e50289077dce7601faf31a0a4d1a7</Anchor>
                  </Node>
                  <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_integer.html</Path>
+                  <Anchor>a08e09d9e87a55d6cfedea1cef9c1e649</Anchor>
+                 </Node>
+                 <Node>
                   <Name>Add</Name>
                   <Path>classfabrique_1_1dag_1_1_integer.html</Path>
                   <Anchor>a7fdad9a129292bd4e7debf3ddffbf7ca</Anchor>
@@ -1531,6 +1737,11 @@
                   <Name>String</Name>
                   <Path>classfabrique_1_1dag_1_1_string.html</Path>
                   <Anchor>aeae49c5b500e42bb9a5e331cba1c7172</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_string.html</Path>
+                  <Anchor>a97aa85780018a9264fd0979fc2bcf661</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -1557,6 +1768,11 @@
                   <Name>~Rule</Name>
                   <Path>classfabrique_1_1dag_1_1_rule.html</Path>
                   <Anchor>a397c151729b56f697539056cfa13a2dc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_rule.html</Path>
+                  <Anchor>af2184116a768bc3665f198d80e4dd1d0</Anchor>
                  </Node>
                  <Node>
                   <Name>arguments</Name>
@@ -1594,6 +1810,11 @@
                 <Name>Target</Name>
                 <Path>classfabrique_1_1dag_1_1_target.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_target.html</Path>
+                  <Anchor>acfb03e0945fb9cc6aa4067c8eca5c583</Anchor>
+                 </Node>
                  <Node>
                   <Name>Add</Name>
                   <Path>classfabrique_1_1dag_1_1_target.html</Path>
@@ -1651,6 +1872,11 @@
                   <Anchor>a6284197a490938707d1920465e4193d0</Anchor>
                  </Node>
                  <Node>
+                  <Name>UndefinedValueException</Name>
+                  <Path>classfabrique_1_1dag_1_1_undefined_value_exception.html</Path>
+                  <Anchor>a8b846bcbd405884041563f6794ab160b</Anchor>
+                 </Node>
+                 <Node>
                   <Name>~UndefinedValueException</Name>
                   <Path>classfabrique_1_1dag_1_1_undefined_value_exception.html</Path>
                   <Anchor>a65d04f44481c9d08020fe3219eedd3c7</Anchor>
@@ -1665,6 +1891,11 @@
                   <Name>Value</Name>
                   <Path>classfabrique_1_1dag_1_1_value.html</Path>
                   <Anchor>ac598d6d8ae955dec322eef5580a68c31</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>a023bfe148d06191685a190cfaddc056b</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -1708,12 +1939,73 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>Visitor</Name>
+                <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>~Visitor</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a2a091e7ca0c99993f392c018a2ecc524</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>ae99876011bcf2824c8138104fac7df0d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a356d4de7746090ef40c08b0944dab896</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a94a7412608ec2cde633ef0a753d7b69e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>abcd60097433b0786d5498be789b8eb04</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a5ef6dc309310de53ce0ce9c40d25cc25</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a0fdf1a72c076aa5ea5c1224e5999421c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a7b169490bc2ab524875750a96857648a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a1232d75905cbbac02665669a676b29a9</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
               <Name>FabContext</Name>
               <Path>classfabrique_1_1_fab_context.html</Path>
               <Subnodes>
+               <Node>
+                <Name>FabContext</Name>
+                <Path>classfabrique_1_1_fab_context.html</Path>
+                <Anchor>a6a3687f9c54b354771fe9727eed768ac</Anchor>
+               </Node>
+               <Node>
+                <Name>buildroot</Name>
+                <Path>classfabrique_1_1_fab_context.html</Path>
+                <Anchor>a76f855c575a3e1eec3c25dbf6c20a87b</Anchor>
+               </Node>
                <Node>
                 <Name>fileListType</Name>
                 <Path>classfabrique_1_1_fab_context.html</Path>
@@ -1738,6 +2030,11 @@
                 <Name>nilType</Name>
                 <Path>classfabrique_1_1_fab_context.html</Path>
                 <Anchor>a4b1ab087015ffbda4963d4f07495dd84</Anchor>
+               </Node>
+               <Node>
+                <Name>srcroot</Name>
+                <Path>classfabrique_1_1_fab_context.html</Path>
+                <Anchor>ab958794ec9c93c4eb55c8b9266696b05</Anchor>
                </Node>
                <Node>
                 <Name>type</Name>
@@ -2033,6 +2330,11 @@
                 <Anchor>a794ed2376623494e89e9ad49667841a1</Anchor>
                </Node>
                <Node>
+                <Name>AssertionFailure</Name>
+                <Path>classfabrique_1_1_assertion_failure.html</Path>
+                <Anchor>aa6e57dc2b9a9bf855a0c8fd011175e62</Anchor>
+               </Node>
+               <Node>
                 <Name>~AssertionFailure</Name>
                 <Path>classfabrique_1_1_assertion_failure.html</Path>
                 <Anchor>aafde76b2f199d128598536b357f7de4e</Anchor>
@@ -2064,6 +2366,11 @@
                 <Anchor>a3f1406c8caa4217596f84c4d82d140e2</Anchor>
                </Node>
                <Node>
+                <Name>DuplicateException</Name>
+                <Path>classfabrique_1_1_duplicate_exception.html</Path>
+                <Anchor>a281a246559e8ab17b89bb881d62703e7</Anchor>
+               </Node>
+               <Node>
                 <Name>~DuplicateException</Name>
                 <Path>classfabrique_1_1_duplicate_exception.html</Path>
                 <Anchor>a5437bfc2967c91ddf83309b6c5482d41</Anchor>
@@ -2072,6 +2379,73 @@
                 <Name>what</Name>
                 <Path>classfabrique_1_1_duplicate_exception.html</Path>
                 <Anchor>ae95a1dc371630a25c3ec723a75a1d9aa</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>OSError</Name>
+              <Path>classfabrique_1_1_o_s_error.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>OSError</Name>
+                <Path>classfabrique_1_1_o_s_error.html</Path>
+                <Anchor>afadc7628f5c3f98b6d1100fc97deeb9e</Anchor>
+               </Node>
+               <Node>
+                <Name>~OSError</Name>
+                <Path>classfabrique_1_1_o_s_error.html</Path>
+                <Anchor>a3f197bb5ec386048e9a172c0f2a5fee1</Anchor>
+               </Node>
+               <Node>
+                <Name>OSError</Name>
+                <Path>classfabrique_1_1_o_s_error.html</Path>
+                <Anchor>a6a2ac53a57b63ab8ef603a6532341edf</Anchor>
+               </Node>
+               <Node>
+                <Name>description</Name>
+                <Path>classfabrique_1_1_o_s_error.html</Path>
+                <Anchor>a3c980c6f801b417f8527b2480fc875cc</Anchor>
+               </Node>
+               <Node>
+                <Name>message</Name>
+                <Path>classfabrique_1_1_o_s_error.html</Path>
+                <Anchor>aa2454ab7ecfb8cf7e14c55e9451fc84a</Anchor>
+               </Node>
+               <Node>
+                <Name>what</Name>
+                <Path>classfabrique_1_1_o_s_error.html</Path>
+                <Anchor>a83f6e4e58dccbb9b2917e2d8fbb00318</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>UserError</Name>
+              <Path>classfabrique_1_1_user_error.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>UserError</Name>
+                <Path>classfabrique_1_1_user_error.html</Path>
+                <Anchor>a3de122110e640a848d51f06e76e9f4c5</Anchor>
+               </Node>
+               <Node>
+                <Name>UserError</Name>
+                <Path>classfabrique_1_1_user_error.html</Path>
+                <Anchor>a6c2a597d75a223fe277ce5d75c472373</Anchor>
+               </Node>
+               <Node>
+                <Name>~UserError</Name>
+                <Path>classfabrique_1_1_user_error.html</Path>
+                <Anchor>a440911e727c08a261766cccb3225e035</Anchor>
+               </Node>
+               <Node>
+                <Name>message</Name>
+                <Path>classfabrique_1_1_user_error.html</Path>
+                <Anchor>a1134dc928e421a3b9e6acecdf13037e6</Anchor>
+               </Node>
+               <Node>
+                <Name>what</Name>
+                <Path>classfabrique_1_1_user_error.html</Path>
+                <Anchor>a64f981e573a9027d7ec99cff362d9cfd</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2088,6 +2462,11 @@
                 <Name>SourceCodeException</Name>
                 <Path>classfabrique_1_1_source_code_exception.html</Path>
                 <Anchor>a01b0d85e69c13a1167037746f8eddb43</Anchor>
+               </Node>
+               <Node>
+                <Name>SourceCodeException</Name>
+                <Path>classfabrique_1_1_source_code_exception.html</Path>
+                <Anchor>a79d79a3631c32b5f79e160c220efa699</Anchor>
                </Node>
                <Node>
                 <Name>message</Name>
@@ -2116,6 +2495,11 @@
                 <Anchor>a0f050d93f4306a167bb3e113cca3a2e2</Anchor>
                </Node>
                <Node>
+                <Name>SyntaxError</Name>
+                <Path>classfabrique_1_1_syntax_error.html</Path>
+                <Anchor>aa46b12fb59ebf396f6d3de6df23a3332</Anchor>
+               </Node>
+               <Node>
                 <Name>~SyntaxError</Name>
                 <Path>classfabrique_1_1_syntax_error.html</Path>
                 <Anchor>a74ec8da0f58263a36f74c2c6be636545</Anchor>
@@ -2130,6 +2514,11 @@
                 <Name>SemanticException</Name>
                 <Path>classfabrique_1_1_semantic_exception.html</Path>
                 <Anchor>a28647dedab6575069401cc19f95b333e</Anchor>
+               </Node>
+               <Node>
+                <Name>SemanticException</Name>
+                <Path>classfabrique_1_1_semantic_exception.html</Path>
+                <Anchor>af886ac117d6e449dc70126941ebf8c77</Anchor>
                </Node>
                <Node>
                 <Name>~SemanticException</Name>
@@ -2159,9 +2548,24 @@
               <Path>classfabrique_1_1_printable.html</Path>
               <Subnodes>
                <Node>
+                <Name>Printable</Name>
+                <Path>classfabrique_1_1_printable.html</Path>
+                <Anchor>a8ed6a0ca7084f5b24104504e76017517</Anchor>
+               </Node>
+               <Node>
+                <Name>Printable</Name>
+                <Path>classfabrique_1_1_printable.html</Path>
+                <Anchor>a1f0c181db3f6597cd58a1403b0dfa657</Anchor>
+               </Node>
+               <Node>
                 <Name>~Printable</Name>
                 <Path>classfabrique_1_1_printable.html</Path>
                 <Anchor>a3eb4e71e9db5185a870a43f29895595f</Anchor>
+               </Node>
+               <Node>
+                <Name>operator=</Name>
+                <Path>classfabrique_1_1_printable.html</Path>
+                <Anchor>a35b4fa5ce06a219fcc68d024ebb094d5</Anchor>
                </Node>
                <Node>
                 <Name>PrettyPrint</Name>
@@ -2457,6 +2861,11 @@
                 <Anchor>a23322d5f27bda1945e33a8dcd65ff380</Anchor>
                </Node>
                <Node>
+                <Name>TypeError</Name>
+                <Path>classfabrique_1_1_type_error.html</Path>
+                <Anchor>a10a0906160b723d1b2d151bf70eacefb</Anchor>
+               </Node>
+               <Node>
                 <Name>~TypeError</Name>
                 <Path>classfabrique_1_1_type_error.html</Path>
                 <Anchor>a1133602045627eb936197a575a6088f5</Anchor>
@@ -2481,6 +2890,11 @@
                 <Name>WrongTypeException</Name>
                 <Path>classfabrique_1_1_wrong_type_exception.html</Path>
                 <Anchor>adf3b763806f2bc8f14ddcf4f57d8e583</Anchor>
+               </Node>
+               <Node>
+                <Name>WrongTypeException</Name>
+                <Path>classfabrique_1_1_wrong_type_exception.html</Path>
+                <Anchor>a4e8928fde1e0693035d7a1f96c67f496</Anchor>
                </Node>
                <Node>
                 <Name>~WrongTypeException</Name>
@@ -3095,6 +3509,144 @@
              </Node>
             </Subnodes>
            </Node>
+           <Node>
+            <Name>DotFormatter</Name>
+            <Path>class_dot_formatter.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_dot_formatter.html</Path>
+              <Anchor>a98a3a72f93cac96b98e5c756f430c3f8</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_dot_formatter.html</Path>
+              <Anchor>a291b75daf5eec6c6745ded17ff6a0116</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_dot_formatter.html</Path>
+              <Anchor>adbb28e7e1be5b60564db74ea7bd0736c</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_dot_formatter.html</Path>
+              <Anchor>a9badb6ad140bdca6754aaa463ccbdfd7</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_dot_formatter.html</Path>
+              <Anchor>a43d34f0935b5866ef2ee2c2de8df4ff5</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_dot_formatter.html</Path>
+              <Anchor>a9e96415e3c4b6bd1e7b6f4163c15182e</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_dot_formatter.html</Path>
+              <Anchor>a97252d15ffee51e69a9f0d1336117fc3</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_dot_formatter.html</Path>
+              <Anchor>aba090fc1a96b9f187eca9b21fe91c1ba</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>MakeFormatter</Name>
+            <Path>class_make_formatter.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_make_formatter.html</Path>
+              <Anchor>a7fbceb273b14284bc23091ac33ef921e</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_make_formatter.html</Path>
+              <Anchor>aa0b1770a882f4774a5d44a818f82a0f4</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_make_formatter.html</Path>
+              <Anchor>a32ff2476b5a1718de8e97b207700a1d0</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_make_formatter.html</Path>
+              <Anchor>a81705dd566d9663de4f06f2a70b9e68c</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_make_formatter.html</Path>
+              <Anchor>a243df0508fc655d57fd7dec77c3cc899</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_make_formatter.html</Path>
+              <Anchor>aa6ec29b20ea990311a044a06a28a1398</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_make_formatter.html</Path>
+              <Anchor>aa3c429707916a0f936634c2b64237ee7</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_make_formatter.html</Path>
+              <Anchor>ac2f876af5788d108b5b90770f7b52676</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>NinjaFormatter</Name>
+            <Path>class_ninja_formatter.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_ninja_formatter.html</Path>
+              <Anchor>a0298af7b5d190abe88a29026f7edb45f</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_ninja_formatter.html</Path>
+              <Anchor>a14ba4ec638e61d88e4d5fe51f9c2a786</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_ninja_formatter.html</Path>
+              <Anchor>a221e9aff40c5073f2691b0ca7eec1ee3</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_ninja_formatter.html</Path>
+              <Anchor>a38b6769907beea5f5567d72a2b4c967b</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_ninja_formatter.html</Path>
+              <Anchor>a12db4ce9b8712878d94bdee1118cc050</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_ninja_formatter.html</Path>
+              <Anchor>a0972a9245eea977788c6293d2e7fa20f</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_ninja_formatter.html</Path>
+              <Anchor>a198539316e601aea96af16d32e0b85ea</Anchor>
+             </Node>
+             <Node>
+              <Name>Format</Name>
+              <Path>class_ninja_formatter.html</Path>
+              <Anchor>aac19789f4345543832ee8da6ce41796a</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
           </Subnodes>
          </Node>
          <Node>
@@ -3188,6 +3740,10 @@
               <Path>classfabrique_1_1_duplicate_exception.html</Path>
              </Node>
              <Node>
+              <Name>fabrique::OSError</Name>
+              <Path>classfabrique_1_1_o_s_error.html</Path>
+             </Node>
+             <Node>
               <Name>fabrique::SourceCodeException</Name>
               <Path>classfabrique_1_1_source_code_exception.html</Path>
               <Subnodes>
@@ -3216,6 +3772,10 @@
                 <Path>classfabrique_1_1_syntax_error.html</Path>
                </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>fabrique::UserError</Name>
+              <Path>classfabrique_1_1_user_error.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -3334,6 +3894,10 @@
                <Node>
                 <Name>fabrique::ast::Identifier</Name>
                 <Path>classfabrique_1_1ast_1_1_identifier.html</Path>
+               </Node>
+               <Node>
+                <Name>fabrique::ast::Mapping</Name>
+                <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
                </Node>
               </Subnodes>
              </Node>
@@ -3558,6 +4122,30 @@
              <Node>
               <Name>fabrique::ast::Node</Name>
               <Path>classfabrique_1_1ast_1_1_node.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>fabrique::dag::Visitor</Name>
+            <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>fabrique::dag::Formatter</Name>
+              <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>DotFormatter</Name>
+                <Path>class_dot_formatter.html</Path>
+               </Node>
+               <Node>
+                <Name>MakeFormatter</Name>
+                <Path>class_make_formatter.html</Path>
+               </Node>
+               <Node>
+                <Name>NinjaFormatter</Name>
+                <Path>class_ninja_formatter.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
             </Subnodes>
            </Node>
@@ -4226,7 +4814,7 @@
                  <Node>
                   <Name>ForeachExpr</Name>
                   <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>a75ec6ff9b7f8a3bcfac7e3f031e4e14e</Anchor>
+                  <Anchor>a1f669a874c7980e0b331afb8395965b9</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
@@ -4249,9 +4837,9 @@
                   <Anchor>a7df9b4810c9a659473864cfbecc09c39</Anchor>
                  </Node>
                  <Node>
-                  <Name>targetSequence</Name>
+                  <Name>sourceSequence</Name>
                   <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>affc495e769a5356188a7f02febf88fd0</Anchor>
+                  <Anchor>a629cfc2d94994fd7ddcb2734cbf730eb</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4503,6 +5091,47 @@
                   <Name>str</Name>
                   <Path>classfabrique_1_1ast_1_1_string_literal.html</Path>
                   <Anchor>a2bd47cc691bd286e7d0c52a42f83452f</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Mapping.cc</Name>
+              <Path>_mapping_8cc.html</Path>
+             </Node>
+             <Node>
+              <Name>Mapping.h</Name>
+              <Path>_mapping_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Mapping</Name>
+                <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Mapping</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>ab927d7d2cafd1a4182b42bdb51c56123</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>acdc7649ee2b3abcbb74efbf548a85a14</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PrettyPrint</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>a428ffebad83e556e72a1edba3f7cbbb3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>source</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>a33196c3e2fbf83e4420ed1dc78163be0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>target</Name>
+                  <Path>classfabrique_1_1ast_1_1_mapping.html</Path>
+                  <Anchor>a2a2e985f394d5c0d308fbce8811d77bf</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4813,11 +5442,11 @@
              </Node>
              <Node>
               <Name>Visitor.cc</Name>
-              <Path>_visitor_8cc.html</Path>
+              <Path>_a_s_t_2_visitor_8cc.html</Path>
              </Node>
              <Node>
               <Name>Visitor.h</Name>
-              <Path>_visitor_8h.html</Path>
+              <Path>_a_s_t_2_visitor_8h.html</Path>
               <Subnodes>
                <Node>
                 <Name>Visitor</Name>
@@ -4832,12 +5461,12 @@
                </Node>
                <Node>
                 <Name>VISIT</Name>
-                <Path>_visitor_8h.html</Path>
+                <Path>_a_s_t_2_visitor_8h.html</Path>
                 <Anchor>adfe777bc932a304bd9acf6b07e60c02f</Anchor>
                </Node>
                <Node>
                 <Name>VISIT</Name>
-                <Path>_visitor_8h.html</Path>
+                <Path>_a_s_t_2_visitor_8h.html</Path>
                 <Anchor>adfe777bc932a304bd9acf6b07e60c02f</Anchor>
                </Node>
               </Subnodes>
@@ -4882,6 +5511,54 @@
              <Node>
               <Name>Dot.cc</Name>
               <Path>_dot_8cc.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>DotFormatter</Name>
+                <Path>class_dot_formatter.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_dot_formatter.html</Path>
+                  <Anchor>a98a3a72f93cac96b98e5c756f430c3f8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_dot_formatter.html</Path>
+                  <Anchor>a291b75daf5eec6c6745ded17ff6a0116</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_dot_formatter.html</Path>
+                  <Anchor>adbb28e7e1be5b60564db74ea7bd0736c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_dot_formatter.html</Path>
+                  <Anchor>a9badb6ad140bdca6754aaa463ccbdfd7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_dot_formatter.html</Path>
+                  <Anchor>a43d34f0935b5866ef2ee2c2de8df4ff5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_dot_formatter.html</Path>
+                  <Anchor>a9e96415e3c4b6bd1e7b6f4163c15182e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_dot_formatter.html</Path>
+                  <Anchor>a97252d15ffee51e69a9f0d1336117fc3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_dot_formatter.html</Path>
+                  <Anchor>aba090fc1a96b9f187eca9b21fe91c1ba</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>Dot.h</Name>
@@ -4909,6 +5586,52 @@
               <Name>Make.cc</Name>
               <Path>_make_8cc.html</Path>
               <Subnodes>
+               <Node>
+                <Name>MakeFormatter</Name>
+                <Path>class_make_formatter.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_make_formatter.html</Path>
+                  <Anchor>a7fbceb273b14284bc23091ac33ef921e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_make_formatter.html</Path>
+                  <Anchor>aa0b1770a882f4774a5d44a818f82a0f4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_make_formatter.html</Path>
+                  <Anchor>a32ff2476b5a1718de8e97b207700a1d0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_make_formatter.html</Path>
+                  <Anchor>a81705dd566d9663de4f06f2a70b9e68c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_make_formatter.html</Path>
+                  <Anchor>a243df0508fc655d57fd7dec77c3cc899</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_make_formatter.html</Path>
+                  <Anchor>aa6ec29b20ea990311a044a06a28a1398</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_make_formatter.html</Path>
+                  <Anchor>aa3c429707916a0f936634c2b64237ee7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_make_formatter.html</Path>
+                  <Anchor>ac2f876af5788d108b5b90770f7b52676</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -4937,6 +5660,52 @@
               <Name>Ninja.cc</Name>
               <Path>_ninja_8cc.html</Path>
               <Subnodes>
+               <Node>
+                <Name>NinjaFormatter</Name>
+                <Path>class_ninja_formatter.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_ninja_formatter.html</Path>
+                  <Anchor>a0298af7b5d190abe88a29026f7edb45f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_ninja_formatter.html</Path>
+                  <Anchor>a14ba4ec638e61d88e4d5fe51f9c2a786</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_ninja_formatter.html</Path>
+                  <Anchor>a221e9aff40c5073f2691b0ca7eec1ee3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_ninja_formatter.html</Path>
+                  <Anchor>a38b6769907beea5f5567d72a2b4c967b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_ninja_formatter.html</Path>
+                  <Anchor>a12db4ce9b8712878d94bdee1118cc050</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_ninja_formatter.html</Path>
+                  <Anchor>a0972a9245eea977788c6293d2e7fa20f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_ninja_formatter.html</Path>
+                  <Anchor>a198539316e601aea96af16d32e0b85ea</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Format</Name>
+                  <Path>class_ninja_formatter.html</Path>
+                  <Anchor>aac19789f4345543832ee8da6ce41796a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -5021,6 +5790,11 @@
                   <Anchor>a71438ebe26229bbd8587523084e8504d</Anchor>
                  </Node>
                  <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_build.html</Path>
+                  <Anchor>a433c78d6c947bc5e1aab039e7bbd5075</Anchor>
+                 </Node>
+                 <Node>
                   <Name>allInputs</Name>
                   <Path>classfabrique_1_1dag_1_1_build.html</Path>
                   <Anchor>a395481272665aebe0452dacc49d63fac</Anchor>
@@ -5051,9 +5825,9 @@
                   <Anchor>a48deb206bffee48eb735ca691cc86b1e</Anchor>
                  </Node>
                  <Node>
-                  <Name>outputs</Name>
+                  <Name>explicitOutputs</Name>
                   <Path>classfabrique_1_1dag_1_1_build.html</Path>
-                  <Anchor>a3d15083364ea6c9cdeba8cf85bff04fd</Anchor>
+                  <Anchor>a0eaf938293612f313d40cabefbac6f67</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
@@ -5130,6 +5904,11 @@
                 <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>buildroot</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
+                  <Anchor>aea82e67c717d9841b5f68a49f816d412</Anchor>
+                 </Node>
+                 <Node>
                   <Name>builds</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
                   <Anchor>aa0057c8507c4c381217b4e2a718ab230</Anchor>
@@ -5148,6 +5927,11 @@
                   <Name>rules</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
                   <Anchor>ad71eb33d6e9b712d5632607539d7ffab</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>srcroot</Name>
+                  <Path>classfabrique_1_1dag_1_1_d_a_g.html</Path>
+                  <Anchor>ac4e8fa892b740c273fcc3d5fd2a06347</Anchor>
                  </Node>
                  <Node>
                   <Name>targets</Name>
@@ -5178,7 +5962,7 @@
                  <Node>
                   <Name>File</Name>
                   <Path>classfabrique_1_1dag_1_1_file.html</Path>
-                  <Anchor>a69aa9de7f429baa8f632af3534489ed0</Anchor>
+                  <Anchor>a6c4abe6ca51eb9fecebc943b7a144fc8</Anchor>
                  </Node>
                  <Node>
                   <Name>~File</Name>
@@ -5186,9 +5970,29 @@
                   <Anchor>a65314002ca499477a12436680f77eaa9</Anchor>
                  </Node>
                  <Node>
+                  <Name>absolute</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a516766962ef1893041d33a4548b8065b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a70f74875a027568890451809fcf9826d</Anchor>
+                 </Node>
+                 <Node>
                   <Name>filename</Name>
                   <Path>classfabrique_1_1dag_1_1_file.html</Path>
-                  <Anchor>a2f42783b749fed9b81a38b7c01f44064</Anchor>
+                  <Anchor>aed44300cf21a29fd518f7eb160c1cb3f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>fullName</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a27ae049b069f536085af36d9e2f715bf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>generated</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a5d6da40652a9855edc01ee84a1de281e</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
@@ -5196,13 +6000,43 @@
                   <Anchor>a4cc58c49e192dd551775bb6672007793</Anchor>
                  </Node>
                  <Node>
+                  <Name>setGenerated</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a75b772df94d6b3c507ba3313cde08de1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setSubdirectory</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a5b1a7bbfe1d68eee14f22583187eb994</Anchor>
+                 </Node>
+                 <Node>
                   <Name>str</Name>
                   <Path>classfabrique_1_1dag_1_1_file.html</Path>
                   <Anchor>a321db284937b0c244cd3f6e1e8d32ddf</Anchor>
                  </Node>
+                 <Node>
+                  <Name>subdirectory</Name>
+                  <Path>classfabrique_1_1dag_1_1_file.html</Path>
+                  <Anchor>a23799f792972bf253ba7eae3ae5a55a4</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>Formatter.cc</Name>
+              <Path>_formatter_8cc.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>FORMAT_VISIT</Name>
+                <Path>_formatter_8cc.html</Path>
+                <Anchor>a21be2508cca9f0dfdc1026acfbf23bfa</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Formatter.h</Name>
+              <Path>_formatter_8h_source.html</Path>
              </Node>
              <Node>
               <Name>List.cc</Name>
@@ -5225,6 +6059,11 @@
                   <Name>List</Name>
                   <Path>classfabrique_1_1dag_1_1_list.html</Path>
                   <Anchor>aec84181252c94a388f31a6e36f445372</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_list.html</Path>
+                  <Anchor>ace0ab7b9c6b4ee6e08266c253bf157f5</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -5324,6 +6163,11 @@
                   <Anchor>a5fd2c833b670a4afecc1b500b7eaf14e</Anchor>
                  </Node>
                  <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_boolean.html</Path>
+                  <Anchor>afc687757d6c16007b124b907133cfbd0</Anchor>
+                 </Node>
+                 <Node>
                   <Name>And</Name>
                   <Path>classfabrique_1_1dag_1_1_boolean.html</Path>
                   <Anchor>a10407dda8324ef12f6c81864a8f8c589</Anchor>
@@ -5360,6 +6204,11 @@
                   <Anchor>ae26e50289077dce7601faf31a0a4d1a7</Anchor>
                  </Node>
                  <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_integer.html</Path>
+                  <Anchor>a08e09d9e87a55d6cfedea1cef9c1e649</Anchor>
+                 </Node>
+                 <Node>
                   <Name>Add</Name>
                   <Path>classfabrique_1_1dag_1_1_integer.html</Path>
                   <Anchor>a7fdad9a129292bd4e7debf3ddffbf7ca</Anchor>
@@ -5379,6 +6228,11 @@
                   <Name>String</Name>
                   <Path>classfabrique_1_1dag_1_1_string.html</Path>
                   <Anchor>aeae49c5b500e42bb9a5e331cba1c7172</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_string.html</Path>
+                  <Anchor>a97aa85780018a9264fd0979fc2bcf661</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -5415,6 +6269,11 @@
                   <Name>~Rule</Name>
                   <Path>classfabrique_1_1dag_1_1_rule.html</Path>
                   <Anchor>a397c151729b56f697539056cfa13a2dc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_rule.html</Path>
+                  <Anchor>af2184116a768bc3665f198d80e4dd1d0</Anchor>
                  </Node>
                  <Node>
                   <Name>arguments</Name>
@@ -5462,6 +6321,11 @@
                 <Name>Target</Name>
                 <Path>classfabrique_1_1dag_1_1_target.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_target.html</Path>
+                  <Anchor>acfb03e0945fb9cc6aa4067c8eca5c583</Anchor>
+                 </Node>
                  <Node>
                   <Name>Add</Name>
                   <Path>classfabrique_1_1dag_1_1_target.html</Path>
@@ -5529,6 +6393,11 @@
                   <Anchor>a6284197a490938707d1920465e4193d0</Anchor>
                  </Node>
                  <Node>
+                  <Name>UndefinedValueException</Name>
+                  <Path>classfabrique_1_1dag_1_1_undefined_value_exception.html</Path>
+                  <Anchor>a8b846bcbd405884041563f6794ab160b</Anchor>
+                 </Node>
+                 <Node>
                   <Name>~UndefinedValueException</Name>
                   <Path>classfabrique_1_1dag_1_1_undefined_value_exception.html</Path>
                   <Anchor>a65d04f44481c9d08020fe3219eedd3c7</Anchor>
@@ -5553,6 +6422,11 @@
                   <Name>Value</Name>
                   <Path>classfabrique_1_1dag_1_1_value.html</Path>
                   <Anchor>ac598d6d8ae955dec322eef5580a68c31</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Accept</Name>
+                  <Path>classfabrique_1_1dag_1_1_value.html</Path>
+                  <Anchor>a023bfe148d06191685a190cfaddc056b</Anchor>
                  </Node>
                  <Node>
                   <Name>Add</Name>
@@ -5600,6 +6474,67 @@
                 <Name>ValueMap</Name>
                 <Path>_d_a_g_2_value_8h.html</Path>
                 <Anchor>a0283e2df2aa96573d3e418f39f020973</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Visitor.cc</Name>
+              <Path>_d_a_g_2_visitor_8cc.html</Path>
+             </Node>
+             <Node>
+              <Name>Visitor.h</Name>
+              <Path>_d_a_g_2_visitor_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Visitor</Name>
+                <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>~Visitor</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a2a091e7ca0c99993f392c018a2ecc524</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>ae99876011bcf2824c8138104fac7df0d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a356d4de7746090ef40c08b0944dab896</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a94a7412608ec2cde633ef0a753d7b69e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>abcd60097433b0786d5498be789b8eb04</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a5ef6dc309310de53ce0ce9c40d25cc25</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a0fdf1a72c076aa5ea5c1224e5999421c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a7b169490bc2ab524875750a96857648a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Visit</Name>
+                  <Path>classfabrique_1_1dag_1_1_visitor.html</Path>
+                  <Anchor>a1232d75905cbbac02665669a676b29a9</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -5750,6 +6685,16 @@
                   <Anchor>a7848c1c286a092bb923e2936b5d255dd</Anchor>
                  </Node>
                  <Node>
+                  <Name>Builtin</Name>
+                  <Path>classfabrique_1_1ast_1_1_parser.html</Path>
+                  <Anchor>a493af3250d6720d95782cc34e1bb3f94</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Builtin</Name>
+                  <Path>classfabrique_1_1ast_1_1_parser.html</Path>
+                  <Anchor>ac3df5cb31487d3176ad765016c58e3bb</Anchor>
+                 </Node>
+                 <Node>
                   <Name>CompoundExpr</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
                   <Anchor>af85259311802109bbc296ef41246a612</Anchor>
@@ -5807,7 +6752,7 @@
                  <Node>
                   <Name>Foreach</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a5d2cec8061893e263c50d3aecfee2d51</Anchor>
+                  <Anchor>a055e58d0fc759c0dfd0b45bf54243c18</Anchor>
                  </Node>
                  <Node>
                   <Name>getType</Name>
@@ -5843,6 +6788,11 @@
                   <Name>ListOf</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
                   <Anchor>af546f45a11e1e98f81c2af31f933104f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Map</Name>
+                  <Path>classfabrique_1_1ast_1_1_parser.html</Path>
+                  <Anchor>a003e45d6787d842d2646f0a750e94173</Anchor>
                  </Node>
                  <Node>
                   <Name>Param</Name>
@@ -6003,9 +6953,9 @@
                   <Anchor>a2a079e1d05d6348a3979c06647633481a344024eaa3665770909a7c33cbbe2674</Anchor>
                  </Node>
                  <Node>
-                  <Name>OutputFile</Name>
+                  <Name>OutputDirectory</Name>
                   <Path>_arguments_8cc.html</Path>
-                  <Anchor>a2a079e1d05d6348a3979c06647633481a3229017c8f084b040dde5950bcb2525b</Anchor>
+                  <Anchor>a2a079e1d05d6348a3979c06647633481aab20dd2bf3a84a8845e7ec87641ca0f6</Anchor>
                  </Node>
                  <Node>
                   <Name>ParseOnly</Name>
@@ -6355,6 +7305,11 @@
                   <Anchor>a794ed2376623494e89e9ad49667841a1</Anchor>
                  </Node>
                  <Node>
+                  <Name>AssertionFailure</Name>
+                  <Path>classfabrique_1_1_assertion_failure.html</Path>
+                  <Anchor>aa6e57dc2b9a9bf855a0c8fd011175e62</Anchor>
+                 </Node>
+                 <Node>
                   <Name>~AssertionFailure</Name>
                   <Path>classfabrique_1_1_assertion_failure.html</Path>
                   <Anchor>aafde76b2f199d128598536b357f7de4e</Anchor>
@@ -6386,6 +7341,11 @@
                   <Anchor>a3f1406c8caa4217596f84c4d82d140e2</Anchor>
                  </Node>
                  <Node>
+                  <Name>DuplicateException</Name>
+                  <Path>classfabrique_1_1_duplicate_exception.html</Path>
+                  <Anchor>a281a246559e8ab17b89bb881d62703e7</Anchor>
+                 </Node>
+                 <Node>
                   <Name>~DuplicateException</Name>
                   <Path>classfabrique_1_1_duplicate_exception.html</Path>
                   <Anchor>a5437bfc2967c91ddf83309b6c5482d41</Anchor>
@@ -6394,6 +7354,73 @@
                   <Name>what</Name>
                   <Path>classfabrique_1_1_duplicate_exception.html</Path>
                   <Anchor>ae95a1dc371630a25c3ec723a75a1d9aa</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>OSError</Name>
+                <Path>classfabrique_1_1_o_s_error.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>OSError</Name>
+                  <Path>classfabrique_1_1_o_s_error.html</Path>
+                  <Anchor>afadc7628f5c3f98b6d1100fc97deeb9e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~OSError</Name>
+                  <Path>classfabrique_1_1_o_s_error.html</Path>
+                  <Anchor>a3f197bb5ec386048e9a172c0f2a5fee1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OSError</Name>
+                  <Path>classfabrique_1_1_o_s_error.html</Path>
+                  <Anchor>a6a2ac53a57b63ab8ef603a6532341edf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>description</Name>
+                  <Path>classfabrique_1_1_o_s_error.html</Path>
+                  <Anchor>a3c980c6f801b417f8527b2480fc875cc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>message</Name>
+                  <Path>classfabrique_1_1_o_s_error.html</Path>
+                  <Anchor>aa2454ab7ecfb8cf7e14c55e9451fc84a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>what</Name>
+                  <Path>classfabrique_1_1_o_s_error.html</Path>
+                  <Anchor>a83f6e4e58dccbb9b2917e2d8fbb00318</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>UserError</Name>
+                <Path>classfabrique_1_1_user_error.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>UserError</Name>
+                  <Path>classfabrique_1_1_user_error.html</Path>
+                  <Anchor>a3de122110e640a848d51f06e76e9f4c5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>UserError</Name>
+                  <Path>classfabrique_1_1_user_error.html</Path>
+                  <Anchor>a6c2a597d75a223fe277ce5d75c472373</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~UserError</Name>
+                  <Path>classfabrique_1_1_user_error.html</Path>
+                  <Anchor>a440911e727c08a261766cccb3225e035</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>message</Name>
+                  <Path>classfabrique_1_1_user_error.html</Path>
+                  <Anchor>a1134dc928e421a3b9e6acecdf13037e6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>what</Name>
+                  <Path>classfabrique_1_1_user_error.html</Path>
+                  <Anchor>a64f981e573a9027d7ec99cff362d9cfd</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -6410,6 +7437,11 @@
                   <Name>SourceCodeException</Name>
                   <Path>classfabrique_1_1_source_code_exception.html</Path>
                   <Anchor>a01b0d85e69c13a1167037746f8eddb43</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SourceCodeException</Name>
+                  <Path>classfabrique_1_1_source_code_exception.html</Path>
+                  <Anchor>a79d79a3631c32b5f79e160c220efa699</Anchor>
                  </Node>
                  <Node>
                   <Name>message</Name>
@@ -6438,6 +7470,11 @@
                   <Anchor>a0f050d93f4306a167bb3e113cca3a2e2</Anchor>
                  </Node>
                  <Node>
+                  <Name>SyntaxError</Name>
+                  <Path>classfabrique_1_1_syntax_error.html</Path>
+                  <Anchor>aa46b12fb59ebf396f6d3de6df23a3332</Anchor>
+                 </Node>
+                 <Node>
                   <Name>~SyntaxError</Name>
                   <Path>classfabrique_1_1_syntax_error.html</Path>
                   <Anchor>a74ec8da0f58263a36f74c2c6be636545</Anchor>
@@ -6452,6 +7489,11 @@
                   <Name>SemanticException</Name>
                   <Path>classfabrique_1_1_semantic_exception.html</Path>
                   <Anchor>a28647dedab6575069401cc19f95b333e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SemanticException</Name>
+                  <Path>classfabrique_1_1_semantic_exception.html</Path>
+                  <Anchor>af886ac117d6e449dc70126941ebf8c77</Anchor>
                  </Node>
                  <Node>
                   <Name>~SemanticException</Name>
@@ -6504,6 +7546,46 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>os-posix.cc</Name>
+              <Path>os-posix_8cc.html</Path>
+             </Node>
+             <Node>
+              <Name>os.h</Name>
+              <Path>os_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>AbsoluteDirectory</Name>
+                <Path>os_8h.html</Path>
+                <Anchor>a8e896c284ee0d4fd3a7be7baea97300e</Anchor>
+               </Node>
+               <Node>
+                <Name>DirectoryOf</Name>
+                <Path>os_8h.html</Path>
+                <Anchor>a47d7e76ec781374a9700a98d525a4316</Anchor>
+               </Node>
+               <Node>
+                <Name>FileExists</Name>
+                <Path>os_8h.html</Path>
+                <Anchor>a727973900e8cd366c88cce87b95fb0e5</Anchor>
+               </Node>
+               <Node>
+                <Name>JoinPath</Name>
+                <Path>os_8h.html</Path>
+                <Anchor>abb9b37bb001c725a2c45f36dd200c2c4</Anchor>
+               </Node>
+               <Node>
+                <Name>JoinPath</Name>
+                <Path>os_8h.html</Path>
+                <Anchor>a8a90f6f66529ce87f35107cc54f820e5</Anchor>
+               </Node>
+               <Node>
+                <Name>PathIsAbsolute</Name>
+                <Path>os_8h.html</Path>
+                <Anchor>ace82a664ef1fcab3114f11546171d4e6</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Printable.cc</Name>
               <Path>_printable_8cc.html</Path>
              </Node>
@@ -6516,9 +7598,24 @@
                 <Path>classfabrique_1_1_printable.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>Printable</Name>
+                  <Path>classfabrique_1_1_printable.html</Path>
+                  <Anchor>a8ed6a0ca7084f5b24104504e76017517</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Printable</Name>
+                  <Path>classfabrique_1_1_printable.html</Path>
+                  <Anchor>a1f0c181db3f6597cd58a1403b0dfa657</Anchor>
+                 </Node>
+                 <Node>
                   <Name>~Printable</Name>
                   <Path>classfabrique_1_1_printable.html</Path>
                   <Anchor>a3eb4e71e9db5185a870a43f29895595f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator=</Name>
+                  <Path>classfabrique_1_1_printable.html</Path>
+                  <Anchor>a35b4fa5ce06a219fcc68d024ebb094d5</Anchor>
                  </Node>
                  <Node>
                   <Name>PrettyPrint</Name>
@@ -6904,6 +8001,11 @@
                   <Anchor>a23322d5f27bda1945e33a8dcd65ff380</Anchor>
                  </Node>
                  <Node>
+                  <Name>TypeError</Name>
+                  <Path>classfabrique_1_1_type_error.html</Path>
+                  <Anchor>a10a0906160b723d1b2d151bf70eacefb</Anchor>
+                 </Node>
+                 <Node>
                   <Name>~TypeError</Name>
                   <Path>classfabrique_1_1_type_error.html</Path>
                   <Anchor>a1133602045627eb936197a575a6088f5</Anchor>
@@ -6928,6 +8030,11 @@
                   <Name>WrongTypeException</Name>
                   <Path>classfabrique_1_1_wrong_type_exception.html</Path>
                   <Anchor>adf3b763806f2bc8f14ddcf4f57d8e583</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>WrongTypeException</Name>
+                  <Path>classfabrique_1_1_wrong_type_exception.html</Path>
+                  <Anchor>a4e8928fde1e0693035d7a1f96c67f496</Anchor>
                  </Node>
                  <Node>
                   <Name>~WrongTypeException</Name>
@@ -7876,6 +8983,16 @@
               <Path>classfabrique_1_1_fab_context.html</Path>
               <Subnodes>
                <Node>
+                <Name>FabContext</Name>
+                <Path>classfabrique_1_1_fab_context.html</Path>
+                <Anchor>a6a3687f9c54b354771fe9727eed768ac</Anchor>
+               </Node>
+               <Node>
+                <Name>buildroot</Name>
+                <Path>classfabrique_1_1_fab_context.html</Path>
+                <Anchor>a76f855c575a3e1eec3c25dbf6c20a87b</Anchor>
+               </Node>
+               <Node>
                 <Name>fileListType</Name>
                 <Path>classfabrique_1_1_fab_context.html</Path>
                 <Anchor>a75a73984da5a0566dd4ae5d834498b6e</Anchor>
@@ -7899,6 +9016,11 @@
                 <Name>nilType</Name>
                 <Path>classfabrique_1_1_fab_context.html</Path>
                 <Anchor>a4b1ab087015ffbda4963d4f07495dd84</Anchor>
+               </Node>
+               <Node>
+                <Name>srcroot</Name>
+                <Path>classfabrique_1_1_fab_context.html</Path>
+                <Anchor>ab958794ec9c93c4eb55c8b9266696b05</Anchor>
                </Node>
                <Node>
                 <Name>type</Name>

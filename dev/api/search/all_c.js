@@ -12,6 +12,7 @@ var searchData=
   ['ninja_2ecc',['Ninja.cc',['../_ninja_8cc.html',1,'']]],
   ['ninja_2eh',['Ninja.h',['../_ninja_8h.html',1,'']]],
   ['ninjabackend',['NinjaBackend',['../classfabrique_1_1backend_1_1_ninja_backend.html',1,'fabrique::backend']]],
+  ['ninjaformatter',['NinjaFormatter',['../class_ninja_formatter.html',1,'']]],
   ['node',['Node',['../classfabrique_1_1ast_1_1_node.html',1,'fabrique::ast']]],
   ['node_2ecc',['Node.cc',['../_node_8cc.html',1,'']]],
   ['node_2eh',['Node.h',['../_node_8h.html',1,'']]],

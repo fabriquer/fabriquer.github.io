@@ -26,14 +26,14 @@
 		<link rel="stylesheet" type="text/css" href="/style/base.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="/style/pygments.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="/style/print.css" media="print" />
-		<title>Fabriquer API documentation</title>
+		<title>Fabrique API documentation</title>
 	</head>
 	<body>
 		<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 		<div id="titlearea">
 		<header>
 			<div class="inner">
-				<h1>Fabriquer</h1>
+				<h1>Fabrique</h1>
 				<h2>A build language for complex systems</h2>
 			</div>
 			<nav>
@@ -73,6 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -120,7 +121,7 @@ $(document).ready(function(){initNavTree('_undefined_value_exception_8cc_source.
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -177,12 +178,18 @@ $(document).ready(function(){initNavTree('_undefined_value_exception_8cc_source.
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;dag::UndefinedValueException::~UndefinedValueException()</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;dag::UndefinedValueException::UndefinedValueException(</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">const</span> UndefinedValueException&amp; orig)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    : <a class="code" href="classfabrique_1_1_semantic_exception.html">SemanticException</a>(orig.message(), orig.source()), name_(orig.name_)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;dag::UndefinedValueException::~UndefinedValueException()</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 <div class="ttc" id="_undefined_value_exception_8h_html"><div class="ttname"><a href="_undefined_value_exception_8h.html">UndefinedValueException.h</a></div><div class="ttdoc">Declaration of fabrique::dag::UndefinedValueException. </div></div>
 <div class="ttc" id="classfabrique_1_1_source_range_html"><div class="ttname"><a href="classfabrique_1_1_source_range.html">fabrique::SourceRange</a></div><div class="ttdef"><b>Definition:</b> <a href="_source_location_8h_source.html#l00071">SourceLocation.h:71</a></div></div>
-<div class="ttc" id="classfabrique_1_1_semantic_exception_html"><div class="ttname"><a href="classfabrique_1_1_semantic_exception.html">fabrique::SemanticException</a></div><div class="ttdoc">A semantic error is present in the Fabrique description. </div><div class="ttdef"><b>Definition:</b> <a href="exceptions_8h_source.html#l00112">exceptions.h:112</a></div></div>
+<div class="ttc" id="classfabrique_1_1_semantic_exception_html"><div class="ttname"><a href="classfabrique_1_1_semantic_exception.html">fabrique::SemanticException</a></div><div class="ttdoc">A semantic error is present in the Fabrique description. </div><div class="ttdef"><b>Definition:</b> <a href="exceptions_8h_source.html#l00157">exceptions.h:157</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </section>

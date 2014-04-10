@@ -1,8 +1,8 @@
 ---
-title: Fabriquer style guide
+title: Fabrique style guide
 ---
 {% capture content %}
-This is a style guide for Fabriquer contributors.
+This is a style guide for Fabrique contributors.
 Following it should help us keep the quality of code high.
 In order of importance, we value:
 
@@ -24,13 +24,13 @@ Changes to these requirements should only be made for a very, very good reason
       (e.g. interfacing with lex/yacc).
 * Compile with `-Weverything`.
 
-    * Aside from the whitelisted warnings below, Fabriquer should
+    * Aside from the whitelisted warnings below, Fabrique should
       always build with all warnings.
       With Clang, `-Wall` gives a lot of warnings but
       `-Weverything` actually produces *all* the warnings.
     * Some of these warnings seem silly (who cares if a constructor
       takes a parameter with the same name as a member variable!?), but
-      warnings are there for a reason.  Fabriquer should have *very* clean code.
+      warnings are there for a reason.  Fabrique should have *very* clean code.
     * However, please *do not* enable `-Werror` in the repository:
       it is very annoying for WIP code, so please rely on contributors'
       self-discipline instead.
@@ -63,7 +63,7 @@ and more open to argument than [Critical](#critical) guidelines.
 
 * Use whitespace to suggest logical relationships.
 
-    * Unlike some style guides we could mention (ahem), Fabriquer does not
+    * Unlike some style guides we could mention (ahem), Fabrique does not
       prioritise fitting inside 80x25 terminal windows over readability.
     * Put a blank line between tightly-coupled lines and less-coupled ones:
 
