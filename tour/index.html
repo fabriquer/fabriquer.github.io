@@ -1,0 +1,220 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/style/base.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/style/pygments.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/style/print.css" media="print" />
+
+		<title>A quick tour of Fabrique</title>
+	</head>
+
+	<body>
+		<header>
+			<div class="inner">
+				<h1>Fabrique</h1>
+				<h2>A build language for complex systems</h2>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a>
+</li>
+					<li><a href="/tour">Tour</a>
+</li>
+					<li>
+						<a href="/dev">Development</a>
+
+						<ul>
+							<li><a href="/dev/api">API docs</a>
+</li>
+							<li><a href="/dev/style">Style guide</a>
+</li>
+						</ul>
+					</li>
+					<!--
+					<li>
+						<a href="/compare">Compare</a>
+
+						<ul>
+							<li><a href="/compare/cmake">CMake</a>
+</li>
+							<li><a href="/compare/gyp">Gyp</a>
+</li>
+						</ul>
+					</li>
+					-->
+				</ul>
+			</nav>
+		</header>
+
+		<div id="content-wrapper">
+			<div class="inner clearfix">
+				<section id="main-content">
+					<a name="content" class="anchor" href="#content"></a>
+					
+					<h1>A quick tour of Fabrique</h1>
+					
+
+<p>Fabrique is a meta-build system. It takes a build description (called <code>fabfile</code> by default), makes some configuration decisions and produces a:</p>
+
+<ul>
+<li><a href="http://martine.github.io/ninja">Ninja</a> file</li>
+
+<li><a href="http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html">POSIX makefile</a> or</li>
+
+<li><a href="http://www.graphviz.org/">Graphviz Dot</a> file.</li>
+</ul>
+
+<p>These output formats are selected with the <code>--format</code> flag:</p>
+<div class='highlight'><pre><code class='console'><span class='gp'>$</span> fab --format<span class='o'>=</span>dot ./fabfile        <span class='c'># puts build.dot in current directory</span>
+<span class='gp'>$</span> fab --format<span class='o'>=</span>make                 <span class='c'># defaults to &#39;fabfile&#39; input</span>
+<span class='gp'>$</span> fab --format<span class='o'>=</span>ninja --output<span class='o'>=</span>build <span class='c'># puts build.ninja in &#39;build&#39;</span>
+</code></pre></div>
+<h2 id="values">Values</h2>
+
+<p>Fabrique descriptions are built on the concept of typed, immutable values. Once an integer, string, etc. has been assigned a name, it cannot be changed and that name cannot be reused in the same scope.</p>
+<div class='highlight'><pre><code class='fab'><span class='c1'># Values are strongly typed.</span>
+<span class='no'>library_name</span><span class='p'>:</span><span class='kt'>string</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='s'>&quot;hello&quot;</span><span class='p'>;</span><span class='w' />
+
+<span class='c1'># Types can be inferred, rather than explicitly stated.</span>
+<span class='no'>debug</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>true</span><span class='p'>;</span><span class='w'>   </span><span class='c1'># same as &#39;debug:bool = true;&#39;</span>
+
+<span class='c1'># Strings can be represented with single or double quotes.</span>
+<span class='no'>foo</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='s'>&#39;a string with an embedded \&#39;</span><span class='nv'>foo</span><span class='err'>\</span><span class='s'>&#39; and &quot;bar&quot;&#39;</span><span class='p'>;</span><span class='w' />
+<span class='no'>bar</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='s'>&quot;a string with an embedded \&quot;</span><span class='nv'>foo</span><span class='err'>\</span><span class='s'>&quot; and &#39;bar&#39;&quot;</span><span class='p'>;</span><span class='w' />
+
+<span class='c1'># Lists are ordered sequences of things.</span>
+<span class='nv'>some_stuff</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>int</span><span class='p'>]</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='err'>1</span><span class='w'> </span><span class='err'>2</span><span class='w'> </span><span class='err'>3</span><span class='w'> </span><span class='p'>];</span><span class='w' />
+
+<span class='c1'># Addition is defined for many types.</span>
+<span class='no'>w</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='err'>2</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='err'>2</span><span class='p'>;</span><span class='w'>                       </span><span class='c1'># 4</span>
+<span class='no'>x</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='s'>&#39;a&#39;</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='s'>&quot;b&quot;</span><span class='p'>;</span><span class='w'>                   </span><span class='c1'># &#39;ab&#39;</span>
+<span class='no'>y</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='nv'>true</span><span class='w'> </span><span class='p'>]</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='nv'>false</span><span class='w'> </span><span class='p'>];</span><span class='w'>        </span><span class='c1'># [ true false ]</span>
+
+<span class='c1'># Scalar addition is defined on lists.</span>
+<span class='no'>scalar_add</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='err'>1</span><span class='w'> </span><span class='err'>2</span><span class='w'> </span><span class='err'>3</span><span class='w'> </span><span class='p'>]</span><span class='w'> </span><span class='o'>.+</span><span class='w'> </span><span class='err'>1</span><span class='p'>;</span><span class='w'>     </span><span class='c1'># [ 2 3 4 ]</span>
+
+<span class='c1'># Lists can be transformed (mapped) with foreach.</span>
+<span class='kp'>in</span><span class='nv'>cremented</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>int</span><span class='p'>]</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='k'>foreach</span><span class='w'> </span><span class='nv'>x</span><span class='o'>:</span><span class='kt'>int</span><span class='w'> </span><span class='o'>&lt;-</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='err'>1</span><span class='w'> </span><span class='err'>2</span><span class='w'> </span><span class='err'>3</span><span class='w'> </span><span class='p'>]</span><span class='w' />
+<span class='p'>{</span><span class='w' />
+<span class='w'>	</span><span class='no'>y</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>x</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='err'>3</span><span class='p'>;</span><span class='w' />
+<span class='w'>	</span><span class='no'>z</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>y</span><span class='w'> </span><span class='err'>-</span><span class='w'> </span><span class='err'>1</span><span class='p'>;</span><span class='w' />
+<span class='w'>	</span><span class='nv'>z</span><span class='w'> </span><span class='err'>-</span><span class='w'> </span><span class='err'>1</span><span class='w'>        </span><span class='c1'># expression, not value</span>
+<span class='p'>};</span><span class='w' />
+
+<span class='no'>shorter</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='k'>foreach</span><span class='w'> </span><span class='nv'>x</span><span class='w'> </span><span class='o'>&lt;-</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='err'>1</span><span class='w'> </span><span class='err'>2</span><span class='w'> </span><span class='err'>3</span><span class='w'> </span><span class='p'>]</span><span class='w'> </span><span class='nv'>x</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='err'>1</span><span class='p'>;</span><span class='w' />
+</code></pre></div>
+<h2 id="files">Files</h2>
+
+<p>One type of value that is rather important for a build system is the file:</p>
+<div class='highlight'><pre><code class='fab'><span class='c1'># Files can be named with string literals or named values.</span>
+<span class='no'>foo</span><span class='p'>:</span><span class='kt'>file</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;foo.c&#39;</span><span class='p'>);</span><span class='w' />
+<span class='no'>bar_name</span><span class='p'>:</span><span class='kt'>string</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='s'>&#39;bar.c&#39;</span><span class='p'>;</span><span class='w' />
+<span class='no'>bar</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='nv'>bar_name</span><span class='p'>);</span><span class='w' />
+
+<span class='c1'># There is a special syntax for multiple files.</span>
+<span class='nv'>baz</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>file</span><span class='p'>]</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nb'>files</span><span class='p'>(</span><span class='nv'>one</span><span class='p'>.</span><span class='nv'>c</span><span class='w'> </span><span class='nv'>two</span><span class='p'>.</span><span class='nv'>c</span><span class='w'> </span><span class='nv'>three</span><span class='p'>.</span><span class='nv'>c</span><span class='p'>);</span><span class='w' />
+<span class='no'>equivalent</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;one.c&#39;</span><span class='p'>)</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;two.c&#39;</span><span class='p'>)</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;three.c&#39;</span><span class='p'>)</span><span class='w'> </span><span class='p'>];</span><span class='w' />
+
+<span class='c1'># Filenames can be concatenated.</span>
+<span class='no'>src</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;something.c&#39;</span><span class='p'>);</span><span class='w' />
+<span class='no'>obj</span><span class='p'>:</span><span class='kt'>file</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>src</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='s'>&#39;.o&#39;</span><span class='p'>;</span><span class='w'>      </span><span class='c1'># something.c.o</span>
+</code></pre></div>
+<h2 id="actions">Actions</h2>
+
+<p>Build actions transform files into other files. They are the building blocks of build systems, but they aren’t always the nicest to use (see Functions, below). Still, with files and actions, it’s possible to compile a simple “hello world” program.</p>
+<div class='highlight'><pre><code class='fab'><span class='no'>cc</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nb'>action</span><span class='p'>(</span><span class='s'>&#39;cc -c ${src} -o ${obj}&#39;</span><span class='p'>,</span><span class='w' />
+<span class='w'>            </span><span class='no'>description</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='s'>&#39;Compiling ${src}&#39;</span><span class='w' />
+<span class='w'>            </span><span class='o'>&lt;-</span><span class='w'> </span><span class='nv'>src</span><span class='o'>:</span><span class='kt'>file</span><span class='p'>[</span><span class='kp'>in</span><span class='p'>],</span><span class='w'> </span><span class='nv'>obj</span><span class='o'>:</span><span class='kt'>file</span><span class='p'>[</span><span class='kp'>out</span><span class='p'>]);</span><span class='w' />
+
+<span class='no'>link</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nb'>action</span><span class='p'>(</span><span class='no'>command</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='s'>&#39;cc ${objects} -o ${bin}&#39;</span><span class='p'>,</span><span class='w' />
+<span class='w'>              </span><span class='no'>description</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='s'>&#39;Linking ${bin}&#39;</span><span class='w' />
+<span class='w'>              </span><span class='o'>&lt;-</span><span class='w'> </span><span class='nv'>objects</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>file</span><span class='p'>[</span><span class='kp'>in</span><span class='p'>]],</span><span class='w'> </span><span class='nv'>bin</span><span class='o'>:</span><span class='kt'>file</span><span class='p'>[</span><span class='kp'>out</span><span class='p'>]);</span><span class='w' />
+
+<span class='no'>srcs</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nb'>files</span><span class='p'>(</span><span class='nv'>hello</span><span class='p'>.</span><span class='nv'>c</span><span class='w'> </span><span class='nv'>world</span><span class='p'>.</span><span class='nv'>c</span><span class='p'>);</span><span class='w' />
+<span class='no'>objs</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='k'>foreach</span><span class='w'> </span><span class='nv'>src</span><span class='w'> </span><span class='o'>&lt;-</span><span class='w'> </span><span class='nv'>srcs</span><span class='w' />
+<span class='w'>	</span><span class='nv'>cc</span><span class='p'>(</span><span class='nv'>src</span><span class='p'>,</span><span class='w'> </span><span class='no'>obj</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>src</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='s'>&#39;.o&#39;</span><span class='p'>)</span><span class='w' />
+<span class='w'>	</span><span class='p'>;</span><span class='w' />
+
+<span class='no'>helloworld</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>link</span><span class='p'>(</span><span class='nv'>objs</span><span class='p'>,</span><span class='w'> </span><span class='no'>bin</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;hello-world&#39;</span><span class='p'>));</span><span class='w' />
+</code></pre></div><div class='highlight'><pre><code class='console'><span class='gp'>$</span> fab --format<span class='o'>=</span>make --output<span class='o'>=</span>build ./fabfile
+<span class='gp'>$</span> make -s -C build
+<span class='go'>Compiling /home/jon/fabrique/examples/helloworld/hello.c</span>
+<span class='go'>Compiling /home/jon/fabrique/examples/helloworld/world.c</span>
+<span class='go'>Linking /home/jon/fabrique/examples/helloworld/build/hello-world</span>
+<span class='gp'>$</span> ./build/hello-world
+<span class='go'>Hello, world!</span>
+</code></pre></div>
+<h2 id="functions">Functions</h2>
+
+<p>Actions are a construct for the command-line interface. Functions are a construct for the programmer’s interface. Complex actions might require amounts of repetition that invite accidental mistyping and are just generally easier to use if wraped in a function. The following example is based on Fabrique’s own fabfile.</p>
+<div class='highlight'><pre><code class='fab'><span class='c1'># Compile one C++ source file into an object file.</span>
+<span class='no'>compile_cxx</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nb'>action</span><span class='p'>(</span><span class='s'>&#39;${CXX} -c ${flags} -MMD -MF ${depfile} ${src} -o ${obj}&#39;</span><span class='p'>,</span><span class='w' />
+<span class='w'>                     </span><span class='no'>description</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='s'>&#39;Compiling ${in}&#39;</span><span class='w' />
+<span class='w'>                     </span><span class='o'>&lt;-</span><span class='w'> </span><span class='nv'>src</span><span class='o'>:</span><span class='kt'>file</span><span class='p'>[</span><span class='kp'>in</span><span class='p'>],</span><span class='w'> </span><span class='nv'>obj</span><span class='o'>:</span><span class='kt'>file</span><span class='p'>[</span><span class='kp'>out</span><span class='p'>],</span><span class='w' />
+<span class='w'>                        </span><span class='nv'>flags</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>string</span><span class='p'>],</span><span class='w'> </span><span class='nv'>depfile</span><span class='o'>:</span><span class='kt'>file</span><span class='p'>[</span><span class='kp'>out</span><span class='p'>],</span><span class='w' />
+<span class='w'>                        </span><span class='nv'>otherDeps</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>file</span><span class='p'>[</span><span class='kp'>in</span><span class='p'>]]</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[]);</span><span class='w' />
+
+<span class='c1'># Compile several C++ files according a set of naming conventions</span>
+<span class='c1'># for object and dependency files.</span>
+<span class='nf'>cxx</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nb'>function</span><span class='p'>(</span><span class='nv'>srcs</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>file</span><span class='p'>],</span><span class='w'> </span><span class='nv'>flags</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>string</span><span class='p'>]</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='s'>&#39;-Weverything&#39;</span><span class='w'> </span><span class='p'>],</span><span class='w' />
+<span class='w'>               </span><span class='nv'>explicitDependencies</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>file</span><span class='p'>[</span><span class='kp'>in</span><span class='p'>]]</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[])</span><span class='o'>:</span><span class='w'> </span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>file</span><span class='p'>]</span><span class='w' />
+<span class='p'>{</span><span class='w' />
+<span class='w'>	</span><span class='k'>foreach</span><span class='w'> </span><span class='nv'>src</span><span class='w'> </span><span class='o'>&lt;-</span><span class='w'> </span><span class='nv'>srcs</span><span class='w'> </span><span class='p'>{</span><span class='w' />
+<span class='w'>		</span><span class='no'>obj</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>src</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='s'>&#39;.o&#39;</span><span class='p'>;</span><span class='w' />
+<span class='w'>		</span><span class='no'>depfile</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>src</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='s'>&#39;.d&#39;</span><span class='p'>;</span><span class='w' />
+
+<span class='w'>		</span><span class='c1'># &#39;build&#39; refers to all outputs from compile_cxx,</span>
+<span class='w'>		</span><span class='c1'># including the dependency file!</span>
+<span class='w'>		</span><span class='no'>build</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>compile_cxx</span><span class='p'>(</span><span class='nv'>src</span><span class='p'>,</span><span class='w'> </span><span class='nv'>obj</span><span class='p'>,</span><span class='w'> </span><span class='nv'>flags</span><span class='p'>,</span><span class='w'> </span><span class='nv'>depfile</span><span class='p'>,</span><span class='w' />
+<span class='w'>		                    </span><span class='nv'>explicitDependencies</span><span class='p'>);</span><span class='w' />
+
+<span class='w'>		</span><span class='c1'># Only add the object file to the result, so that the</span>
+<span class='w'>		</span><span class='c1'># result of &#39;cxx&#39; can be usefully passed to, e.g., &#39;link&#39;.</span>
+<span class='w'>		</span><span class='nv'>obj</span><span class='w' />
+<span class='w'>	</span><span class='p'>}</span><span class='w' />
+<span class='p'>};</span><span class='w' />
+
+<span class='no'>objs</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>cxx</span><span class='p'>(</span><span class='nb'>files</span><span class='p'>(</span><span class='nv'>a</span><span class='p'>.</span><span class='nv'>cc</span><span class='w'> </span><span class='nv'>b</span><span class='p'>.</span><span class='nv'>cc</span><span class='w'> </span><span class='nv'>c</span><span class='p'>.</span><span class='nv'>cc</span><span class='p'>));</span><span class='w' />
+<span class='no'>fab</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>link</span><span class='p'>(</span><span class='nv'>objs</span><span class='p'>,</span><span class='w'> </span><span class='no'>binary</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;fab&#39;</span><span class='p'>));</span><span class='w' />
+</code></pre></div>
+<h2 id="modules">Modules</h2>
+
+<p>TODO</p>
+				</section>
+
+				<aside id="sidebar">
+					<a href="https://github.com/fabriquer/fabrique" class="button" id="github">
+						<small>View project on</small>GitHub
+					</a>
+					<a href="https://github.com/fabriquer/fabrique/zipball/master" class="button">
+						<small>Download</small>
+						.zip file
+					</a>
+					<a href="https://github.com/fabriquer/fabrique/tarball/master" class="button">
+						<small>Download</small>
+						.tar.gz file
+					</a>
+
+
+				</aside>
+			</div>
+		</div>
+
+		<footer>
+			<a href="https://github.com/fabriquer/fabrique">Fabrique</a> is maintained by
+			<a href="https://github.com/trombonehero">trombonehero</a>.
+			<br/>
+			This page was generated by
+			<a href="https://pages.github.com">GitHub Pages</a> using the
+			Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+		</footer>
+	</body>
+</html>
+
+
