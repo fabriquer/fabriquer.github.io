@@ -180,7 +180,13 @@
 <span class='w'>	</span><span class='p'>}</span><span class='w' />
 <span class='p'>};</span><span class='w' />
 
+<span class='c1'># When using the &#39;cxx&#39; function, we don&#39;t need to manually specify</span>
+<span class='c1'># names for the object or dependency files.</span>
 <span class='no'>objs</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>cxx</span><span class='p'>(</span><span class='nb'>files</span><span class='p'>(</span><span class='nv'>a</span><span class='p'>.</span><span class='nv'>cc</span><span class='w'> </span><span class='nv'>b</span><span class='p'>.</span><span class='nv'>cc</span><span class='w'> </span><span class='nv'>c</span><span class='p'>.</span><span class='nv'>cc</span><span class='p'>));</span><span class='w' />
+
+<span class='c1'># The value returned from &#39;cxx&#39; can be directly passed to another</span>
+<span class='c1'># function or action: it doesn&#39;t include the also-generated dependency</span>
+<span class='c1'># files, but the build system will still keep track of them.</span>
 <span class='no'>fab</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>link</span><span class='p'>(</span><span class='nv'>objs</span><span class='p'>,</span><span class='w'> </span><span class='no'>binary</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;fab&#39;</span><span class='p'>));</span><span class='w' />
 </code></pre></div>
 <h2 id="modules">Modules</h2>
