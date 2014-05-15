@@ -1,0 +1,167 @@
+---
+title: A quick tour of Fabrique
+---
+{% capture content %}
+
+Fabrique is a meta-build system.
+It takes a build description (called `fabfile` by default), makes some
+configuration decisions and produces a:
+
+ * [Ninja](http://martine.github.io/ninja) file
+ * [POSIX makefile](http://pubs.opengroup.org/onlinepubs/009695399/utilities/make.html) or
+ * [Graphviz Dot](http://www.graphviz.org/) file.
+
+These output formats are selected with the `--format` flag:
+
+{% highlight console %}
+$ fab --format=dot ./fabfile        # puts build.dot in current directory
+$ fab --format=make                 # defaults to 'fabfile' input
+$ fab --format=ninja --output=build # puts build.ninja in 'build'
+{% endhighlight %}
+
+
+## Values
+
+Fabrique descriptions are built on the concept of typed, immutable values.
+Once an integer, string, etc. has been assigned a name, it cannot be changed
+and that name cannot be reused in the same scope.
+
+{% highlight fab %}
+# Values are strongly typed.
+library_name:string = "hello";
+
+# Types can be inferred, rather than explicitly stated.
+debug = true;   # same as 'debug:bool = true;'
+
+# Strings can be represented with single or double quotes.
+foo = 'a string with an embedded \'foo\' and "bar"';
+bar = "a string with an embedded \"foo\" and 'bar'";
+
+# Lists are ordered sequences of things.
+some_stuff:list[int] = [ 1 2 3 ];
+
+# Addition is defined for many types.
+w = 2 + 2;                       # 4
+x = 'a' + "b";                   # 'ab'
+y = [ true ] + [ false ];        # [ true false ]
+
+# Scalar addition is defined on lists.
+scalar_add = [ 1 2 3 ] .+ 1;     # [ 2 3 4 ]
+
+# Lists can be transformed (mapped) with foreach.
+incremented:list[int] = foreach x:int <- [ 1 2 3 ]
+{
+	y = x + 3;
+	z = y - 1;
+	z - 1        # expression, not value
+};
+
+shorter = foreach x <- [ 1 2 3 ] x + 1;
+{% endhighlight %}
+
+
+## Files
+
+One type of value that is rather important for a build system is the file:
+
+{% highlight fab %}
+# Files can be named with string literals or named values.
+foo:file = file('foo.c');
+bar_name:string = 'bar.c';
+bar = file(bar_name);
+
+# There is a special syntax for multiple files.
+baz:list[file] = files(one.c two.c three.c);
+equivalent = [ file('one.c') file('two.c') file('three.c') ];
+
+# Filenames can be concatenated.
+src = file('something.c');
+obj:file = src + '.o';      # something.c.o
+{% endhighlight %}
+
+
+## Actions
+
+Build actions transform files into other files.
+They are the building blocks of build systems, but they aren't always
+the nicest to use (see Functions, below).
+Still, with files and actions, it's possible to compile a simple
+"hello world" program.
+
+{% highlight fab %}
+cc = action('cc -c ${src} -o ${obj}',
+            description = 'Compiling ${src}'
+            <- src:file[in], obj:file[out]);
+
+link = action(command = 'cc ${objects} -o ${bin}',
+              description = 'Linking ${bin}'
+              <- objects:list[file[in]], bin:file[out]);
+
+srcs = files(hello.c world.c);
+objs = foreach src <- srcs
+	cc(src, obj = src + '.o')
+	;
+
+helloworld = link(objs, bin = file('hello-world'));
+{% endhighlight %}
+
+
+{% highlight console %}
+$ fab --format=make --output=build ./fabfile
+$ make -s -C build
+Compiling /home/jon/fabrique/examples/helloworld/hello.c
+Compiling /home/jon/fabrique/examples/helloworld/world.c
+Linking /home/jon/fabrique/examples/helloworld/build/hello-world
+$ ./build/hello-world
+Hello, world!
+{% endhighlight %}
+
+
+## Functions
+
+Actions are a construct for the command-line interface.
+Functions are a construct for the programmer's interface.
+Complex actions might require amounts of repetition that invite accidental
+mistyping and are just generally easier to use if wraped in a function.
+The following example is based on Fabrique's own fabfile.
+
+{% highlight fab %}
+# Compile one C++ source file into an object file.
+compile_cxx = action('${CXX} -c ${flags} -MMD -MF ${depfile} ${src} -o ${obj}',
+                     description = 'Compiling ${in}'
+                     <- src:file[in], obj:file[out],
+                        flags:list[string], depfile:file[out],
+                        otherDeps:list[file[in]] = []);
+
+# Compile several C++ files according a set of naming conventions
+# for object and dependency files.
+cxx = function(srcs:list[file], flags:list[string] = [ '-Weverything' ],
+               explicitDependencies:list[file[in]] = []): list[file]
+{
+	foreach src <- srcs {
+		obj = src + '.o';
+		depfile = src + '.d';
+
+		# 'build' refers to all outputs from compile_cxx,
+		# including the dependency file!
+		build = compile_cxx(src, obj, flags, depfile,
+		                    explicitDependencies);
+
+		# Only add the object file to the result, so that the
+		# result of 'cxx' can be usefully passed to, e.g., 'link'.
+		obj
+	}
+};
+
+objs = cxx(files(a.cc b.cc c.cc));
+fab = link(objs, binary = file('fab'));
+{% endhighlight %}
+
+
+## Modules
+
+TODO
+
+{% endcapture %}
+
+{% include markdown-page.html %}
