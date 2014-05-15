@@ -153,7 +153,13 @@ cxx = function(srcs:list[file], flags:list[string] = [ '-Weverything' ],
 	}
 };
 
+# When using the 'cxx' function, we don't need to manually specify
+# names for the object or dependency files.
 objs = cxx(files(a.cc b.cc c.cc));
+
+# The value returned from 'cxx' can be directly passed to another
+# function or action: it doesn't include the also-generated dependency
+# files, but the build system will still keep track of them.
 fab = link(objs, binary = file('fab'));
 {% endhighlight %}
 
