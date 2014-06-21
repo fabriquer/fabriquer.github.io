@@ -9,21 +9,33 @@ designed for either *command-line* use or *IDE* integration.
 
 {% highlight fab %}
 # Values are constant and typed (but types can be inferred)
-CC = 'clang';  # CC:string = 'clang';
+debug = true;  # or debug:bool = true;
 object_suffix = if (windows) '.obj' else '.o';
 
+
 # Build actions are defined explicitly
-cc_one = action('$CC -c $in -o $out' <- in:file, out:file);
-link = action('$CC $in -o $out' <- in:list[file], out:file);
+cc_like_gcc = action('${cc} -c ${flags} ${src} -o ${obj}',
+                     description = 'Compiling ${src}'
+                     <- src:file[in], obj:file[out],
+                        flags:list[string] = [], cc:string = 'clang');
 
 # Functions allow higher-level build descriptions
-cc = function(srcs:list[file], cflags = '-Weverything')
-	foreach src in srcs
-		cc_one(src, out = src + object_suffix);
+cc = function(srcs:list[file])
+{
+	compile = if (windows) visual_c else cc_gcc_like;
+	foreach src <- srcs
+		compile(src, obj = src + object_suffix)
+};
 
 # Build targets correspond to high-level build actions
-obj = cc(files(foo.c bar.c baz.c));
-bin = link(obj, out = file('foo'));
+c_objects = cc(files(foo.c bar.c baz.c));
+
+# Abstractions can be re-used.
+cxx = import('cplusplus.fab');
+cxx_objects = cxx.compile([ file('wibble.cc') ]);
+
+# The default target is the last one defined.
+bin = cxx.link_executable(c_objects + cxx_objects, file('foo'));
 {% endhighlight %}
 
 {% endcapture %}
