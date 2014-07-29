@@ -1,0 +1,170 @@
+---
+title: TODOs
+---
+{% capture content %}
+While everyone is welcome to download, experiment with and submit patches
+for Fabrique, you probably shouldn't consider it "ready for prime time"
+until the following TODO items have been resolved:
+
+
+## Interface types
+
+Currently, we can define name-to-value aggregates ("structures"), either
+directly or by importing another Fabrique file.
+These aggregates have types, but they're not easily described by other code
+(e.g., a function) that expects to receive a certain aggregate type.
+What we want is to be able to express:
+
+{% highlight fab %}
+# Information required to link against a library.
+struct LibraryConfig
+{
+	definitions:list[string];
+	flags:list[string];
+	libraries:list[string];
+
+	include_directories:list[file];
+	library_directories:list[file];
+};
+
+compile = function(srcs:list[file], config:list[LibraryConfig]) # ...
+
+libfoo = import('libfoo.fab');
+libbar = import('libbar.fab');
+obj = compile(files(a.c b.c), [ libfoo.config libbar.config ]);
+{% endhighlight %}
+
+
+## Plugins
+
+Many build configuration systems run arbitrary shell scrips and parse their
+outputs to get configuration data.
+This makes repeatability difficult.
+Fabrique will use a different approach, with two sources of configuration data:
+static, descriptive Fabrique files and dynamic but repeatable plugins.
+
+In the first approach, descriptive Fabrique files are installed alongside
+the packages they describe.
+This approach is one of the most useful intellectual contributions that
+CMake has made to the field (even if its execution is poor).
+For instance, `/usr/local/share/fabrique/libfoo.fab` might contain:
+
+{% highlight fab %}
+config = function(feature_a:bool, feature_b = false): LibraryConfig
+{
+  need_common_dependency = (feature_a or feature_b);
+
+  struct
+  {
+    definitions =
+      if (need_common_dependency) [ 'USING_DEP_FOO' ] else []
+      + if (feature_a) [ 'FEATURE_A' ] else []
+      + if (feature_b) [ 'FEATURE_B' ] else [ 'NO_FEATURE_B' ]
+      ;
+
+    flags:list[string] = [];
+
+    libraries = [ 'foobase' ]
+      + if (need_common_dependency) [ 'foocommon' ] else []
+      + if (feature_a) [ 'foo_a' ] else []
+      + if (feature_b) [ 'foo_b' ] else []
+      ;
+
+    include_directories = [ file('/usr/local/include/libfoo') ];
+    library_directories = [ file('/usr/local/lib') ];
+  }
+}
+{% endhighlight %}
+
+
+Some configuration, however, needs to be dynamic: it depends on properties
+of the host as it is currently running.
+We also need general-purpose tools to work around software that doesn't
+provide static Fabrique-style configuration.
+For these situations, we need plugins.
+
+
+In Fabrique, build configuration will be done with the assistance of
+compiled plugins.
+These plugins will be dynamically-linked libraries that Fabrique can load,
+but their outputs will be recorded so that we can later "play back" a
+configuration run, possibly for debugging on another machine.
+Plugins that we see an immediate need for include:
+
+ * `which`: find the first `foo` on the current `$PATH`
+ * `sysctl`: on UNIX platforms, get a (typed) value for a given name
+ * `pkg_config`: wrap the `pkg-config` tool for packages that don't supply
+   Fabrique files
+
+
+
+## Standard library
+
+Before it's widely useful, Fabrique needs a richer standard library.
+For instance, a compiler driver function might want to take a list of
+warnings concatenated from several libraries, eliminate duplicates, search for
+logical inconsistencies (`foo` and `no-foo`) and transform the result into
+some compiler-specific representation.
+This should all be achievable with standard-library list operations.
+
+
+
+## Other minor things
+
+These things would make Fabrique nicer to work with, but may not be
+prerequisites to getting useful work done.
+
+
+### Constant expressions
+
+It would be nice to have a concept of statically-evaluable expressions,
+possibly together with an explicit `constexpr` qualifier, so that we could use
+expressions rather than just constants in `import` statements:
+
+{% highlight fab %}
+foo = import(join_path(some_directory, base_name + '.fab'));
+{% endhighlight %}
+
+
+### Filenames
+
+We might need to provide direct access to generated files' names:
+
+{% highlight fab %}
+tex_basename = texfile.name[-3:];
+auxfile = tex_basename + '.aux';
+output_pdf = tex_basename + '.pdf';
+{% endhighlight %}
+
+
+### More warnings
+
+We should warn about more potentially-unsafe behaviours:
+ * variables with embedded variable references
+   * the output order of variables is undefined and can be significant (e.g. in Ninja)
+ * generating files in `buildroot` with the same name as input files in
+   `srcroot`
+ * targets with the same names as files
+   (e.g., `foo = link(objs, output = file('foo'));`)
+
+
+### Objects
+
+It might be nice to make aggregates into more complete objects through
+a Python- or Go-like approach to methods:
+
+{% highlight fab %}
+foo = struct
+{
+	bar = function(self, x:int, y:int) # ...
+};
+
+foo.bar(1, 2);
+{% endhighlight %}
+
+Then maybe inheritance? Mixins could be useful (e.g., a `Clang` object is a
+`CCompiler` and also incorporates the `ProducesDependencyFiles` mixin).
+
+
+{% endcapture %}
+{% include markdown-page.html %}
