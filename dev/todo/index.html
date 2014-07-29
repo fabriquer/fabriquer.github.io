@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/style/base.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/style/pygments.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/style/print.css" media="print" />
+
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51047905-1', 'fabriquer.github.io');
+  ga('send', 'pageview');
+		</script>
+		<title>TODOs</title>
+	</head>
+
+	<body>
+		<header>
+			<div class="inner">
+				<h1>Fabrique</h1>
+				<h2>A build language for complex systems</h2>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="/">Home</a>
+</li>
+					<li><a href="/tour">Tour</a>
+</li>
+					<li>
+						<a href="/dev">Development</a>
+
+						<ul>
+							<li><a href="/dev/api">API docs</a>
+</li>
+							<li><a href="/dev/style">Style guide</a>
+</li>
+							<li><a href="/dev/todo">TODO</a>
+</li>
+						</ul>
+					</li>
+					<!--
+					<li>
+						<a href="/compare">Compare</a>
+
+						<ul>
+							<li><a href="/compare/cmake">CMake</a>
+</li>
+							<li><a href="/compare/gyp">Gyp</a>
+</li>
+						</ul>
+					</li>
+					-->
+				</ul>
+			</nav>
+		</header>
+
+		<div id="content-wrapper">
+			<div class="inner clearfix">
+				<section id="main-content">
+					<a name="content" class="anchor" href="#content"></a>
+					
+					<h1>TODOs</h1>
+					
+
+<p>While everyone is welcome to download, experiment with and submit patches for Fabrique, you probably shouldn’t consider it “ready for prime time” until the following TODO items have been resolved:</p>
+
+<h2 id="interface_types">Interface types</h2>
+
+<p>Currently, we can define name-to-value aggregates (“structures”), either directly or by importing another Fabrique file. These aggregates have types, but they’re not easily described by other code (e.g., a function) that expects to receive a certain aggregate type. What we want is to be able to express:</p>
+<div class='highlight'><pre><code class='fab'><span class='c1'># Information required to link against a library.</span>
+<span class='nv'>struct</span><span class='w'> </span><span class='nv'>LibraryConfig</span><span class='w' />
+<span class='p'>{</span><span class='w' />
+<span class='w'>	</span><span class='nv'>definitions</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>string</span><span class='p'>];</span><span class='w' />
+<span class='w'>	</span><span class='nv'>flags</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>string</span><span class='p'>];</span><span class='w' />
+<span class='w'>	</span><span class='nv'>libraries</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>string</span><span class='p'>];</span><span class='w' />
+
+<span class='w'>	</span><span class='kp'>in</span><span class='nv'>clude_directories</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>file</span><span class='p'>];</span><span class='w' />
+<span class='w'>	</span><span class='nv'>library_directories</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>file</span><span class='p'>];</span><span class='w' />
+<span class='p'>};</span><span class='w' />
+
+<span class='nf'>compile</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nb'>function</span><span class='p'>(</span><span class='nv'>srcs</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>file</span><span class='p'>],</span><span class='w'> </span><span class='nv'>config</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='nv'>LibraryConfig</span><span class='p'>])</span><span class='w'> </span><span class='c1'># ...</span>
+
+<span class='no'>libfoo</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>import</span><span class='p'>(</span><span class='s'>&#39;libfoo.fab&#39;</span><span class='p'>);</span><span class='w' />
+<span class='no'>libbar</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>import</span><span class='p'>(</span><span class='s'>&#39;libbar.fab&#39;</span><span class='p'>);</span><span class='w' />
+<span class='no'>obj</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>compile</span><span class='p'>(</span><span class='nb'>files</span><span class='p'>(</span><span class='nv'>a</span><span class='p'>.</span><span class='nv'>c</span><span class='w'> </span><span class='nv'>b</span><span class='p'>.</span><span class='nv'>c</span><span class='p'>),</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='nv'>libfoo</span><span class='p'>.</span><span class='nv'>config</span><span class='w'> </span><span class='nv'>libbar</span><span class='p'>.</span><span class='nv'>config</span><span class='w'> </span><span class='p'>]);</span><span class='w' />
+</code></pre></div>
+<h2 id="plugins">Plugins</h2>
+
+<p>Many build configuration systems run arbitrary shell scrips and parse their outputs to get configuration data. This makes repeatability difficult. Fabrique will use a different approach, with two sources of configuration data: static, descriptive Fabrique files and dynamic but repeatable plugins.</p>
+
+<p>In the first approach, descriptive Fabrique files are installed alongside the packages they describe. This approach is one of the most useful intellectual contributions that CMake has made to the field (even if its execution is poor). For instance, <code>/usr/local/share/fabrique/libfoo.fab</code> might contain:</p>
+<div class='highlight'><pre><code class='fab'><span class='nf'>config</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nb'>function</span><span class='p'>(</span><span class='nv'>feature_a</span><span class='o'>:</span><span class='kt'>bool</span><span class='p'>,</span><span class='w'> </span><span class='no'>feature_b</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>false</span><span class='p'>)</span><span class='o'>:</span><span class='w'> </span><span class='nv'>LibraryConfig</span><span class='w' />
+<span class='p'>{</span><span class='w' />
+<span class='w'>  </span><span class='no'>need_common_dependency</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>(</span><span class='nv'>feature_a</span><span class='w'> </span><span class='nv'>or</span><span class='w'> </span><span class='nv'>feature_b</span><span class='p'>);</span><span class='w' />
+
+<span class='w'>  </span><span class='nv'>struct</span><span class='w' />
+<span class='w'>  </span><span class='p'>{</span><span class='w' />
+<span class='w'>    </span><span class='no'>definitions</span><span class='w'> </span><span class='o'>=</span><span class='w' />
+<span class='w'>      </span><span class='k'>if</span><span class='w'> </span><span class='p'>(</span><span class='nv'>need_common_dependency</span><span class='p'>)</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='s'>&#39;USING_DEP_FOO&#39;</span><span class='w'> </span><span class='p'>]</span><span class='w'> </span><span class='k'>else</span><span class='w'> </span><span class='p'>[]</span><span class='w' />
+<span class='w'>      </span><span class='o'>+</span><span class='w'> </span><span class='k'>if</span><span class='w'> </span><span class='p'>(</span><span class='nv'>feature_a</span><span class='p'>)</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='s'>&#39;FEATURE_A&#39;</span><span class='w'> </span><span class='p'>]</span><span class='w'> </span><span class='k'>else</span><span class='w'> </span><span class='p'>[]</span><span class='w' />
+<span class='w'>      </span><span class='o'>+</span><span class='w'> </span><span class='k'>if</span><span class='w'> </span><span class='p'>(</span><span class='nv'>feature_b</span><span class='p'>)</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='s'>&#39;FEATURE_B&#39;</span><span class='w'> </span><span class='p'>]</span><span class='w'> </span><span class='k'>else</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='s'>&#39;NO_FEATURE_B&#39;</span><span class='w'> </span><span class='p'>]</span><span class='w' />
+<span class='w'>      </span><span class='p'>;</span><span class='w' />
+
+<span class='w'>    </span><span class='nv'>flags</span><span class='o'>:</span><span class='kt'>list</span><span class='p'>[</span><span class='kt'>string</span><span class='p'>]</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[];</span><span class='w' />
+
+<span class='w'>    </span><span class='no'>libraries</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='s'>&#39;foobase&#39;</span><span class='w'> </span><span class='p'>]</span><span class='w' />
+<span class='w'>      </span><span class='o'>+</span><span class='w'> </span><span class='k'>if</span><span class='w'> </span><span class='p'>(</span><span class='nv'>need_common_dependency</span><span class='p'>)</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='s'>&#39;foocommon&#39;</span><span class='w'> </span><span class='p'>]</span><span class='w'> </span><span class='k'>else</span><span class='w'> </span><span class='p'>[]</span><span class='w' />
+<span class='w'>      </span><span class='o'>+</span><span class='w'> </span><span class='k'>if</span><span class='w'> </span><span class='p'>(</span><span class='nv'>feature_a</span><span class='p'>)</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='s'>&#39;foo_a&#39;</span><span class='w'> </span><span class='p'>]</span><span class='w'> </span><span class='k'>else</span><span class='w'> </span><span class='p'>[]</span><span class='w' />
+<span class='w'>      </span><span class='o'>+</span><span class='w'> </span><span class='k'>if</span><span class='w'> </span><span class='p'>(</span><span class='nv'>feature_b</span><span class='p'>)</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='s'>&#39;foo_b&#39;</span><span class='w'> </span><span class='p'>]</span><span class='w'> </span><span class='k'>else</span><span class='w'> </span><span class='p'>[]</span><span class='w' />
+<span class='w'>      </span><span class='p'>;</span><span class='w' />
+
+<span class='w'>    </span><span class='kp'>in</span><span class='no'>clude_directories</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;/usr/local/include/libfoo&#39;</span><span class='p'>)</span><span class='w'> </span><span class='p'>];</span><span class='w' />
+<span class='w'>    </span><span class='no'>library_directories</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='p'>[</span><span class='w'> </span><span class='kt'>file</span><span class='p'>(</span><span class='s'>&#39;/usr/local/lib&#39;</span><span class='p'>)</span><span class='w'> </span><span class='p'>];</span><span class='w' />
+<span class='w'>  </span><span class='p'>}</span><span class='w' />
+<span class='p'>}</span><span class='w' />
+</code></pre></div>
+<p>Some configuration, however, needs to be dynamic: it depends on properties of the host as it is currently running. We also need general-purpose tools to work around software that doesn’t provide static Fabrique-style configuration. For these situations, we need plugins.</p>
+
+<p>In Fabrique, build configuration will be done with the assistance of compiled plugins. These plugins will be dynamically-linked libraries that Fabrique can load, but their outputs will be recorded so that we can later “play back” a configuration run, possibly for debugging on another machine. Plugins that we see an immediate need for include:</p>
+
+<ul>
+<li><code>which</code>: find the first <code>foo</code> on the current <code>$PATH</code></li>
+
+<li><code>sysctl</code>: on UNIX platforms, get a (typed) value for a given name</li>
+
+<li><code>pkg_config</code>: wrap the <code>pkg-config</code> tool for packages that don’t supply Fabrique files</li>
+</ul>
+
+<h2 id="standard_library">Standard library</h2>
+
+<p>Before it’s widely useful, Fabrique needs a richer standard library. For instance, a compiler driver function might want to take a list of warnings concatenated from several libraries, eliminate duplicates, search for logical inconsistencies (<code>foo</code> and <code>no-foo</code>) and transform the result into some compiler-specific representation. This should all be achievable with standard-library list operations.</p>
+
+<h2 id="other_minor_things">Other minor things</h2>
+
+<p>These things would make Fabrique nicer to work with, but may not be prerequisites to getting useful work done.</p>
+
+<h3 id="constant_expressions">Constant expressions</h3>
+
+<p>It would be nice to have a concept of statically-evaluable expressions, possibly together with an explicit <code>constexpr</code> qualifier, so that we could use expressions rather than just constants in <code>import</code> statements:</p>
+<div class='highlight'><pre><code class='fab'><span class='no'>foo</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>import</span><span class='p'>(</span><span class='nv'>join_path</span><span class='p'>(</span><span class='nv'>some_directory</span><span class='p'>,</span><span class='w'> </span><span class='nv'>base_name</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='s'>&#39;.fab&#39;</span><span class='p'>));</span><span class='w' />
+</code></pre></div>
+<h3 id="filenames">Filenames</h3>
+
+<p>We might need to provide direct access to generated files’ names:</p>
+<div class='highlight'><pre><code class='fab'><span class='no'>tex_basename</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>texfile</span><span class='p'>.</span><span class='nv'>name</span><span class='p'>[</span><span class='err'>-3</span><span class='o'>:</span><span class='p'>];</span><span class='w' />
+<span class='no'>auxfile</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>tex_basename</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='s'>&#39;.aux&#39;</span><span class='p'>;</span><span class='w' />
+<span class='kp'>out</span><span class='no'>put_pdf</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>tex_basename</span><span class='w'> </span><span class='o'>+</span><span class='w'> </span><span class='s'>&#39;.pdf&#39;</span><span class='p'>;</span><span class='w' />
+</code></pre></div>
+<h3 id="more_warnings">More warnings</h3>
+
+<p>We should warn about more potentially-unsafe behaviours:</p>
+
+<ul>
+<li>variables with embedded variable references
+<ul>
+<li>the output order of variables is undefined and can be significant (e.g. in Ninja)</li>
+</ul>
+</li>
+
+<li>generating files in <code>buildroot</code> with the same name as input files in <code>srcroot</code></li>
+
+<li>targets with the same names as files (e.g., <code>foo = link(objs, output = file(&#39;foo&#39;));</code>)</li>
+</ul>
+
+<h3 id="objects">Objects</h3>
+
+<p>It might be nice to make aggregates into more complete objects through a Python- or Go-like approach to methods:</p>
+<div class='highlight'><pre><code class='fab'><span class='no'>foo</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nv'>struct</span><span class='w' />
+<span class='p'>{</span><span class='w' />
+<span class='nf'>	bar</span><span class='w'> </span><span class='o'>=</span><span class='w'> </span><span class='nb'>function</span><span class='p'>(</span><span class='nv'>self</span><span class='p'>,</span><span class='w'> </span><span class='nv'>x</span><span class='o'>:</span><span class='kt'>int</span><span class='p'>,</span><span class='w'> </span><span class='nv'>y</span><span class='o'>:</span><span class='kt'>int</span><span class='p'>)</span><span class='w'> </span><span class='c1'># ...</span>
+<span class='p'>};</span><span class='w' />
+
+<span class='nv'>foo</span><span class='p'>.</span><span class='nv'>bar</span><span class='p'>(</span><span class='err'>1</span><span class='p'>,</span><span class='w'> </span><span class='err'>2</span><span class='p'>);</span><span class='w' />
+</code></pre></div>
+<p>Then maybe inheritance? Mixins could be useful (e.g., a <code>Clang</code> object is a <code>CCompiler</code> and also incorporates the <code>ProducesDependencyFiles</code> mixin).</p>
+				</section>
+
+				<aside id="sidebar">
+					<a href="https://github.com/fabriquer/fabrique" class="button" id="github">
+						<small>View project on</small>GitHub
+					</a>
+					<a href="https://github.com/fabriquer/fabrique/zipball/master" class="button">
+						<small>Download</small>
+						.zip file
+					</a>
+					<a href="https://github.com/fabriquer/fabrique/tarball/master" class="button">
+						<small>Download</small>
+						.tar.gz file
+					</a>
+
+
+				</aside>
+			</div>
+		</div>
+
+		<footer>
+			<a href="https://github.com/fabriquer/fabrique">Fabrique</a> is maintained by
+			<a href="https://github.com/trombonehero">trombonehero</a>.
+			<br/>
+			This page was generated by
+			<a href="https://pages.github.com">GitHub Pages</a> using the
+			Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+		</footer>
+	</body>
+</html>
+
+
