@@ -7,9 +7,12 @@ var classfabrique_1_1ast_1_1_binary_operation =
       [ "Invalid", "classfabrique_1_1ast_1_1_binary_operation.html#a3d37b607c6fbdfc6c26387adb47c3380aee4ef1c349b802519d36c1dfb5fe0ec3", null ],
       [ "And", "classfabrique_1_1ast_1_1_binary_operation.html#a3d37b607c6fbdfc6c26387adb47c3380ae7deb2b4c18c0893aa6dffb336c30359", null ],
       [ "Or", "classfabrique_1_1ast_1_1_binary_operation.html#a3d37b607c6fbdfc6c26387adb47c3380a5126b96dd8ab4989319201fef3e0491e", null ],
-      [ "Xor", "classfabrique_1_1ast_1_1_binary_operation.html#a3d37b607c6fbdfc6c26387adb47c3380ad2099e50ee15385a62708d53f9db7474", null ]
+      [ "Xor", "classfabrique_1_1ast_1_1_binary_operation.html#a3d37b607c6fbdfc6c26387adb47c3380ad2099e50ee15385a62708d53f9db7474", null ],
+      [ "Equal", "classfabrique_1_1ast_1_1_binary_operation.html#a3d37b607c6fbdfc6c26387adb47c3380a80c5000a0b0180e35fdbb0be94bac3ad", null ],
+      [ "NotEqual", "classfabrique_1_1ast_1_1_binary_operation.html#a3d37b607c6fbdfc6c26387adb47c3380a752949205e573404996e1ce347f9d661", null ]
     ] ],
     [ "Accept", "classfabrique_1_1ast_1_1_binary_operation.html#a01da635f56848aa8579f2b8f46f167fe", null ],
+    [ "evaluate", "classfabrique_1_1ast_1_1_binary_operation.html#ae117dd83615b20dfa7e64e76af976be4", null ],
     [ "getLHS", "classfabrique_1_1ast_1_1_binary_operation.html#a50ddfada20729e89f7614168b6e95b11", null ],
     [ "getOp", "classfabrique_1_1ast_1_1_binary_operation.html#a74f11ccdda2dd098c845ab22166f7d15", null ],
     [ "getRHS", "classfabrique_1_1ast_1_1_binary_operation.html#a437e2f012d414dd56786d9046ac8d1e2", null ],

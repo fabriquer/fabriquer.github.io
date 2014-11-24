@@ -1,10 +1,16 @@
 var searchData=
 [
-  ['canscalaradd',['canScalarAdd',['../classfabrique_1_1dag_1_1_list.html#a8ba11a53ebf82818f68367731363633f',1,'fabrique::dag::List::canScalarAdd()'],['../classfabrique_1_1dag_1_1_value.html#ab47afc908b89a09a6b440e90226fc7a4',1,'fabrique::dag::Value::canScalarAdd()']]],
+  ['call',['Call',['../classfabrique_1_1dag_1_1_callable.html#a7a3068f2c00a58e0a18918d1266a68bd',1,'fabrique::dag::Callable::Call()'],['../classfabrique_1_1dag_1_1_rule.html#ac80ae8352b202224978e313f2bbb26e7',1,'fabrique::dag::Rule::Call()']]],
+  ['canscalaradd',['canScalarAdd',['../classfabrique_1_1dag_1_1_list.html#a969c26928d17ff819f7faa89d772d422',1,'fabrique::dag::List::canScalarAdd()'],['../classfabrique_1_1dag_1_1_value.html#a920e14952eada9735d330b2f18b5f117',1,'fabrique::dag::Value::canScalarAdd()']]],
+  ['characterexpr',['CharacterExpr',['../classpegmatite_1_1_character_expr.html#a5a31512ee36d093bf91f12cc6c45b6fc',1,'pegmatite::CharacterExpr']]],
+  ['classkind',['classKind',['../classpegmatite_1_1_a_s_t_node.html#a99aaa8936ff1a0f3f3cf9a9b8a4c124a',1,'pegmatite::ASTNode']]],
   ['column',['column',['../classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html#afa41382acabcd37ca70f7e8b9994b8c0',1,'option::PrintUsageImplementation::LinePartIterator']]],
-  ['compoundexpr',['CompoundExpr',['../classfabrique_1_1ast_1_1_parser.html#af85259311802109bbc296ef41246a612',1,'fabrique::ast::Parser']]],
+  ['compoundexpr',['CompoundExpr',['../classfabrique_1_1ast_1_1_parser.html#a82da79252761dff1aba4e3ca4adb8112',1,'fabrique::ast::Parser']]],
+  ['construct',['construct',['../classpegmatite_1_1_a_s_t_node.html#ae7010ba536c25eef8fca4436a3cba49a',1,'pegmatite::ASTNode::construct()'],['../classpegmatite_1_1_a_s_t_container.html#aabb870b5cd14d74763e02230654d70b2',1,'pegmatite::ASTContainer::construct()'],['../classpegmatite_1_1_a_s_t_member.html#aef6aa1bd07a21474fdf6f63d4724aaf1',1,'pegmatite::ASTMember::construct()'],['../singletonpegmatite_1_1_a_s_t_ptr.html#a67f489bf8fc89f3a76784389b6c397f1',1,'pegmatite::ASTPtr::construct()'],['../singletonpegmatite_1_1_a_s_t_list.html#ae461b370b1c59ae9d742229b9fea8d20',1,'pegmatite::ASTList::construct()'],['../class_a_s_t_1_1_number.html#af9ff09c8971c775cde2c5e35aa22a4c9',1,'AST::Number::construct()']]],
+  ['container',['container',['../classpegmatite_1_1_a_s_t_member.html#a84c2e5c2c28d9781cfc22e4417457ecb',1,'pegmatite::ASTMember']]],
+  ['copycurrentscope',['CopyCurrentScope',['../classfabrique_1_1ast_1_1_eval_context.html#a7d6d82f6e5317bbb3b0cec6984d54af7',1,'fabrique::ast::EvalContext']]],
   ['count',['count',['../classoption_1_1_option.html#a8a632dcd89af60fe0806deb756c08f14',1,'option::Option']]],
   ['countoptionsaction',['CountOptionsAction',['../classoption_1_1_stats_1_1_count_options_action.html#a24a38b87ad129b0e12660bd2019ba284',1,'option::Stats::CountOptionsAction']]],
-  ['create',['Create',['../classfabrique_1_1ast_1_1_action.html#a8b8b53156cd8b774367c96cbc2d3e5e0',1,'fabrique::ast::Action']]],
-  ['createcall',['CreateCall',['../classfabrique_1_1ast_1_1_parser.html#a19b054e2a686031cc4b7a1d787782f3b',1,'fabrique::ast::Parser']]]
+  ['create',['Create',['../classfabrique_1_1ast_1_1_action.html#a60642f2a5a0ef1879ab297b4512d9036',1,'fabrique::ast::Action::Create()'],['../classfabrique_1_1backend_1_1_backend.html#afa8c8b1ad17c166c288df79c6b6f1676',1,'fabrique::backend::Backend::Create()'],['../classfabrique_1_1dag_1_1_structure.html#afc3091fe4a1135197ad61c74fcb93ab2',1,'fabrique::dag::Structure::Create(const std::vector&lt; NamedValue &gt; &amp;, const Type &amp;, SourceRange)'],['../classfabrique_1_1dag_1_1_structure.html#ad9fbb0bf6ecc49456ab6ab47a96509f0',1,'fabrique::dag::Structure::Create(const std::vector&lt; NamedValue &gt; &amp;, SourceRange)']]],
+  ['createcall',['CreateCall',['../classfabrique_1_1ast_1_1_parser.html#a39491420ba708a06b829f7efbbadec19',1,'fabrique::ast::Parser']]]
 ];

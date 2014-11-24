@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['name',['name',['../classoption_1_1_option.html#a02a76b4896abd22d0ba8514362261de9',1,'option::Option']]],
-  ['namelen',['namelen',['../classoption_1_1_option.html#a3aa2957b19ad5815873441b415d56050',1,'option::Option']]]
+  ['index',['index',['../structoption_1_1_descriptor.html#a1fee8ac44f529c99ac2b1149b4c391b1',1,'option::Descriptor']]],
+  ['it',['it',['../structpegmatite_1_1_parser_position.html#ad9dcd1f97637a077f02666dd293376b7',1,'pegmatite::ParserPosition']]]
 ];
