@@ -1,16 +1,7 @@
 var searchData=
 [
-  ['scalaradd',['ScalarAdd',['../classfabrique_1_1dag_1_1_list.html#aa07b9619d3822d76039c485125b0e139',1,'fabrique::dag::List::ScalarAdd()'],['../classfabrique_1_1dag_1_1_target.html#a85fa18273c41a55e79b3441a9b989969',1,'fabrique::dag::Target::ScalarAdd()'],['../classfabrique_1_1dag_1_1_value.html#a46d5d59d10b65356d6d98fdcc52aaacc',1,'fabrique::dag::Value::ScalarAdd()']]],
-  ['screenlength',['screenLength',['../classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html#a03b6fedfe805d7fc73216da5cd33270e',1,'option::PrintUsageImplementation::LinePartIterator']]],
-  ['size',['size',['../classpegmatite_1_1_input.html#a373f33646be77f176772ec47a5c661ec',1,'pegmatite::Input::size()'],['../classpegmatite_1_1_unicode_vector_input.html#afc85f720afc4f75eacb26629b9ee081b',1,'pegmatite::UnicodeVectorInput::size()'],['../structpegmatite_1_1_ascii_file_input.html#ab7b11195fb1e5370591c0f5c42232988',1,'pegmatite::AsciiFileInput::size()'],['../classpegmatite_1_1_string_input.html#a85af5067f8fd22108b0bcc191fcf5c82',1,'pegmatite::StringInput::size()']]],
-  ['some',['Some',['../classfabrique_1_1ast_1_1_parser.html#afc072bb7627e9bdfa26d1f1df4f70860',1,'fabrique::ast::Parser']]],
-  ['span',['Span',['../classfabrique_1_1_source_range.html#a593e6159e681fc06afaec09564ff077c',1,'fabrique::SourceRange']]],
-  ['stats',['Stats',['../structoption_1_1_stats.html#a8660722c76e65d9328313fb360bdd282',1,'option::Stats::Stats()'],['../structoption_1_1_stats.html#a71373ec2b28842f45593e4405f7bc8ec',1,'option::Stats::Stats(bool gnu, const Descriptor usage[], int argc, const char **argv, int min_abbr_len=0, bool single_minus_longopt=false)'],['../structoption_1_1_stats.html#a43ec104fdb0b8ae6148d04f3ad3d3a75',1,'option::Stats::Stats(bool gnu, const Descriptor usage[], int argc, char **argv, int min_abbr_len=0, bool single_minus_longopt=false)'],['../structoption_1_1_stats.html#ab5cafb7127099ef60cfb4cea205ad617',1,'option::Stats::Stats(const Descriptor usage[], int argc, const char **argv, int min_abbr_len=0, bool single_minus_longopt=false)'],['../structoption_1_1_stats.html#a9b8b4f275efaac6a509df75179929c70',1,'option::Stats::Stats(const Descriptor usage[], int argc, char **argv, int min_abbr_len=0, bool single_minus_longopt=false)']]],
-  ['storeoptionaction',['StoreOptionAction',['../classoption_1_1_parser_1_1_store_option_action.html#aaa638cdd712202e3e10471d4299f7f9d',1,'option::Parser::StoreOptionAction']]],
-  ['string',['String',['../classfabrique_1_1dag_1_1_d_a_g_builder.html#a9aafe20089f1c0d932d74a8e32cc76bb',1,'fabrique::dag::DAGBuilder']]],
-  ['stringinput',['StringInput',['../classpegmatite_1_1_string_input.html#ae2c02a293c36baa0c989513e46d1c135',1,'pegmatite::StringInput']]],
-  ['stringtype',['stringType',['../classfabrique_1_1_type_context.html#a30df0dd3f7145f7ae512b988cf98d127',1,'fabrique::TypeContext']]],
-  ['struct',['Struct',['../classfabrique_1_1dag_1_1_d_a_g_builder.html#ade51bb813434c5ca1ca0691b626b1cbb',1,'fabrique::dag::DAGBuilder']]],
-  ['structinstantiation',['StructInstantiation',['../classfabrique_1_1ast_1_1_parser.html#a5e80e55157bc8697b7aac3358b96feb2',1,'fabrique::ast::Parser']]],
-  ['structuretype',['structureType',['../classfabrique_1_1_type_context.html#a08532c118c3c08250e0ca8ecd88c3d32',1,'fabrique::TypeContext']]]
+  ['target',['Target',['../classfabrique_1_1dag_1_1_d_a_g_builder.html#adcc37f9286a3ef381df5f09418c12ce3',1,'fabrique::dag::DAGBuilder']]],
+  ['topleveltargets',['topLevelTargets',['../classfabrique_1_1dag_1_1_d_a_g.html#a74699d2f4a751acaa7f312b3e0c9cb92',1,'fabrique::dag::DAG']]],
+  ['tracepoint',['TracePoint',['../classfabrique_1_1ast_1_1_parser.html#aa8a78d90eb79dbc59d7786bd1693d8d2',1,'fabrique::ast::Parser']]],
+  ['type',['type',['../classfabrique_1_1dag_1_1_file.html#a9427ecf5250bb0bc1dd7c1c77733d66a',1,'fabrique::dag::File']]]
 ];

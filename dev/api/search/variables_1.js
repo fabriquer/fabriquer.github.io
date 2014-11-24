@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['buffer_5fmax',['buffer_max',['../structoption_1_1_stats.html#a2c9a7b4174f91ba8bcadaa9ad6f0db06',1,'option::Stats']]]
+  ['scopename_5f',['scopeName_',['../classfabrique_1_1ast_1_1_eval_context.html#ada71db67b0b185268d1eaa339560652a',1,'fabrique::ast::EvalContext']]],
+  ['scopes_5f',['scopes_',['../classfabrique_1_1ast_1_1_eval_context.html#af36265514d9b8338f46a9b570c32b1bc',1,'fabrique::ast::EvalContext']]]
 ];

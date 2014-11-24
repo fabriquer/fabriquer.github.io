@@ -2,7 +2,7 @@ var dir_1697ed7e5b7c31acceeafb998d452e8b =
 [
     [ "Arguments.cc", "_arguments_8cc.html", "_arguments_8cc" ],
     [ "Arguments.h", "_arguments_8h.html", "_arguments_8h" ],
-    [ "Bytestream.cc", "_bytestream_8cc.html", "_bytestream_8cc" ],
+    [ "Bytestream.cc", "_bytestream_8cc.html", null ],
     [ "Bytestream.h", "_bytestream_8h.html", [
       [ "Bytestream", "classfabrique_1_1_bytestream.html", "classfabrique_1_1_bytestream" ]
     ] ],

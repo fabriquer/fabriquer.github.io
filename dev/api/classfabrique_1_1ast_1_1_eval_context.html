@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('classfabrique_1_1ast_1_1_eval_context.
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -143,6 +143,11 @@ $(document).ready(function(){initNavTree('classfabrique_1_1ast_1_1_eval_context.
 <div class="title">fabrique::ast::EvalContext Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A context for evaluating AST <a class="el" href="classfabrique_1_1ast_1_1_expression.html">Expression</a> objects.  
+ <a href="classfabrique_1_1ast_1_1_eval_context.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_eval_context_8h_source.html">EvalContext.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for fabrique::ast::EvalContext:</div>
 <div class="dyncontent">
@@ -274,8 +279,10 @@ SharedPtrMap&lt; <a class="el" href="classfabrique_1_1dag_1_1_target.html">dag::
 <tr class="separator:a6942e6ffe4d101e9ec3dd594f5d42400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="_eval_context_8h_source.html#l00063">63</a> of file <a class="el" href="_eval_context_8h_source.html">EvalContext.h</a>.</p>
+<div class="textblock"><p>A context for evaluating AST <a class="el" href="classfabrique_1_1ast_1_1_expression.html">Expression</a> objects. </p>
+<p>This class adds AST scoping logic to <a class="el" href="classfabrique_1_1dag_1_1_d_a_g_builder_1_1_context.html">dag::DAGBuilder::Context</a>. </p>
+
+<p>Definition at line <a class="el" href="_eval_context_8h_source.html#l00069">69</a> of file <a class="el" href="_eval_context_8h_source.html">EvalContext.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>AST/<a class="el" href="_eval_context_8h_source.html">EvalContext.h</a></li>
 <li>AST/<a class="el" href="_eval_context_8cc_source.html">EvalContext.cc</a></li>
