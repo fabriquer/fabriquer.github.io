@@ -4,26 +4,17 @@ var NAVTREE =
     [ "Artwork credit", "md__artwork_credits.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
-      ] ]
+      [ "Namespace List", "namespaces.html", "namespaces" ]
     ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Enumerations", "functions_enum.html", null ]
       ] ]
     ] ],
     [ "Files", null, [
@@ -42,13 +33,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"_node_8h.html",
-"classfabrique_1_1_bytestream.html#ada63ac430a4a8c872650ba406589ff3ca6ae6dc0a49cafd09910cce752acbc2fd",
-"classfabrique_1_1ast_1_1_action.html",
-"classfabrique_1_1ast_1_1_parser.html#a6987705731194a8cc25361d0ebe99815",
-"classfabrique_1_1dag_1_1_parameter.html#ac0011c2d55e3c40d8f68e0755dec3a2f",
-"classpegmatite_1_1_rule.html#a5611f96e4243b4f2aa228d397bc6c0c7",
-"structoption_1_1_print_usage_implementation_1_1_i_string_writer.html"
+"_optionally_typed_8cc_source.html",
+"classfabrique_1_1_maybe_type.html#af0e15d4a9f5fbd05b7afe05d21e9beac",
+"classfabrique_1_1ast_1_1_eval_context.html#a03fb337da635b62f53a58946cf8234f6",
+"classfabrique_1_1ast_1_1_unary_operation.html",
+"classfabrique_1_1dag_1_1_value.html#ae7ba46433ec1355844759188a3442d0d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

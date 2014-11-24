@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('_join_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -182,86 +182,86 @@ $(document).ready(function(){initNavTree('_join_8h_source.html','');});
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">class </span>Bytestream;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classfabrique_1_1_join.html">   53</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfabrique_1_1_join.html">Join</a> : <span class="keyword">public</span> <a class="code" href="classfabrique_1_1_printable.html">Printable</a></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">static</span> <a class="code" href="classfabrique_1_1_join.html">Join</a> csv(<span class="keyword">const</span> PtrVec&lt;T&gt;&amp; p) { <span class="keywordflow">return</span> <a class="code" href="classfabrique_1_1_join.html">Join</a>(<span class="stringliteral">&quot;, &quot;</span>, p); }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">static</span> <a class="code" href="classfabrique_1_1_join.html">Join</a> ssv(<span class="keyword">const</span> PtrVec&lt;T&gt;&amp; p) { <span class="keywordflow">return</span> <a class="code" href="classfabrique_1_1_join.html">Join</a>(<span class="stringliteral">&quot; &quot;</span>, p); }</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="classfabrique_1_1_join.html">Join</a>(std::string j, <span class="keyword">const</span> PtrVec&lt;T&gt;&amp; p)</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        : joinStr_(j), objects_(p)</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classfabrique_1_1_join.html#ae5c85f571ae7b939901b53e629a3894b">   64</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classfabrique_1_1_join.html#ae5c85f571ae7b939901b53e629a3894b">PrettyPrint</a>(<a class="code" href="classfabrique_1_1_bytestream.html">Bytestream</a>&amp; out, <span class="keywordtype">size_t</span>)<span class="keyword"> const override</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; objects_.size(); )</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            out &lt;&lt; *objects_[i];</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">if</span> (++i &lt; objects_.size())</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                out &lt;&lt; joinStr_;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classfabrique_1_1_join.html">   54</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfabrique_1_1_join.html">Join</a> : <span class="keyword">public</span> <a class="code" href="classfabrique_1_1_printable.html">Printable</a></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">static</span> <a class="code" href="classfabrique_1_1_join.html">Join</a> csv(<span class="keyword">const</span> PtrVec&lt;T&gt;&amp; p) { <span class="keywordflow">return</span> <a class="code" href="classfabrique_1_1_join.html">Join</a>(<span class="stringliteral">&quot;, &quot;</span>, p); }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">static</span> <a class="code" href="classfabrique_1_1_join.html">Join</a> ssv(<span class="keyword">const</span> PtrVec&lt;T&gt;&amp; p) { <span class="keywordflow">return</span> <a class="code" href="classfabrique_1_1_join.html">Join</a>(<span class="stringliteral">&quot; &quot;</span>, p); }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="classfabrique_1_1_join.html">Join</a>(std::string j, <span class="keyword">const</span> PtrVec&lt;T&gt;&amp; p)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        : joinStr_(j), objects_(p)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="classfabrique_1_1_join.html#ae5c85f571ae7b939901b53e629a3894b">   65</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classfabrique_1_1_join.html#ae5c85f571ae7b939901b53e629a3894b">PrettyPrint</a>(<a class="code" href="classfabrique_1_1_bytestream.html">Bytestream</a>&amp; out, <span class="keywordtype">size_t</span>)<span class="keyword"> const override</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; objects_.size(); )</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            out &lt;&lt; *objects_[i];</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="keywordflow">if</span> (++i &lt; objects_.size())</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                out &lt;&lt; joinStr_;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">const</span> std::string joinStr_;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">const</span> PtrVec&lt;T&gt;&amp; objects_;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">const</span> std::string joinStr_;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keyword">const</span> PtrVec&lt;T&gt;&amp; objects_;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;std::string join(<span class="keyword">const</span> T&amp; c, <span class="keyword">const</span> std::string&amp; delim = <span class="stringliteral">&quot;,&quot;</span>)</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span> (c.empty())</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    std::stringstream buffer;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    std::move(c.begin(), --c.end(),</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;              std::ostream_iterator&lt;std::string&gt;(buffer, delim.c_str()));</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    buffer &lt;&lt; *(--c.end());</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">return</span> buffer.str();</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;std::string join(<span class="keyword">const</span> std::string&amp;, <span class="keyword">const</span> std::string&amp;,</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                 <span class="keyword">const</span> std::string&amp; delim = <span class="stringliteral">&quot;, &quot;</span>);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> InputIterator, <span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;std::string join(<span class="keyword">const</span> InputIterator&amp; begin, <span class="keyword">const</span> InputIterator&amp; end,</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                 std::function&lt;std::string (<span class="keyword">const</span> T&amp;)&gt; format,</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                 <span class="keyword">const</span> std::string&amp; delim = <span class="stringliteral">&quot;,&quot;</span>)</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;{</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">if</span> (begin == end)</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keyword">const</span> InputIterator last = end - 1;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    std::stringstream buffer;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    std::ostream_iterator&lt;std::string&gt; out(buffer, delim.c_str());</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    std::transform(begin, last, out, format);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    buffer &lt;&lt; format(*last);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">return</span> buffer.str();</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> Container, <span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;std::string join(<span class="keyword">const</span> Container&amp; xs, std::function&lt;std::string (<span class="keyword">const</span> T&amp;)&gt; format,</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                 <span class="keyword">const</span> std::string&amp; delim = <span class="stringliteral">&quot;,&quot;</span>)</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> join(xs.begin(), xs.end(), format, delim);</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;} <span class="comment">// namespace fabrique</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;std::string join(<span class="keyword">const</span> T&amp; c, <span class="keyword">const</span> std::string&amp; delim = <span class="stringliteral">&quot;,&quot;</span>)</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span> (c.empty())</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    std::stringstream buffer;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    std::move(c.begin(), --c.end(),</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;              std::ostream_iterator&lt;std::string&gt;(buffer, delim.c_str()));</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    buffer &lt;&lt; *(--c.end());</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">return</span> buffer.str();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;std::string join(<span class="keyword">const</span> std::string&amp;, <span class="keyword">const</span> std::string&amp;,</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                 <span class="keyword">const</span> std::string&amp; delim = <span class="stringliteral">&quot;, &quot;</span>);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> InputIterator, <span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;std::string join(<span class="keyword">const</span> InputIterator&amp; begin, <span class="keyword">const</span> InputIterator&amp; end,</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                 std::function&lt;std::string (<span class="keyword">const</span> T&amp;)&gt; format,</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                 <span class="keyword">const</span> std::string&amp; delim = <span class="stringliteral">&quot;,&quot;</span>)</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span> (begin == end)</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keyword">const</span> InputIterator last = end - 1;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    std::stringstream buffer;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    std::ostream_iterator&lt;std::string&gt; out(buffer, delim.c_str());</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    std::transform(begin, last, out, format);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    buffer &lt;&lt; format(*last);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">return</span> buffer.str();</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> Container, <span class="keyword">class</span> T&gt;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;std::string join(<span class="keyword">const</span> Container&amp; xs, std::function&lt;std::string (<span class="keyword">const</span> T&amp;)&gt; format,</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                 <span class="keyword">const</span> std::string&amp; delim = <span class="stringliteral">&quot;,&quot;</span>)</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">return</span> join(xs.begin(), xs.end(), format, delim);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;}</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;} <span class="comment">// namespace fabrique</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classfabrique_1_1_printable_html"><div class="ttname"><a href="classfabrique_1_1_printable.html">fabrique::Printable</a></div><div class="ttdoc">A thing that can be pretty-printed. </div><div class="ttdef"><b>Definition:</b> <a href="_printable_8h_source.html#l00046">Printable.h:46</a></div></div>
 <div class="ttc" id="_printable_8h_html"><div class="ttname"><a href="_printable_8h.html">Printable.h</a></div><div class="ttdoc">Declaration of the fabrique::Printable interface. </div></div>
-<div class="ttc" id="classfabrique_1_1_join_html"><div class="ttname"><a href="classfabrique_1_1_join.html">fabrique::Join</a></div><div class="ttdef"><b>Definition:</b> <a href="_join_8h_source.html#l00053">Join.h:53</a></div></div>
+<div class="ttc" id="classfabrique_1_1_join_html"><div class="ttname"><a href="classfabrique_1_1_join.html">fabrique::Join</a></div><div class="ttdoc">Joins printable objects into a string, e.g., "a, b, c" or "a b c". </div><div class="ttdef"><b>Definition:</b> <a href="_join_8h_source.html#l00054">Join.h:54</a></div></div>
 <div class="ttc" id="_ptr_vec_8h_html"><div class="ttname"><a href="_ptr_vec_8h.html">PtrVec.h</a></div><div class="ttdoc">Declaration of fabrique::PtrVec. </div></div>
 <div class="ttc" id="classfabrique_1_1_bytestream_html"><div class="ttname"><a href="classfabrique_1_1_bytestream.html">fabrique::Bytestream</a></div><div class="ttdoc">A ostream-like class that may support formatting. </div><div class="ttdef"><b>Definition:</b> <a href="_bytestream_8h_source.html#l00043">Bytestream.h:43</a></div></div>
-<div class="ttc" id="classfabrique_1_1_join_html_ae5c85f571ae7b939901b53e629a3894b"><div class="ttname"><a href="classfabrique_1_1_join.html#ae5c85f571ae7b939901b53e629a3894b">fabrique::Join::PrettyPrint</a></div><div class="ttdeci">virtual void PrettyPrint(Bytestream &amp;out, size_t) const override</div><div class="ttdoc">Print a human-readable representation to an output stream and return that output stream. </div><div class="ttdef"><b>Definition:</b> <a href="_join_8h_source.html#l00064">Join.h:64</a></div></div>
+<div class="ttc" id="classfabrique_1_1_join_html_ae5c85f571ae7b939901b53e629a3894b"><div class="ttname"><a href="classfabrique_1_1_join.html#ae5c85f571ae7b939901b53e629a3894b">fabrique::Join::PrettyPrint</a></div><div class="ttdeci">virtual void PrettyPrint(Bytestream &amp;out, size_t) const override</div><div class="ttdoc">Print a human-readable representation to an output stream and return that output stream. </div><div class="ttdef"><b>Definition:</b> <a href="_join_8h_source.html#l00065">Join.h:65</a></div></div>
 <div class="ttc" id="namespacefabrique_html"><div class="ttname"><a href="namespacefabrique.html">fabrique</a></div><div class="ttdef"><b>Definition:</b> <a href="_ptr_vec_8h_source.html#l00038">PtrVec.h:38</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

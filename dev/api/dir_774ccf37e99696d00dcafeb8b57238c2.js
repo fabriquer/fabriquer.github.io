@@ -5,7 +5,7 @@ var dir_774ccf37e99696d00dcafeb8b57238c2 =
     [ "Lexer.h", "_lexer_8h.html", [
       [ "Lexer", "classfabrique_1_1_lexer.html", "classfabrique_1_1_lexer" ]
     ] ],
-    [ "Parser.cc", "_parsing_2_parser_8cc.html", "_parsing_2_parser_8cc" ],
+    [ "Parser.cc", "_parser_8cc.html", "_parser_8cc" ],
     [ "Parser.h", "_parser_8h.html", [
       [ "Parser", "classfabrique_1_1ast_1_1_parser.html", "classfabrique_1_1ast_1_1_parser" ]
     ] ],

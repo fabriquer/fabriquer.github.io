@@ -1,17 +1,15 @@
 var searchData=
 [
-  ['make_2ecc',['Make.cc',['../_make_8cc.html',1,'']]],
-  ['make_2eh',['Make.h',['../_make_8h.html',1,'']]],
-  ['makebackend',['MakeBackend',['../classfabrique_1_1backend_1_1_make_backend.html',1,'fabrique::backend']]],
-  ['map',['Map',['../classfabrique_1_1ast_1_1_parser.html#a910305ac8537480bfdc08451cc75a01a',1,'fabrique::ast::Parser']]],
-  ['mapping',['Mapping',['../classfabrique_1_1ast_1_1_mapping.html',1,'fabrique::ast']]],
-  ['mapping_2ecc',['Mapping.cc',['../_mapping_8cc.html',1,'']]],
-  ['mapping_2eh',['Mapping.h',['../_mapping_8h.html',1,'']]],
-  ['maybe',['maybe',['../classfabrique_1_1_type_context.html#abe6a31194067af4b111c0bf56ce6471d',1,'fabrique::TypeContext']]],
-  ['maybetype',['MaybeType',['../classfabrique_1_1_maybe_type.html',1,'fabrique']]],
-  ['maybetype_2ecc',['MaybeType.cc',['../_maybe_type_8cc.html',1,'']]],
-  ['maybetype_2eh',['MaybeType.h',['../_maybe_type_8h.html',1,'']]],
-  ['mul',['mul',['../struct_parser_1_1_calculator_grammar.html#a24b56e7f183dfd5fbbe2b5b5c0ca8490',1,'Parser::CalculatorGrammar']]],
-  ['mul_5fop',['mul_op',['../struct_parser_1_1_calculator_grammar.html#a24e0c162b3dc114f27a14d654198e585',1,'Parser::CalculatorGrammar']]],
-  ['multiplyexpression',['MultiplyExpression',['../class_a_s_t_1_1_multiply_expression.html',1,'AST']]]
+  ['namearguments',['NameArguments',['../classfabrique_1_1ast_1_1_has_parameters.html#a33ca2779a7cb6d3f224b85614c41117a',1,'fabrique::ast::HasParameters::NameArguments()'],['../classfabrique_1_1dag_1_1_callable.html#a91ee7aebd855f6bb67628c98f3036dcb',1,'fabrique::dag::Callable::NameArguments()']]],
+  ['negate',['Negate',['../classfabrique_1_1dag_1_1_boolean.html#a47ecaabe062ed7ca36c35eef27b64208',1,'fabrique::dag::Boolean::Negate()'],['../classfabrique_1_1dag_1_1_value.html#ae8cb7c35ecf1b9ee6f046d96af913184',1,'fabrique::dag::Value::Negate()']]],
+  ['niltype',['nilType',['../classfabrique_1_1_type_context.html#a9b73d45ba3477665d9b23585bc8ec1fa',1,'fabrique::TypeContext']]],
+  ['ninja_2ecc',['Ninja.cc',['../_ninja_8cc.html',1,'']]],
+  ['ninja_2eh',['Ninja.h',['../_ninja_8h.html',1,'']]],
+  ['ninjabackend',['NinjaBackend',['../classfabrique_1_1backend_1_1_ninja_backend.html',1,'fabrique::backend']]],
+  ['node',['Node',['../classfabrique_1_1ast_1_1_node.html',1,'fabrique::ast']]],
+  ['node_2ecc',['Node.cc',['../_node_8cc.html',1,'']]],
+  ['node_2eh',['Node.h',['../_node_8h.html',1,'']]],
+  ['null_2ecc',['Null.cc',['../_null_8cc.html',1,'']]],
+  ['null_2eh',['Null.h',['../_null_8h.html',1,'']]],
+  ['nullbackend',['NullBackend',['../classfabrique_1_1backend_1_1_null_backend.html',1,'fabrique::backend']]]
 ];

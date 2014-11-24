@@ -1,8 +1,6 @@
 var searchData=
 [
   ['lexer',['Lexer',['../classfabrique_1_1_lexer.html',1,'fabrique']]],
-  ['linepartiterator',['LinePartIterator',['../classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html',1,'option::PrintUsageImplementation']]],
-  ['linewrapper',['LineWrapper',['../classoption_1_1_print_usage_implementation_1_1_line_wrapper.html',1,'option::PrintUsageImplementation']]],
   ['list',['List',['../classfabrique_1_1ast_1_1_list.html',1,'fabrique::ast']]],
   ['list',['List',['../classfabrique_1_1dag_1_1_list.html',1,'fabrique::dag']]],
   ['literal',['Literal',['../classfabrique_1_1ast_1_1_literal.html',1,'fabrique::ast']]],

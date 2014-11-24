@@ -1,5 +1,9 @@
 var namespaces =
 [
-    [ "AST", "namespace_a_s_t.html", null ],
-    [ "option", "namespaceoption.html", null ]
+    [ "fabrique", null, [
+      [ "ast", "namespacefabrique_1_1ast.html", null ],
+      [ "backend", "namespacefabrique_1_1backend.html", null ],
+      [ "dag", "namespacefabrique_1_1dag.html", null ],
+      [ "plugin", "namespacefabrique_1_1plugin.html", null ]
+    ] ]
 ];

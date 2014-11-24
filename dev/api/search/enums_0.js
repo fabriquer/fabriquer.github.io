@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['argstatus',['ArgStatus',['../namespaceoption.html#aee8c76a07877335762631491e7a5a1a9',1,'option']]]
+  ['format',['Format',['../classfabrique_1_1_bytestream.html#ada63ac430a4a8c872650ba406589ff3c',1,'fabrique::Bytestream']]]
 ];

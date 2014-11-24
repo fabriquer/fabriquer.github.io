@@ -22,38 +22,26 @@
           <Path>namespaces.html</Path>
           <Subnodes>
            <Node>
-            <Name>AST</Name>
-            <Path>namespace_a_s_t.html</Path>
-           </Node>
-           <Node>
-            <Name>option</Name>
-            <Path>namespaceoption.html</Path>
-           </Node>
-          </Subnodes>
-         </Node>
-         <Node>
-          <Name>Namespace Members</Name>
-          <Path>namespacemembers.html</Path>
-          <Subnodes>
-           <Node>
-            <Name>All</Name>
-            <Path>namespacemembers.html</Path>
-           </Node>
-           <Node>
-            <Name>Functions</Name>
-            <Path>namespacemembers_func.html</Path>
-           </Node>
-           <Node>
-            <Name>Typedefs</Name>
-            <Path>namespacemembers_type.html</Path>
-           </Node>
-           <Node>
-            <Name>Enumerations</Name>
-            <Path>namespacemembers_enum.html</Path>
-           </Node>
-           <Node>
-            <Name>Enumerator</Name>
-            <Path>namespacemembers_eval.html</Path>
+            <Name>fabrique</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>ast</Name>
+              <Path>namespacefabrique_1_1ast.html</Path>
+             </Node>
+             <Node>
+              <Name>backend</Name>
+              <Path>namespacefabrique_1_1backend.html</Path>
+             </Node>
+             <Node>
+              <Name>dag</Name>
+              <Path>namespacefabrique_1_1dag.html</Path>
+             </Node>
+             <Node>
+              <Name>plugin</Name>
+              <Path>namespacefabrique_1_1plugin.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
           </Subnodes>
          </Node>
@@ -68,163 +56,12 @@
           <Path>annotated.html</Path>
           <Subnodes>
            <Node>
-            <Name>AST</Name>
-            <Path>namespace_a_s_t.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>AddExpression</Name>
-              <Path>class_a_s_t_1_1_add_expression.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>eval</Name>
-                <Path>class_a_s_t_1_1_add_expression.html</Path>
-                <Anchor>a695de7e1a4ba2620d154f1ebbc8546ad</Anchor>
-               </Node>
-               <Node>
-                <Name>print</Name>
-                <Path>class_a_s_t_1_1_add_expression.html</Path>
-                <Anchor>a176c6ca862e71032e915656e2306d7fa</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>BinaryExpression</Name>
-              <Path>class_a_s_t_1_1_binary_expression.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>print</Name>
-                <Path>class_a_s_t_1_1_binary_expression.html</Path>
-                <Anchor>a147309550ce96e11a3f1e8457ad88757</Anchor>
-               </Node>
-               <Node>
-                <Name>left</Name>
-                <Path>class_a_s_t_1_1_binary_expression.html</Path>
-                <Anchor>ac8729f901b6e9d0f8cd4f450d6f7339a</Anchor>
-               </Node>
-               <Node>
-                <Name>right</Name>
-                <Path>class_a_s_t_1_1_binary_expression.html</Path>
-                <Anchor>a571dfe127bb6f6d2f6448aeedd22d26c</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>DivideExpression</Name>
-              <Path>class_a_s_t_1_1_divide_expression.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>eval</Name>
-                <Path>class_a_s_t_1_1_divide_expression.html</Path>
-                <Anchor>a7dbb21e406d8e4fba89e5719d5168870</Anchor>
-               </Node>
-               <Node>
-                <Name>print</Name>
-                <Path>class_a_s_t_1_1_divide_expression.html</Path>
-                <Anchor>a51c7850dceb9263d638707cc8f797212</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Expression</Name>
-              <Path>class_a_s_t_1_1_expression.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>eval</Name>
-                <Path>class_a_s_t_1_1_expression.html</Path>
-                <Anchor>a5606606c2c54b275a677c010581c83ac</Anchor>
-               </Node>
-               <Node>
-                <Name>PEGMATITE_RTTI</Name>
-                <Path>class_a_s_t_1_1_expression.html</Path>
-                <Anchor>ac8991ad60b673f1a0c06b59bdacd732a</Anchor>
-               </Node>
-               <Node>
-                <Name>print</Name>
-                <Path>class_a_s_t_1_1_expression.html</Path>
-                <Anchor>ab71ce83617ca372efbc281a7b7c705f2</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>MultiplyExpression</Name>
-              <Path>class_a_s_t_1_1_multiply_expression.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>eval</Name>
-                <Path>class_a_s_t_1_1_multiply_expression.html</Path>
-                <Anchor>a5a12609cb3986c15b778e7a6d1a3a65d</Anchor>
-               </Node>
-               <Node>
-                <Name>print</Name>
-                <Path>class_a_s_t_1_1_multiply_expression.html</Path>
-                <Anchor>a4b5cc8e45e152d21a53e952971ae3081</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Number</Name>
-              <Path>class_a_s_t_1_1_number.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>construct</Name>
-                <Path>class_a_s_t_1_1_number.html</Path>
-                <Anchor>af9ff09c8971c775cde2c5e35aa22a4c9</Anchor>
-               </Node>
-               <Node>
-                <Name>eval</Name>
-                <Path>class_a_s_t_1_1_number.html</Path>
-                <Anchor>afd65450adf125b20d441c232606cb938</Anchor>
-               </Node>
-               <Node>
-                <Name>print</Name>
-                <Path>class_a_s_t_1_1_number.html</Path>
-                <Anchor>a70a522547a978b2345c9de326f0b5b2c</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>SubtractExpression</Name>
-              <Path>class_a_s_t_1_1_subtract_expression.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>eval</Name>
-                <Path>class_a_s_t_1_1_subtract_expression.html</Path>
-                <Anchor>a66eb499f01576eacb384af5f12a425c5</Anchor>
-               </Node>
-               <Node>
-                <Name>print</Name>
-                <Path>class_a_s_t_1_1_subtract_expression.html</Path>
-                <Anchor>a3547e7e6cb1b31a5c27777aa7a35719c</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>fablexer</Name>
-            <Path></Path>
-            <Subnodes>
-             <Node>
-              <Name>lexer</Name>
-              <Path></Path>
-              <Subnodes>
-               <Node>
-                <Name>FabLexer</Name>
-                <Path>classfablexer_1_1lexer_1_1_fab_lexer.html</Path>
-                <Subnodes>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>fabrique</Name>
             <Path></Path>
             <Subnodes>
              <Node>
               <Name>ast</Name>
-              <Path></Path>
+              <Path>namespacefabrique_1_1ast.html</Path>
               <Subnodes>
                <Node>
                 <Name>Action</Name>
@@ -1425,62 +1262,62 @@
                  <Node>
                   <Name>Parser</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>acb8910a3757759fd6430321e6eeed538</Anchor>
+                  <Anchor>afe839ab59601414b894f494abe005f0d</Anchor>
                  </Node>
                  <Node>
                   <Name>Arg</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ab68e17e8c53dd1f5ec6f6328851de179</Anchor>
+                  <Anchor>ac5d5bd8e1313582028fd4336473b6e63</Anchor>
                  </Node>
                  <Node>
                   <Name>BinaryOp</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>add450bc9d6bc39a6bcbdc55ae1a2eab5</Anchor>
+                  <Anchor>a7848c1c286a092bb923e2936b5d255dd</Anchor>
                  </Node>
                  <Node>
                   <Name>CompoundExpr</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a82da79252761dff1aba4e3ca4adb8112</Anchor>
+                  <Anchor>af85259311802109bbc296ef41246a612</Anchor>
                  </Node>
                  <Node>
                   <Name>CreateCall</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a39491420ba708a06b829f7efbbadec19</Anchor>
+                  <Anchor>afc7e14957fd67f7db1d51890db8a59f4</Anchor>
                  </Node>
                  <Node>
                   <Name>DefineAction</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ada2645e244e5a6792ad28fdf1ce33dbe</Anchor>
+                  <Anchor>ab5290ca51e372fbce816cbc809352acd</Anchor>
                  </Node>
                  <Node>
                   <Name>DefineFunction</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a4b3935c7662b2d8b43ca37c6153bbba3</Anchor>
+                  <Anchor>a42d5efdd35ee76b2ff07e85374261166</Anchor>
                  </Node>
                  <Node>
                   <Name>DefineValue</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a9dc51acc29355902eafc72d72eb1abeb</Anchor>
+                  <Anchor>a83f6da869247c5ae57ed8120ea5c1ec5</Anchor>
                  </Node>
                  <Node>
                   <Name>DefineValue</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>af2d12289ae04636ef9bc113d026084cd</Anchor>
+                  <Anchor>accd019cacc7604bda7564ed95be45a73</Anchor>
                  </Node>
                  <Node>
                   <Name>EnterScope</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a6987705731194a8cc25361d0ebe99815</Anchor>
+                  <Anchor>a09d0f99793b8fda305b819f5ba37b507</Anchor>
                  </Node>
                  <Node>
                   <Name>EnterScope</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>af81cb1c0f112b1c042db6a38a2a4dccd</Anchor>
+                  <Anchor>a81e22949ebb1a9ae710d0a914f40b939</Anchor>
                  </Node>
                  <Node>
                   <Name>EnterScope</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a659373a762eee54a012b3f2a060dd2a1</Anchor>
+                  <Anchor>a7db7b334b9e8900c3b06e476977815d2</Anchor>
                  </Node>
                  <Node>
                   <Name>errors</Name>
@@ -1490,22 +1327,22 @@
                  <Node>
                   <Name>False</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>abf8b10a005da549945e9d776504390c6</Anchor>
+                  <Anchor>a5d1e9f87153e08d30ad89b668e5850c8</Anchor>
                  </Node>
                  <Node>
                   <Name>FieldAccess</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a689560223d8b07d493747700981ea567</Anchor>
+                  <Anchor>af5d411b52ada67df5f678c36959eff63</Anchor>
                  </Node>
                  <Node>
                   <Name>FieldQuery</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>afb5edfc8698a963aae621bd7880e283f</Anchor>
+                  <Anchor>ae1db801da4d690301fbb980fe7369cea</Anchor>
                  </Node>
                  <Node>
                   <Name>File</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a0689bda0f5e609532575bcb97664907c</Anchor>
+                  <Anchor>a5af46190641c34de734d0e0a70a3b39e</Anchor>
                  </Node>
                  <Node>
                   <Name>files</Name>
@@ -1515,27 +1352,27 @@
                  <Node>
                   <Name>Files</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a908623ea409d17f09eebf92217cb6829</Anchor>
+                  <Anchor>ac8bcf477310b724a982d5c7734a32c69</Anchor>
                  </Node>
                  <Node>
                   <Name>FnType</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a95e5fa6d8790473f3b604a7254d8d1e9</Anchor>
+                  <Anchor>a2c35f666939ce85fabacbfdcf085ba51</Anchor>
                  </Node>
                  <Node>
                   <Name>Foreach</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>afe9b7e6e6478d6a09c62382ccaac265e</Anchor>
+                  <Anchor>a97d6b997565f00da1a6cb0f219e3e47c</Anchor>
                  </Node>
                  <Node>
                   <Name>getType</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ad5b0cef73d7ac263e03f25f347b28196</Anchor>
+                  <Anchor>a0fe3155052c90679063d1ef7b60d6668</Anchor>
                  </Node>
                  <Node>
                   <Name>getType</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ab8b45a2e179304398819fff2ad73a75d</Anchor>
+                  <Anchor>a86ad7f7c71c584ea8f6b8d2ddbea07f9</Anchor>
                  </Node>
                  <Node>
                   <Name>Id</Name>
@@ -1545,92 +1382,92 @@
                  <Node>
                   <Name>Id</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a0a06f211980b2429c92e16c01752ac11</Anchor>
+                  <Anchor>a5301c31fca4e9f2b4d5fefc8ffc0e36e</Anchor>
                  </Node>
                  <Node>
                   <Name>IfElse</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a044c3bc00f40b4918ffd38cdc0deee3d</Anchor>
+                  <Anchor>a2e7f2d13080be423b80f3a5e891b0025</Anchor>
                  </Node>
                  <Node>
                   <Name>ImportModule</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a47568627a2fd1d7239c468f632821f60</Anchor>
+                  <Anchor>a0c994e581223c7f8d22a2e21669055c7</Anchor>
                  </Node>
                  <Node>
                   <Name>ListOf</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a0448c3c76783a7d515786bb8845faf81</Anchor>
+                  <Anchor>af546f45a11e1e98f81c2af31f933104f</Anchor>
                  </Node>
                  <Node>
                   <Name>Map</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a910305ac8537480bfdc08451cc75a01a</Anchor>
+                  <Anchor>a003e45d6787d842d2646f0a750e94173</Anchor>
                  </Node>
                  <Node>
                   <Name>Param</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>acb92b09b1c5b86f4c43c01545ead5960</Anchor>
+                  <Anchor>a3c35d13bc1fda766802593d174bac2ba</Anchor>
                  </Node>
                  <Node>
                   <Name>ParseDefinitions</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>aac0dbc5792f2ae4c84ca763bed98d465</Anchor>
+                  <Anchor>a19c00eae34fca8f38408e940bcb99144</Anchor>
                  </Node>
                  <Node>
                   <Name>ParseFile</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a4d4e6971b656b22439171a2b5e13d93a</Anchor>
+                  <Anchor>ab25b9be1cc1a2d0e7aa1bff71ac12337</Anchor>
                  </Node>
                  <Node>
                   <Name>ParseInt</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a85d46be6ab2e50d78da3b39ad06516dd</Anchor>
+                  <Anchor>a38ddee2f3cf7bbbb6e3739e599153317</Anchor>
                  </Node>
                  <Node>
                   <Name>ParseString</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ac62a6159c2dbf14e33c2b57ad5d8d7a8</Anchor>
+                  <Anchor>a813c3d3c64938fec3b5376b7beff1195</Anchor>
                  </Node>
                  <Node>
                   <Name>Reference</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a14cd655f3da25fd3e5c7af74d19411e7</Anchor>
+                  <Anchor>a3d0d7cdac2972d4c47937dd7dbd554a3</Anchor>
                  </Node>
                  <Node>
                   <Name>Reference</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a078733c6af9ddf3bcab9ea791b626f95</Anchor>
+                  <Anchor>ab4ca5eacbd6e067fde9d39ba85d63288</Anchor>
                  </Node>
                  <Node>
                   <Name>Some</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>afc072bb7627e9bdfa26d1f1df4f70860</Anchor>
+                  <Anchor>a82284e4c2c90df9c781bb9f432772cd6</Anchor>
                  </Node>
                  <Node>
                   <Name>StructInstantiation</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a5e80e55157bc8697b7aac3358b96feb2</Anchor>
+                  <Anchor>a8fba575455aeb357b661b0c7d9d3bd10</Anchor>
                  </Node>
                  <Node>
                   <Name>StructType</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a4d262213eaf8d982626dc73ea2ce299f</Anchor>
+                  <Anchor>abb927677fd12d6deacee8217e3a6c13d</Anchor>
                  </Node>
                  <Node>
                   <Name>TracePoint</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>aefc3cdf8cb72491241b18775b6bb427b</Anchor>
+                  <Anchor>aa8a78d90eb79dbc59d7786bd1693d8d2</Anchor>
                  </Node>
                  <Node>
                   <Name>True</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a1a795857e35b653ffa6c7bf7e290b33c</Anchor>
+                  <Anchor>a0828306832dbbb87d23559206da32b14</Anchor>
                  </Node>
                  <Node>
                   <Name>UnaryOp</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a33938e373a1b6643da0f4cb3b2700dc0</Anchor>
+                  <Anchor>a3942f8e5b935bfa5021da4b32f489099</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1969,7 +1806,7 @@
              </Node>
              <Node>
               <Name>backend</Name>
-              <Path></Path>
+              <Path>namespacefabrique_1_1backend.html</Path>
               <Subnodes>
                <Node>
                 <Name>Backend</Name>
@@ -2092,7 +1929,7 @@
              </Node>
              <Node>
               <Name>dag</Name>
-              <Path></Path>
+              <Path>namespacefabrique_1_1dag.html</Path>
               <Subnodes>
                <Node>
                 <Name>Boolean</Name>
@@ -2396,17 +2233,17 @@
                  <Node>
                   <Name>Target</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
-                  <Anchor>a10bcae2c630a84e312b14a209274454b</Anchor>
+                  <Anchor>adcc37f9286a3ef381df5f09418c12ce3</Anchor>
                  </Node>
                  <Node>
                   <Name>Target</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
-                  <Anchor>a5b49e87e1f180b0e00cf89a4e90871e0</Anchor>
+                  <Anchor>a50789f1055c147edb5431a99bebf2302</Anchor>
                  </Node>
                  <Node>
                   <Name>Target</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
-                  <Anchor>acb08bc600421a7c9ac80466588637387</Anchor>
+                  <Anchor>a7332ae5968cc1220eab49bbe754d7586</Anchor>
                  </Node>
                  <Node>
                   <Name>typeContext</Name>
@@ -3223,7 +3060,7 @@
              </Node>
              <Node>
               <Name>plugin</Name>
-              <Path></Path>
+              <Path>namespacefabrique_1_1plugin.html</Path>
               <Subnodes>
                <Node>
                 <Name>Loader</Name>
@@ -4808,1726 +4645,6 @@
              </Node>
             </Subnodes>
            </Node>
-           <Node>
-            <Name>option</Name>
-            <Path>namespaceoption.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>Arg</Name>
-              <Path>structoption_1_1_arg.html</Path>
-              <Subnodes>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Descriptor</Name>
-              <Path>structoption_1_1_descriptor.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>check_arg</Name>
-                <Path>structoption_1_1_descriptor.html</Path>
-                <Anchor>aa5d675dba0214a4abd73007ff163cc67</Anchor>
-               </Node>
-               <Node>
-                <Name>help</Name>
-                <Path>structoption_1_1_descriptor.html</Path>
-                <Anchor>a9045b19311533e1b8a08645d57149c79</Anchor>
-               </Node>
-               <Node>
-                <Name>index</Name>
-                <Path>structoption_1_1_descriptor.html</Path>
-                <Anchor>a1fee8ac44f529c99ac2b1149b4c391b1</Anchor>
-               </Node>
-               <Node>
-                <Name>longopt</Name>
-                <Path>structoption_1_1_descriptor.html</Path>
-                <Anchor>a470c449dfa894c9bfda2dae026142b4b</Anchor>
-               </Node>
-               <Node>
-                <Name>shortopt</Name>
-                <Path>structoption_1_1_descriptor.html</Path>
-                <Anchor>a0dba4ccca59c19d6ed4081391fca5adb</Anchor>
-               </Node>
-               <Node>
-                <Name>type</Name>
-                <Path>structoption_1_1_descriptor.html</Path>
-                <Anchor>a1b220dabd8aad075fa441a80f9b9343c</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Option</Name>
-              <Path>classoption_1_1_option.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Option</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>aa2810152fc23b14175b115d1a7d38095</Anchor>
-               </Node>
-               <Node>
-                <Name>Option</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a385221e2a8f37c548f0d5777bfddb216</Anchor>
-               </Node>
-               <Node>
-                <Name>Option</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a4053240fecad1a3b1d8e4dc06b7aa8c4</Anchor>
-               </Node>
-               <Node>
-                <Name>append</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a59030822a1ec4e667e6c288d7e5ec961</Anchor>
-               </Node>
-               <Node>
-                <Name>count</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a8a632dcd89af60fe0806deb756c08f14</Anchor>
-               </Node>
-               <Node>
-                <Name>first</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>abb4e13cd7c90999c8a6b1f871cece283</Anchor>
-               </Node>
-               <Node>
-                <Name>index</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>ac0acba91bbfcca0c35cfc54f197b15d2</Anchor>
-               </Node>
-               <Node>
-                <Name>isFirst</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>aee7a11f90cf4b70f65fb6bdf4db2c922</Anchor>
-               </Node>
-               <Node>
-                <Name>isLast</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>ad60789506c3df60dedd4a006af56ece9</Anchor>
-               </Node>
-               <Node>
-                <Name>last</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>afe2aff68191e55b59c53fac3dbbcd7c3</Anchor>
-               </Node>
-               <Node>
-                <Name>next</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a59ae9aed505f4d410633bb36478a32be</Anchor>
-               </Node>
-               <Node>
-                <Name>nextwrap</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>ae8d8c058af3c781cb1d444998df48fef</Anchor>
-               </Node>
-               <Node>
-                <Name>operator const Option *</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>aaaeedf023bc3f5eee0b199c64d8fe1ec</Anchor>
-               </Node>
-               <Node>
-                <Name>operator Option *</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>ac5b9235d79208035d97e41fe17ba04d6</Anchor>
-               </Node>
-               <Node>
-                <Name>operator=</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>adb4b44f3778df8f28a04c48bd1b4a72b</Anchor>
-               </Node>
-               <Node>
-                <Name>prev</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a4d12001a91b0b35cf47437d0c60d2b52</Anchor>
-               </Node>
-               <Node>
-                <Name>prevwrap</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a1226e45dc2de30f269b2aff1784bbee7</Anchor>
-               </Node>
-               <Node>
-                <Name>type</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a6560fa0526e2affd87d5a10622336af4</Anchor>
-               </Node>
-               <Node>
-                <Name>arg</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a402be734987458364b0f473acae36238</Anchor>
-               </Node>
-               <Node>
-                <Name>desc</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>af8d664a7b5de1425008b1812a90a0c23</Anchor>
-               </Node>
-               <Node>
-                <Name>name</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a02a76b4896abd22d0ba8514362261de9</Anchor>
-               </Node>
-               <Node>
-                <Name>namelen</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Anchor>a3aa2957b19ad5815873441b415d56050</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Parser</Name>
-              <Path>classoption_1_1_parser.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Action</Name>
-                <Path>structoption_1_1_parser_1_1_action.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>finished</Name>
-                  <Path>structoption_1_1_parser_1_1_action.html</Path>
-                  <Anchor>a3ec558b51e34d33d116f14587289e032</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>perform</Name>
-                  <Path>structoption_1_1_parser_1_1_action.html</Path>
-                  <Anchor>a176b5f783bb35eb015b6d2c09422457d</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>StoreOptionAction</Name>
-                <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>StoreOptionAction</Name>
-                  <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                  <Anchor>aaa638cdd712202e3e10471d4299f7f9d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>finished</Name>
-                  <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                  <Anchor>a617f675ef50a72ae36ce91f065bc8441</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>perform</Name>
-                  <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                  <Anchor>a8931919fba5516377c202920db2b2f84</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Parser</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>a895e9a1db19f1a026ee6a7412de17d04</Anchor>
-               </Node>
-               <Node>
-                <Name>Parser</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>aa747e9792c9c08ede32b6c323438db71</Anchor>
-               </Node>
-               <Node>
-                <Name>Parser</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>a78b4c7d73fff17204dd908b1b167dec9</Anchor>
-               </Node>
-               <Node>
-                <Name>Parser</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>ae4100da4b662937ead22484e6cfc7cec</Anchor>
-               </Node>
-               <Node>
-                <Name>Parser</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>a23ee244634a38d05f6c4cb1e3692a8a9</Anchor>
-               </Node>
-               <Node>
-                <Name>error</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>a2caa149140067b4d13e4d7a104bb3090</Anchor>
-               </Node>
-               <Node>
-                <Name>nonOption</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>aeeafbf2892a5aca90b89803b2b1cb031</Anchor>
-               </Node>
-               <Node>
-                <Name>nonOptions</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>a2c11b050f4248d71758dda52c5f9154d</Anchor>
-               </Node>
-               <Node>
-                <Name>nonOptionsCount</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>aa64a6a7c196993a1b20d48e8ddd12a34</Anchor>
-               </Node>
-               <Node>
-                <Name>optionsCount</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>aee62badd2a19a5b88cbc4a9b11813b82</Anchor>
-               </Node>
-               <Node>
-                <Name>parse</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>a6e0b5778d1cfbd6cd51240e74d01e138</Anchor>
-               </Node>
-               <Node>
-                <Name>parse</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>ab26280e3b2ebc2f2fc4ed8b3b1e2a39c</Anchor>
-               </Node>
-               <Node>
-                <Name>parse</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>a41885a7308249c8532714e15b36106bd</Anchor>
-               </Node>
-               <Node>
-                <Name>parse</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>ad40585faa23a97a186cf9a45b8c2b42b</Anchor>
-               </Node>
-               <Node>
-                <Name>Stats</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Anchor>a7183dc3501d1c87153f9c0d41f869460</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>PrintUsageImplementation</Name>
-              <Path>structoption_1_1_print_usage_implementation.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>FunctionWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>FunctionWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                  <Anchor>adc6c3f7ba11b3cad65c018955bab47e5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                  <Anchor>aa8e8f237845e210e36ca431d7e503a70</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>write</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                  <Anchor>a3442e05eb04d2b1ee321193f5b10557b</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>IStringWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_i_string_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_i_string_writer.html</Path>
-                  <Anchor>a497172d92e09072a16996c127dd3def8</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>LinePartIterator</Name>
-                <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>LinePartIterator</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a8a61fef9ba907fd4e10ff0fd772ee5e7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>column</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>afa41382acabcd37ca70f7e8b9994b8c0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>data</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>ada26229add63bd479c7877f2f8e32908</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>length</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a557e521cb41e951a34df2737d25f9dce</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>line</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a8ad1201d95bf0bd9453a731da8c15a10</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>next</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a58b8743da57de2d108472eee60324df6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nextRow</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a55d5c3e50f9c1d8cd48f518899a5a48c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nextTable</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>afe43ca12d399ed3c871e4dc5bf63356e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>restartRow</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a96c448939f33a811174ea7b5addb312e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>restartTable</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a0cbe8ed79ab4958a70b957598dd76fa6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>screenLength</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a03b6fedfe805d7fc73216da5cd33270e</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>LineWrapper</Name>
-                <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>LineWrapper</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                  <Anchor>a288f16b6e928e9f54f48e13ff6817e95</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>flush</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                  <Anchor>a9383db9fd3fb18ce091db63ce0b149fd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>process</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                  <Anchor>add20eca40865ad892d6c28b412ac14d5</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>OStreamWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>OStreamWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                  <Anchor>abf38eb181267e96d86de1ea09ad22c3f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                  <Anchor>a323890fba123ad476fa2471029fc7b23</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ostream</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                  <Anchor>a9b808696e204a834acd4362c62b9f4c1</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>StreamWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>StreamWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                  <Anchor>aa6ab48848dcbeb9e2cbde5d05ec35005</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                  <Anchor>ae39bc6378c22d24a490104b7764c37b7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>fwrite</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                  <Anchor>a6f54abc9a3f7f00206d87a3619713954</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>stream</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                  <Anchor>ab4bfd31b1c37376505ccd4230f7f7ad9</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>SyscallWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>SyscallWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                  <Anchor>ae4f8677dbd79b0a9238368e28014701a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                  <Anchor>a61c1c010d9b67affd5f1208f0a3e9cf0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>fd</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                  <Anchor>ae79409e3f85f8dbaa7ef87bb8d7fcf8a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>write</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                  <Anchor>adc72b04cd74c69d0219b8b26589b8e5e</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>TemporaryWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>TemporaryWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                  <Anchor>a0c65740b5a897ca2a2465d1c112882a8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                  <Anchor>a674751ddfff63852b36c754878276b02</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>userstream</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                  <Anchor>a91d54cfcea7bb4072072506d46cc2cc8</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Stats</Name>
-              <Path>structoption_1_1_stats.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CountOptionsAction</Name>
-                <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>CountOptionsAction</Name>
-                  <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-                  <Anchor>a24a38b87ad129b0e12660bd2019ba284</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>perform</Name>
-                  <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-                  <Anchor>a29ab8a68d0a30736b99b4d2e5dece489</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Stats</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>a8660722c76e65d9328313fb360bdd282</Anchor>
-               </Node>
-               <Node>
-                <Name>Stats</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>a71373ec2b28842f45593e4405f7bc8ec</Anchor>
-               </Node>
-               <Node>
-                <Name>Stats</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>a43ec104fdb0b8ae6148d04f3ad3d3a75</Anchor>
-               </Node>
-               <Node>
-                <Name>Stats</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>ab5cafb7127099ef60cfb4cea205ad617</Anchor>
-               </Node>
-               <Node>
-                <Name>Stats</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>a9b8b4f275efaac6a509df75179929c70</Anchor>
-               </Node>
-               <Node>
-                <Name>add</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>aa77e2a8b1704527d2d087820f4456143</Anchor>
-               </Node>
-               <Node>
-                <Name>add</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>a2aa7bc64a85dcd9c59576f6a11c2b747</Anchor>
-               </Node>
-               <Node>
-                <Name>add</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>a4fc47be5db7f52016e3142a9b9dd0d1e</Anchor>
-               </Node>
-               <Node>
-                <Name>add</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>ad659604438f79c79f5bc009f2a16ca92</Anchor>
-               </Node>
-               <Node>
-                <Name>buffer_max</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>a2c9a7b4174f91ba8bcadaa9ad6f0db06</Anchor>
-               </Node>
-               <Node>
-                <Name>options_max</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Anchor>a8121787feb1c7db84fca3ccb012b0473</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>Parser</Name>
-            <Path></Path>
-            <Subnodes>
-             <Node>
-              <Name>CalculatorGrammar</Name>
-              <Path>struct_parser_1_1_calculator_grammar.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>add_op</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>a2b65d4ca52ec4a5322389eabc0d0f6e0</Anchor>
-               </Node>
-               <Node>
-                <Name>digit</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>a6a3c651ddac38c189d0df77220ee055c</Anchor>
-               </Node>
-               <Node>
-                <Name>div_op</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>ac8bae1a6715e0af8d0a6e91c7b5e2412</Anchor>
-               </Node>
-               <Node>
-                <Name>expr</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>a57858f3d035a9fa02f847e8d9081d66d</Anchor>
-               </Node>
-               <Node>
-                <Name>mul</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>a24b56e7f183dfd5fbbe2b5b5c0ca8490</Anchor>
-               </Node>
-               <Node>
-                <Name>mul_op</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>a24e0c162b3dc114f27a14d654198e585</Anchor>
-               </Node>
-               <Node>
-                <Name>num</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>a9cbc66d9138d3809faebeea10e7e6df0</Anchor>
-               </Node>
-               <Node>
-                <Name>sub_op</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>a1bdb6f03abfbd695b661386774c735ff</Anchor>
-               </Node>
-               <Node>
-                <Name>val</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>a0f010c7a79f07deae87d6a27b50f2cf6</Anchor>
-               </Node>
-               <Node>
-                <Name>ws</Name>
-                <Path>struct_parser_1_1_calculator_grammar.html</Path>
-                <Anchor>af15f2a6f3dd837af5d69ba5e857b44c9</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CalculatorParser</Name>
-              <Path>class_parser_1_1_calculator_parser.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>g</Name>
-                <Path>class_parser_1_1_calculator_parser.html</Path>
-                <Anchor>a86a1840d2efa37107ba48bdcf674beb9</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>pegmatite</Name>
-            <Path></Path>
-            <Subnodes>
-             <Node>
-              <Name>AsciiFileInput</Name>
-              <Path>structpegmatite_1_1_ascii_file_input.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>AsciiFileInput</Name>
-                <Path>structpegmatite_1_1_ascii_file_input.html</Path>
-                <Anchor>afa4ef5940c39f26e848872757638db8e</Anchor>
-               </Node>
-               <Node>
-                <Name>fillBuffer</Name>
-                <Path>structpegmatite_1_1_ascii_file_input.html</Path>
-                <Anchor>ad6f1dd8ac0ceb6bcf2b167e525e4f690</Anchor>
-               </Node>
-               <Node>
-                <Name>size</Name>
-                <Path>structpegmatite_1_1_ascii_file_input.html</Path>
-                <Anchor>ab7b11195fb1e5370591c0f5c42232988</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ASTContainer</Name>
-              <Path>classpegmatite_1_1_a_s_t_container.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ASTContainer</Name>
-                <Path>classpegmatite_1_1_a_s_t_container.html</Path>
-                <Anchor>ae4e20ffce125dcea4cadd7f9bf94480d</Anchor>
-               </Node>
-               <Node>
-                <Name>construct</Name>
-                <Path>classpegmatite_1_1_a_s_t_container.html</Path>
-                <Anchor>aabb870b5cd14d74763e02230654d70b2</Anchor>
-               </Node>
-               <Node>
-                <Name>ASTMember</Name>
-                <Path>classpegmatite_1_1_a_s_t_container.html</Path>
-                <Anchor>a65371285557650586efa376f31d65978</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ASTList</Name>
-              <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>container</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>a9ab3af9002344851e77813d1a0eb2849</Anchor>
-               </Node>
-               <Node>
-                <Name>ASTList</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>a3f897b131186644a69d5b800e1a40629</Anchor>
-               </Node>
-               <Node>
-                <Name>ASTList</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>a486f0a94578b32c0e0da8173dcec2142</Anchor>
-               </Node>
-               <Node>
-                <Name>~ASTList</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>aeffb17f12d304916f409480a7d8051d0</Anchor>
-               </Node>
-               <Node>
-                <Name>begin</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>a458a572ffb56e6829ad2a1b64af70197</Anchor>
-               </Node>
-               <Node>
-                <Name>construct</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>ae461b370b1c59ae9d742229b9fea8d20</Anchor>
-               </Node>
-               <Node>
-                <Name>end</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>a39a62421ba1c84c81521e9e9fe6e5c1d</Anchor>
-               </Node>
-               <Node>
-                <Name>objects</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>a10591f85aadaa5eb25222d401e128070</Anchor>
-               </Node>
-               <Node>
-                <Name>rbegin</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>a27d73e503409642f6a6e2a58c94601d5</Anchor>
-               </Node>
-               <Node>
-                <Name>rend</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>a64c00eca2bfa227a8d5a7b2bce3c2f1c</Anchor>
-               </Node>
-               <Node>
-                <Name>size</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-                <Anchor>ab71fa9605010c330f52820789d81423d</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ASTMember</Name>
-              <Path>classpegmatite_1_1_a_s_t_member.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ASTMember</Name>
-                <Path>classpegmatite_1_1_a_s_t_member.html</Path>
-                <Anchor>a2c9602aaeb487da8ac6ade9234b3f3f5</Anchor>
-               </Node>
-               <Node>
-                <Name>~ASTMember</Name>
-                <Path>classpegmatite_1_1_a_s_t_member.html</Path>
-                <Anchor>adb2a62101df8e5a5f952f866f220db0b</Anchor>
-               </Node>
-               <Node>
-                <Name>construct</Name>
-                <Path>classpegmatite_1_1_a_s_t_member.html</Path>
-                <Anchor>aef6aa1bd07a21474fdf6f63d4724aaf1</Anchor>
-               </Node>
-               <Node>
-                <Name>container</Name>
-                <Path>classpegmatite_1_1_a_s_t_member.html</Path>
-                <Anchor>a84c2e5c2c28d9781cfc22e4417457ecb</Anchor>
-               </Node>
-               <Node>
-                <Name>container_node</Name>
-                <Path>classpegmatite_1_1_a_s_t_member.html</Path>
-                <Anchor>adfc89e8540ce9eb5ac1c4de5f867b089</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ASTNode</Name>
-              <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ASTNode</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>a9cfd880bd72900af6a9a050b6673653e</Anchor>
-               </Node>
-               <Node>
-                <Name>ASTNode</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>a598362d64b01bc8266a8eac9341f6946</Anchor>
-               </Node>
-               <Node>
-                <Name>~ASTNode</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>ae23a27b167341bfdd13ce781278074ac</Anchor>
-               </Node>
-               <Node>
-                <Name>construct</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>ae7010ba536c25eef8fca4436a3cba49a</Anchor>
-               </Node>
-               <Node>
-                <Name>get_as</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>a392371c883f30b06fb70486fd209f778</Anchor>
-               </Node>
-               <Node>
-                <Name>isa</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>aa837bc937c493e7dd4f067e34644c46b</Anchor>
-               </Node>
-               <Node>
-                <Name>isa</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>a87ce42e787d1dbcceb8d9dfd5e18926c</Anchor>
-               </Node>
-               <Node>
-                <Name>kind</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>a1e7fe53f436deccc338c2de2b65bed74</Anchor>
-               </Node>
-               <Node>
-                <Name>parent</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>a405356e07d478dff3cb0a06681314dab</Anchor>
-               </Node>
-               <Node>
-                <Name>ASTList</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>ae1816c89029cca2107e69ed6ab9edafa</Anchor>
-               </Node>
-               <Node>
-                <Name>ASTPtr</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>a0e02d95f3ac7fa721da755de508dbe36</Anchor>
-               </Node>
-               <Node>
-                <Name>BindAST</Name>
-                <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-                <Anchor>a91da6c237e0a77df5aecca767e7c5a5b</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ASTParserDelegate</Name>
-              <Path>classpegmatite_1_1_a_s_t_parser_delegate.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ASTParserDelegate</Name>
-                <Path>classpegmatite_1_1_a_s_t_parser_delegate.html</Path>
-                <Anchor>a2e025e2a7a12089b7a28b4b697e5952e</Anchor>
-               </Node>
-               <Node>
-                <Name>get_parse_proc</Name>
-                <Path>classpegmatite_1_1_a_s_t_parser_delegate.html</Path>
-                <Anchor>a76e03cfe1aaac176c5c4d1a6ae58880a</Anchor>
-               </Node>
-               <Node>
-                <Name>parse</Name>
-                <Path>classpegmatite_1_1_a_s_t_parser_delegate.html</Path>
-                <Anchor>ac1c9c1d4f80df64b08371c3b73507460</Anchor>
-               </Node>
-               <Node>
-                <Name>BindAST</Name>
-                <Path>classpegmatite_1_1_a_s_t_parser_delegate.html</Path>
-                <Anchor>a91da6c237e0a77df5aecca767e7c5a5b</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ASTPtr</Name>
-              <Path>singletonpegmatite_1_1_a_s_t_ptr.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ASTPtr</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_ptr.html</Path>
-                <Anchor>ac6a9800336ded0416833384079632081</Anchor>
-               </Node>
-               <Node>
-                <Name>construct</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_ptr.html</Path>
-                <Anchor>a67f489bf8fc89f3a76784389b6c397f1</Anchor>
-               </Node>
-               <Node>
-                <Name>get</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_ptr.html</Path>
-                <Anchor>a182e05602e3aa42651a6367ffc6eb9bb</Anchor>
-               </Node>
-               <Node>
-                <Name>operator bool</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_ptr.html</Path>
-                <Anchor>abe63b9dc1cd2fda32dffa0ecf5251d07</Anchor>
-               </Node>
-               <Node>
-                <Name>operator*</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_ptr.html</Path>
-                <Anchor>a9cab9177ac8d40ff9cc576c6b3fabcd7</Anchor>
-               </Node>
-               <Node>
-                <Name>operator-&gt;</Name>
-                <Path>singletonpegmatite_1_1_a_s_t_ptr.html</Path>
-                <Anchor>a7ff49898eb84c505c7d234aa436b1df1</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>BindAST</Name>
-              <Path>singletonpegmatite_1_1_bind_a_s_t.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>BindAST</Name>
-                <Path>singletonpegmatite_1_1_bind_a_s_t.html</Path>
-                <Anchor>a79a818d40e08a058984d5ac45859f444</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CharacterExpr</Name>
-              <Path>classpegmatite_1_1_character_expr.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CharacterExpr</Name>
-                <Path>classpegmatite_1_1_character_expr.html</Path>
-                <Anchor>a5a31512ee36d093bf91f12cc6c45b6fc</Anchor>
-               </Node>
-               <Node>
-                <Name>dump</Name>
-                <Path>classpegmatite_1_1_character_expr.html</Path>
-                <Anchor>a75e8ad0baf415267f24be798ba8f5ec6</Anchor>
-               </Node>
-               <Node>
-                <Name>operator-</Name>
-                <Path>classpegmatite_1_1_character_expr.html</Path>
-                <Anchor>a95f88d15cf3f86097581c7f62cd7e3a8</Anchor>
-               </Node>
-               <Node>
-                <Name>operator-</Name>
-                <Path>classpegmatite_1_1_character_expr.html</Path>
-                <Anchor>a0ba166d22c5e57f6689b2d29de2fc0c7</Anchor>
-               </Node>
-               <Node>
-                <Name>parse_non_term</Name>
-                <Path>classpegmatite_1_1_character_expr.html</Path>
-                <Anchor>a28bf0cce6f73faab376f5318df4d2bce</Anchor>
-               </Node>
-               <Node>
-                <Name>parse_term</Name>
-                <Path>classpegmatite_1_1_character_expr.html</Path>
-                <Anchor>a9b8825eb00c170fab4cad618db39000e</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Context</Name>
-              <Path>classpegmatite_1_1_context.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Context</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a89d1fca97f85384e5a64b602469adfdb</Anchor>
-               </Node>
-               <Node>
-                <Name>do_parse_procs</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>af0ba1e67cfcb7508d047b4db233ce91f</Anchor>
-               </Node>
-               <Node>
-                <Name>end</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a831d5abbc6f374aba01266a214abb5f4</Anchor>
-               </Node>
-               <Node>
-                <Name>get_parse_proc</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a37b765a41b90567ee42e4f63fc000a8a</Anchor>
-               </Node>
-               <Node>
-                <Name>next_col</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>aa66bd13ae1a869e8855ff8d820cdf8d3</Anchor>
-               </Node>
-               <Node>
-                <Name>next_line</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>ad77b0929a790414e0f9b640e1d199776</Anchor>
-               </Node>
-               <Node>
-                <Name>parse_non_term</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>ae15920073f9e6460b92089d756bee04d</Anchor>
-               </Node>
-               <Node>
-                <Name>parse_term</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a3bdacf5945ab8378236e4a9e43467399</Anchor>
-               </Node>
-               <Node>
-                <Name>parse_ws</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a42892ba65804d1029ad5523d6f8ed5e1</Anchor>
-               </Node>
-               <Node>
-                <Name>restore</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a6e4f4b6cb22e76a8edcabeeeb3d6ae8b</Anchor>
-               </Node>
-               <Node>
-                <Name>set_error_pos</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>ad7da2e69f52aada05920199ad2e6f767</Anchor>
-               </Node>
-               <Node>
-                <Name>symbol</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a2753eb48d5757554bce80153064a1367</Anchor>
-               </Node>
-               <Node>
-                <Name>delegate</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a7aef51ec8e62f80f072d3250d165ae98</Anchor>
-               </Node>
-               <Node>
-                <Name>depth</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a886643a4b42bcbb179bfaf34b40ad2d8</Anchor>
-               </Node>
-               <Node>
-                <Name>error_pos</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a88910be8f6748770c7fa566e51c071d9</Anchor>
-               </Node>
-               <Node>
-                <Name>finish</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a39833bf6ef0e81e0a5a12b5613e57e29</Anchor>
-               </Node>
-               <Node>
-                <Name>matches</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a539dbf97bdc5ee6922568421f6c5fa2c</Anchor>
-               </Node>
-               <Node>
-                <Name>position</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a0d623ec2a217cf74ee05c0127dc30360</Anchor>
-               </Node>
-               <Node>
-                <Name>start</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>a86f7679fc535f302678868ce28660918</Anchor>
-               </Node>
-               <Node>
-                <Name>whitespace_rule</Name>
-                <Path>classpegmatite_1_1_context.html</Path>
-                <Anchor>af6386405533edbc641099e6230338e99</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Error</Name>
-              <Path>classpegmatite_1_1_error.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Error</Name>
-                <Path>classpegmatite_1_1_error.html</Path>
-                <Anchor>af319f7af9c21d4daa72004618f65fcc7</Anchor>
-               </Node>
-               <Node>
-                <Name>operator&lt;</Name>
-                <Path>classpegmatite_1_1_error.html</Path>
-                <Anchor>a73c0cbc6f5e82d795b7acb655cd21c85</Anchor>
-               </Node>
-               <Node>
-                <Name>error_type</Name>
-                <Path>classpegmatite_1_1_error.html</Path>
-                <Anchor>a8d882e9f5763ae4742f33215a49bba72</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Expr</Name>
-              <Path>classpegmatite_1_1_expr.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>~Expr</Name>
-                <Path>classpegmatite_1_1_expr.html</Path>
-                <Anchor>a49be42357d07f62b636f7e8fc05ea20f</Anchor>
-               </Node>
-               <Node>
-                <Name>dump</Name>
-                <Path>classpegmatite_1_1_expr.html</Path>
-                <Anchor>a8f4b2bd4d9ed16e61f7cc47d216b84e0</Anchor>
-               </Node>
-               <Node>
-                <Name>parse_non_term</Name>
-                <Path>classpegmatite_1_1_expr.html</Path>
-                <Anchor>aa8b51f7c2669beef17ff09709bf7aae5</Anchor>
-               </Node>
-               <Node>
-                <Name>parse_term</Name>
-                <Path>classpegmatite_1_1_expr.html</Path>
-                <Anchor>a0c588b22394611a503fe79cbd3e0b1bd</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ExprPtr</Name>
-              <Path>structpegmatite_1_1_expr_ptr.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ExprPtr</Name>
-                <Path>structpegmatite_1_1_expr_ptr.html</Path>
-                <Anchor>ab1d429f45547dce8108fd51e2b588f26</Anchor>
-               </Node>
-               <Node>
-                <Name>ExprPtr</Name>
-                <Path>structpegmatite_1_1_expr_ptr.html</Path>
-                <Anchor>aca67432de69c325ed22f7c81430b177b</Anchor>
-               </Node>
-               <Node>
-                <Name>ExprPtr</Name>
-                <Path>structpegmatite_1_1_expr_ptr.html</Path>
-                <Anchor>a9fbd33d30df96592e8c0cf7a0c82f142</Anchor>
-               </Node>
-               <Node>
-                <Name>ExprPtr</Name>
-                <Path>structpegmatite_1_1_expr_ptr.html</Path>
-                <Anchor>aac58f378699f37841a1c8dc864d154aa</Anchor>
-               </Node>
-               <Node>
-                <Name>ExprPtr</Name>
-                <Path>structpegmatite_1_1_expr_ptr.html</Path>
-                <Anchor>a260551671713f0dd2521e38fdc774810</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Input</Name>
-              <Path>classpegmatite_1_1_input.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>iterator</Name>
-                <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>iterator</Name>
-                  <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                  <Anchor>aa6e6faca2dc85f843d7f85eb0d63230f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator!=</Name>
-                  <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                  <Anchor>a7c7054827f55bd30d768a6d29afbb27c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator*</Name>
-                  <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                  <Anchor>a343794f196852748e9fde2e7d5584905</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator++</Name>
-                  <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                  <Anchor>a373ac69893f2a6380627480990d14d91</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-</Name>
-                  <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                  <Anchor>a470945e407b5e6e137a593f628560ed1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator--</Name>
-                  <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                  <Anchor>ab642d528065a66dc2fed3a6366a4ed8f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;</Name>
-                  <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                  <Anchor>ae61fc5c5351edc4f230fb6d775ead5f6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator==</Name>
-                  <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                  <Anchor>a1d28453fd6425d7437e5fa7a80314f32</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&gt;</Name>
-                  <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-                  <Anchor>abf2487f86c92546916712f46158d98d8</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Index</Name>
-                <Path>classpegmatite_1_1_input.html</Path>
-                <Anchor>ac0045fa7291a66a8e885731f8f8d66af</Anchor>
-               </Node>
-               <Node>
-                <Name>Input</Name>
-                <Path>classpegmatite_1_1_input.html</Path>
-                <Anchor>afea3c1a66bdbdea28925bf19acf59899</Anchor>
-               </Node>
-               <Node>
-                <Name>~Input</Name>
-                <Path>classpegmatite_1_1_input.html</Path>
-                <Anchor>a033e64af74c3c36a6d2397d4404ec82f</Anchor>
-               </Node>
-               <Node>
-                <Name>begin</Name>
-                <Path>classpegmatite_1_1_input.html</Path>
-                <Anchor>aa2de81d32ac45cb054c84971f520554f</Anchor>
-               </Node>
-               <Node>
-                <Name>end</Name>
-                <Path>classpegmatite_1_1_input.html</Path>
-                <Anchor>acd37d0d6a9930afce62a4acda31c9703</Anchor>
-               </Node>
-               <Node>
-                <Name>fillBuffer</Name>
-                <Path>classpegmatite_1_1_input.html</Path>
-                <Anchor>a578f7baae11e42ab8abd0d151ba11f77</Anchor>
-               </Node>
-               <Node>
-                <Name>operator[]</Name>
-                <Path>classpegmatite_1_1_input.html</Path>
-                <Anchor>a8de0e9360fb19c24b722d0e0395ea6d8</Anchor>
-               </Node>
-               <Node>
-                <Name>size</Name>
-                <Path>classpegmatite_1_1_input.html</Path>
-                <Anchor>a373f33646be77f176772ec47a5c661ec</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>InputRange</Name>
-              <Path>classpegmatite_1_1_input_range.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>InputRange</Name>
-                <Path>classpegmatite_1_1_input_range.html</Path>
-                <Anchor>a3613e72106773cf43259d94289351a42</Anchor>
-               </Node>
-               <Node>
-                <Name>InputRange</Name>
-                <Path>classpegmatite_1_1_input_range.html</Path>
-                <Anchor>aa48815bb0a2001d1e375d6ffa47a8fdc</Anchor>
-               </Node>
-               <Node>
-                <Name>begin</Name>
-                <Path>classpegmatite_1_1_input_range.html</Path>
-                <Anchor>a63433b78c97ca810e04706322590763a</Anchor>
-               </Node>
-               <Node>
-                <Name>end</Name>
-                <Path>classpegmatite_1_1_input_range.html</Path>
-                <Anchor>a2ef97108048b4021be15bb66fd81c181</Anchor>
-               </Node>
-               <Node>
-                <Name>finish</Name>
-                <Path>classpegmatite_1_1_input_range.html</Path>
-                <Anchor>ae192d7873c239d03156bbbe4c6d623c1</Anchor>
-               </Node>
-               <Node>
-                <Name>start</Name>
-                <Path>classpegmatite_1_1_input_range.html</Path>
-                <Anchor>a61309e1680dc3c8a840748909b0713cc</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ParserDelegate</Name>
-              <Path>structpegmatite_1_1_parser_delegate.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>~ParserDelegate</Name>
-                <Path>structpegmatite_1_1_parser_delegate.html</Path>
-                <Anchor>aa8e99a3e202757eb2d406ae2325fe0b8</Anchor>
-               </Node>
-               <Node>
-                <Name>get_parse_proc</Name>
-                <Path>structpegmatite_1_1_parser_delegate.html</Path>
-                <Anchor>ac7931ecd07d8fbe8727ad9f1314af4fa</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ParserPosition</Name>
-              <Path>structpegmatite_1_1_parser_position.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ParserPosition</Name>
-                <Path>structpegmatite_1_1_parser_position.html</Path>
-                <Anchor>a7ff4421dbfc747d65bc863a27725d088</Anchor>
-               </Node>
-               <Node>
-                <Name>ParserPosition</Name>
-                <Path>structpegmatite_1_1_parser_position.html</Path>
-                <Anchor>a45ee44de181d5be1e63d04d7314f90b1</Anchor>
-               </Node>
-               <Node>
-                <Name>col</Name>
-                <Path>structpegmatite_1_1_parser_position.html</Path>
-                <Anchor>ac791f4c5916c396cb4e4cd84f744b4a8</Anchor>
-               </Node>
-               <Node>
-                <Name>it</Name>
-                <Path>structpegmatite_1_1_parser_position.html</Path>
-                <Anchor>ad9dcd1f97637a077f02666dd293376b7</Anchor>
-               </Node>
-               <Node>
-                <Name>line</Name>
-                <Path>structpegmatite_1_1_parser_position.html</Path>
-                <Anchor>a82bed016b9800bc7f36207e8e5b839d3</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Rule</Name>
-              <Path>classpegmatite_1_1_rule.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Rule</Name>
-                <Path>classpegmatite_1_1_rule.html</Path>
-                <Anchor>ad4f3fa725b892ddd285cd63fe98dfdbc</Anchor>
-               </Node>
-               <Node>
-                <Name>Rule</Name>
-                <Path>classpegmatite_1_1_rule.html</Path>
-                <Anchor>a70739267d5324980c89c0cff030330c6</Anchor>
-               </Node>
-               <Node>
-                <Name>Rule</Name>
-                <Path>classpegmatite_1_1_rule.html</Path>
-                <Anchor>a9cbe478f8c7a28bef1b49950e0932d91</Anchor>
-               </Node>
-               <Node>
-                <Name>Rule</Name>
-                <Path>classpegmatite_1_1_rule.html</Path>
-                <Anchor>a5611f96e4243b4f2aa228d397bc6c0c7</Anchor>
-               </Node>
-               <Node>
-                <Name>Context</Name>
-                <Path>classpegmatite_1_1_rule.html</Path>
-                <Anchor>ac26c806e60ca4a0547680edb68f6e39b</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>StringInput</Name>
-              <Path>classpegmatite_1_1_string_input.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>StringInput</Name>
-                <Path>classpegmatite_1_1_string_input.html</Path>
-                <Anchor>ae2c02a293c36baa0c989513e46d1c135</Anchor>
-               </Node>
-               <Node>
-                <Name>fillBuffer</Name>
-                <Path>classpegmatite_1_1_string_input.html</Path>
-                <Anchor>adc3aed376eca23df89ca793d5d5a317d</Anchor>
-               </Node>
-               <Node>
-                <Name>getString</Name>
-                <Path>classpegmatite_1_1_string_input.html</Path>
-                <Anchor>a948ecd4e6f99169a6300e5ff926efcd9</Anchor>
-               </Node>
-               <Node>
-                <Name>size</Name>
-                <Path>classpegmatite_1_1_string_input.html</Path>
-                <Anchor>a85af5067f8fd22108b0bcc191fcf5c82</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>UnicodeVectorInput</Name>
-              <Path>classpegmatite_1_1_unicode_vector_input.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>UnicodeVectorInput</Name>
-                <Path>classpegmatite_1_1_unicode_vector_input.html</Path>
-                <Anchor>a254df104469a2fc0d0e07bf080d6ea56</Anchor>
-               </Node>
-               <Node>
-                <Name>fillBuffer</Name>
-                <Path>classpegmatite_1_1_unicode_vector_input.html</Path>
-                <Anchor>a1357e3a3b5f6d8a751e211d5605eb255</Anchor>
-               </Node>
-               <Node>
-                <Name>getVector</Name>
-                <Path>classpegmatite_1_1_unicode_vector_input.html</Path>
-                <Anchor>ab91b105af0c930880c1ce3773067b9b7</Anchor>
-               </Node>
-               <Node>
-                <Name>size</Name>
-                <Path>classpegmatite_1_1_unicode_vector_input.html</Path>
-                <Anchor>afc85f720afc4f75eacb26629b9ee081b</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>DebugState</Name>
-            <Path>class_debug_state.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>get</Name>
-              <Path>class_debug_state.html</Path>
-              <Anchor>ac98f315816161fa327b93d0e26b7f94e</Anchor>
-             </Node>
-             <Node>
-              <Name>match</Name>
-              <Path>class_debug_state.html</Path>
-              <Anchor>a2b0a2cdd84beae8db2882089b76615da</Anchor>
-             </Node>
-             <Node>
-              <Name>null</Name>
-              <Path>class_debug_state.html</Path>
-              <Anchor>af793ae49386e9744f2932a9070bf360d</Anchor>
-             </Node>
-             <Node>
-              <Name>out</Name>
-              <Path>class_debug_state.html</Path>
-              <Anchor>a870c18ca0e653c45ef90a7f3ba2105ad</Anchor>
-             </Node>
-             <Node>
-              <Name>pattern</Name>
-              <Path>class_debug_state.html</Path>
-              <Anchor>a753789304a0a12a4f5ffffb557fea597</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>DotFormatter</Name>
-            <Path>class_dot_formatter.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>a98a3a72f93cac96b98e5c756f430c3f8</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>a291b75daf5eec6c6745ded17ff6a0116</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>adbb28e7e1be5b60564db74ea7bd0736c</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>a36c5f188f9f4890e3aecd5ff62fa8fd8</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>a9badb6ad140bdca6754aaa463ccbdfd7</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>a43d34f0935b5866ef2ee2c2de8df4ff5</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>a9e96415e3c4b6bd1e7b6f4163c15182e</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>a97252d15ffee51e69a9f0d1336117fc3</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>aa291f5ee66666ebad9d70d6982e0dec5</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_dot_formatter.html</Path>
-              <Anchor>aba090fc1a96b9f187eca9b21fe91c1ba</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>NinjaFormatter</Name>
-            <Path>class_ninja_formatter.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>a0298af7b5d190abe88a29026f7edb45f</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>a14ba4ec638e61d88e4d5fe51f9c2a786</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>a221e9aff40c5073f2691b0ca7eec1ee3</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>a4035e650300feee094127f6edf199e55</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>a38b6769907beea5f5567d72a2b4c967b</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>a12db4ce9b8712878d94bdee1118cc050</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>a0972a9245eea977788c6293d2e7fa20f</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>a198539316e601aea96af16d32e0b85ea</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>a51e7e1737cd53fc1877060758eddb6d3</Anchor>
-             </Node>
-             <Node>
-              <Name>Format</Name>
-              <Path>class_ninja_formatter.html</Path>
-              <Anchor>aac19789f4345543832ee8da6ce41796a</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>yy_buffer_state</Name>
-            <Path>structyy__buffer__state.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>yy_at_bol</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a9d60c60af6e1a6f69de16871fd64f85f</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_bs_column</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a10c4fcd8be759e6bf11e6d3e8cdb0307</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_bs_lineno</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a818e94bc9c766e683c60df1e9fd01199</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_buf_pos</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a8435c3f786bbb55d21d0174e4cfc22a0</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_buf_size</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a48302f5f3477a9c78bbddf56d356ef54</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_buffer_status</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a70fd925d37a2f0454fbd0def675d106c</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_ch_buf</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a0d25458e69eb22207fc633a1255d099d</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_fill_buffer</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a63d2afbb1d79a3fc63df9e12626f827d</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_input_file</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a394bf1c9938ce57782dc313d97770123</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_is_interactive</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>abf5c70eea75581b58c0ee7bd31b14490</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_is_our_buffer</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>a80ce2431c70dc4f89ced487f18449465</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_n_chars</Name>
-              <Path>structyy__buffer__state.html</Path>
-              <Anchor>afcc44872643f513e79b43c2b1f334a67</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>yy_trans_info</Name>
-            <Path>structyy__trans__info.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>yy_nxt</Name>
-              <Path>structyy__trans__info.html</Path>
-              <Anchor>ae0715250c2bef261e596e77e0030f13e</Anchor>
-             </Node>
-             <Node>
-              <Name>yy_verify</Name>
-              <Path>structyy__trans__info.html</Path>
-              <Anchor>a5c9f61e770deef50bd4e697310342fe9</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>YYSTACKDATA</Name>
-            <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>l_base</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>a8f3a34084a6a52c31d8a69f708ad38d0</Anchor>
-             </Node>
-             <Node>
-              <Name>l_mark</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>a103a3124bf90d2390b5bc8100105ff67</Anchor>
-             </Node>
-             <Node>
-              <Name>s_base</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>a830168abced095d119dc30040fb609ea</Anchor>
-             </Node>
-             <Node>
-              <Name>s_base</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>aa0fa747561c79c00badfadcc5b19035a</Anchor>
-             </Node>
-             <Node>
-              <Name>s_last</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>af078273594620299fb8595744bbe16f5</Anchor>
-             </Node>
-             <Node>
-              <Name>s_last</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>a672ddb86b39a9cc92965513a05ed2aa6</Anchor>
-             </Node>
-             <Node>
-              <Name>s_mark</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>ac62cc0b50aca6e5b4e8da7ff41aee2e5</Anchor>
-             </Node>
-             <Node>
-              <Name>s_mark</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>a9e53f7db2a3173bae3b551989a17126c</Anchor>
-             </Node>
-             <Node>
-              <Name>stacksize</Name>
-              <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-              <Anchor>a17c64723e4653c855be339410899989a</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>YYSTYPE</Name>
-            <Path>union_y_y_s_t_y_p_e.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>intVal</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>a83ee412e29e20041c84ddb8ffa14b10c</Anchor>
-             </Node>
-             <Node>
-              <Name>node</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>abc86a34ba30ab7ec86f588f41ad3449d</Anchor>
-             </Node>
-             <Node>
-              <Name>nodes</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>a16c65641b930a4dc1650c18c1c7fe39a</Anchor>
-             </Node>
-             <Node>
-              <Name>token</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>ab3fcd28fbae5783f2576a909835507b5</Anchor>
-             </Node>
-             <Node>
-              <Name>type</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>a99a0a425d60f966afb4b0a4102008a8c</Anchor>
-             </Node>
-             <Node>
-              <Name>types</Name>
-              <Path>union_y_y_s_t_y_p_e.html</Path>
-              <Anchor>ae16e5f6687e81dc37447959371833e1a</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
           </Subnodes>
          </Node>
          <Node>
@@ -6539,92 +4656,12 @@
           <Path>hierarchy.html</Path>
           <Subnodes>
            <Node>
-            <Name>option::Parser::Action</Name>
-            <Path>structoption_1_1_parser_1_1_action.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>option::Parser::StoreOptionAction</Name>
-              <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-             </Node>
-             <Node>
-              <Name>option::Stats::CountOptionsAction</Name>
-              <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>fabrique::ast::EvalContext::AlternateScoping</Name>
             <Path>classfabrique_1_1ast_1_1_eval_context_1_1_alternate_scoping.html</Path>
            </Node>
            <Node>
-            <Name>option::Arg</Name>
-            <Path>structoption_1_1_arg.html</Path>
-           </Node>
-           <Node>
             <Name>fabrique::Arguments</Name>
             <Path>classfabrique_1_1_arguments.html</Path>
-           </Node>
-           <Node>
-            <Name>pegmatite::ASTMember</Name>
-            <Path>classpegmatite_1_1_a_s_t_member.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>pegmatite::ASTPtr&lt; AST::Expression &gt;</Name>
-              <Path>singletonpegmatite_1_1_a_s_t_ptr.html</Path>
-             </Node>
-             <Node>
-              <Name>pegmatite::ASTList&lt; T &gt;</Name>
-              <Path>singletonpegmatite_1_1_a_s_t_list.html</Path>
-             </Node>
-             <Node>
-              <Name>pegmatite::ASTPtr&lt; T, OPT &gt;</Name>
-              <Path>singletonpegmatite_1_1_a_s_t_ptr.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>pegmatite::ASTNode</Name>
-            <Path>classpegmatite_1_1_a_s_t_node.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>pegmatite::ASTContainer</Name>
-              <Path>classpegmatite_1_1_a_s_t_container.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>AST::Expression</Name>
-                <Path>class_a_s_t_1_1_expression.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>AST::BinaryExpression</Name>
-                  <Path>class_a_s_t_1_1_binary_expression.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>AST::AddExpression</Name>
-                    <Path>class_a_s_t_1_1_add_expression.html</Path>
-                   </Node>
-                   <Node>
-                    <Name>AST::DivideExpression</Name>
-                    <Path>class_a_s_t_1_1_divide_expression.html</Path>
-                   </Node>
-                   <Node>
-                    <Name>AST::MultiplyExpression</Name>
-                    <Path>class_a_s_t_1_1_multiply_expression.html</Path>
-                   </Node>
-                   <Node>
-                    <Name>AST::SubtractExpression</Name>
-                    <Path>class_a_s_t_1_1_subtract_expression.html</Path>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>AST::Number</Name>
-                  <Path>class_a_s_t_1_1_number.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
            </Node>
            <Node>
             <Name>fabrique::backend::Backend</Name>
@@ -6649,36 +4686,8 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>pegmatite::BindAST&lt; T &gt;</Name>
-            <Path>singletonpegmatite_1_1_bind_a_s_t.html</Path>
-           </Node>
-           <Node>
-            <Name>pegmatite::BindAST&lt; AST::AddExpression &gt;</Name>
-            <Path>singletonpegmatite_1_1_bind_a_s_t.html</Path>
-           </Node>
-           <Node>
-            <Name>pegmatite::BindAST&lt; AST::DivideExpression &gt;</Name>
-            <Path>singletonpegmatite_1_1_bind_a_s_t.html</Path>
-           </Node>
-           <Node>
-            <Name>pegmatite::BindAST&lt; AST::MultiplyExpression &gt;</Name>
-            <Path>singletonpegmatite_1_1_bind_a_s_t.html</Path>
-           </Node>
-           <Node>
-            <Name>pegmatite::BindAST&lt; AST::Number &gt;</Name>
-            <Path>singletonpegmatite_1_1_bind_a_s_t.html</Path>
-           </Node>
-           <Node>
-            <Name>pegmatite::BindAST&lt; AST::SubtractExpression &gt;</Name>
-            <Path>singletonpegmatite_1_1_bind_a_s_t.html</Path>
-           </Node>
-           <Node>
             <Name>fabrique::Bytestream</Name>
             <Path>classfabrique_1_1_bytestream.html</Path>
-           </Node>
-           <Node>
-            <Name>Parser::CalculatorGrammar</Name>
-            <Path>struct_parser_1_1_calculator_grammar.html</Path>
            </Node>
            <Node>
             <Name>fabrique::dag::Callable</Name>
@@ -6695,10 +4704,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>pegmatite::Context</Name>
-            <Path>classpegmatite_1_1_context.html</Path>
-           </Node>
-           <Node>
             <Name>fabrique::dag::DAGBuilder::Context</Name>
             <Path>classfabrique_1_1dag_1_1_d_a_g_builder_1_1_context.html</Path>
             <Subnodes>
@@ -6711,14 +4716,6 @@
            <Node>
             <Name>fabrique::dag::DAGBuilder</Name>
             <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
-           </Node>
-           <Node>
-            <Name>DebugState</Name>
-            <Path>class_debug_state.html</Path>
-           </Node>
-           <Node>
-            <Name>option::Descriptor</Name>
-            <Path>structoption_1_1_descriptor.html</Path>
            </Node>
            <Node>
             <Name>fabrique::plugin::Plugin::Descriptor</Name>
@@ -6775,16 +4772,6 @@
              <Node>
               <Name>fabrique::UserError</Name>
               <Path>classfabrique_1_1_user_error.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>pegmatite::Expr</Name>
-            <Path>classpegmatite_1_1_expr.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>pegmatite::CharacterExpr</Name>
-              <Path>classpegmatite_1_1_character_expr.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -7045,78 +5032,8 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>pegmatite::Input</Name>
-            <Path>classpegmatite_1_1_input.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>pegmatite::AsciiFileInput</Name>
-              <Path>structpegmatite_1_1_ascii_file_input.html</Path>
-             </Node>
-             <Node>
-              <Name>pegmatite::StringInput</Name>
-              <Path>classpegmatite_1_1_string_input.html</Path>
-             </Node>
-             <Node>
-              <Name>pegmatite::UnicodeVectorInput</Name>
-              <Path>classpegmatite_1_1_unicode_vector_input.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>pegmatite::InputRange</Name>
-            <Path>classpegmatite_1_1_input_range.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>pegmatite::Error</Name>
-              <Path>classpegmatite_1_1_error.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>option::PrintUsageImplementation::IStringWriter</Name>
-            <Path>structoption_1_1_print_usage_implementation_1_1_i_string_writer.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>option::PrintUsageImplementation::FunctionWriter&lt; Function &gt;</Name>
-              <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-             </Node>
-             <Node>
-              <Name>option::PrintUsageImplementation::OStreamWriter&lt; OStream &gt;</Name>
-              <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-             </Node>
-             <Node>
-              <Name>option::PrintUsageImplementation::StreamWriter&lt; Function, Stream &gt;</Name>
-              <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-             </Node>
-             <Node>
-              <Name>option::PrintUsageImplementation::SyscallWriter&lt; Syscall &gt;</Name>
-              <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-             </Node>
-             <Node>
-              <Name>option::PrintUsageImplementation::TemporaryWriter&lt; Temporary &gt;</Name>
-              <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>pegmatite::Input::iterator</Name>
-            <Path>classpegmatite_1_1_input_1_1iterator.html</Path>
-           </Node>
-           <Node>
-            <Name>option::PrintUsageImplementation::LinePartIterator</Name>
-            <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-           </Node>
-           <Node>
-            <Name>option::PrintUsageImplementation::LineWrapper</Name>
-            <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-           </Node>
-           <Node>
             <Name>fabrique::plugin::Loader</Name>
             <Path>classfabrique_1_1plugin_1_1_loader.html</Path>
-           </Node>
-           <Node>
-            <Name>option::Option</Name>
-            <Path>classoption_1_1_option.html</Path>
            </Node>
            <Node>
             <Name>fabrique::OptionallyTyped</Name>
@@ -7129,32 +5046,8 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>option::Parser</Name>
-            <Path>classoption_1_1_parser.html</Path>
-           </Node>
-           <Node>
             <Name>fabrique::ast::Parser</Name>
             <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-           </Node>
-           <Node>
-            <Name>pegmatite::ParserDelegate</Name>
-            <Path>structpegmatite_1_1_parser_delegate.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>pegmatite::ASTParserDelegate</Name>
-              <Path>classpegmatite_1_1_a_s_t_parser_delegate.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Parser::CalculatorParser</Name>
-                <Path>class_parser_1_1_calculator_parser.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>pegmatite::ParserPosition</Name>
-            <Path>structpegmatite_1_1_parser_position.html</Path>
            </Node>
            <Node>
             <Name>fabrique::Printable</Name>
@@ -7267,16 +5160,8 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>option::PrintUsageImplementation</Name>
-            <Path>structoption_1_1_print_usage_implementation.html</Path>
-           </Node>
-           <Node>
             <Name>fabrique::plugin::Registry</Name>
             <Path>classfabrique_1_1plugin_1_1_registry.html</Path>
-           </Node>
-           <Node>
-            <Name>pegmatite::Rule</Name>
-            <Path>classpegmatite_1_1_rule.html</Path>
            </Node>
            <Node>
             <Name>fabrique::ast::EvalContext::Scope</Name>
@@ -7287,16 +5172,6 @@
             <Path>classfabrique_1_1ast_1_1_eval_context_1_1_scoped_value_name.html</Path>
            </Node>
            <Node>
-            <Name>shared_ptr</Name>
-            <Path></Path>
-            <Subnodes>
-             <Node>
-              <Name>pegmatite::ExprPtr</Name>
-              <Path>structpegmatite_1_1_expr_ptr.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>fabrique::SharedLibrary</Name>
             <Path>classfabrique_1_1_shared_library.html</Path>
             <Subnodes>
@@ -7305,10 +5180,6 @@
               <Path>classfabrique_1_1_posix_shared_library.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>option::Stats</Name>
-            <Path>structoption_1_1_stats.html</Path>
            </Node>
            <Node>
             <Name>fabrique::TypeContext</Name>
@@ -7383,16 +5254,6 @@
              <Node>
               <Name>fabrique::dag::Formatter</Name>
               <Path>classfabrique_1_1dag_1_1_formatter.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>DotFormatter</Name>
-                <Path>class_dot_formatter.html</Path>
-               </Node>
-               <Node>
-                <Name>NinjaFormatter</Name>
-                <Path>class_ninja_formatter.html</Path>
-               </Node>
-              </Subnodes>
              </Node>
             </Subnodes>
            </Node>
@@ -7407,42 +5268,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>yy_buffer_state</Name>
-            <Path>structyy__buffer__state.html</Path>
-           </Node>
-           <Node>
-            <Name>yy_trans_info</Name>
-            <Path>structyy__trans__info.html</Path>
-           </Node>
-           <Node>
             <Name>yyFlexLexer</Name>
             <Path></Path>
             <Subnodes>
              <Node>
               <Name>fabrique::Lexer</Name>
               <Path>classfabrique_1_1_lexer.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>YYSTACKDATA</Name>
-            <Path>struct_y_y_s_t_a_c_k_d_a_t_a.html</Path>
-           </Node>
-           <Node>
-            <Name>YYSTYPE</Name>
-            <Path>union_y_y_s_t_y_p_e.html</Path>
-           </Node>
-           <Node>
-            <Name>RegexLexer</Name>
-            <Path></Path>
-            <Subnodes>
-             <Node>
-              <Name>fablexer.lexer.FabLexer</Name>
-              <Path>classfablexer_1_1lexer_1_1_fab_lexer.html</Path>
-             </Node>
-             <Node>
-              <Name>fablexer.lexer.FabLexer</Name>
-              <Path>classfablexer_1_1lexer_1_1_fab_lexer.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -7455,206 +5286,18 @@
            <Node>
             <Name>All</Name>
             <Path>functions.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>a</Name>
-              <Path>functions.html</Path>
-             </Node>
-             <Node>
-              <Name>b</Name>
-              <Path>functions_b.html</Path>
-             </Node>
-             <Node>
-              <Name>c</Name>
-              <Path>functions_c.html</Path>
-             </Node>
-             <Node>
-              <Name>d</Name>
-              <Path>functions_d.html</Path>
-             </Node>
-             <Node>
-              <Name>e</Name>
-              <Path>functions_e.html</Path>
-             </Node>
-             <Node>
-              <Name>f</Name>
-              <Path>functions_f.html</Path>
-             </Node>
-             <Node>
-              <Name>g</Name>
-              <Path>functions_g.html</Path>
-             </Node>
-             <Node>
-              <Name>h</Name>
-              <Path>functions_h.html</Path>
-             </Node>
-             <Node>
-              <Name>i</Name>
-              <Path>functions_i.html</Path>
-             </Node>
-             <Node>
-              <Name>k</Name>
-              <Path>functions_k.html</Path>
-             </Node>
-             <Node>
-              <Name>l</Name>
-              <Path>functions_l.html</Path>
-             </Node>
-             <Node>
-              <Name>m</Name>
-              <Path>functions_m.html</Path>
-             </Node>
-             <Node>
-              <Name>n</Name>
-              <Path>functions_n.html</Path>
-             </Node>
-             <Node>
-              <Name>o</Name>
-              <Path>functions_o.html</Path>
-             </Node>
-             <Node>
-              <Name>p</Name>
-              <Path>functions_p.html</Path>
-             </Node>
-             <Node>
-              <Name>r</Name>
-              <Path>functions_r.html</Path>
-             </Node>
-             <Node>
-              <Name>s</Name>
-              <Path>functions_s.html</Path>
-             </Node>
-             <Node>
-              <Name>t</Name>
-              <Path>functions_t.html</Path>
-             </Node>
-             <Node>
-              <Name>u</Name>
-              <Path>functions_u.html</Path>
-             </Node>
-             <Node>
-              <Name>v</Name>
-              <Path>functions_v.html</Path>
-             </Node>
-             <Node>
-              <Name>w</Name>
-              <Path>functions_w.html</Path>
-             </Node>
-             <Node>
-              <Name>x</Name>
-              <Path>functions_x.html</Path>
-             </Node>
-             <Node>
-              <Name>y</Name>
-              <Path>functions_y.html</Path>
-             </Node>
-             <Node>
-              <Name>~</Name>
-              <Path>functions_~.html</Path>
-             </Node>
-            </Subnodes>
            </Node>
            <Node>
             <Name>Functions</Name>
             <Path>functions_func.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>a</Name>
-              <Path>functions_func.html</Path>
-             </Node>
-             <Node>
-              <Name>b</Name>
-              <Path>functions_func_b.html</Path>
-             </Node>
-             <Node>
-              <Name>c</Name>
-              <Path>functions_func_c.html</Path>
-             </Node>
-             <Node>
-              <Name>d</Name>
-              <Path>functions_func_d.html</Path>
-             </Node>
-             <Node>
-              <Name>e</Name>
-              <Path>functions_func_e.html</Path>
-             </Node>
-             <Node>
-              <Name>f</Name>
-              <Path>functions_func_f.html</Path>
-             </Node>
-             <Node>
-              <Name>g</Name>
-              <Path>functions_func_g.html</Path>
-             </Node>
-             <Node>
-              <Name>i</Name>
-              <Path>functions_func_i.html</Path>
-             </Node>
-             <Node>
-              <Name>k</Name>
-              <Path>functions_func_k.html</Path>
-             </Node>
-             <Node>
-              <Name>l</Name>
-              <Path>functions_func_l.html</Path>
-             </Node>
-             <Node>
-              <Name>m</Name>
-              <Path>functions_func_m.html</Path>
-             </Node>
-             <Node>
-              <Name>n</Name>
-              <Path>functions_func_n.html</Path>
-             </Node>
-             <Node>
-              <Name>o</Name>
-              <Path>functions_func_o.html</Path>
-             </Node>
-             <Node>
-              <Name>p</Name>
-              <Path>functions_func_p.html</Path>
-             </Node>
-             <Node>
-              <Name>r</Name>
-              <Path>functions_func_r.html</Path>
-             </Node>
-             <Node>
-              <Name>s</Name>
-              <Path>functions_func_s.html</Path>
-             </Node>
-             <Node>
-              <Name>t</Name>
-              <Path>functions_func_t.html</Path>
-             </Node>
-             <Node>
-              <Name>u</Name>
-              <Path>functions_func_u.html</Path>
-             </Node>
-             <Node>
-              <Name>x</Name>
-              <Path>functions_func_x.html</Path>
-             </Node>
-             <Node>
-              <Name>~</Name>
-              <Path>functions_func_~.html</Path>
-             </Node>
-            </Subnodes>
            </Node>
            <Node>
             <Name>Variables</Name>
             <Path>functions_vars.html</Path>
            </Node>
            <Node>
-            <Name>Typedefs</Name>
-            <Path>functions_type.html</Path>
-           </Node>
-           <Node>
             <Name>Enumerations</Name>
             <Path>functions_enum.html</Path>
-           </Node>
-           <Node>
-            <Name>Related Functions</Name>
-            <Path>functions_rela.html</Path>
            </Node>
           </Subnodes>
          </Node>
@@ -9735,64 +7378,6 @@
              <Node>
               <Name>Dot.cc</Name>
               <Path>_dot_8cc.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>DotFormatter</Name>
-                <Path>class_dot_formatter.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>a98a3a72f93cac96b98e5c756f430c3f8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>a291b75daf5eec6c6745ded17ff6a0116</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>adbb28e7e1be5b60564db74ea7bd0736c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>a36c5f188f9f4890e3aecd5ff62fa8fd8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>a9badb6ad140bdca6754aaa463ccbdfd7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>a43d34f0935b5866ef2ee2c2de8df4ff5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>a9e96415e3c4b6bd1e7b6f4163c15182e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>a97252d15ffee51e69a9f0d1336117fc3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>aa291f5ee66666ebad9d70d6982e0dec5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_dot_formatter.html</Path>
-                  <Anchor>aba090fc1a96b9f187eca9b21fe91c1ba</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
              </Node>
              <Node>
               <Name>Dot.h</Name>
@@ -9872,64 +7457,6 @@
              <Node>
               <Name>Ninja.cc</Name>
               <Path>_ninja_8cc.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>NinjaFormatter</Name>
-                <Path>class_ninja_formatter.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>a0298af7b5d190abe88a29026f7edb45f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>a14ba4ec638e61d88e4d5fe51f9c2a786</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>a221e9aff40c5073f2691b0ca7eec1ee3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>a4035e650300feee094127f6edf199e55</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>a38b6769907beea5f5567d72a2b4c967b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>a12db4ce9b8712878d94bdee1118cc050</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>a0972a9245eea977788c6293d2e7fa20f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>a198539316e601aea96af16d32e0b85ea</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>a51e7e1737cd53fc1877060758eddb6d3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Format</Name>
-                  <Path>class_ninja_formatter.html</Path>
-                  <Anchor>aac19789f4345543832ee8da6ce41796a</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
              </Node>
              <Node>
               <Name>Ninja.h</Name>
@@ -9983,72 +7510,6 @@
                 </Subnodes>
                </Node>
               </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>bootstrap</Name>
-            <Path>dir_484e16b7f23165de9367bba0deb2c68e.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>make</Name>
-              <Path>dir_05ad96ece6843071386805214b501f5f.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Parsing</Name>
-                <Path>dir_dbd722d618799af8bebf5dcb7da39f2e.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>fab.lex.cc</Name>
-                  <Path>make_2_parsing_2fab_8lex_8cc_source.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>fab.lex.h</Name>
-                  <Path>make_2_parsing_2fab_8lex_8h_source.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>fab.yacc.cc</Name>
-                  <Path>make_2_parsing_2fab_8yacc_8cc_source.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>fab.yacc.h</Name>
-                  <Path>make_2_parsing_2fab_8yacc_8h_source.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ninja</Name>
-              <Path>dir_cbcd6ee84c10825b59a1782fef45fb5e.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Parsing</Name>
-                <Path>dir_c1cee3a7f141a46a86838330cd634eef.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>fab.lex.cc</Name>
-                  <Path>ninja_2_parsing_2fab_8lex_8cc_source.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>fab.lex.h</Name>
-                  <Path>ninja_2_parsing_2fab_8lex_8h_source.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>fab.yacc.cc</Name>
-                  <Path>ninja_2_parsing_2fab_8yacc_8cc_source.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>fab.yacc.h</Name>
-                  <Path>ninja_2_parsing_2fab_8yacc_8h_source.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>generate-ninja.py</Name>
-              <Path>generate-ninja_8py_source.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -10356,17 +7817,17 @@
                  <Node>
                   <Name>Target</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
-                  <Anchor>a10bcae2c630a84e312b14a209274454b</Anchor>
+                  <Anchor>adcc37f9286a3ef381df5f09418c12ce3</Anchor>
                  </Node>
                  <Node>
                   <Name>Target</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
-                  <Anchor>a5b49e87e1f180b0e00cf89a4e90871e0</Anchor>
+                  <Anchor>a50789f1055c147edb5431a99bebf2302</Anchor>
                  </Node>
                  <Node>
                   <Name>Target</Name>
                   <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
-                  <Anchor>acb08bc600421a7c9ac80466588637387</Anchor>
+                  <Anchor>a7332ae5968cc1220eab49bbe754d7586</Anchor>
                  </Node>
                  <Node>
                   <Name>typeContext</Name>
@@ -11311,62 +8772,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>Meta</Name>
-            <Path>dir_7795a02a4813dcd036f04e5f7854f185.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>pygments</Name>
-              <Path>dir_3d0318c3f2d14c17b75b0272e8d64e34.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>build</Name>
-                <Path>dir_bbbca02e2544e99f4fae920571db69b7.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>lib</Name>
-                  <Path>dir_31ff1cf79f22d0bb817aed42ad23408f.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>fablexer</Name>
-                    <Path>dir_f1405a4fe096d854ced2e50bd6247e71.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>__init__.py</Name>
-                      <Path>build_2lib_2fablexer_2____init_____8py_source.html</Path>
-                     </Node>
-                     <Node>
-                      <Name>lexer.py</Name>
-                      <Path>build_2lib_2fablexer_2lexer_8py_source.html</Path>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>fablexer</Name>
-                <Path>dir_e7da03bb85dbb98c2a6d0a8e6dc9b7f8.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>__init__.py</Name>
-                  <Path>fablexer_2____init_____8py_source.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>lexer.py</Name>
-                  <Path>fablexer_2lexer_8py_source.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>setup.py</Name>
-                <Path>setup_8py_source.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>Parsing</Name>
             <Path>dir_774ccf37e99696d00dcafeb8b57238c2.html</Path>
             <Subnodes>
@@ -11434,11 +8839,11 @@
              </Node>
              <Node>
               <Name>Parser.cc</Name>
-              <Path>_parsing_2_parser_8cc.html</Path>
+              <Path>_parser_8cc.html</Path>
               <Subnodes>
                <Node>
                 <Name>yyparse</Name>
-                <Path>_parsing_2_parser_8cc.html</Path>
+                <Path>_parser_8cc.html</Path>
                 <Anchor>a90ca5a64e526b0515ece5e2bd159829c</Anchor>
                </Node>
               </Subnodes>
@@ -11454,62 +8859,62 @@
                  <Node>
                   <Name>Parser</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>acb8910a3757759fd6430321e6eeed538</Anchor>
+                  <Anchor>afe839ab59601414b894f494abe005f0d</Anchor>
                  </Node>
                  <Node>
                   <Name>Arg</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ab68e17e8c53dd1f5ec6f6328851de179</Anchor>
+                  <Anchor>ac5d5bd8e1313582028fd4336473b6e63</Anchor>
                  </Node>
                  <Node>
                   <Name>BinaryOp</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>add450bc9d6bc39a6bcbdc55ae1a2eab5</Anchor>
+                  <Anchor>a7848c1c286a092bb923e2936b5d255dd</Anchor>
                  </Node>
                  <Node>
                   <Name>CompoundExpr</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a82da79252761dff1aba4e3ca4adb8112</Anchor>
+                  <Anchor>af85259311802109bbc296ef41246a612</Anchor>
                  </Node>
                  <Node>
                   <Name>CreateCall</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a39491420ba708a06b829f7efbbadec19</Anchor>
+                  <Anchor>afc7e14957fd67f7db1d51890db8a59f4</Anchor>
                  </Node>
                  <Node>
                   <Name>DefineAction</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ada2645e244e5a6792ad28fdf1ce33dbe</Anchor>
+                  <Anchor>ab5290ca51e372fbce816cbc809352acd</Anchor>
                  </Node>
                  <Node>
                   <Name>DefineFunction</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a4b3935c7662b2d8b43ca37c6153bbba3</Anchor>
+                  <Anchor>a42d5efdd35ee76b2ff07e85374261166</Anchor>
                  </Node>
                  <Node>
                   <Name>DefineValue</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a9dc51acc29355902eafc72d72eb1abeb</Anchor>
+                  <Anchor>a83f6da869247c5ae57ed8120ea5c1ec5</Anchor>
                  </Node>
                  <Node>
                   <Name>DefineValue</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>af2d12289ae04636ef9bc113d026084cd</Anchor>
+                  <Anchor>accd019cacc7604bda7564ed95be45a73</Anchor>
                  </Node>
                  <Node>
                   <Name>EnterScope</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a6987705731194a8cc25361d0ebe99815</Anchor>
+                  <Anchor>a09d0f99793b8fda305b819f5ba37b507</Anchor>
                  </Node>
                  <Node>
                   <Name>EnterScope</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>af81cb1c0f112b1c042db6a38a2a4dccd</Anchor>
+                  <Anchor>a81e22949ebb1a9ae710d0a914f40b939</Anchor>
                  </Node>
                  <Node>
                   <Name>EnterScope</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a659373a762eee54a012b3f2a060dd2a1</Anchor>
+                  <Anchor>a7db7b334b9e8900c3b06e476977815d2</Anchor>
                  </Node>
                  <Node>
                   <Name>errors</Name>
@@ -11519,22 +8924,22 @@
                  <Node>
                   <Name>False</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>abf8b10a005da549945e9d776504390c6</Anchor>
+                  <Anchor>a5d1e9f87153e08d30ad89b668e5850c8</Anchor>
                  </Node>
                  <Node>
                   <Name>FieldAccess</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a689560223d8b07d493747700981ea567</Anchor>
+                  <Anchor>af5d411b52ada67df5f678c36959eff63</Anchor>
                  </Node>
                  <Node>
                   <Name>FieldQuery</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>afb5edfc8698a963aae621bd7880e283f</Anchor>
+                  <Anchor>ae1db801da4d690301fbb980fe7369cea</Anchor>
                  </Node>
                  <Node>
                   <Name>File</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a0689bda0f5e609532575bcb97664907c</Anchor>
+                  <Anchor>a5af46190641c34de734d0e0a70a3b39e</Anchor>
                  </Node>
                  <Node>
                   <Name>files</Name>
@@ -11544,27 +8949,27 @@
                  <Node>
                   <Name>Files</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a908623ea409d17f09eebf92217cb6829</Anchor>
+                  <Anchor>ac8bcf477310b724a982d5c7734a32c69</Anchor>
                  </Node>
                  <Node>
                   <Name>FnType</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a95e5fa6d8790473f3b604a7254d8d1e9</Anchor>
+                  <Anchor>a2c35f666939ce85fabacbfdcf085ba51</Anchor>
                  </Node>
                  <Node>
                   <Name>Foreach</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>afe9b7e6e6478d6a09c62382ccaac265e</Anchor>
+                  <Anchor>a97d6b997565f00da1a6cb0f219e3e47c</Anchor>
                  </Node>
                  <Node>
                   <Name>getType</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ad5b0cef73d7ac263e03f25f347b28196</Anchor>
+                  <Anchor>a0fe3155052c90679063d1ef7b60d6668</Anchor>
                  </Node>
                  <Node>
                   <Name>getType</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ab8b45a2e179304398819fff2ad73a75d</Anchor>
+                  <Anchor>a86ad7f7c71c584ea8f6b8d2ddbea07f9</Anchor>
                  </Node>
                  <Node>
                   <Name>Id</Name>
@@ -11574,92 +8979,92 @@
                  <Node>
                   <Name>Id</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a0a06f211980b2429c92e16c01752ac11</Anchor>
+                  <Anchor>a5301c31fca4e9f2b4d5fefc8ffc0e36e</Anchor>
                  </Node>
                  <Node>
                   <Name>IfElse</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a044c3bc00f40b4918ffd38cdc0deee3d</Anchor>
+                  <Anchor>a2e7f2d13080be423b80f3a5e891b0025</Anchor>
                  </Node>
                  <Node>
                   <Name>ImportModule</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a47568627a2fd1d7239c468f632821f60</Anchor>
+                  <Anchor>a0c994e581223c7f8d22a2e21669055c7</Anchor>
                  </Node>
                  <Node>
                   <Name>ListOf</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a0448c3c76783a7d515786bb8845faf81</Anchor>
+                  <Anchor>af546f45a11e1e98f81c2af31f933104f</Anchor>
                  </Node>
                  <Node>
                   <Name>Map</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a910305ac8537480bfdc08451cc75a01a</Anchor>
+                  <Anchor>a003e45d6787d842d2646f0a750e94173</Anchor>
                  </Node>
                  <Node>
                   <Name>Param</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>acb92b09b1c5b86f4c43c01545ead5960</Anchor>
+                  <Anchor>a3c35d13bc1fda766802593d174bac2ba</Anchor>
                  </Node>
                  <Node>
                   <Name>ParseDefinitions</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>aac0dbc5792f2ae4c84ca763bed98d465</Anchor>
+                  <Anchor>a19c00eae34fca8f38408e940bcb99144</Anchor>
                  </Node>
                  <Node>
                   <Name>ParseFile</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a4d4e6971b656b22439171a2b5e13d93a</Anchor>
+                  <Anchor>ab25b9be1cc1a2d0e7aa1bff71ac12337</Anchor>
                  </Node>
                  <Node>
                   <Name>ParseInt</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a85d46be6ab2e50d78da3b39ad06516dd</Anchor>
+                  <Anchor>a38ddee2f3cf7bbbb6e3739e599153317</Anchor>
                  </Node>
                  <Node>
                   <Name>ParseString</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>ac62a6159c2dbf14e33c2b57ad5d8d7a8</Anchor>
+                  <Anchor>a813c3d3c64938fec3b5376b7beff1195</Anchor>
                  </Node>
                  <Node>
                   <Name>Reference</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a14cd655f3da25fd3e5c7af74d19411e7</Anchor>
+                  <Anchor>a3d0d7cdac2972d4c47937dd7dbd554a3</Anchor>
                  </Node>
                  <Node>
                   <Name>Reference</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a078733c6af9ddf3bcab9ea791b626f95</Anchor>
+                  <Anchor>ab4ca5eacbd6e067fde9d39ba85d63288</Anchor>
                  </Node>
                  <Node>
                   <Name>Some</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>afc072bb7627e9bdfa26d1f1df4f70860</Anchor>
+                  <Anchor>a82284e4c2c90df9c781bb9f432772cd6</Anchor>
                  </Node>
                  <Node>
                   <Name>StructInstantiation</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a5e80e55157bc8697b7aac3358b96feb2</Anchor>
+                  <Anchor>a8fba575455aeb357b661b0c7d9d3bd10</Anchor>
                  </Node>
                  <Node>
                   <Name>StructType</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a4d262213eaf8d982626dc73ea2ce299f</Anchor>
+                  <Anchor>abb927677fd12d6deacee8217e3a6c13d</Anchor>
                  </Node>
                  <Node>
                   <Name>TracePoint</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>aefc3cdf8cb72491241b18775b6bb427b</Anchor>
+                  <Anchor>aa8a78d90eb79dbc59d7786bd1693d8d2</Anchor>
                  </Node>
                  <Node>
                   <Name>True</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a1a795857e35b653ffa6c7bf7e290b33c</Anchor>
+                  <Anchor>a0828306832dbbb87d23559206da32b14</Anchor>
                  </Node>
                  <Node>
                   <Name>UnaryOp</Name>
                   <Path>classfabrique_1_1ast_1_1_parser.html</Path>
-                  <Anchor>a33938e373a1b6643da0f4cb3b2700dc0</Anchor>
+                  <Anchor>a3942f8e5b935bfa5021da4b32f489099</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -12110,37 +9515,6 @@
               <Name>Bytestream.cc</Name>
               <Path>_bytestream_8cc.html</Path>
               <Subnodes>
-               <Node>
-                <Name>DebugState</Name>
-                <Path>class_debug_state.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>get</Name>
-                  <Path>class_debug_state.html</Path>
-                  <Anchor>ac98f315816161fa327b93d0e26b7f94e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>match</Name>
-                  <Path>class_debug_state.html</Path>
-                  <Anchor>a2b0a2cdd84beae8db2882089b76615da</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>null</Name>
-                  <Path>class_debug_state.html</Path>
-                  <Anchor>af793ae49386e9744f2932a9070bf360d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>out</Name>
-                  <Path>class_debug_state.html</Path>
-                  <Anchor>a870c18ca0e653c45ef90a7f3ba2105ad</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>pattern</Name>
-                  <Path>class_debug_state.html</Path>
-                  <Anchor>a753789304a0a12a4f5ffffb557fea597</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -13965,945 +11339,6 @@
                   <Anchor>af63e09a8c23a8f81db0e2f901b189f87</Anchor>
                  </Node>
                 </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>vendor</Name>
-            <Path>dir_c5da75fdc1d6c57999112ed830c87a3c.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>Pegmatite</Name>
-              <Path>dir_df923098452b27d0777686b9bfd44813.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>examples</Name>
-                <Path>dir_613887c8abccbacbb2c7fe3d4ac124ee.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>calculator</Name>
-                  <Path>dir_284dcca6ebc766d13310b8047f51ec7a.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>calculator.cc</Name>
-                    <Path>calculator_8cc_source.html</Path>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>ast.cc</Name>
-                <Path>ast_8cc_source.html</Path>
-               </Node>
-               <Node>
-                <Name>ast.hh</Name>
-                <Path>ast_8hh_source.html</Path>
-               </Node>
-               <Node>
-                <Name>parser.cc</Name>
-                <Path>vendor_2_pegmatite_2_parser_8cc_source.html</Path>
-               </Node>
-               <Node>
-                <Name>parser.hh</Name>
-                <Path>parser_8hh_source.html</Path>
-               </Node>
-               <Node>
-                <Name>pegmatite.hh</Name>
-                <Path>pegmatite_8hh_source.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>optionparser.h</Name>
-              <Path>optionparser_8h.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Descriptor</Name>
-                <Path>structoption_1_1_descriptor.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>check_arg</Name>
-                  <Path>structoption_1_1_descriptor.html</Path>
-                  <Anchor>aa5d675dba0214a4abd73007ff163cc67</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>help</Name>
-                  <Path>structoption_1_1_descriptor.html</Path>
-                  <Anchor>a9045b19311533e1b8a08645d57149c79</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>index</Name>
-                  <Path>structoption_1_1_descriptor.html</Path>
-                  <Anchor>a1fee8ac44f529c99ac2b1149b4c391b1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>longopt</Name>
-                  <Path>structoption_1_1_descriptor.html</Path>
-                  <Anchor>a470c449dfa894c9bfda2dae026142b4b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>shortopt</Name>
-                  <Path>structoption_1_1_descriptor.html</Path>
-                  <Anchor>a0dba4ccca59c19d6ed4081391fca5adb</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>type</Name>
-                  <Path>structoption_1_1_descriptor.html</Path>
-                  <Anchor>a1b220dabd8aad075fa441a80f9b9343c</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Option</Name>
-                <Path>classoption_1_1_option.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Option</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>aa2810152fc23b14175b115d1a7d38095</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Option</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a385221e2a8f37c548f0d5777bfddb216</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Option</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a4053240fecad1a3b1d8e4dc06b7aa8c4</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>append</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a59030822a1ec4e667e6c288d7e5ec961</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>count</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a8a632dcd89af60fe0806deb756c08f14</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>first</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>abb4e13cd7c90999c8a6b1f871cece283</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>index</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>ac0acba91bbfcca0c35cfc54f197b15d2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>isFirst</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>aee7a11f90cf4b70f65fb6bdf4db2c922</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>isLast</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>ad60789506c3df60dedd4a006af56ece9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>last</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>afe2aff68191e55b59c53fac3dbbcd7c3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>next</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a59ae9aed505f4d410633bb36478a32be</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nextwrap</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>ae8d8c058af3c781cb1d444998df48fef</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator const Option *</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>aaaeedf023bc3f5eee0b199c64d8fe1ec</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator Option *</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>ac5b9235d79208035d97e41fe17ba04d6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>adb4b44f3778df8f28a04c48bd1b4a72b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>prev</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a4d12001a91b0b35cf47437d0c60d2b52</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>prevwrap</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a1226e45dc2de30f269b2aff1784bbee7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>type</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a6560fa0526e2affd87d5a10622336af4</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>arg</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a402be734987458364b0f473acae36238</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>desc</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>af8d664a7b5de1425008b1812a90a0c23</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>name</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a02a76b4896abd22d0ba8514362261de9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>namelen</Name>
-                  <Path>classoption_1_1_option.html</Path>
-                  <Anchor>a3aa2957b19ad5815873441b415d56050</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Arg</Name>
-                <Path>structoption_1_1_arg.html</Path>
-                <Subnodes>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Stats</Name>
-                <Path>structoption_1_1_stats.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>CountOptionsAction</Name>
-                  <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>CountOptionsAction</Name>
-                    <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-                    <Anchor>a24a38b87ad129b0e12660bd2019ba284</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>perform</Name>
-                    <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-                    <Anchor>a29ab8a68d0a30736b99b4d2e5dece489</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>Stats</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>a8660722c76e65d9328313fb360bdd282</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Stats</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>a71373ec2b28842f45593e4405f7bc8ec</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Stats</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>a43ec104fdb0b8ae6148d04f3ad3d3a75</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Stats</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>ab5cafb7127099ef60cfb4cea205ad617</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Stats</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>a9b8b4f275efaac6a509df75179929c70</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>add</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>aa77e2a8b1704527d2d087820f4456143</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>add</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>a2aa7bc64a85dcd9c59576f6a11c2b747</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>add</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>a4fc47be5db7f52016e3142a9b9dd0d1e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>add</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>ad659604438f79c79f5bc009f2a16ca92</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>buffer_max</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>a2c9a7b4174f91ba8bcadaa9ad6f0db06</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>options_max</Name>
-                  <Path>structoption_1_1_stats.html</Path>
-                  <Anchor>a8121787feb1c7db84fca3ccb012b0473</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Parser</Name>
-                <Path>classoption_1_1_parser.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Action</Name>
-                  <Path>structoption_1_1_parser_1_1_action.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>finished</Name>
-                    <Path>structoption_1_1_parser_1_1_action.html</Path>
-                    <Anchor>a3ec558b51e34d33d116f14587289e032</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>perform</Name>
-                    <Path>structoption_1_1_parser_1_1_action.html</Path>
-                    <Anchor>a176b5f783bb35eb015b6d2c09422457d</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>StoreOptionAction</Name>
-                  <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>StoreOptionAction</Name>
-                    <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                    <Anchor>aaa638cdd712202e3e10471d4299f7f9d</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>finished</Name>
-                    <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                    <Anchor>a617f675ef50a72ae36ce91f065bc8441</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>perform</Name>
-                    <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                    <Anchor>a8931919fba5516377c202920db2b2f84</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>Parser</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>a895e9a1db19f1a026ee6a7412de17d04</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Parser</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>aa747e9792c9c08ede32b6c323438db71</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Parser</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>a78b4c7d73fff17204dd908b1b167dec9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Parser</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>ae4100da4b662937ead22484e6cfc7cec</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Parser</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>a23ee244634a38d05f6c4cb1e3692a8a9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>error</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>a2caa149140067b4d13e4d7a104bb3090</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nonOption</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>aeeafbf2892a5aca90b89803b2b1cb031</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nonOptions</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>a2c11b050f4248d71758dda52c5f9154d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nonOptionsCount</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>aa64a6a7c196993a1b20d48e8ddd12a34</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>optionsCount</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>aee62badd2a19a5b88cbc4a9b11813b82</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>parse</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>a6e0b5778d1cfbd6cd51240e74d01e138</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>parse</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>ab26280e3b2ebc2f2fc4ed8b3b1e2a39c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>parse</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>a41885a7308249c8532714e15b36106bd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>parse</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>ad40585faa23a97a186cf9a45b8c2b42b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Stats</Name>
-                  <Path>classoption_1_1_parser.html</Path>
-                  <Anchor>a7183dc3501d1c87153f9c0d41f869460</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Action</Name>
-                <Path>structoption_1_1_parser_1_1_action.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>finished</Name>
-                  <Path>structoption_1_1_parser_1_1_action.html</Path>
-                  <Anchor>a3ec558b51e34d33d116f14587289e032</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>perform</Name>
-                  <Path>structoption_1_1_parser_1_1_action.html</Path>
-                  <Anchor>a176b5f783bb35eb015b6d2c09422457d</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>CountOptionsAction</Name>
-                <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>CountOptionsAction</Name>
-                  <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-                  <Anchor>a24a38b87ad129b0e12660bd2019ba284</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>perform</Name>
-                  <Path>classoption_1_1_stats_1_1_count_options_action.html</Path>
-                  <Anchor>a29ab8a68d0a30736b99b4d2e5dece489</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>StoreOptionAction</Name>
-                <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>StoreOptionAction</Name>
-                  <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                  <Anchor>aaa638cdd712202e3e10471d4299f7f9d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>finished</Name>
-                  <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                  <Anchor>a617f675ef50a72ae36ce91f065bc8441</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>perform</Name>
-                  <Path>classoption_1_1_parser_1_1_store_option_action.html</Path>
-                  <Anchor>a8931919fba5516377c202920db2b2f84</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>PrintUsageImplementation</Name>
-                <Path>structoption_1_1_print_usage_implementation.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>FunctionWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>FunctionWriter</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                    <Anchor>adc6c3f7ba11b3cad65c018955bab47e5</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator()</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                    <Anchor>aa8e8f237845e210e36ca431d7e503a70</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>write</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                    <Anchor>a3442e05eb04d2b1ee321193f5b10557b</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>IStringWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_i_string_writer.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>operator()</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_i_string_writer.html</Path>
-                    <Anchor>a497172d92e09072a16996c127dd3def8</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>LinePartIterator</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>LinePartIterator</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>a8a61fef9ba907fd4e10ff0fd772ee5e7</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>column</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>afa41382acabcd37ca70f7e8b9994b8c0</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>data</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>ada26229add63bd479c7877f2f8e32908</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>length</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>a557e521cb41e951a34df2737d25f9dce</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>line</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>a8ad1201d95bf0bd9453a731da8c15a10</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>next</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>a58b8743da57de2d108472eee60324df6</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>nextRow</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>a55d5c3e50f9c1d8cd48f518899a5a48c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>nextTable</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>afe43ca12d399ed3c871e4dc5bf63356e</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>restartRow</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>a96c448939f33a811174ea7b5addb312e</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>restartTable</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>a0cbe8ed79ab4958a70b957598dd76fa6</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>screenLength</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                    <Anchor>a03b6fedfe805d7fc73216da5cd33270e</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>LineWrapper</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>LineWrapper</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                    <Anchor>a288f16b6e928e9f54f48e13ff6817e95</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>flush</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                    <Anchor>a9383db9fd3fb18ce091db63ce0b149fd</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>process</Name>
-                    <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                    <Anchor>add20eca40865ad892d6c28b412ac14d5</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>OStreamWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>OStreamWriter</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                    <Anchor>abf38eb181267e96d86de1ea09ad22c3f</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator()</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                    <Anchor>a323890fba123ad476fa2471029fc7b23</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ostream</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                    <Anchor>a9b808696e204a834acd4362c62b9f4c1</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>StreamWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>StreamWriter</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                    <Anchor>aa6ab48848dcbeb9e2cbde5d05ec35005</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator()</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                    <Anchor>ae39bc6378c22d24a490104b7764c37b7</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>fwrite</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                    <Anchor>a6f54abc9a3f7f00206d87a3619713954</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>stream</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                    <Anchor>ab4bfd31b1c37376505ccd4230f7f7ad9</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>SyscallWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>SyscallWriter</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                    <Anchor>ae4f8677dbd79b0a9238368e28014701a</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator()</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                    <Anchor>a61c1c010d9b67affd5f1208f0a3e9cf0</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>fd</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                    <Anchor>ae79409e3f85f8dbaa7ef87bb8d7fcf8a</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>write</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                    <Anchor>adc72b04cd74c69d0219b8b26589b8e5e</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>TemporaryWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>TemporaryWriter</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                    <Anchor>a0c65740b5a897ca2a2465d1c112882a8</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator()</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                    <Anchor>a674751ddfff63852b36c754878276b02</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>userstream</Name>
-                    <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                    <Anchor>a91d54cfcea7bb4072072506d46cc2cc8</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>IStringWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_i_string_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_i_string_writer.html</Path>
-                  <Anchor>a497172d92e09072a16996c127dd3def8</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>FunctionWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>FunctionWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                  <Anchor>adc6c3f7ba11b3cad65c018955bab47e5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                  <Anchor>aa8e8f237845e210e36ca431d7e503a70</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>write</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_function_writer.html</Path>
-                  <Anchor>a3442e05eb04d2b1ee321193f5b10557b</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>OStreamWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>OStreamWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                  <Anchor>abf38eb181267e96d86de1ea09ad22c3f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                  <Anchor>a323890fba123ad476fa2471029fc7b23</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ostream</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_o_stream_writer.html</Path>
-                  <Anchor>a9b808696e204a834acd4362c62b9f4c1</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>TemporaryWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>TemporaryWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                  <Anchor>a0c65740b5a897ca2a2465d1c112882a8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                  <Anchor>a674751ddfff63852b36c754878276b02</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>userstream</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_temporary_writer.html</Path>
-                  <Anchor>a91d54cfcea7bb4072072506d46cc2cc8</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>SyscallWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>SyscallWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                  <Anchor>ae4f8677dbd79b0a9238368e28014701a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                  <Anchor>a61c1c010d9b67affd5f1208f0a3e9cf0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>fd</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                  <Anchor>ae79409e3f85f8dbaa7ef87bb8d7fcf8a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>write</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_syscall_writer.html</Path>
-                  <Anchor>adc72b04cd74c69d0219b8b26589b8e5e</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>StreamWriter</Name>
-                <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>StreamWriter</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                  <Anchor>aa6ab48848dcbeb9e2cbde5d05ec35005</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator()</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                  <Anchor>ae39bc6378c22d24a490104b7764c37b7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>fwrite</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                  <Anchor>a6f54abc9a3f7f00206d87a3619713954</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>stream</Name>
-                  <Path>structoption_1_1_print_usage_implementation_1_1_stream_writer.html</Path>
-                  <Anchor>ab4bfd31b1c37376505ccd4230f7f7ad9</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>LinePartIterator</Name>
-                <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>LinePartIterator</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a8a61fef9ba907fd4e10ff0fd772ee5e7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>column</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>afa41382acabcd37ca70f7e8b9994b8c0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>data</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>ada26229add63bd479c7877f2f8e32908</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>length</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a557e521cb41e951a34df2737d25f9dce</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>line</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a8ad1201d95bf0bd9453a731da8c15a10</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>next</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a58b8743da57de2d108472eee60324df6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nextRow</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a55d5c3e50f9c1d8cd48f518899a5a48c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nextTable</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>afe43ca12d399ed3c871e4dc5bf63356e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>restartRow</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a96c448939f33a811174ea7b5addb312e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>restartTable</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a0cbe8ed79ab4958a70b957598dd76fa6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>screenLength</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_part_iterator.html</Path>
-                  <Anchor>a03b6fedfe805d7fc73216da5cd33270e</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>LineWrapper</Name>
-                <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>LineWrapper</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                  <Anchor>a288f16b6e928e9f54f48e13ff6817e95</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>flush</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                  <Anchor>a9383db9fd3fb18ce091db63ce0b149fd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>process</Name>
-                  <Path>classoption_1_1_print_usage_implementation_1_1_line_wrapper.html</Path>
-                  <Anchor>add20eca40865ad892d6c28b412ac14d5</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>CheckArg</Name>
-                <Path>optionparser_8h.html</Path>
-                <Anchor>a4afb7f04597f34439679509baf4b6d39</Anchor>
-               </Node>
-               <Node>
-                <Name>ArgStatus</Name>
-                <Path>optionparser_8h.html</Path>
-                <Anchor>aee8c76a07877335762631491e7a5a1a9</Anchor>
-                <Subnodes>
-                 <Node>
-                  <Name>ARG_NONE</Name>
-                  <Path>optionparser_8h.html</Path>
-                  <Anchor>aee8c76a07877335762631491e7a5a1a9a353903b042e8eb0aa2f60c0043a58a7e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ARG_OK</Name>
-                  <Path>optionparser_8h.html</Path>
-                  <Anchor>aee8c76a07877335762631491e7a5a1a9a445e08cb1747e5a22929e7ef2da43b55</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ARG_IGNORE</Name>
-                  <Path>optionparser_8h.html</Path>
-                  <Anchor>aee8c76a07877335762631491e7a5a1a9a83e0837c79c957525918111d33cab3a9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ARG_ILLEGAL</Name>
-                  <Path>optionparser_8h.html</Path>
-                  <Anchor>aee8c76a07877335762631491e7a5a1a9a9528e32563b795bd2930b12d0a5e382d</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>printUsage</Name>
-                <Path>optionparser_8h.html</Path>
-                <Anchor>afc8bb7e040a98a0b33ff1ce9da1be0d1</Anchor>
-               </Node>
-               <Node>
-                <Name>printUsage</Name>
-                <Path>optionparser_8h.html</Path>
-                <Anchor>a846de0735717c8402b76d14f0a7a4430</Anchor>
-               </Node>
-               <Node>
-                <Name>printUsage</Name>
-                <Path>optionparser_8h.html</Path>
-                <Anchor>a86e12a019c4da81e5031901af9c800cc</Anchor>
-               </Node>
-               <Node>
-                <Name>printUsage</Name>
-                <Path>optionparser_8h.html</Path>
-                <Anchor>a84764f72d05ba8480143043e3d56ad6a</Anchor>
-               </Node>
-               <Node>
-                <Name>printUsage</Name>
-                <Path>optionparser_8h.html</Path>
-                <Anchor>a27bfa29dc37bb1bfc5e0b891509e5881</Anchor>
                </Node>
               </Subnodes>
              </Node>
