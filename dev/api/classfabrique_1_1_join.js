@@ -1,5 +1,5 @@
 var classfabrique_1_1_join =
 [
     [ "Join", "classfabrique_1_1_join.html#a734843fb86acc074ac2ee01dd23e35d8", null ],
-    [ "Print", "classfabrique_1_1_join.html#a660e38a24f6f02f7523e27cd9659723a", null ]
+    [ "PrettyPrint", "classfabrique_1_1_join.html#ae5c85f571ae7b939901b53e629a3894b", null ]
 ];

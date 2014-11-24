@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['index',['index',['../structoption_1_1_descriptor.html#a1fee8ac44f529c99ac2b1149b4c391b1',1,'option::Descriptor']]]
+  ['finish',['finish',['../classpegmatite_1_1_input_range.html#ae192d7873c239d03156bbbe4c6d623c1',1,'pegmatite::InputRange']]]
 ];

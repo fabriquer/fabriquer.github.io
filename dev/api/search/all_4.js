@@ -1,15 +1,28 @@
 var searchData=
 [
   ['enable',['Enable',['../_arguments_8cc.html#af8555267f1341e7cf41570efaa369209a80cb2080e90221d1f5b425387d9bd030',1,'Arguments.cc']]],
-  ['enterscope',['EnterScope',['../classfabrique_1_1ast_1_1_parser.html#a81e22949ebb1a9ae710d0a914f40b939',1,'fabrique::ast::Parser']]],
-  ['error',['error',['../classoption_1_1_parser.html#a2caa149140067b4d13e4d7a104bb3090',1,'option::Parser']]],
+  ['end',['end',['../classpegmatite_1_1_input.html#acd37d0d6a9930afce62a4acda31c9703',1,'pegmatite::Input::end()'],['../classpegmatite_1_1_input_range.html#a2ef97108048b4021be15bb66fd81c181',1,'pegmatite::InputRange::end()']]],
+  ['enterscope',['EnterScope',['../classfabrique_1_1ast_1_1_parser.html#a6987705731194a8cc25361d0ebe99815',1,'fabrique::ast::Parser::EnterScope(const std::string &amp;name, const Type &amp;argumentsType, SourceRange src=SourceRange::None())'],['../classfabrique_1_1ast_1_1_parser.html#af81cb1c0f112b1c042db6a38a2a4dccd',1,'fabrique::ast::Parser::EnterScope(const std::string &amp;name)'],['../classfabrique_1_1ast_1_1_parser.html#a659373a762eee54a012b3f2a060dd2a1',1,'fabrique::ast::Parser::EnterScope(Scope &amp;&amp;s)']]],
+  ['equals',['Equals',['../classfabrique_1_1dag_1_1_boolean.html#abc816c67bb11fa1e89826cd1223df1e2',1,'fabrique::dag::Boolean::Equals()'],['../classfabrique_1_1dag_1_1_integer.html#af1de5d81e73ddbbd8437b060533c31c2',1,'fabrique::dag::Integer::Equals()'],['../classfabrique_1_1dag_1_1_string.html#a1ebf6bb8d00d810a2a30bc2eaca70c1a',1,'fabrique::dag::String::Equals()'],['../classfabrique_1_1dag_1_1_target.html#a3b3fed759da80229c9f63110910e9d07',1,'fabrique::dag::Target::Equals()'],['../classfabrique_1_1dag_1_1_value.html#a11fa22e85a9c0d132e1b15a82a78baa4',1,'fabrique::dag::Value::Equals()']]],
+  ['error',['error',['../classoption_1_1_parser.html#a2caa149140067b4d13e4d7a104bb3090',1,'option::Parser::error()'],['../classpegmatite_1_1_error.html#af319f7af9c21d4daa72004618f65fcc7',1,'pegmatite::Error::Error()']]],
+  ['error',['Error',['../classpegmatite_1_1_error.html',1,'pegmatite']]],
+  ['error_5ftype',['error_type',['../classpegmatite_1_1_error.html#a8d882e9f5763ae4742f33215a49bba72',1,'pegmatite::Error']]],
   ['errorreport',['ErrorReport',['../classfabrique_1_1_error_report.html',1,'fabrique']]],
+  ['errorreport_2ecc',['ErrorReport.cc',['../_error_report_8cc.html',1,'']]],
   ['errorreport_2eh',['ErrorReport.h',['../_error_report_8h.html',1,'']]],
   ['errors',['errors',['../classfabrique_1_1ast_1_1_parser.html#a235ca527368a02ab5291fcd970706664',1,'fabrique::ast::Parser']]],
+  ['eval',['eval',['../class_a_s_t_1_1_expression.html#a5606606c2c54b275a677c010581c83ac',1,'AST::Expression::eval()'],['../class_a_s_t_1_1_number.html#afd65450adf125b20d441c232606cb938',1,'AST::Number::eval()'],['../class_a_s_t_1_1_add_expression.html#a695de7e1a4ba2620d154f1ebbc8546ad',1,'AST::AddExpression::eval()'],['../class_a_s_t_1_1_subtract_expression.html#a66eb499f01576eacb384af5f12a425c5',1,'AST::SubtractExpression::eval()'],['../class_a_s_t_1_1_multiply_expression.html#a5a12609cb3986c15b778e7a6d1a3a65d',1,'AST::MultiplyExpression::eval()'],['../class_a_s_t_1_1_divide_expression.html#a7dbb21e406d8e4fba89e5719d5168870',1,'AST::DivideExpression::eval()']]],
+  ['evalcontext',['EvalContext',['../classfabrique_1_1ast_1_1_eval_context.html',1,'fabrique::ast']]],
+  ['evalcontext_2eh',['EvalContext.h',['../_eval_context_8h.html',1,'']]],
   ['exceptions_2ecc',['exceptions.cc',['../exceptions_8cc.html',1,'']]],
   ['exceptions_2eh',['exceptions.h',['../exceptions_8h.html',1,'']]],
-  ['exitscope',['ExitScope',['../classfabrique_1_1ast_1_1_parser.html#a770796b94519ff5d49729f742c8e9d29',1,'fabrique::ast::Parser']]],
+  ['executable',['executable',['../classfabrique_1_1_arguments.html#af8e7da3cb185326ce2126f99c225e5a6',1,'fabrique::Arguments']]],
+  ['expr',['Expr',['../classpegmatite_1_1_expr.html',1,'pegmatite']]],
+  ['expr',['expr',['../struct_parser_1_1_calculator_grammar.html#a57858f3d035a9fa02f847e8d9081d66d',1,'Parser::CalculatorGrammar']]],
+  ['expression',['Expression',['../class_a_s_t_1_1_expression.html',1,'AST']]],
   ['expression',['Expression',['../classfabrique_1_1ast_1_1_expression.html',1,'fabrique::ast']]],
   ['expression_2ecc',['Expression.cc',['../_expression_8cc.html',1,'']]],
-  ['expression_2eh',['Expression.h',['../_expression_8h.html',1,'']]]
+  ['expression_2eh',['Expression.h',['../_expression_8h.html',1,'']]],
+  ['exprptr',['ExprPtr',['../structpegmatite_1_1_expr_ptr.html#ab1d429f45547dce8108fd51e2b588f26',1,'pegmatite::ExprPtr::ExprPtr(Expr *e)'],['../structpegmatite_1_1_expr_ptr.html#aca67432de69c325ed22f7c81430b177b',1,'pegmatite::ExprPtr::ExprPtr(const Rule &amp;e)'],['../structpegmatite_1_1_expr_ptr.html#a9fbd33d30df96592e8c0cf7a0c82f142',1,'pegmatite::ExprPtr::ExprPtr(const CharacterExprPtr &amp;e)'],['../structpegmatite_1_1_expr_ptr.html#aac58f378699f37841a1c8dc864d154aa',1,'pegmatite::ExprPtr::ExprPtr(const char *)'],['../structpegmatite_1_1_expr_ptr.html#a260551671713f0dd2521e38fdc774810',1,'pegmatite::ExprPtr::ExprPtr(const char)']]],
+  ['exprptr',['ExprPtr',['../structpegmatite_1_1_expr_ptr.html',1,'pegmatite']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['longopt',['longopt',['../structoption_1_1_descriptor.html#a470c449dfa894c9bfda2dae026142b4b',1,'option::Descriptor']]]
+  ['help',['help',['../structoption_1_1_descriptor.html#a9045b19311533e1b8a08645d57149c79',1,'option::Descriptor']]]
 ];

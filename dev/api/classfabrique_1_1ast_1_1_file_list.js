@@ -6,5 +6,6 @@ var classfabrique_1_1ast_1_1_file_list =
     [ "arguments", "classfabrique_1_1ast_1_1_file_list.html#a1b1d5a4553c978003466f41f37a34399", null ],
     [ "begin", "classfabrique_1_1ast_1_1_file_list.html#abe536ece10e9650421872f701eb774a2", null ],
     [ "end", "classfabrique_1_1ast_1_1_file_list.html#a9361b7c42286e8ee2bfaf496f3a192d9", null ],
+    [ "evaluate", "classfabrique_1_1ast_1_1_file_list.html#ac4d2cb0f3737149ebd548c250bffbe4a", null ],
     [ "PrettyPrint", "classfabrique_1_1ast_1_1_file_list.html#a8cb3fdb76c00ce62aebbc28fcdb7d38f", null ]
 ];
