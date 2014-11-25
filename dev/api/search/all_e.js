@@ -16,6 +16,7 @@ var searchData=
   ['plugin',['Plugin',['../classfabrique_1_1plugin_1_1_plugin.html',1,'fabrique::plugin']]],
   ['plugin_2ecc',['Plugin.cc',['../_plugin_8cc.html',1,'']]],
   ['plugin_2eh',['Plugin.h',['../_plugin_8h.html',1,'']]],
+  ['plugins_2eh',['plugins.h',['../plugins_8h.html',1,'']]],
   ['posixerror',['PosixError',['../classfabrique_1_1_posix_error.html',1,'fabrique']]],
   ['posixerror_2ecc',['PosixError.cc',['../_posix_error_8cc.html',1,'']]],
   ['posixerror_2eh',['PosixError.h',['../_posix_error_8h.html',1,'']]],

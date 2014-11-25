@@ -17,5 +17,6 @@ var searchData=
   ['structure',['Structure',['../classfabrique_1_1dag_1_1_structure.html',1,'fabrique::dag']]],
   ['structuretype',['StructureType',['../classfabrique_1_1_structure_type.html',1,'fabrique']]],
   ['symbolreference',['SymbolReference',['../classfabrique_1_1ast_1_1_symbol_reference.html',1,'fabrique::ast']]],
-  ['syntaxerror',['SyntaxError',['../classfabrique_1_1_syntax_error.html',1,'fabrique']]]
+  ['syntaxerror',['SyntaxError',['../classfabrique_1_1_syntax_error.html',1,'fabrique']]],
+  ['sysctlplugin',['SysctlPlugin',['../classfabrique_1_1plugins_1_1_sysctl_plugin.html',1,'fabrique::plugins']]]
 ];

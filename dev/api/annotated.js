@@ -5,6 +5,7 @@ var annotated =
       [ "backend", "namespacefabrique_1_1backend.html", "namespacefabrique_1_1backend" ],
       [ "dag", "namespacefabrique_1_1dag.html", "namespacefabrique_1_1dag" ],
       [ "plugin", "namespacefabrique_1_1plugin.html", "namespacefabrique_1_1plugin" ],
+      [ "plugins", "namespacefabrique_1_1plugins.html", "namespacefabrique_1_1plugins" ],
       [ "Arguments", "classfabrique_1_1_arguments.html", "classfabrique_1_1_arguments" ],
       [ "AssertionFailure", "classfabrique_1_1_assertion_failure.html", "classfabrique_1_1_assertion_failure" ],
       [ "BooleanType", "classfabrique_1_1_boolean_type.html", "classfabrique_1_1_boolean_type" ],
@@ -40,6 +41,7 @@ var annotated =
       [ "TypeError", "classfabrique_1_1_type_error.html", "classfabrique_1_1_type_error" ],
       [ "Uncopyable", "classfabrique_1_1_uncopyable.html", "classfabrique_1_1_uncopyable" ],
       [ "UserError", "classfabrique_1_1_user_error.html", "classfabrique_1_1_user_error" ],
+      [ "Visitable", "classfabrique_1_1_visitable.html", "classfabrique_1_1_visitable" ],
       [ "WrongTypeException", "classfabrique_1_1_wrong_type_exception.html", "classfabrique_1_1_wrong_type_exception" ]
     ] ]
 ];

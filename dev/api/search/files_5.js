@@ -12,8 +12,6 @@ var searchData=
   ['filename_2eh',['Filename.h',['../_filename_8h.html',1,'']]],
   ['filetype_2ecc',['FileType.cc',['../_file_type_8cc.html',1,'']]],
   ['filetype_2eh',['FileType.h',['../_file_type_8h.html',1,'']]],
-  ['foreach_2ecc',['Foreach.cc',['../_foreach_8cc.html',1,'']]],
-  ['foreach_2eh',['Foreach.h',['../_foreach_8h.html',1,'']]],
   ['formatter_2ecc',['Formatter.cc',['../_formatter_8cc.html',1,'']]],
   ['function_2ecc',['Function.cc',['../_a_s_t_2_function_8cc.html',1,'']]],
   ['function_2ecc',['Function.cc',['../_d_a_g_2_function_8cc.html',1,'']]],

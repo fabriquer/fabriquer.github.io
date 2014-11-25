@@ -24,8 +24,8 @@ var searchData=
   ['sourcelocation_2eh',['SourceLocation.h',['../_source_location_8h.html',1,'']]],
   ['sourcerange',['SourceRange',['../classfabrique_1_1_source_range.html',1,'fabrique']]],
   ['span',['Span',['../classfabrique_1_1_source_range.html#a593e6159e681fc06afaec09564ff077c',1,'fabrique::SourceRange']]],
-  ['string',['String',['../classfabrique_1_1dag_1_1_string.html',1,'fabrique::dag']]],
   ['string',['String',['../classfabrique_1_1dag_1_1_d_a_g_builder.html#a9aafe20089f1c0d932d74a8e32cc76bb',1,'fabrique::dag::DAGBuilder']]],
+  ['string',['String',['../classfabrique_1_1dag_1_1_string.html',1,'fabrique::dag']]],
   ['string_2ecc',['String.cc',['../_string_8cc.html',1,'']]],
   ['string_2eh',['String.h',['../_string_8h.html',1,'']]],
   ['stringliteral',['StringLiteral',['../classfabrique_1_1ast_1_1_string_literal.html',1,'fabrique::ast']]],
@@ -48,5 +48,6 @@ var searchData=
   ['symbolreference_2ecc',['SymbolReference.cc',['../_symbol_reference_8cc.html',1,'']]],
   ['symbolreference_2eh',['SymbolReference.h',['../_symbol_reference_8h.html',1,'']]],
   ['syntaxerror',['SyntaxError',['../classfabrique_1_1_syntax_error.html',1,'fabrique']]],
+  ['sysctlplugin',['SysctlPlugin',['../classfabrique_1_1plugins_1_1_sysctl_plugin.html',1,'fabrique::plugins']]],
   ['sysctlplugin_2ecc',['SysctlPlugin.cc',['../_sysctl_plugin_8cc.html',1,'']]]
 ];
