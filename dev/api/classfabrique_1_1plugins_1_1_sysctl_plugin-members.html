@@ -75,8 +75,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -97,8 +97,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -113,7 +115,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('_foreach_8cc.html','');});
+$(document).ready(function(){initNavTree('classfabrique_1_1plugins_1_1_sysctl_plugin.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -132,28 +134,21 @@ $(document).ready(function(){initNavTree('_foreach_8cc.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Foreach.cc File Reference</div>  </div>
+<div class="title">fabrique::plugins::SysctlPlugin Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Declaration of <a class="el" href="classfabrique_1_1ast_1_1_foreach_expr.html">fabrique::ast::ForeachExpr</a>.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="_eval_context_8h_source.html">AST/EvalContext.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_foreach_8h_source.html">AST/Foreach.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_a_s_t_2_parameter_8h_source.html">AST/Parameter.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_a_s_t_2_value_8h_source.html">AST/Value.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_a_s_t_2_visitor_8h_source.html">AST/Visitor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_d_a_g_2_list_8h_source.html">DAG/List.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_bytestream_8h_source.html">Support/Bytestream.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_type_8h_source.html">Types/Type.h</a>&quot;</code><br />
-<code>#include &lt;cassert&gt;</code><br />
-</div>
-<p><a href="_foreach_8cc_source.html">Go to the source code of this file.</a></p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Declaration of <a class="el" href="classfabrique_1_1ast_1_1_foreach_expr.html">fabrique::ast::ForeachExpr</a>. </p>
-
-<p>Definition in file <a class="el" href="_foreach_8cc_source.html">Foreach.cc</a>.</p>
-</div></div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="classfabrique_1_1plugins_1_1_sysctl_plugin.html">fabrique::plugins::SysctlPlugin</a>, including all inherited members.</p>
+<table class="directory">
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Create</b>(dag::DAGBuilder &amp;) const override (defined in <a class="el" href="classfabrique_1_1plugins_1_1_sysctl_plugin.html">fabrique::plugins::SysctlPlugin</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1plugins_1_1_sysctl_plugin.html">fabrique::plugins::SysctlPlugin</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>descriptor</b>() const  (defined in <a class="el" href="classfabrique_1_1plugin_1_1_plugin.html">fabrique::plugin::Plugin</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1plugin_1_1_plugin.html">fabrique::plugin::Plugin</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>nullPlugin</b>() (defined in <a class="el" href="classfabrique_1_1plugin_1_1_plugin.html">fabrique::plugin::Plugin</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1plugin_1_1_plugin.html">fabrique::plugin::Plugin</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>Plugin</b>(const Type &amp;, const Descriptor &amp;descriptor) (defined in <a class="el" href="classfabrique_1_1plugin_1_1_plugin.html">fabrique::plugin::Plugin</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1plugin_1_1_plugin.html">fabrique::plugin::Plugin</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>type</b>() const  (defined in <a class="el" href="classfabrique_1_1_typed.html">fabrique::Typed</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1_typed.html">fabrique::Typed</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>Typed</b>(const Type &amp;t) (defined in <a class="el" href="classfabrique_1_1_typed.html">fabrique::Typed</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1_typed.html">fabrique::Typed</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~Plugin</b>() (defined in <a class="el" href="classfabrique_1_1plugin_1_1_plugin.html">fabrique::plugin::Plugin</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1plugin_1_1_plugin.html">fabrique::plugin::Plugin</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>~Typed</b>() (defined in <a class="el" href="classfabrique_1_1_typed.html">fabrique::Typed</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1_typed.html">fabrique::Typed</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 </section>
 			</div>

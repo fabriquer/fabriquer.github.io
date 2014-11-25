@@ -467,7 +467,7 @@
       <Scope>fabrique::OptionallyTyped</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_optionally_typed.html</Path>
-    <Abstract>A mixin type for something that may have a fabrique::fabrique::Type. </Abstract>
+    <Abstract>A mixin type for something that may have a Type. </Abstract>
     <DeclaredIn>OptionallyTyped.h</DeclaredIn>
   </Token>
   <Token>
@@ -1096,7 +1096,7 @@
       <Scope>fabrique::Typed</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1_typed.html</Path>
-    <Abstract>A mixin type for something that has a fabrique::fabrique::Type. </Abstract>
+    <Abstract>A mixin type for something that has a Type. </Abstract>
     <DeclaredIn>Typed.h</DeclaredIn>
   </Token>
   <Token>
@@ -1155,6 +1155,17 @@
     <Anchor>ad198d95139b89e953d30b469f4bf0c2a</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>exceptions.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::Visitable</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>fabrique::Visitable</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1_visitable.html</Path>
+    <Abstract>An object that can be visited by a vistor. </Abstract>
+    <DeclaredIn>Visitable.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1750,7 +1761,7 @@
       <Scope>fabrique::ast::HasScope</Scope>
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_has_scope.html</Path>
-    <Abstract>A mixin type for something that has a fabrique::fabrique::Type. </Abstract>
+    <Abstract>A mixin type for something that has a Scope. </Abstract>
     <DeclaredIn>HasScope.h</DeclaredIn>
   </Token>
   <Token>
@@ -2173,7 +2184,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_parser.html</Path>
     <Anchor>aa2b9418f0604effc0e0bfdef7dfe95fe</Anchor>
-    <Abstract>An untyped Identifier: just a name. </Abstract>
+    <Abstract>An untyped ast::Identifier: just a name. </Abstract>
     <DeclaredIn>Parser.h</DeclaredIn>
   </Token>
   <Token>
@@ -2185,7 +2196,7 @@
     </TokenIdentifier>
     <Path>classfabrique_1_1ast_1_1_parser.html</Path>
     <Anchor>a5301c31fca4e9f2b4d5fefc8ffc0e36e</Anchor>
-    <Abstract>A typed Identifier. </Abstract>
+    <Abstract>A typed ast::Identifier. </Abstract>
     <DeclaredIn>Parser.h</DeclaredIn>
   </Token>
   <Token>
@@ -2492,17 +2503,6 @@
     <Anchor>a0a16db04aab6e1f3234ab8879721ccac</Anchor>
     <Abstract>Print a human-readable representation to an output stream and return that output stream. </Abstract>
     <DeclaredIn>Value.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>fabrique::ast::Visitable</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>fabrique::ast::Visitable</Scope>
-    </TokenIdentifier>
-    <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
-    <Abstract>A thing that can be visited by a fabrique::Visitor. </Abstract>
-    <DeclaredIn>Visitable.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4863,5 +4863,53 @@
     <Path>classfabrique_1_1plugin_1_1_registry.html</Path>
     <Abstract>A registry for naming Fabrique Plugin objects. </Abstract>
     <DeclaredIn>Registry.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::plugins</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>fabrique::plugins</Scope>
+    </TokenIdentifier>
+    <Path>namespacefabrique_1_1plugins.html</Path>
+    <Abstract>Plugins that ship with Fabrique. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::plugins::SysctlPlugin</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::plugins::SysctlPlugin</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1plugins_1_1_sysctl_plugin.html</Path>
+    <Abstract>Provides access to the sysctl(3) set of C library functions. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::plugins::SysctlPlugin::Factory</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::plugins::SysctlPlugin::Factory</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::plugins::Which</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::plugins::Which</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1plugins_1_1_which.html</Path>
+    <Abstract>Finds files (executables or any other kind of files) in the PATH environment variable. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fabrique::plugins::Which::Factory</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>fabrique::plugins::Which::Factory</Scope>
+    </TokenIdentifier>
+    <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
   </Token>
 </Tokens>

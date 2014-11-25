@@ -152,13 +152,13 @@ Inheritance diagram for fabrique::ast::Literal&lt; T &gt;:</div>
  <div class="center">
   <img src="classfabrique_1_1ast_1_1_literal.png" usemap="#fabrique::ast::Literal&lt; T &gt;_map" alt=""/>
   <map id="fabrique::ast::Literal&lt; T &gt;_map" name="fabrique::ast::Literal&lt; T &gt;_map">
-<area href="classfabrique_1_1ast_1_1_expression.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Expression" shape="rect" coords="324,112,476,136"/>
-<area href="classfabrique_1_1ast_1_1_node.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Node" shape="rect" coords="243,56,395,80"/>
-<area href="classfabrique_1_1_typed.html" title="A mixin type for something that has a fabrique::fabrique::Type. " alt="fabrique::Typed" shape="rect" coords="405,56,557,80"/>
-<area href="classfabrique_1_1_has_source.html" title="A mixin type for something that has a location in source code. " alt="fabrique::HasSource" shape="rect" coords="0,0,152,24"/>
-<area href="classfabrique_1_1_printable.html" title="A thing that can be pretty-printed. " alt="fabrique::Printable" shape="rect" coords="162,0,314,24"/>
-<area href="classfabrique_1_1ast_1_1_visitable.html" title="A thing that can be visited by a fabrique::Visitor. " alt="fabrique::ast::Visitable" shape="rect" coords="324,0,476,24"/>
-<area href="classfabrique_1_1_uncopyable.html" title="An object that cannot be copy-constructed. " alt="fabrique::Uncopyable" shape="rect" coords="486,0,638,24"/>
+<area href="classfabrique_1_1ast_1_1_expression.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Expression" shape="rect" coords="364,112,536,136"/>
+<area href="classfabrique_1_1ast_1_1_node.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Node" shape="rect" coords="273,56,445,80"/>
+<area href="classfabrique_1_1_typed.html" title="A mixin type for something that has a Type. " alt="fabrique::Typed" shape="rect" coords="455,56,627,80"/>
+<area href="classfabrique_1_1_has_source.html" title="A mixin type for something that has a location in source code. " alt="fabrique::HasSource" shape="rect" coords="0,0,172,24"/>
+<area href="classfabrique_1_1_printable.html" title="A thing that can be pretty-printed. " alt="fabrique::Printable" shape="rect" coords="182,0,354,24"/>
+<area href="classfabrique_1_1_visitable.html" title="An object that can be visited by a vistor. " alt="fabrique::Visitable&lt; Visitor &gt;" shape="rect" coords="364,0,536,24"/>
+<area href="classfabrique_1_1_uncopyable.html" title="An object that cannot be copy-constructed. " alt="fabrique::Uncopyable" shape="rect" coords="546,0,718,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -192,10 +192,10 @@ const <a class="el" href="classfabrique_1_1_source_range.html">SourceRange</a> &
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfabrique_1_1_printable.html#a7b148c5f200de45f3ad33a37a090997f">PrettyPrint</a> (<a class="el" href="classfabrique_1_1_bytestream.html">Bytestream</a> &amp;, size_t indent=0) const =0</td></tr>
 <tr class="memdesc:a7b148c5f200de45f3ad33a37a090997f inherit pub_methods_classfabrique_1_1_printable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a human-readable representation to an output stream and return that output stream. <br /></td></tr>
 <tr class="separator:a7b148c5f200de45f3ad33a37a090997f inherit pub_methods_classfabrique_1_1_printable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classfabrique_1_1ast_1_1_visitable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classfabrique_1_1ast_1_1_visitable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classfabrique_1_1ast_1_1_visitable.html">fabrique::ast::Visitable</a></td></tr>
-<tr class="memitem:a9c0cf7d423a51aa1ea85848f401fc52d inherit pub_methods_classfabrique_1_1ast_1_1_visitable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c0cf7d423a51aa1ea85848f401fc52d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Accept</b> (<a class="el" href="classfabrique_1_1ast_1_1_visitor.html">Visitor</a> &amp;) const =0</td></tr>
-<tr class="separator:a9c0cf7d423a51aa1ea85848f401fc52d inherit pub_methods_classfabrique_1_1ast_1_1_visitable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classfabrique_1_1_visitable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classfabrique_1_1_visitable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classfabrique_1_1_visitable.html">fabrique::Visitable&lt; Visitor &gt;</a></td></tr>
+<tr class="memitem:ad8476ed475c63327e82100e16b70c250 inherit pub_methods_classfabrique_1_1_visitable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8476ed475c63327e82100e16b70c250"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Accept</b> (Visitor &amp;) const =0</td></tr>
+<tr class="separator:ad8476ed475c63327e82100e16b70c250 inherit pub_methods_classfabrique_1_1_visitable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classfabrique_1_1_typed"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classfabrique_1_1_typed')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classfabrique_1_1_typed.html">fabrique::Typed</a></td></tr>
 <tr class="memitem:a70eb6215f910198fbdc2db371b0e1cd8 inherit pub_methods_classfabrique_1_1_typed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70eb6215f910198fbdc2db371b0e1cd8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Typed</b> (const <a class="el" href="classfabrique_1_1_type.html">Type</a> &amp;t)</td></tr>

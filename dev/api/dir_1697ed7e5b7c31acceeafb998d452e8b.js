@@ -51,8 +51,7 @@ var dir_1697ed7e5b7c31acceeafb998d452e8b =
     [ "Uncopyable.h", "_uncopyable_8h.html", [
       [ "Uncopyable", "classfabrique_1_1_uncopyable.html", "classfabrique_1_1_uncopyable" ]
     ] ],
-    [ "Visitable.cc", "_visitable_8cc_source.html", null ],
     [ "Visitable.h", "_visitable_8h.html", [
-      [ "Visitable", "classfabrique_1_1ast_1_1_visitable.html", "classfabrique_1_1ast_1_1_visitable" ]
+      [ "Visitable", "classfabrique_1_1_visitable.html", "classfabrique_1_1_visitable" ]
     ] ]
 ];

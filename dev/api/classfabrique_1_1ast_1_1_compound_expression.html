@@ -154,12 +154,12 @@ Inheritance diagram for fabrique::ast::CompoundExpression:</div>
 <area href="classfabrique_1_1ast_1_1_expression.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Expression" shape="rect" coords="436,112,644,136"/>
 <area href="classfabrique_1_1ast_1_1_scope.html" title="A scope is a container for name->value mappings. " alt="fabrique::ast::Scope" shape="rect" coords="872,112,1080,136"/>
 <area href="classfabrique_1_1ast_1_1_node.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Node" shape="rect" coords="327,56,535,80"/>
-<area href="classfabrique_1_1_typed.html" title="A mixin type for something that has a fabrique::fabrique::Type. " alt="fabrique::Typed" shape="rect" coords="545,56,753,80"/>
+<area href="classfabrique_1_1_typed.html" title="A mixin type for something that has a Type. " alt="fabrique::Typed" shape="rect" coords="545,56,753,80"/>
 <area href="classfabrique_1_1_printable.html" title="A thing that can be pretty-printed. " alt="fabrique::Printable" shape="rect" coords="763,56,971,80"/>
 <area href="classfabrique_1_1_uncopyable.html" title="An object that cannot be copy-constructed. " alt="fabrique::Uncopyable" shape="rect" coords="981,56,1189,80"/>
 <area href="classfabrique_1_1_has_source.html" title="A mixin type for something that has a location in source code. " alt="fabrique::HasSource" shape="rect" coords="0,0,208,24"/>
 <area href="classfabrique_1_1_printable.html" title="A thing that can be pretty-printed. " alt="fabrique::Printable" shape="rect" coords="218,0,426,24"/>
-<area href="classfabrique_1_1ast_1_1_visitable.html" title="A thing that can be visited by a fabrique::Visitor. " alt="fabrique::ast::Visitable" shape="rect" coords="436,0,644,24"/>
+<area href="classfabrique_1_1_visitable.html" title="An object that can be visited by a vistor. " alt="fabrique::Visitable&lt; Visitor &gt;" shape="rect" coords="436,0,644,24"/>
 <area href="classfabrique_1_1_uncopyable.html" title="An object that cannot be copy-constructed. " alt="fabrique::Uncopyable" shape="rect" coords="654,0,862,24"/>
 </map>
  </div></div>
@@ -199,6 +199,10 @@ const <a class="el" href="classfabrique_1_1_source_range.html">SourceRange</a> &
 <tr class="memitem:ad40bdde846711058259c877bb143e49b inherit pub_methods_classfabrique_1_1_printable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad40bdde846711058259c877bb143e49b"></a>
 virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>str</b> () const </td></tr>
 <tr class="separator:ad40bdde846711058259c877bb143e49b inherit pub_methods_classfabrique_1_1_printable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classfabrique_1_1_visitable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classfabrique_1_1_visitable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classfabrique_1_1_visitable.html">fabrique::Visitable&lt; Visitor &gt;</a></td></tr>
+<tr class="memitem:ad8476ed475c63327e82100e16b70c250 inherit pub_methods_classfabrique_1_1_visitable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8476ed475c63327e82100e16b70c250"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Accept</b> (Visitor &amp;) const =0</td></tr>
+<tr class="separator:ad8476ed475c63327e82100e16b70c250 inherit pub_methods_classfabrique_1_1_visitable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classfabrique_1_1_typed"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classfabrique_1_1_typed')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classfabrique_1_1_typed.html">fabrique::Typed</a></td></tr>
 <tr class="memitem:a70eb6215f910198fbdc2db371b0e1cd8 inherit pub_methods_classfabrique_1_1_typed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70eb6215f910198fbdc2db371b0e1cd8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Typed</b> (const <a class="el" href="classfabrique_1_1_type.html">Type</a> &amp;t)</td></tr>

@@ -74,8 +74,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -97,10 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="namespaces.html"><span>Namespace&#160;List</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -115,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('classfabrique_1_1ast_1_1_visitable.html','');});
+$(document).ready(function(){initNavTree('namespacefabrique_1_1plugins.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -133,16 +130,29 @@ $(document).ready(function(){initNavTree('classfabrique_1_1ast_1_1_visitable.htm
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">fabrique::ast::Visitable Member List</div>  </div>
+<div class="title">fabrique::plugins Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="classfabrique_1_1ast_1_1_visitable.html">fabrique::ast::Visitable</a>, including all inherited members.</p>
-<table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Accept</b>(Visitor &amp;) const =0 (defined in <a class="el" href="classfabrique_1_1ast_1_1_visitable.html">fabrique::ast::Visitable</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1ast_1_1_visitable.html">fabrique::ast::Visitable</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>~Visitable</b>() (defined in <a class="el" href="classfabrique_1_1ast_1_1_visitable.html">fabrique::ast::Visitable</a>)</td><td class="entry"><a class="el" href="classfabrique_1_1ast_1_1_visitable.html">fabrique::ast::Visitable</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<p>Plugins that ship with Fabrique.  
+<a href="#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfabrique_1_1plugins_1_1_sysctl_plugin.html">SysctlPlugin</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides access to the sysctl(3) set of C library functions.  <a href="classfabrique_1_1plugins_1_1_sysctl_plugin.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfabrique_1_1plugins_1_1_which.html">Which</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds files (executables or any other kind of files) in the PATH environment variable.  <a href="classfabrique_1_1plugins_1_1_which.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Plugins that ship with Fabrique. </p>
+<p>There is nothing special or "internal" about these plugins: they are compiled as shared libraries like any other plugin would be. They are, however, written by the authors of Fabrique and might serve as simple examples for plugin writers. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 </section>
 			</div>

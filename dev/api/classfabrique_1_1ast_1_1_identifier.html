@@ -151,12 +151,12 @@ Inheritance diagram for fabrique::ast::Identifier:</div>
  <div class="center">
   <img src="classfabrique_1_1ast_1_1_identifier.png" usemap="#fabrique::ast::Identifier_map" alt=""/>
   <map id="fabrique::ast::Identifier_map" name="fabrique::ast::Identifier_map">
-<area href="classfabrique_1_1ast_1_1_node.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Node" shape="rect" coords="249,56,405,80"/>
-<area href="classfabrique_1_1_optionally_typed.html" title="A mixin type for something that may have a fabrique::fabrique::Type. " alt="fabrique::OptionallyTyped" shape="rect" coords="415,56,571,80"/>
-<area href="classfabrique_1_1_has_source.html" title="A mixin type for something that has a location in source code. " alt="fabrique::HasSource" shape="rect" coords="0,0,156,24"/>
-<area href="classfabrique_1_1_printable.html" title="A thing that can be pretty-printed. " alt="fabrique::Printable" shape="rect" coords="166,0,322,24"/>
-<area href="classfabrique_1_1ast_1_1_visitable.html" title="A thing that can be visited by a fabrique::Visitor. " alt="fabrique::ast::Visitable" shape="rect" coords="332,0,488,24"/>
-<area href="classfabrique_1_1_uncopyable.html" title="An object that cannot be copy-constructed. " alt="fabrique::Uncopyable" shape="rect" coords="498,0,654,24"/>
+<area href="classfabrique_1_1ast_1_1_node.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Node" shape="rect" coords="273,56,445,80"/>
+<area href="classfabrique_1_1_optionally_typed.html" title="A mixin type for something that may have a Type. " alt="fabrique::OptionallyTyped" shape="rect" coords="455,56,627,80"/>
+<area href="classfabrique_1_1_has_source.html" title="A mixin type for something that has a location in source code. " alt="fabrique::HasSource" shape="rect" coords="0,0,172,24"/>
+<area href="classfabrique_1_1_printable.html" title="A thing that can be pretty-printed. " alt="fabrique::Printable" shape="rect" coords="182,0,354,24"/>
+<area href="classfabrique_1_1_visitable.html" title="An object that can be visited by a vistor. " alt="fabrique::Visitable&lt; Visitor &gt;" shape="rect" coords="364,0,536,24"/>
+<area href="classfabrique_1_1_uncopyable.html" title="An object that cannot be copy-constructed. " alt="fabrique::Uncopyable" shape="rect" coords="546,0,718,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -201,6 +201,10 @@ const <a class="el" href="classfabrique_1_1_source_range.html">SourceRange</a> &
 <tr class="memitem:ad40bdde846711058259c877bb143e49b inherit pub_methods_classfabrique_1_1_printable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad40bdde846711058259c877bb143e49b"></a>
 virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>str</b> () const </td></tr>
 <tr class="separator:ad40bdde846711058259c877bb143e49b inherit pub_methods_classfabrique_1_1_printable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classfabrique_1_1_visitable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classfabrique_1_1_visitable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classfabrique_1_1_visitable.html">fabrique::Visitable&lt; Visitor &gt;</a></td></tr>
+<tr class="memitem:ad8476ed475c63327e82100e16b70c250 inherit pub_methods_classfabrique_1_1_visitable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8476ed475c63327e82100e16b70c250"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Accept</b> (Visitor &amp;) const =0</td></tr>
+<tr class="separator:ad8476ed475c63327e82100e16b70c250 inherit pub_methods_classfabrique_1_1_visitable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classfabrique_1_1_optionally_typed"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classfabrique_1_1_optionally_typed')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classfabrique_1_1_optionally_typed.html">fabrique::OptionallyTyped</a></td></tr>
 <tr class="memitem:af85cef220f01a4bee8f8ef6e4e275841 inherit pub_methods_classfabrique_1_1_optionally_typed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af85cef220f01a4bee8f8ef6e4e275841"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>OptionallyTyped</b> (const <a class="el" href="classfabrique_1_1_type.html">Type</a> *t)</td></tr>

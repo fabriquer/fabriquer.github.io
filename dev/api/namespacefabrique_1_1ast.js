@@ -35,6 +35,5 @@ var namespacefabrique_1_1ast =
     [ "SymbolReference", "classfabrique_1_1ast_1_1_symbol_reference.html", "classfabrique_1_1ast_1_1_symbol_reference" ],
     [ "UnaryOperation", "classfabrique_1_1ast_1_1_unary_operation.html", "classfabrique_1_1ast_1_1_unary_operation" ],
     [ "Value", "classfabrique_1_1ast_1_1_value.html", "classfabrique_1_1ast_1_1_value" ],
-    [ "Visitable", "classfabrique_1_1ast_1_1_visitable.html", "classfabrique_1_1ast_1_1_visitable" ],
     [ "Visitor", "classfabrique_1_1ast_1_1_visitor.html", "classfabrique_1_1ast_1_1_visitor" ]
 ];

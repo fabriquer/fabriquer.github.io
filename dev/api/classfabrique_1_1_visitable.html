@@ -115,7 +115,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('classfabrique_1_1ast_1_1_visitable.html','');});
+$(document).ready(function(){initNavTree('classfabrique_1_1_visitable.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -135,22 +135,22 @@ $(document).ready(function(){initNavTree('classfabrique_1_1ast_1_1_visitable.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="classfabrique_1_1ast_1_1_visitable-members.html">List of all members</a>  </div>
+<a href="classfabrique_1_1_visitable-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">fabrique::ast::Visitable Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">fabrique::Visitable&lt; Visitor &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A thing that can be visited by a fabrique::Visitor.  
- <a href="classfabrique_1_1ast_1_1_visitable.html#details">More...</a></p>
+<p>An object that can be visited by a vistor.  
+ <a href="classfabrique_1_1_visitable.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_visitable_8h_source.html">Visitable.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for fabrique::ast::Visitable:</div>
+Inheritance diagram for fabrique::Visitable&lt; Visitor &gt;:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="classfabrique_1_1ast_1_1_visitable.png" usemap="#fabrique::ast::Visitable_map" alt=""/>
-  <map id="fabrique::ast::Visitable_map" name="fabrique::ast::Visitable_map">
+  <img src="classfabrique_1_1_visitable.png" usemap="#fabrique::Visitable&lt; Visitor &gt;_map" alt=""/>
+  <map id="fabrique::Visitable&lt; Visitor &gt;_map" name="fabrique::Visitable&lt; Visitor &gt;_map">
 <area href="classfabrique_1_1ast_1_1_node.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Node" shape="rect" coords="327,56,535,80"/>
 <area href="classfabrique_1_1ast_1_1_expression.html" title="Base class for expressions that can be evaluated. " alt="fabrique::ast::Expression" shape="rect" coords="0,112,208,136"/>
 <area href="classfabrique_1_1ast_1_1_identifier.html" title="The name of a value, function, parameter or argument. " alt="fabrique::ast::Identifier" shape="rect" coords="218,112,426,136"/>
@@ -185,17 +185,19 @@ Inheritance diagram for fabrique::ast::Visitable:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9c0cf7d423a51aa1ea85848f401fc52d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c0cf7d423a51aa1ea85848f401fc52d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Accept</b> (<a class="el" href="classfabrique_1_1ast_1_1_visitor.html">Visitor</a> &amp;) const =0</td></tr>
-<tr class="separator:a9c0cf7d423a51aa1ea85848f401fc52d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8476ed475c63327e82100e16b70c250"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8476ed475c63327e82100e16b70c250"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Accept</b> (Visitor &amp;) const =0</td></tr>
+<tr class="separator:ad8476ed475c63327e82100e16b70c250"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A thing that can be visited by a fabrique::Visitor. </p>
+<div class="textblock"><h3>template&lt;typename Visitor&gt;<br />
+class fabrique::Visitable&lt; Visitor &gt;</h3>
 
-<p>Definition at line <a class="el" href="_visitable_8h_source.html#l00044">44</a> of file <a class="el" href="_visitable_8h_source.html">Visitable.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<p>An object that can be visited by a vistor. </p>
+
+<p>Definition at line <a class="el" href="_visitable_8h_source.html#l00039">39</a> of file <a class="el" href="_visitable_8h_source.html">Visitable.h</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>Support/<a class="el" href="_visitable_8h_source.html">Visitable.h</a></li>
-<li>Support/<a class="el" href="_visitable_8cc_source.html">Visitable.cc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -41,6 +41,10 @@
               <Name>plugin</Name>
               <Path>namespacefabrique_1_1plugin.html</Path>
              </Node>
+             <Node>
+              <Name>plugins</Name>
+              <Path>namespacefabrique_1_1plugins.html</Path>
+             </Node>
             </Subnodes>
            </Node>
           </Subnodes>
@@ -1776,22 +1780,6 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>Visitable</Name>
-                <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>~Visitable</Name>
-                  <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
-                  <Anchor>a68f2a5d432edfeb1aa9282c041faf61c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Accept</Name>
-                  <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
-                  <Anchor>a9c0cf7d423a51aa1ea85848f401fc52d</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>Visitor</Name>
                 <Path>classfabrique_1_1ast_1_1_visitor.html</Path>
                 <Subnodes>
@@ -3089,7 +3077,7 @@
                    <Node>
                     <Name>~Descriptor</Name>
                     <Path>classfabrique_1_1plugin_1_1_plugin_1_1_descriptor.html</Path>
-                    <Anchor>a91f424d38156f0668380357761838b38</Anchor>
+                    <Anchor>a39ec4174511f7b5e84bd59e8b1ad2b93</Anchor>
                    </Node>
                    <Node>
                     <Name>Instantiate</Name>
@@ -3138,6 +3126,66 @@
                   <Name>Register</Name>
                   <Path>classfabrique_1_1plugin_1_1_registry.html</Path>
                   <Anchor>a9c39c30dd58dc23b1d0d011e91a08beb</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>plugins</Name>
+              <Path>namespacefabrique_1_1plugins.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>SysctlPlugin</Name>
+                <Path>classfabrique_1_1plugins_1_1_sysctl_plugin.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Factory</Name>
+                  <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Instantiate</Name>
+                    <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+                    <Anchor>a54c7824c08067abf2c2bd285e04acfde</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>name</Name>
+                    <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+                    <Anchor>a1ee01b52c880d1a17448da8bbc78186a</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Create</Name>
+                  <Path>classfabrique_1_1plugins_1_1_sysctl_plugin.html</Path>
+                  <Anchor>a9aa275990e0ed556c3372e834f026841</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Which</Name>
+                <Path>classfabrique_1_1plugins_1_1_which.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Factory</Name>
+                  <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Instantiate</Name>
+                    <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+                    <Anchor>a310c4fcfc3ca6c7c2dfe7216374f4614</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>name</Name>
+                    <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+                    <Anchor>aca4e0cfaba26bf1c55bf53fcc594f586</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Create</Name>
+                  <Path>classfabrique_1_1plugins_1_1_which.html</Path>
+                  <Anchor>a93755817bc4703f0b5b90aab896d3be3</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4613,6 +4661,22 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Visitable</Name>
+              <Path>classfabrique_1_1_visitable.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>~Visitable</Name>
+                <Path>classfabrique_1_1_visitable.html</Path>
+                <Anchor>a57fc47e00d87094fe6e293a02b4e461d</Anchor>
+               </Node>
+               <Node>
+                <Name>Accept</Name>
+                <Path>classfabrique_1_1_visitable.html</Path>
+                <Anchor>ad8476ed475c63327e82100e16b70c250</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>WrongTypeException</Name>
               <Path>classfabrique_1_1_wrong_type_exception.html</Path>
               <Subnodes>
@@ -4716,6 +4780,20 @@
            <Node>
             <Name>fabrique::dag::DAGBuilder</Name>
             <Path>classfabrique_1_1dag_1_1_d_a_g_builder.html</Path>
+           </Node>
+           <Node>
+            <Name>Descriptor</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>fabrique::plugins::SysctlPlugin::Factory</Name>
+              <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+             </Node>
+             <Node>
+              <Name>fabrique::plugins::Which::Factory</Name>
+              <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>fabrique::plugin::Plugin::Descriptor</Name>
@@ -5208,6 +5286,16 @@
              <Node>
               <Name>fabrique::plugin::Plugin</Name>
               <Path>classfabrique_1_1plugin_1_1_plugin.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>fabrique::plugins::SysctlPlugin</Name>
+                <Path>classfabrique_1_1plugins_1_1_sysctl_plugin.html</Path>
+               </Node>
+               <Node>
+                <Name>fabrique::plugins::Which</Name>
+                <Path>classfabrique_1_1plugins_1_1_which.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
             </Subnodes>
            </Node>
@@ -5238,8 +5326,8 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>fabrique::ast::Visitable</Name>
-            <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
+            <Name>fabrique::Visitable&lt; Visitor &gt;</Name>
+            <Path>classfabrique_1_1_visitable.html</Path>
             <Subnodes>
              <Node>
               <Name>fabrique::ast::Node</Name>
@@ -6414,54 +6502,11 @@
              </Node>
              <Node>
               <Name>Foreach.cc</Name>
-              <Path>_foreach_8cc.html</Path>
+              <Path>_foreach_8cc_source.html</Path>
              </Node>
              <Node>
               <Name>Foreach.h</Name>
-              <Path>_foreach_8h.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ForeachExpr</Name>
-                <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>ForeachExpr</Name>
-                  <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>ae24ba2564efb3a432f472c451ee023d9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Accept</Name>
-                  <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>a4a6f35dd483143c88f9c874b6d9a3bf0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>evaluate</Name>
-                  <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>a14cb14836ab13418a39e744641ba322c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>loopBody</Name>
-                  <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>ac3c02017680b95f7818ce2bc368ad355</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>loopParameter</Name>
-                  <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>a299a54255fbbdb5e110088de1eb0b1a0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PrettyPrint</Name>
-                  <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>a7df9b4810c9a659473864cfbecc09c39</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>sourceSequence</Name>
-                  <Path>classfabrique_1_1ast_1_1_foreach_expr.html</Path>
-                  <Anchor>a629cfc2d94994fd7ddcb2734cbf730eb</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
+              <Path>_foreach_8h_source.html</Path>
              </Node>
              <Node>
               <Name>forward-decls.h</Name>
@@ -9188,7 +9233,7 @@
                    <Node>
                     <Name>~Descriptor</Name>
                     <Path>classfabrique_1_1plugin_1_1_plugin_1_1_descriptor.html</Path>
-                    <Anchor>a91f424d38156f0668380357761838b38</Anchor>
+                    <Anchor>a39ec4174511f7b5e84bd59e8b1ad2b93</Anchor>
                    </Node>
                    <Node>
                     <Name>Instantiate</Name>
@@ -9231,7 +9276,7 @@
                  <Node>
                   <Name>~Descriptor</Name>
                   <Path>classfabrique_1_1plugin_1_1_plugin_1_1_descriptor.html</Path>
-                  <Anchor>a91f424d38156f0668380357761838b38</Anchor>
+                  <Anchor>a39ec4174511f7b5e84bd59e8b1ad2b93</Anchor>
                  </Node>
                  <Node>
                   <Name>Instantiate</Name>
@@ -9280,15 +9325,105 @@
             <Path>dir_38c8d24aef3972a7f87b834274e76e31.html</Path>
             <Subnodes>
              <Node>
+              <Name>plugins.h</Name>
+              <Path>plugins_8h.html</Path>
+             </Node>
+             <Node>
               <Name>SysctlPlugin.cc</Name>
               <Path>_sysctl_plugin_8cc.html</Path>
               <Subnodes>
+               <Node>
+                <Name>SysctlPlugin</Name>
+                <Path>classfabrique_1_1plugins_1_1_sysctl_plugin.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Factory</Name>
+                  <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Instantiate</Name>
+                    <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+                    <Anchor>a54c7824c08067abf2c2bd285e04acfde</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>name</Name>
+                    <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+                    <Anchor>a1ee01b52c880d1a17448da8bbc78186a</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Create</Name>
+                  <Path>classfabrique_1_1plugins_1_1_sysctl_plugin.html</Path>
+                  <Anchor>a9aa275990e0ed556c3372e834f026841</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Factory</Name>
+                <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Instantiate</Name>
+                  <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+                  <Anchor>a54c7824c08067abf2c2bd285e04acfde</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html</Path>
+                  <Anchor>a1ee01b52c880d1a17448da8bbc78186a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
               <Name>Which.cc</Name>
               <Path>_which_8cc.html</Path>
               <Subnodes>
+               <Node>
+                <Name>Which</Name>
+                <Path>classfabrique_1_1plugins_1_1_which.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Factory</Name>
+                  <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Instantiate</Name>
+                    <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+                    <Anchor>a310c4fcfc3ca6c7c2dfe7216374f4614</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>name</Name>
+                    <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+                    <Anchor>aca4e0cfaba26bf1c55bf53fcc594f586</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Create</Name>
+                  <Path>classfabrique_1_1plugins_1_1_which.html</Path>
+                  <Anchor>a93755817bc4703f0b5b90aab896d3be3</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Factory</Name>
+                <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Instantiate</Name>
+                  <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+                  <Anchor>a310c4fcfc3ca6c7c2dfe7216374f4614</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>classfabrique_1_1plugins_1_1_which_1_1_factory.html</Path>
+                  <Anchor>aca4e0cfaba26bf1c55bf53fcc594f586</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
             </Subnodes>
@@ -10407,26 +10542,22 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>Visitable.cc</Name>
-              <Path>_visitable_8cc_source.html</Path>
-             </Node>
-             <Node>
               <Name>Visitable.h</Name>
               <Path>_visitable_8h.html</Path>
               <Subnodes>
                <Node>
                 <Name>Visitable</Name>
-                <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
+                <Path>classfabrique_1_1_visitable.html</Path>
                 <Subnodes>
                  <Node>
                   <Name>~Visitable</Name>
-                  <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
-                  <Anchor>a68f2a5d432edfeb1aa9282c041faf61c</Anchor>
+                  <Path>classfabrique_1_1_visitable.html</Path>
+                  <Anchor>a57fc47e00d87094fe6e293a02b4e461d</Anchor>
                  </Node>
                  <Node>
                   <Name>Accept</Name>
-                  <Path>classfabrique_1_1ast_1_1_visitable.html</Path>
-                  <Anchor>a9c0cf7d423a51aa1ea85848f401fc52d</Anchor>
+                  <Path>classfabrique_1_1_visitable.html</Path>
+                  <Anchor>ad8476ed475c63327e82100e16b70c250</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

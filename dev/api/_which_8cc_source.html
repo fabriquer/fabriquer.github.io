@@ -194,140 +194,142 @@ $(document).ready(function(){initNavTree('_which_8cc_source.html','');});
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">using</span> std::vector;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">namespace </span>{</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">class </span>Which : <span class="keyword">public</span> <a class="code" href="classfabrique_1_1plugin_1_1_plugin.html">plugin::Plugin</a></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">virtual</span> shared_ptr&lt;dag::Structure&gt; Create(<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">dag::DAGBuilder</a>&amp;) <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">class </span>Factory : <span class="keyword">public</span> Plugin::Descriptor</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">string</span> name()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;which&quot;</span>; }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keyword">virtual</span> UniqPtr&lt;Plugin&gt; Instantiate(<a class="code" href="classfabrique_1_1_type_context.html">TypeContext</a>&amp;) <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    };</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    Which(<span class="keyword">const</span> Factory&amp; factory, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_structure_type.html">StructureType</a>&amp; type,</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;          <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; <span class="keywordtype">string</span>, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_file_type.html">FileType</a>&amp; file, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; files,</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;          <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; executable, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; <span class="keyword">generic</span>)</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        : <a class="code" href="classfabrique_1_1plugin_1_1_plugin.html">Plugin</a>(type, factory), string_(string), file_(file), fileList_(files),</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;          executable_(executable), generic_(generic)</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    ValuePtr FindExecutable(<span class="keyword">const</span> ValueMap&amp; <span class="comment">/*scope*/</span>, <span class="keyword">const</span> ValueMap&amp; args,</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                            <a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> src) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    ValuePtr FindFile(<span class="keyword">const</span> ValueMap&amp; <span class="comment">/*scope*/</span>, <span class="keyword">const</span> ValueMap&amp; args,</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                      <a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> src) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; string_;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_file_type.html">FileType</a>&amp; file_;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; fileList_;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; executable_;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; generic_;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;};</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> Directories[] = <span class="stringliteral">&quot;directories&quot;</span>;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> ExecutableFnName[] = <span class="stringliteral">&quot;executable&quot;</span>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> FileName[] = <span class="stringliteral">&quot;filename&quot;</span>;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> GenericFnName[] = <span class="stringliteral">&quot;generic&quot;</span>;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;} <span class="comment">// anonymous namespace</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefabrique.html">fabrique</a> {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">namespace </span>plugins {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classfabrique_1_1plugins_1_1_which.html">   67</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfabrique_1_1plugins_1_1_which.html">Which</a> : <span class="keyword">public</span> <a class="code" href="classfabrique_1_1plugin_1_1_plugin.html">plugin::Plugin</a></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">virtual</span> shared_ptr&lt;dag::Structure&gt; Create(<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">dag::DAGBuilder</a>&amp;) <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classfabrique_1_1plugins_1_1_which_1_1_factory.html">   72</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classfabrique_1_1plugins_1_1_which_1_1_factory.html">Factory</a> : <span class="keyword">public</span> Plugin::Descriptor</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">string</span> name()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;which&quot;</span>; }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keyword">virtual</span> UniqPtr&lt;Plugin&gt; Instantiate(<a class="code" href="classfabrique_1_1_type_context.html">TypeContext</a>&amp;) <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    };</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="classfabrique_1_1plugins_1_1_which.html">Which</a>(<span class="keyword">const</span> <a class="code" href="classfabrique_1_1plugins_1_1_which_1_1_factory.html">Factory</a>&amp; factory, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_structure_type.html">StructureType</a>&amp; type,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;          <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; <span class="keywordtype">string</span>, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_file_type.html">FileType</a>&amp; file, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; files,</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;          <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; executable, <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; <span class="keyword">generic</span>)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        : <a class="code" href="classfabrique_1_1plugin_1_1_plugin.html">Plugin</a>(type, factory), string_(string), file_(file), fileList_(files),</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;          executable_(executable), generic_(generic)</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    ValuePtr FindExecutable(<span class="keyword">const</span> ValueMap&amp; <span class="comment">/*scope*/</span>, <span class="keyword">const</span> ValueMap&amp; args,</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                            <a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> src) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    ValuePtr FindFile(<span class="keyword">const</span> ValueMap&amp; <span class="comment">/*scope*/</span>, <span class="keyword">const</span> ValueMap&amp; args,</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                      <a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> src) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; string_;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_file_type.html">FileType</a>&amp; file_;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; fileList_;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; executable_;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; generic_;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;};</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> Directories[] = <span class="stringliteral">&quot;directories&quot;</span>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> ExecutableFnName[] = <span class="stringliteral">&quot;executable&quot;</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> FileName[] = <span class="stringliteral">&quot;filename&quot;</span>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> GenericFnName[] = <span class="stringliteral">&quot;generic&quot;</span>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;UniqPtr&lt;Plugin&gt; Which::Factory::Instantiate(<a class="code" href="classfabrique_1_1_type_context.html">TypeContext</a>&amp; ctx)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> nowhere = SourceRange::None();</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; <span class="keywordtype">string</span> = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a30df0dd3f7145f7ae512b988cf98d127">stringType</a>();</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_file_type.html">FileType</a>&amp; file = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a8c7112e4877b9164189a55c32ea31437">fileType</a>();</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; files = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a790dee39cdf17c94408c719c851c583c">listOf</a>(file, nowhere);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; executable = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a87de4b91ad65259b725579858517751d">functionType</a>(<span class="keywordtype">string</span>, file);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; <span class="keyword">generic</span> = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a87de4b91ad65259b725579858517751d">functionType</a>({ &amp;string, &amp;files }, file);</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_structure_type.html">StructureType</a>&amp; type = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a08532c118c3c08250e0ca8ecd88c3d32">structureType</a>({</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        { ExecutableFnName, executable },</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        { GenericFnName, <span class="keyword">generic</span> },</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    });</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">return</span> UniqPtr&lt;Plugin&gt;(</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keyword">new</span> Which(*<span class="keyword">this</span>, type, <span class="keywordtype">string</span>, file, files, executable, <span class="keyword">generic</span>));</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;UniqPtr&lt;Plugin&gt; Which::Factory::Instantiate(<a class="code" href="classfabrique_1_1_type_context.html">TypeContext</a>&amp; ctx)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> nowhere = SourceRange::None();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; <span class="keywordtype">string</span> = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a30df0dd3f7145f7ae512b988cf98d127">stringType</a>();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_file_type.html">FileType</a>&amp; file = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a8c7112e4877b9164189a55c32ea31437">fileType</a>();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_type.html">Type</a>&amp; files = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a790dee39cdf17c94408c719c851c583c">listOf</a>(file, nowhere);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; executable = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a87de4b91ad65259b725579858517751d">functionType</a>(<span class="keywordtype">string</span>, file);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_function_type.html">FunctionType</a>&amp; <span class="keyword">generic</span> = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a87de4b91ad65259b725579858517751d">functionType</a>({ &amp;string, &amp;files }, file);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keyword">const</span> <a class="code" href="classfabrique_1_1_structure_type.html">StructureType</a>&amp; type = ctx.<a class="code" href="classfabrique_1_1_type_context.html#a08532c118c3c08250e0ca8ecd88c3d32">structureType</a>({</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        { ExecutableFnName, executable },</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        { GenericFnName, <span class="keyword">generic</span> },</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    });</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> UniqPtr&lt;Plugin&gt;(</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keyword">new</span> Which(*<span class="keyword">this</span>, type, <span class="keywordtype">string</span>, file, files, executable, <span class="keyword">generic</span>));</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;}</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;shared_ptr&lt;Structure&gt; Which::Create(<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keyword">const</span> ValueMap scope;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keyword">const</span> SharedPtrVec&lt;Parameter&gt; name = {</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        std::make_shared&lt;Parameter&gt;(FileName, string_, ValuePtr()),</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    };</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keyword">const</span> SharedPtrVec&lt;Parameter&gt; nameAndDirectories = {</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        std::make_shared&lt;Parameter&gt;(FileName, string_, ValuePtr()),</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        std::make_shared&lt;Parameter&gt;(Directories, fileList_, ValuePtr()),</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    };</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    vector&lt;Structure::NamedValue&gt; fields = {</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        {</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            ExecutableFnName,</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#a84feeea44061f92cc692417e9a67d1a8">Function</a>(</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                std::bind(&amp;Which::FindExecutable, <span class="keyword">this</span>, _1, _2, _3, _4),</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                scope, name, executable_)</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        },</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        {</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            GenericFnName,</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#a84feeea44061f92cc692417e9a67d1a8">Function</a>(</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                std::bind(&amp;Which::FindFile, <span class="keyword">this</span>, _1, _2, _3, _4),</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                scope, nameAndDirectories, generic_)</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        },</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    };</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keyword">auto</span> result = std::dynamic_pointer_cast&lt;<a class="code" href="classfabrique_1_1dag_1_1_structure.html">Structure</a>&gt;(</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#ade51bb813434c5ca1ca0691b626b1cbb">Struct</a>(fields, type(), SourceRange::None()));</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    assert(result);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;}</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;shared_ptr&lt;Structure&gt; Which::Create(<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keyword">const</span> ValueMap scope;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keyword">const</span> SharedPtrVec&lt;Parameter&gt; name = {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        std::make_shared&lt;Parameter&gt;(FileName, string_, ValuePtr()),</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    };</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keyword">const</span> SharedPtrVec&lt;Parameter&gt; nameAndDirectories = {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        std::make_shared&lt;Parameter&gt;(FileName, string_, ValuePtr()),</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        std::make_shared&lt;Parameter&gt;(Directories, fileList_, ValuePtr()),</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    };</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    vector&lt;Structure::NamedValue&gt; fields = {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            ExecutableFnName,</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#a84feeea44061f92cc692417e9a67d1a8">Function</a>(</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                std::bind(&amp;Which::FindExecutable, <span class="keyword">this</span>, _1, _2, _3, _4),</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                scope, name, executable_)</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        },</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            GenericFnName,</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#a84feeea44061f92cc692417e9a67d1a8">Function</a>(</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                std::bind(&amp;Which::FindFile, <span class="keyword">this</span>, _1, _2, _3, _4),</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                scope, nameAndDirectories, generic_)</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        },</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    };</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keyword">auto</span> result = std::dynamic_pointer_cast&lt;<a class="code" href="classfabrique_1_1dag_1_1_structure.html">Structure</a>&gt;(</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#ade51bb813434c5ca1ca0691b626b1cbb">Struct</a>(fields, type(), SourceRange::None()));</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    assert(result);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;}</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;ValuePtr Which::FindFile(<span class="keyword">const</span> ValueMap&amp; <span class="comment">/*scope*/</span>, <span class="keyword">const</span> ValueMap&amp; args,</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                         <a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> src)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    assert(args.size() == 2);</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">string</span> filename = args.find(FileName)-&gt;second-&gt;str();</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keyword">auto</span> list = args.find(Directories)-&gt;second-&gt;asList();</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    assert(list);</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    vector&lt;string&gt; directories;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> ValuePtr&amp; v : list-&gt;elements())</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    {</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keyword">auto</span> file = std::dynamic_pointer_cast&lt;<a class="code" href="classfabrique_1_1dag_1_1_file.html">File</a>&gt;(v);</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        assert(file);</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        directories.push_back(file-&gt;fullName());</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">string</span> fullName = ::FindFile(filename, directories);</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">return</span> builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#a9dad9579d17442c33beef09307baf7fc">File</a>(fullName, ValueMap(), file_, src);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;}</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;ValuePtr Which::FindFile(<span class="keyword">const</span> ValueMap&amp; <span class="comment">/*scope*/</span>, <span class="keyword">const</span> ValueMap&amp; args,</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                         <a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> src)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    assert(args.size() == 2);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">string</span> filename = args.find(FileName)-&gt;second-&gt;str();</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keyword">auto</span> list = args.find(Directories)-&gt;second-&gt;asList();</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    assert(list);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    vector&lt;string&gt; directories;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> ValuePtr&amp; v : list-&gt;elements())</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keyword">auto</span> file = std::dynamic_pointer_cast&lt;<a class="code" href="classfabrique_1_1dag_1_1_file.html">File</a>&gt;(v);</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        assert(file);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        directories.push_back(file-&gt;fullName());</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">string</span> fullName = ::FindFile(filename, directories);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">return</span> builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#a9dad9579d17442c33beef09307baf7fc">File</a>(fullName, ValueMap(), file_, src);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;}</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;ValuePtr Which::FindExecutable(<span class="keyword">const</span> ValueMap&amp; <span class="comment">/*scope*/</span>, <span class="keyword">const</span> ValueMap&amp; args,</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                               <a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> src)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">string</span> filename = args.find(FileName)-&gt;second-&gt;str();</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordflow">return</span> builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#a9dad9579d17442c33beef09307baf7fc">File</a>(fabrique::FindExecutable(filename), ValueMap(), file_, src);</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;ValuePtr Which::FindExecutable(<span class="keyword">const</span> ValueMap&amp; <span class="comment">/*scope*/</span>, <span class="keyword">const</span> ValueMap&amp; args,</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                               <a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html">DAGBuilder</a>&amp; builder, <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a> src)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">string</span> filename = args.find(FileName)-&gt;second-&gt;str();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">return</span> builder.<a class="code" href="classfabrique_1_1dag_1_1_d_a_g_builder.html#a9dad9579d17442c33beef09307baf7fc">File</a>(fabrique::FindExecutable(filename), ValueMap(), file_, src);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;}</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="keyword">static</span> <span class="keyword">auto</span>&amp; registry = plugin::Registry::get().Register(*<span class="keyword">new</span> Which::Factory());</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="keyword">static</span> <span class="keyword">auto</span>&amp; registry = plugin::Registry::get().Register(*<span class="keyword">new</span> Which::Factory());</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;} <span class="comment">// plugins namespace</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;} <span class="comment">// fabrique namespace</span></div>
 <div class="ttc" id="classfabrique_1_1dag_1_1_file_html"><div class="ttname"><a href="classfabrique_1_1dag_1_1_file.html">fabrique::dag::File</a></div><div class="ttdoc">A reference to a file on disk (source or target). </div><div class="ttdef"><b>Definition:</b> <a href="_file_8h_source.html#l00047">File.h:47</a></div></div>
 <div class="ttc" id="classfabrique_1_1_type_context_html"><div class="ttname"><a href="classfabrique_1_1_type_context.html">fabrique::TypeContext</a></div><div class="ttdoc">A context object that holds state for a compilation (e.g., type objects). </div><div class="ttdef"><b>Definition:</b> <a href="_type_context_8h_source.html#l00054">TypeContext.h:54</a></div></div>
 <div class="ttc" id="classfabrique_1_1_type_context_html_a790dee39cdf17c94408c719c851c583c"><div class="ttname"><a href="classfabrique_1_1_type_context.html#a790dee39cdf17c94408c719c851c583c">fabrique::TypeContext::listOf</a></div><div class="ttdeci">const Type &amp; listOf(const Type &amp;, const SourceRange &amp;)</div><div class="ttdoc">The type of a list. </div><div class="ttdef"><b>Definition:</b> <a href="_type_context_8cc_source.html#l00125">TypeContext.cc:125</a></div></div>
@@ -336,7 +338,7 @@ $(document).ready(function(){initNavTree('_which_8cc_source.html','');});
 <div class="ttc" id="_file_type_8h_html"><div class="ttname"><a href="_file_type_8h.html">FileType.h</a></div><div class="ttdoc">Declaration of fabrique::FileType. </div></div>
 <div class="ttc" id="classfabrique_1_1_type_context_html_a8c7112e4877b9164189a55c32ea31437"><div class="ttname"><a href="classfabrique_1_1_type_context.html#a8c7112e4877b9164189a55c32ea31437">fabrique::TypeContext::fileType</a></div><div class="ttdeci">const FileType &amp; fileType()</div><div class="ttdoc">A file in a build. </div><div class="ttdef"><b>Definition:</b> <a href="_type_context_8cc_source.html#l00137">TypeContext.cc:137</a></div></div>
 <div class="ttc" id="classfabrique_1_1_structure_type_html"><div class="ttname"><a href="classfabrique_1_1_structure_type.html">fabrique::StructureType</a></div><div class="ttdoc">The type of a structure, which contains named, typed, immutable fields. </div><div class="ttdef"><b>Definition:</b> <a href="_structure_type_8h_source.html#l00044">StructureType.h:44</a></div></div>
-<div class="ttc" id="_posix_error_8h_html"><div class="ttname"><a href="_posix_error_8h.html">PosixError.h</a></div><div class="ttdoc">Declaration of PosixError. </div></div>
+<div class="ttc" id="_posix_error_8h_html"><div class="ttname"><a href="_posix_error_8h.html">PosixError.h</a></div><div class="ttdoc">Declaration of fabrique::PosixError. </div></div>
 <div class="ttc" id="classfabrique_1_1_type_context_html_a08532c118c3c08250e0ca8ecd88c3d32"><div class="ttname"><a href="classfabrique_1_1_type_context.html#a08532c118c3c08250e0ca8ecd88c3d32">fabrique::TypeContext::structureType</a></div><div class="ttdeci">const StructureType &amp; structureType(const Type::NamedTypeVec &amp;)</div><div class="ttdoc">A structure type describes its fields&#39; names and types. </div><div class="ttdef"><b>Definition:</b> <a href="_type_context_8cc_source.html#l00191">TypeContext.cc:191</a></div></div>
 <div class="ttc" id="classfabrique_1_1_type_context_html_a30df0dd3f7145f7ae512b988cf98d127"><div class="ttname"><a href="classfabrique_1_1_type_context.html#a30df0dd3f7145f7ae512b988cf98d127">fabrique::TypeContext::stringType</a></div><div class="ttdeci">const Type &amp; stringType()</div><div class="ttdoc">A string of characters. </div><div class="ttdef"><b>Definition:</b> <a href="_type_context_8cc_source.html#l00168">TypeContext.cc:168</a></div></div>
 <div class="ttc" id="_d_a_g_builder_8h_html"><div class="ttname"><a href="_d_a_g_builder_8h.html">DAGBuilder.h</a></div><div class="ttdoc">Declaration of fabrique::dag::DAGBuilder. </div></div>
@@ -350,12 +352,14 @@ $(document).ready(function(){initNavTree('_which_8cc_source.html','');});
 <div class="ttc" id="classfabrique_1_1dag_1_1_d_a_g_builder_html_ade51bb813434c5ca1ca0691b626b1cbb"><div class="ttname"><a href="classfabrique_1_1dag_1_1_d_a_g_builder.html#ade51bb813434c5ca1ca0691b626b1cbb">fabrique::dag::DAGBuilder::Struct</a></div><div class="ttdeci">ValuePtr Struct(const std::vector&lt; Structure::NamedValue &gt; &amp;, const Type &amp;, SourceRange)</div><div class="ttdoc">Create a dag::Structure. </div><div class="ttdef"><b>Definition:</b> <a href="_d_a_g_builder_8cc_source.html#l00323">DAGBuilder.cc:323</a></div></div>
 <div class="ttc" id="namespacefabrique_1_1dag_html"><div class="ttname"><a href="namespacefabrique_1_1dag.html">fabrique::dag</a></div><div class="ttdoc">Representations of nodes (files, build rules, etc.) in the build graph. </div><div class="ttdef"><b>Definition:</b> <a href="_eval_context_8h_source.html#l00052">EvalContext.h:52</a></div></div>
 <div class="ttc" id="classfabrique_1_1_type_context_html_a87de4b91ad65259b725579858517751d"><div class="ttname"><a href="classfabrique_1_1_type_context.html#a87de4b91ad65259b725579858517751d">fabrique::TypeContext::functionType</a></div><div class="ttdeci">const FunctionType &amp; functionType(const Type &amp;in, const Type &amp;out)</div><div class="ttdoc">A function type for a simple (one in, one out) function. </div><div class="ttdef"><b>Definition:</b> <a href="_type_context_8cc_source.html#l00176">TypeContext.cc:176</a></div></div>
-<div class="ttc" id="classfabrique_1_1_source_range_html"><div class="ttname"><a href="classfabrique_1_1_source_range.html">fabrique::SourceRange</a></div><div class="ttdoc">A range of characters in source code. </div><div class="ttdef"><b>Definition:</b> <a href="_source_location_8h_source.html#l00075">SourceLocation.h:75</a></div></div>
+<div class="ttc" id="classfabrique_1_1_source_range_html"><div class="ttname"><a href="classfabrique_1_1_source_range.html">fabrique::SourceRange</a></div><div class="ttdoc">A range of characters in source code. </div><div class="ttdef"><b>Definition:</b> <a href="_source_location_8h_source.html#l00077">SourceLocation.h:77</a></div></div>
 <div class="ttc" id="_registry_8h_html"><div class="ttname"><a href="_registry_8h.html">Registry.h</a></div><div class="ttdoc">Declaration of fabrique::plugin::Registry. </div></div>
+<div class="ttc" id="classfabrique_1_1plugins_1_1_which_1_1_factory_html"><div class="ttname"><a href="classfabrique_1_1plugins_1_1_which_1_1_factory.html">fabrique::plugins::Which::Factory</a></div><div class="ttdef"><b>Definition:</b> <a href="_which_8cc_source.html#l00072">Which.cc:72</a></div></div>
 <div class="ttc" id="_string_8h_html"><div class="ttname"><a href="_string_8h.html">String.h</a></div><div class="ttdoc">Declaration of string utility functions. </div></div>
 <div class="ttc" id="classfabrique_1_1dag_1_1_d_a_g_builder_html_a84feeea44061f92cc692417e9a67d1a8"><div class="ttname"><a href="classfabrique_1_1dag_1_1_d_a_g_builder.html#a84feeea44061f92cc692417e9a67d1a8">fabrique::dag::DAGBuilder::Function</a></div><div class="ttdeci">ValuePtr Function(const Function::Evaluator, ValueMap scope, const SharedPtrVec&lt; Parameter &gt; &amp;, const FunctionType &amp;, SourceRange=SourceRange::None())</div><div class="ttdoc">Define a dag::Function. </div><div class="ttdef"><b>Definition:</b> <a href="_d_a_g_builder_8cc_source.html#l00275">DAGBuilder.cc:275</a></div></div>
 <div class="ttc" id="_d_a_g_2_parameter_8h_html"><div class="ttname"><a href="_d_a_g_2_parameter_8h.html">Parameter.h</a></div><div class="ttdoc">Declaration of fabrique::dag::Parameter. </div></div>
 <div class="ttc" id="classfabrique_1_1_type_html"><div class="ttname"><a href="classfabrique_1_1_type.html">fabrique::Type</a></div><div class="ttdoc">The name of a value, function, parameter or argument. </div><div class="ttdef"><b>Definition:</b> <a href="_type_8h_source.html#l00053">Type.h:53</a></div></div>
+<div class="ttc" id="classfabrique_1_1plugins_1_1_which_html"><div class="ttname"><a href="classfabrique_1_1plugins_1_1_which.html">fabrique::plugins::Which</a></div><div class="ttdoc">Finds files (executables or any other kind of files) in the PATH environment variable. </div><div class="ttdef"><b>Definition:</b> <a href="_which_8cc_source.html#l00067">Which.cc:67</a></div></div>
 <div class="ttc" id="_structure_type_8h_html"><div class="ttname"><a href="_structure_type_8h.html">StructureType.h</a></div><div class="ttdoc">Declaration of fabrique::StructureType. </div></div>
 <div class="ttc" id="classfabrique_1_1_file_type_html"><div class="ttname"><a href="classfabrique_1_1_file_type.html">fabrique::FileType</a></div><div class="ttdoc">A type that represents an ordered sequence. </div><div class="ttdef"><b>Definition:</b> <a href="_file_type_8h_source.html#l00045">FileType.h:45</a></div></div>
 <div class="ttc" id="_file_8h_html"><div class="ttname"><a href="_file_8h.html">File.h</a></div><div class="ttdoc">Declaration of fabrique::dag::File. </div></div>

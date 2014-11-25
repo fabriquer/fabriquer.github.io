@@ -17,6 +17,10 @@ var hierarchy =
       [ "fabrique::ast::EvalContext", "classfabrique_1_1ast_1_1_eval_context.html", null ]
     ] ],
     [ "fabrique::dag::DAGBuilder", "classfabrique_1_1dag_1_1_d_a_g_builder.html", null ],
+    [ "Descriptor", null, [
+      [ "fabrique::plugins::SysctlPlugin::Factory", "classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html", null ],
+      [ "fabrique::plugins::Which::Factory", "classfabrique_1_1plugins_1_1_which_1_1_factory.html", null ]
+    ] ],
     [ "fabrique::plugin::Plugin::Descriptor", "classfabrique_1_1plugin_1_1_plugin_1_1_descriptor.html", null ],
     [ "std::exception", null, [
       [ "fabrique::AssertionFailure", "classfabrique_1_1_assertion_failure.html", null ],
@@ -150,7 +154,10 @@ var hierarchy =
       [ "fabrique::ast::Parameter", "classfabrique_1_1ast_1_1_parameter.html", null ],
       [ "fabrique::dag::Parameter", "classfabrique_1_1dag_1_1_parameter.html", null ],
       [ "fabrique::dag::Value", "classfabrique_1_1dag_1_1_value.html", null ],
-      [ "fabrique::plugin::Plugin", "classfabrique_1_1plugin_1_1_plugin.html", null ]
+      [ "fabrique::plugin::Plugin", "classfabrique_1_1plugin_1_1_plugin.html", [
+        [ "fabrique::plugins::SysctlPlugin", "classfabrique_1_1plugins_1_1_sysctl_plugin.html", null ],
+        [ "fabrique::plugins::Which", "classfabrique_1_1plugins_1_1_which.html", null ]
+      ] ]
     ] ],
     [ "fabrique::Uncopyable", "classfabrique_1_1_uncopyable.html", [
       [ "fabrique::ast::Node", "classfabrique_1_1ast_1_1_node.html", null ],
@@ -159,7 +166,7 @@ var hierarchy =
       [ "fabrique::dag::Value", "classfabrique_1_1dag_1_1_value.html", null ],
       [ "fabrique::Type", "classfabrique_1_1_type.html", null ]
     ] ],
-    [ "fabrique::ast::Visitable", "classfabrique_1_1ast_1_1_visitable.html", [
+    [ "fabrique::Visitable< Visitor >", "classfabrique_1_1_visitable.html", [
       [ "fabrique::ast::Node", "classfabrique_1_1ast_1_1_node.html", null ]
     ] ],
     [ "fabrique::dag::Visitor", "classfabrique_1_1dag_1_1_visitor.html", [

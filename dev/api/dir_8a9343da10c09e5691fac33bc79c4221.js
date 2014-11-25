@@ -57,10 +57,8 @@ var dir_8a9343da10c09e5691fac33bc79c4221 =
     [ "Filename.h", "_filename_8h.html", [
       [ "Filename", "classfabrique_1_1ast_1_1_filename.html", "classfabrique_1_1ast_1_1_filename" ]
     ] ],
-    [ "Foreach.cc", "_foreach_8cc.html", null ],
-    [ "Foreach.h", "_foreach_8h.html", [
-      [ "ForeachExpr", "classfabrique_1_1ast_1_1_foreach_expr.html", "classfabrique_1_1ast_1_1_foreach_expr" ]
-    ] ],
+    [ "Foreach.cc", "_foreach_8cc_source.html", null ],
+    [ "Foreach.h", "_foreach_8h_source.html", null ],
     [ "forward-decls.h", "forward-decls_8h_source.html", null ],
     [ "Function.cc", "_a_s_t_2_function_8cc.html", null ],
     [ "Function.h", "_a_s_t_2_function_8h.html", [

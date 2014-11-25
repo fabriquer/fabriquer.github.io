@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['factory',['Factory',['../classfabrique_1_1plugins_1_1_sysctl_plugin_1_1_factory.html',1,'fabrique::plugins::SysctlPlugin']]],
+  ['factory',['Factory',['../classfabrique_1_1plugins_1_1_which_1_1_factory.html',1,'fabrique::plugins::Which']]],
   ['fieldaccess',['FieldAccess',['../classfabrique_1_1ast_1_1_field_access.html',1,'fabrique::ast']]],
   ['fieldquery',['FieldQuery',['../classfabrique_1_1ast_1_1_field_query.html',1,'fabrique::ast']]],
   ['file',['File',['../classfabrique_1_1dag_1_1_file.html',1,'fabrique::dag']]],

@@ -177,30 +177,32 @@ $(document).ready(function(){initNavTree('_node_8h_source.html','');});
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacefabrique.html">fabrique</a> {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">namespace </span>ast {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classfabrique_1_1ast_1_1_node.html">   46</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfabrique_1_1ast_1_1_node.html">Node</a> : <span class="keyword">public</span> <a class="code" href="classfabrique_1_1_has_source.html">HasSource</a>, <span class="keyword">public</span> <a class="code" href="classfabrique_1_1_printable.html">Printable</a>, <span class="keyword">public</span> <a class="code" href="classfabrique_1_1ast_1_1_visitable.html">Visitable</a>,</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;             <span class="keyword">private</span> <a class="code" href="classfabrique_1_1_uncopyable.html">Uncopyable</a></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classfabrique_1_1ast_1_1_node.html">Node</a>();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="classfabrique_1_1ast_1_1_node.html">Node</a>(<span class="keyword">const</span> <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a>&amp; src) : <a class="code" href="classfabrique_1_1_has_source.html">HasSource</a>(src) {}</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;} <span class="comment">// namespace ast</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;} <span class="comment">// namespace fabrique</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">class </span>Visitor;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classfabrique_1_1ast_1_1_node.html">   48</a></span>&#160;<span class="keyword">class </span><a class="code" href="classfabrique_1_1ast_1_1_node.html">Node</a> : <span class="keyword">public</span> <a class="code" href="classfabrique_1_1_has_source.html">HasSource</a>, <span class="keyword">public</span> <a class="code" href="classfabrique_1_1_printable.html">Printable</a>, <span class="keyword">public</span> <a class="code" href="classfabrique_1_1_visitable.html">Visitable</a>&lt;Visitor&gt;,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;             <span class="keyword">private</span> <a class="code" href="classfabrique_1_1_uncopyable.html">Uncopyable</a></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classfabrique_1_1ast_1_1_node.html">Node</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="classfabrique_1_1ast_1_1_node.html">Node</a>(<span class="keyword">const</span> <a class="code" href="classfabrique_1_1_source_range.html">SourceRange</a>&amp; src) : <a class="code" href="classfabrique_1_1_has_source.html">HasSource</a>(src) {}</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;} <span class="comment">// namespace ast</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;} <span class="comment">// namespace fabrique</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classfabrique_1_1_printable_html"><div class="ttname"><a href="classfabrique_1_1_printable.html">fabrique::Printable</a></div><div class="ttdoc">A thing that can be pretty-printed. </div><div class="ttdef"><b>Definition:</b> <a href="_printable_8h_source.html#l00046">Printable.h:46</a></div></div>
 <div class="ttc" id="_printable_8h_html"><div class="ttname"><a href="_printable_8h.html">Printable.h</a></div><div class="ttdoc">Declaration of the fabrique::Printable interface. </div></div>
-<div class="ttc" id="classfabrique_1_1ast_1_1_node_html"><div class="ttname"><a href="classfabrique_1_1ast_1_1_node.html">fabrique::ast::Node</a></div><div class="ttdoc">Base class for expressions that can be evaluated. </div><div class="ttdef"><b>Definition:</b> <a href="_node_8h_source.html#l00046">Node.h:46</a></div></div>
-<div class="ttc" id="classfabrique_1_1_has_source_html"><div class="ttname"><a href="classfabrique_1_1_has_source.html">fabrique::HasSource</a></div><div class="ttdoc">A mixin type for something that has a location in source code. </div><div class="ttdef"><b>Definition:</b> <a href="_source_location_8h_source.html#l00120">SourceLocation.h:120</a></div></div>
-<div class="ttc" id="_source_location_8h_html"><div class="ttname"><a href="_source_location_8h.html">SourceLocation.h</a></div><div class="ttdoc">Declaration of fabrique::HasSource, SourceLocation and SourceRange. </div></div>
+<div class="ttc" id="classfabrique_1_1ast_1_1_node_html"><div class="ttname"><a href="classfabrique_1_1ast_1_1_node.html">fabrique::ast::Node</a></div><div class="ttdoc">Base class for expressions that can be evaluated. </div><div class="ttdef"><b>Definition:</b> <a href="_node_8h_source.html#l00048">Node.h:48</a></div></div>
+<div class="ttc" id="classfabrique_1_1_has_source_html"><div class="ttname"><a href="classfabrique_1_1_has_source.html">fabrique::HasSource</a></div><div class="ttdoc">A mixin type for something that has a location in source code. </div><div class="ttdef"><b>Definition:</b> <a href="_source_location_8h_source.html#l00122">SourceLocation.h:122</a></div></div>
+<div class="ttc" id="_source_location_8h_html"><div class="ttname"><a href="_source_location_8h.html">SourceLocation.h</a></div><div class="ttdoc">Declaration of fabrique::HasSource, fabrique::SourceLocation and fabrique::SourceRange. </div></div>
 <div class="ttc" id="classfabrique_1_1_uncopyable_html"><div class="ttname"><a href="classfabrique_1_1_uncopyable.html">fabrique::Uncopyable</a></div><div class="ttdoc">An object that cannot be copy-constructed. </div><div class="ttdef"><b>Definition:</b> <a href="_uncopyable_8h_source.html#l00040">Uncopyable.h:40</a></div></div>
-<div class="ttc" id="_visitable_8h_html"><div class="ttname"><a href="_visitable_8h.html">Visitable.h</a></div><div class="ttdoc">Definition of the fabrique::Visitable. </div></div>
-<div class="ttc" id="classfabrique_1_1ast_1_1_visitable_html"><div class="ttname"><a href="classfabrique_1_1ast_1_1_visitable.html">fabrique::ast::Visitable</a></div><div class="ttdoc">A thing that can be visited by a fabrique::Visitor. </div><div class="ttdef"><b>Definition:</b> <a href="_visitable_8h_source.html#l00044">Visitable.h:44</a></div></div>
-<div class="ttc" id="classfabrique_1_1_source_range_html"><div class="ttname"><a href="classfabrique_1_1_source_range.html">fabrique::SourceRange</a></div><div class="ttdoc">A range of characters in source code. </div><div class="ttdef"><b>Definition:</b> <a href="_source_location_8h_source.html#l00075">SourceLocation.h:75</a></div></div>
+<div class="ttc" id="_visitable_8h_html"><div class="ttname"><a href="_visitable_8h.html">Visitable.h</a></div><div class="ttdoc">Declaration of the fabrique::Visitable interface. </div></div>
+<div class="ttc" id="classfabrique_1_1_source_range_html"><div class="ttname"><a href="classfabrique_1_1_source_range.html">fabrique::SourceRange</a></div><div class="ttdoc">A range of characters in source code. </div><div class="ttdef"><b>Definition:</b> <a href="_source_location_8h_source.html#l00077">SourceLocation.h:77</a></div></div>
 <div class="ttc" id="_uncopyable_8h_html"><div class="ttname"><a href="_uncopyable_8h.html">Uncopyable.h</a></div><div class="ttdoc">Declaration of fabrique::Uncopyable. </div></div>
+<div class="ttc" id="classfabrique_1_1_visitable_html"><div class="ttname"><a href="classfabrique_1_1_visitable.html">fabrique::Visitable</a></div><div class="ttdoc">An object that can be visited by a vistor. </div><div class="ttdef"><b>Definition:</b> <a href="_visitable_8h_source.html#l00039">Visitable.h:39</a></div></div>
 <div class="ttc" id="namespacefabrique_html"><div class="ttname"><a href="namespacefabrique.html">fabrique</a></div><div class="ttdef"><b>Definition:</b> <a href="_ptr_vec_8h_source.html#l00038">PtrVec.h:38</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
